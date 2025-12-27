@@ -2,22 +2,22 @@
 // import { env } from '$env/dynamic/public';
 
 
-import type { LayoutLoad } from './$types';
-import { loadLocaleAsync } from '$i18n/i18n-util.async';
-import { setLocale } from '$i18n/i18n-svelte';
-import { locales, baseLocale } from '$i18n/i18n-util';
+// import type { LayoutLoad } from './$types';
+// import { loadLocaleAsync } from '$i18n/i18n-util.async';
+// import { setLocale } from '$i18n/i18n-svelte';
+// import { locales, baseLocale } from '$i18n/i18n-util';
 
-export const load: LayoutLoad = async ({ params }) => {
-	const langParam = params.lang;
-	const locale = locales.includes(langParam as any)
-		? (langParam as (typeof locales)[number])
-		: baseLocale;
+// export const load: LayoutLoad = async ({ params }) => {
+// 	const langParam = params.lang;
+// 	const locale = locales.includes(langParam as any)
+// 		? (langParam as (typeof locales)[number])
+// 		: baseLocale;
 
-	await loadLocaleAsync(locale);
-	setLocale(locale);
+// 	await loadLocaleAsync(locale);
+// 	setLocale(locale);
 
-	return { locale };
-};
+// 	return { locale };
+// };
 
 // export const load: LayoutLoad = async ({ data, depends }) => {
 	// depends('supabase:auth');

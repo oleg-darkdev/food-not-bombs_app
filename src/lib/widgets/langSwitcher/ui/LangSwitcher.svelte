@@ -3,11 +3,11 @@
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
 
-	import { LangSwitcher } from '$sharedUi';
+	// import { LangSwitcher } from '$sharedUi';
 
 </script>
 
-<LangSwitcher />
+<!-- <LangSwitcher /> -->
 
 
 <style lang="postcss">
