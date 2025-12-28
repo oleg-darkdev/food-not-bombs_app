@@ -5,7 +5,7 @@
 </script>
 
 <a name="about"></a>
-<section class="section top-creative ">
+<section class="section top-creative">
 	<div class="wrap_top-creative">
 		<div class="wrap_top-creative-headline">
 			<div class="txt_tag-name top-creative">Lorem Ipsum jest tekstem stosowanym</div>
@@ -42,17 +42,23 @@
 			<div class="txt_video-tags _2">Кооперативная игра</div>
 			<div class="txt_video-tags _3">4 игрока</div>
 			<div class="w-layout-vflex wrap_stats-data no-style">
-				<div class="txt_video-tags stats">Motion Reports</div>
+				<div class="txt_video-tags stats">FNB</div>
 				<div class="wrap_stats-data card">
 					<img
-						src=""
+						src="/images/photos/boardgame/promo/3.jpg"
 						loading="lazy"
-						alt="Motion reports"
+						alt=""
 						class="img_stats-card"
 					/>
 				</div>
 			</div>
-			<div class="wrap_top-creative-hero-container">
+			<div class="wrap_promo-img">
+				<!-- <img
+					src="/images/photos/boardgame/promo/3.jpg"
+					loading="lazy"
+					alt=""
+					class="vid_feature-creation"
+				/> -->
 				<!-- <video
 					autoplay="autoplay"
 					muted=""
@@ -79,25 +85,41 @@
                   </video>
 				</div> -->
 			</div>
-			<div class="txt_video-tags _1">Vs Alternative</div>
+			<div class="txt_video-tags _1">Food Not Bombs</div>
 		</div>
 	</div>
 </section>
 
 <style lang="postcss">
 	.wrap_top-creative-container {
-	z-index: 30;
-	aspect-ratio: 1;
-	background-color: var(--texts--deep-red);
-	border-radius: 1.5em;
-	flex-flow: column;
-	justify-content: center;
-	align-items: center;
-	width: 100em;
-	max-width: 36em;
-	padding-left: 2em;
-	padding-right: 2em;
-	display: flex;
-	position: relative;
-}
+		z-index: 30;
+		aspect-ratio: 1;
+		background-color: var(--texts--deep-red);
+		border-radius: 1.5em;
+		flex-flow: column;
+		justify-content: center;
+		align-items: center;
+		width: 100em;
+		max-width: 36em;
+		padding-left: 2em;
+		padding-right: 2em;
+		display: flex;
+		position: relative;
+	}
+
+	.wrap_promo-img {
+		z-index: 30;
+		aspect-ratio: 9 / 15.8;
+		background-image: url('/images/photos/boardgame/promo/1.JPG');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+
+		border: 1px solid #000;
+		border-radius: 1.5em;
+		width: 100em;
+		max-width: 25em;
+		position: relative;
+		overflow: hidden;
+	}
 </style>

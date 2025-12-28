@@ -2,6 +2,8 @@
 	// import {  } from '$shared';
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
+
+	import { RoundedBtnLink, Tag } from '$sharedUi';
 </script>
 
 <section class="section recent-case-study">
@@ -28,9 +30,16 @@
 						pozostając praktycznie niezmienionym.
 					</strong>
 				</p>
-				<a href="/" class="cta_primary studio-page view-more w-inline-block">
-					<div class="txt_cta-name underline">Lorem Ipsum</div>
-				</a>
+				<div class="space-between flex w-full flex-row">
+					<RoundedBtnLink title="Start the game" link="/app" blank={true} />
+
+					<RoundedBtnLink
+						title="Print&Play"
+						link="https://github.com/oleg-darkdev/food-not-bombs_app/tree/main/static/print-and-play"
+						blank={true}
+						yellow={true}
+					/>
+				</div>
 			</div>
 		</div>
 
@@ -45,9 +54,8 @@
 							<div class="wrap_project-details">
 								<div class="wrap_project-card-hero">
 									<a href="/" class="link_project-card w-inline-block">
-										<!-- images/669fc854dd10d0a0ff0cf0cb_Superjelly.jpg -->
 										<img
-											src=""
+											src="/images/photos/boardgame/promo/11.JPG"
 											loading="lazy"
 											alt=""
 											class="img_project-hero"
@@ -55,8 +63,10 @@
 									</a>
 								</div>
 								<div class="wrap_project-tags">
-									<div class="cta_primary tag-style">Lorem Ipsum</div>
-									<div class="cta_primary tag-style yellow">Lorem Ipsum</div>
+									<Tag text="Co-op" bgColor="bg-yellow" />
+									<Tag text="60 minut" bgColor="bg-pink" />
+									<Tag text="4 players" bgColor="bg-yellow" />
+									<!-- <Tag text='Co-op' bgColor='bg-pink'/> -->
 								</div>
 							</div>
 						</div>

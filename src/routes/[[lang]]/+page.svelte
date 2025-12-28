@@ -8,7 +8,7 @@
 		Available,
 		FreeBlock_1,
 		Header,
-		PreHeader,
+		PreFAQ,
 		Mission,
 		FreeBlock_5,
 		FreeBlock_4,
@@ -76,7 +76,7 @@
 
 	<Gallery gallery={landingPromoPhotos} />
 
-	<PreHeader />
+	<PreFAQ />
 
 	<FAQ />
 
