@@ -5,8 +5,10 @@ import groupsListCanada from './groupsListCanada';
 import groupsListCentralSouthAmerica from './groupsListCentralSouthAmerica';
 import groupsListMexico from './groupsListMexico';
 import groupsListUsa from './groupsListUsa';
-import groupsListEurope from './groupsListEurope';
+import { groupsListEurope, poland, czechRepublic } from './groupsListEurope';
 import groupsListRussia from './groupsListRussia';
+import promoFnbGroups from './promo';
+
 // import groupsListAfrika from './groupsListAfrika';
 
 const allGroups = [
@@ -17,8 +19,8 @@ const allGroups = [
 	...groupsListCentralSouthAmerica,
 	...groupsListMexico,
 	...groupsListUsa,
-	...groupsListRussia,
-	...groupsListEurope
+	...groupsListRussia
+	// ...groupsListEurope
 ];
 
 let groupsByRegion = [
@@ -47,85 +49,85 @@ let groupsByRegion = [
 		api: { route: '/api/afrika', title: 'All regions' },
 		shortDesc: ''
 	},
-	// {
-	// 	title: 'All regions',
-	// 	link: '/groups#all',
-	// 	anchor: '', countries: [
-	// 		'Australia',
-	// 		'Philippine',
-	// 		'South Africa',
-	// 		'Malawi',
-	// 		'Burundi',
-	// 		'Kenya',
-	// 		'Somalia',
-	// 		'Ethiopia',
-	// 		'Italy',
-	// 		'Tunisia',
-	// 		'England',
-	// 		'UK',
-	// 		'Liberia',
-	// 		'Togo',
-	// 		'Nigeria',
-	// 		'New Zealand',
-	// 		'Thailand',
-	// 		'Myanmar',
-	// 		'Malaysia',
-	// 		'Indonesia',
-	// 		'Singapore',
-	// 		'Philippines',
-	// 		'Japan',
-	// 		'South Korea',
-	// 		'China',
-	// 		'Canada',
-	// 		'Brazil',
-	// 		'Chile',
-	// 		'Guatemala',
-	// 		'Columbia',
-	// 		'Peru',
-	// 		'Argentina',
-	// 		'Mexico',
-	// 		'USA',
-	// 		'US',
-	// 		'Russia',
-	// 		'Turkey',
-	// 		'Israel',
-	// 		'Georgia',
-	// 		'Norway',
-	// 		'Finland',
-	// 		'Estonia',
-	// 		'Sweden',
-	// 		'Denmark',
-	// 		'Iceland',
-	// 		'Scotland',
-	// 		'Ireland',
-	// 		'Wales',
-	// 		'Netherlands',
-	// 		'Belgium',
-	// 		'France',
-	// 		'Spain',
-	// 		'Portugal',
-	// 		'Corotna',
-	// 		'Greece',
-	// 		'Macedonia',
-	// 		'Bulgaria',
-	// 		'Romania',
-	// 		'Serbia',
-	// 		'Bosnia & Herzegovina',
-	// 		'Croatia',
-	// 		'Hungary',
-	// 		'Slovakia',
-	// 		'Austria',
-	// 		'Switzerland',
-	// 		'Ukraine',
-	// 		'Poland',
-	// 		'Czech Republic',
-	// 		'Germany'
-	// 	],
-	// 	data: allGroups,
-	// 	api: { route: '/api/', title: 'All regions' },
-	// 	shortDesc: ''
-	// },
-
+	{
+		title: 'All regions',
+		link: '/groups#all',
+		anchor: '',
+		countries: [
+			'Australia',
+			'Philippine',
+			'South Africa',
+			'Malawi',
+			'Burundi',
+			'Kenya',
+			'Somalia',
+			'Ethiopia',
+			'Italy',
+			'Tunisia',
+			'England',
+			'UK',
+			'Liberia',
+			'Togo',
+			'Nigeria',
+			'New Zealand',
+			'Thailand',
+			'Myanmar',
+			'Malaysia',
+			'Indonesia',
+			'Singapore',
+			'Philippines',
+			'Japan',
+			'South Korea',
+			'China',
+			'Canada',
+			'Brazil',
+			'Chile',
+			'Guatemala',
+			'Columbia',
+			'Peru',
+			'Argentina',
+			'Mexico',
+			'USA',
+			'US',
+			'Russia',
+			'Turkey',
+			'Israel',
+			'Georgia',
+			'Norway',
+			'Finland',
+			'Estonia',
+			'Sweden',
+			'Denmark',
+			'Iceland',
+			'Scotland',
+			'Ireland',
+			'Wales',
+			'Netherlands',
+			'Belgium',
+			'France',
+			'Spain',
+			'Portugal',
+			'Corotna',
+			'Greece',
+			'Macedonia',
+			'Bulgaria',
+			'Romania',
+			'Serbia',
+			'Bosnia & Herzegovina',
+			'Croatia',
+			'Hungary',
+			'Slovakia',
+			'Austria',
+			'Switzerland',
+			'Ukraine',
+			'Poland',
+			'Czech Republic',
+			'Germany'
+		],
+		data: allGroups,
+		api: { route: '/api/', title: 'All regions' },
+		shortDesc: ''
+	},
 	{
 		title: 'Asia',
 		link: '/groups#asia',
@@ -141,7 +143,6 @@ let groupsByRegion = [
 			'South Korea',
 			'China'
 		],
-
 		data: groupsListAsia,
 		api: { route: '/api/asia', title: 'Asia' },
 		shortDesc: ''
@@ -151,18 +152,15 @@ let groupsByRegion = [
 		link: '/groups#canada',
 		anchor: 'canada',
 		countries: ['Canada'],
-
 		data: groupsListCanada,
 		api: { route: '/api/canada', title: 'Canada' },
 		shortDesc: ''
 	},
-
 	{
 		title: 'Mexico',
 		link: '/groups#mexico',
 		anchor: 'mexico',
 		countries: ['Mexico'],
-
 		data: groupsListMexico,
 		api: { route: '/api/mexico', title: 'Mexico' },
 		shortDesc: ''
@@ -172,7 +170,6 @@ let groupsByRegion = [
 		link: '/groups#usa',
 		anchor: 'usa',
 		countries: ['USA'],
-
 		data: groupsListUsa,
 		api: { route: '/api/usa', title: 'USA' },
 		shortDesc: ''
@@ -182,7 +179,6 @@ let groupsByRegion = [
 		link: '/groups#australia',
 		anchor: 'australia',
 		countries: ['Australia', 'New Zealand'],
-
 		data: groupsListAustralia,
 		api: { route: '/api/australia', title: 'Australia' },
 		shortDesc: ''
@@ -192,9 +188,7 @@ let groupsByRegion = [
 		link: '/groups#russia',
 		anchor: 'russia',
 		countries: ['Russia'],
-
 		data: groupsListRussia,
-
 		api: { route: '/api/russia', title: 'Russia' },
 		shortDesc: ''
 	},
@@ -239,20 +233,17 @@ let groupsByRegion = [
 			'Czech Republic',
 			'Germany'
 		],
-
 		data: groupsListEurope,
 		api: { route: '/api/europe', title: 'Europe' },
-
 		shortDesc: ''
 	},
 	{
-		title: 'Central/South America',
-		link: '/groups#central-south-america',
-		anchor: 'central-south-america',
+		title: 'C. & S. America',
+		link: '/groups#c-s-america',
+		anchor: 'c-s-america',
 		countries: ['Brazil', 'Chile', 'Guatemala', 'Columbia', 'Peru', 'Argentina'],
-
 		data: groupsListCentralSouthAmerica,
-		api: { route: '/api/central-south-America', title: 'Central South America' },
+		api: { route: '/api/c-s-america', title: 'Central South America' },
 		shortDesc: ''
 	}
 ];
@@ -263,15 +254,18 @@ const apiListing = groupsByRegion.map(({ title, shortDesc, api }) => ({
 	api
 }));
 
-function getUniqueCountries(items) {
-	return [...new Set(items.map((item) => item.country).filter(Boolean))];
-}
+// function getUniqueCountries(items) {
+// 	return [...new Set(items.map((item) => item.country).filter(Boolean))];
+// }
 
-const countriesList = getUniqueCountries(allGroups);
+// const countriesList = getUniqueCountries(allGroups);
 
 export {
+	poland,
+	czechRepublic,
+	promoFnbGroups,
 	apiListing,
-	countriesList,
+	// countriesList,
 	groupsListAfrika,
 	groupsByRegion,
 	allGroups,

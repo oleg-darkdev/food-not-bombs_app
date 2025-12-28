@@ -11,10 +11,20 @@
 <div role="listitem" class="slider-item w-dyn-item">
 	<div class="wrap_squad-member wrap_card-style-1 about-page">
 		<div class="wrap_card-content client-projects our-team about-page">
+			<div class="wrap_project-tags">
+				<div class="collection_project-tags centered w-dyn-list">
+					<div role="list" class="list_mini-fnb-card-tags centered w-dyn-items">
+						<div role="listitem" class="item_project-tags w-dyn-item">
+							<div class="cta_primary tag-style yellow">{group.country}</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<a href="./groups/{group.id}" class="" target="_blank">
 				<!-- group-name -->
 				<div class="w-layout-vflex wrap_card-heading h-auto px-4">
-					<h3 class="h_semi-bold group-name group mb-20 h-full italic">{group.name}</h3>
+					<!-- <h3 class="h_semi-bold group-name group mb-20 h-full italic">{group.name}</h3> -->
 				</div>
 				<div class="wrap_project-details">
 					<div class="wrap_project-card-hero">
@@ -25,24 +35,16 @@
 							class="img_project-hero"
 						/>
 					</div>
-					<div class="wrap_title txt_job-title">
-						<div class="txt_job-title-line-one mb-2">{group.country}, {group.city}</div>
-						<!-- <div class="txt_job-title-line-two">
-								<a href={group.organisation.link} class="link_footer" target="_blank"
-							>{group.organisation.title}</a
-						>
-							</div> -->
-					</div>
 				</div>
 			</a>
 
 			<div class="wrap_project-tags">
 				<div class="collection_project-tags centered w-dyn-list">
-					<div role="list" class="list_project-tags centered w-dyn-items">
+					<div role="list" class="list_mini-fnb-card-tags centered w-dyn-items">
 						{#if group.facebook}
 							<div role="listitem" class="item_project-tags w-dyn-item">
 								<a href={group.facebook} target="_blank" class="cta_primary yellow tag-style">
-									<div class="truncate-30 flex flex-row">
+									<div class="truncate-15 flex flex-row">
 										<span class="mr-1">FB:</span>
 										{getSocialHandle(group.facebook, 'facebook.com')}
 									</div></a
@@ -53,7 +55,7 @@
 						{#if group.inst}
 							<div role="listitem" class="item_project-tags w-dyn-item">
 								<a href={group.inst} target="_blank" class="cta_primary tag-style">
-									<div class="truncate-30 flex flex-row">
+									<div class="truncate-15 flex flex-row">
 										<span class="mr-1">IG:</span>
 										{getSocialHandle(group.inst, 'instagram.com')}
 									</div></a
@@ -63,7 +65,7 @@
 
 						{#if group.website}
 							<div role="listitem" class="item_project-tags w-dyn-item">
-								<a href={group.website} target="_blank" class="cta_primary yellow tag-style"
+								<a href={group.website} target="_blank" class=" cta_primary yellow tag-style"
 									>website</a
 								>
 							</div>
@@ -71,8 +73,8 @@
 
 						{#if group.email}
 							<div role="listitem" class="item_project-tags w-dyn-item">
-								<a href={`mailto:${group.email}`} target="_blank" class="cta_primary tag-style"
-									>{group.email}</a
+								<a href={`mailto:${group.email}`} target="_blank" class=" cta_primary tag-style"
+									>email</a
 								>
 							</div>
 						{/if}
@@ -80,7 +82,7 @@
 						{#if group.twitter}
 							<div role="listitem" class="item_project-tags w-dyn-item">
 								<a href={group.twitter} target="_blank" class="cta_primary tag-style">
-									<div class="truncate-30 flex flex-row">
+									<div class="truncate-15 flex flex-row">
 										<span class="mr-1">X:</span>
 										{getSocialHandle(group.twitter, 'twitter.com')}
 									</div>
@@ -95,15 +97,6 @@
 								</a>
 							</div>
 						{/if}
-					</div>
-				</div>
-			</div>
-			<div class="wrap_project-tags">
-				<div class="collection_project-tags centered w-dyn-list">
-					<div role="list" class="list_project-tags centered w-dyn-items">
-						<div role="listitem" class="item_project-tags w-dyn-item">
-							<div class="cta_primary tag-style yellow">{group.country}</div>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -132,5 +125,44 @@
 		margin-right: auto;
 		font-style: normal;
 		font-weight: 400;
+	}
+
+	.list_mini-fnb-card-tags {
+		grid-column-gap: 0.6em;
+		grid-row-gap: 0.6em;
+		flex-flow: wrap;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.list_mini-fnb-card-tags.centered {
+		grid-column-gap: 0.3em;
+		grid-row-gap: 0.3em;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.list_mini-fnb-card-tags.centered.project-page {
+		grid-column-gap: 0.4em;
+		grid-row-gap: 0.4em;
+	}
+
+	@media screen and (max-width: 767px) {
+		.list_mini-fnb-card-tags {
+			justify-content: center;
+			align-items: center;
+		}
+
+		.list_mini-fnb-card-tags.centered.project-page {
+			grid-column-gap: 0.7em;
+			grid-row-gap: 0.7em;
+		}
+	}
+
+	@media screen and (max-width: 479px) {
+		.list_mini-fnb-card-tags.centered.project-page {
+			grid-column-gap: 1.2em;
+			grid-row-gap: 1.2em;
+		}
 	}
 </style>

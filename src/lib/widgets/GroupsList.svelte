@@ -2,8 +2,7 @@
 	// import { onMount } from "svelte";
 	// import { $state, $derived } from 'svelte';
 
-	import { groupsByRegion, allGroups, countriesList } from '$sharedData';
-
+	let {groupsByRegion} = $props()
 	// let selectedRegion = $state(groupsByRegion[0]);
 
 	// function selectRegion(region) {

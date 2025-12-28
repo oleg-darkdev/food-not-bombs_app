@@ -1,6 +1,5 @@
 import nav from './navigation';
 
-
 import {
 	groupsListAfrika,
 	groupsListAustralia,
@@ -13,13 +12,17 @@ import {
 	groupsListRussia,
 	groupsByRegion,
 	allGroups,
+	promoFnbGroups,
 	apiListing,
-	countriesList
+	// countriesList,
+	poland
 } from './groupsList';
 
 export {
+	poland,
+	promoFnbGroups,
 	nav,
-	countriesList,
+	// countriesList,
 	apiListing,
 	groupsByRegion,
 	allGroups,

@@ -1,39 +1,37 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { promoFnbGroups } from '$sharedData';
 
 	import {
-		
-
 		Newsletter,
-	Features,
-	Available,
-	FreeBlock_1,
-	Header,
-	PreHeader,
-	Mission,
-	FreeBlock_5,
-	FreeBlock_4,
-	FreeBlock_6,
-    Footer,
+		Features,
+		Available,
+		FreeBlock_1,
+		Header,
+		PreHeader,
+		Mission,
+		FreeBlock_5,
+		FreeBlock_4,
+		FreeBlock_6,
+		Footer,
 		Slider,
-
-	Hero,
-	// Cta,
-	AboutBoardgame
-		
+		Hero,
+		// Cta,
+		AboutBoardgame
 	} from '$widgetsLanding';
-
 
 	import {
 		Team,
-	CallingAll,
-	BigLightDivider,
-	Gallery,
-	Marquee,
-	FAQ,
-	VeganMenu,
-	LangSwitcher,
-	landingPromoPhotos,
+		CallingAll,
+		BigLightDivider,
+		Gallery,
+		Marquee,
+		FAQ,
+		VeganMenu,
+		LangSwitcher,
+		landingPromoPhotos,
+		GroupsListingMini,
+		ApiListing
 	} from '$widgets';
 	// import { SEO } from '$sharedUtils';
 </script>
@@ -45,11 +43,9 @@
 
 <!-- <SEO title="Home" /> -->
 
-
 <Header />
 
 <main class="main-wrapper">
-
 	<Hero />
 
 	<Marquee />
@@ -60,7 +56,15 @@
 
 	<AboutBoardgame />
 
-	<Features />
+	<Features>
+		{#snippet api()}
+			<ApiListing />
+		{/snippet}
+
+		{#snippet groups()}
+			<GroupsListingMini groupsData={promoFnbGroups.slice(0, 4)} />
+		{/snippet}
+	</Features>
 
 	<Available />
 
@@ -70,23 +74,19 @@
 
 	<Team />
 
-	<Gallery gallery={landingPromoPhotos}/>
-
+	<Gallery gallery={landingPromoPhotos} />
 
 	<PreHeader />
 
 	<FAQ />
 
-
 	<!-- <FreeBlock_1 /> -->
 
 	<!-- <Newsletter /> -->
 
-
 	<!-- <FreeBlock_5 /> -->
 
 	<!-- <FreeBlock_6 /> -->
-
 </main>
 
 <Footer />
