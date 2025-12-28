@@ -34,6 +34,16 @@
 		ApiListing
 	} from '$widgets';
 	// import { SEO } from '$sharedUtils';
+
+
+	function getLogosAndIds(data) {
+	return data.map(item => ({
+		id: item.id,
+		img: item.logo,
+		alt: item.name
+	}));
+}
+
 </script>
 
 <svelte:head>
@@ -48,7 +58,7 @@
 <main class="main-wrapper">
 	<Hero />
 
-	<Marquee />
+	<Marquee logos={getLogosAndIds(promoFnbGroups)}/>
 
 	<BigLightDivider />
 

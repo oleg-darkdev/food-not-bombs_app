@@ -433,7 +433,7 @@ const poland = [
 	{
 		logo: '/images/groups/europe/poland/biala-podlaska/logo.jpg',
 		since: '',
-		facebook: 'https://www.facebook.com/foodnotbombsBP/?fref=nf',
+		facebook: 'https://www.facebook.com/foodnotbombsBP',
 		inst: '',
 		gallery: [
 			// [
@@ -1432,6 +1432,7 @@ const poland = [
 		opitimise: false,
 		facebookChecked: true
 	},
+
 	{
 		logo: '/images/groups/europe/poland/lodz/logo.jpg',
 		since: '',
@@ -2528,7 +2529,7 @@ const poland = [
 		emtyDel: '',
 		notes: `Masz w swoim sąsiedztwie potrzebujące osoby? Zaproś je na ciepły posiłek.`,
 		id: 'tarnow-fnb',
-		banner: '/images/groups/europe/poland/szczecin/banner.jpg',
+		banner: '/images/groups/europe/poland/tarnow/banner.jpg',
 		mailingAddress: '',
 		imgCollected: true,
 		infoChecked: true,
@@ -3123,8 +3124,8 @@ const poland = [
 		ready: false,
 		opitimise: false,
 		facebookChecked: true
-	},
-	
+	}
+
 	// {
 	// 	logo: '/images/groups/europe/poland/gdansk/logo.jpg',
 	// 	since: '',
