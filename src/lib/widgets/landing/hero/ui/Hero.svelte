@@ -7,7 +7,7 @@
 <section class="section hero">
 	<div class="grid_top-fold-hero">
 		<div class="grid_item">
-			<div class="grid-a_top-fold-hero">
+			<div class="grid-hero">
 				<div class="w-layout-vflex wrap_hero-headline">
 					<h1 class="h1_regular main-headline">
 						Готовим для всех нуждающихся <em>до последнего дня </em>пока идут войны.
@@ -85,7 +85,7 @@
 								<!-- <img src="/images/photos/boardgame/promo/2.JPG" loading="eager" alt="" class="img_performance-hero-tall" /> -->
 							</div>
 							<div class="item_square">
-								<div class="h-full w-full  bg-deep-red"></div>
+								<div class="bg-deep-red h-full w-full"></div>
 								<!-- <img
 									src="/images/photos/boardgame/promo/4.JPG"
 									loading="eager"
@@ -103,19 +103,14 @@
 									alt=""
 									class="img_performance-hero-tall"
 								/> -->
-								<div class="img_performance-hero-tall bg-deep-gray	"></div>
+								<div class="img_performance-hero-tall bg-deep-gray"></div>
 							</div>
 							<!-- 									sizes="(max-width: 479px) 244.4375px, (max-width: 767px) 45vw, (max-width: 991px) 16vw, (max-width: 1279px) 18vw, 196.328125px"
  -->
 							<!-- item_square -->
 							<div class="item_square">
 								<!--  -->
-								<img
-									src="/images/photos/boardgame/promo/4.JPG"
-									loading="eager"
-									alt=""
-									class=""
-								/>
+								<img src="/images/photos/boardgame/promo/4.JPG" loading="eager" alt="" class="" />
 							</div>
 							<div class="item_tall">
 								<!-- <img
@@ -138,12 +133,7 @@
 								<div class="img_performance-hero-tall bg-deep-red"></div>
 							</div>
 							<div class="item_square">
-								<img
-									src="/images/photos/boardgame/promo/9.JPG"
-									loading="eager"
-									alt=""
-									class=""
-								/>
+								<img src="/images/photos/boardgame/promo/9.JPG" loading="eager" alt="" class="" />
 							</div>
 							<div class="item_tall">
 								<div class="img_performance-hero-tall bg-yellow"></div>
@@ -173,4 +163,32 @@
 </section>
 
 <style lang="postcss">
+	.grid-hero {
+		grid-column-gap: 2em;
+		grid-row-gap: 2em;
+		flex-flow: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		height: 100%;
+		padding-top: 2em;
+		padding-left: 3em;
+		padding-right: 3em;
+		display: flex;
+		position: relative;
+		overflow: hidden;
+	}
+
+	@media screen and (max-width: 767px) {
+		.grid-hero {
+			height: 46em;
+			font-size: 1.2em;
+		}
+	}
+
+	@media screen and (max-width: 479px) {
+		.grid-hero {
+			height: auto;
+			padding: 4em;
+		}
+	}
 </style>

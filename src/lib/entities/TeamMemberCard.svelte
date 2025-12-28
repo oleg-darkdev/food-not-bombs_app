@@ -4,6 +4,8 @@
 	// import {  } from '$entities'
 
 	let { member } = $props();
+
+	import { Tag } from '$sharedUi';
 </script>
 
 <div role="listitem" class="slider-item w-dyn-item">
@@ -33,7 +35,8 @@
 					<div role="list" class="list_project-tags centered w-dyn-items">
 						{#each member.tags as tag}
 							<div role="listitem" class="item_project-tags w-dyn-item">
-								<div class="cta_primary tag-style">{tag}</div>
+								<!-- <div class="cta_primary tag-style">{tag}</div> -->
+								<Tag text={tag} bgColor="bg-pink" />
 							</div>
 						{/each}
 					</div>
@@ -44,7 +47,7 @@
 					<div class="collection_project-tags centered w-dyn-list">
 						<div role="list" class="list_project-tags centered w-dyn-items">
 							<div role="listitem" class="item_project-tags w-dyn-item">
-								<div class="cta_primary tag-style yellow">{member.country}</div>
+								<Tag text={member.country} bgColor="bg-yellow" />
 							</div>
 						</div>
 					</div>

@@ -6,7 +6,7 @@
 
 <section class="section our-team">
 	<div class="wrap_our-team">
-		<h2 class="h_semi-bold our-team italic">Our Team</h2>
+		<!-- <h2 class="h_semi-bold our-team italic">Our Team</h2> -->
 
 		<a name="team"></a>
 
@@ -21,7 +21,7 @@
 						получился бы
 					</p>
 					<a aria-label="Project link" href="/" class="link_project-card w-inline-block inline">
-						<img src="/images/lines.jpg" loading="lazy" alt="" />
+						<img src="/images/photos/dream_team/3.JPG" loading="lazy" alt="" />
 					</a>
 					<div class="wrap_project-category">
 						<div class="collection_project-tags w-dyn-list">
@@ -34,18 +34,7 @@
 									<div class="txt_project-tag yellow w-condition-invisible">Video</div>
 									<div class="txt_project-tag">Video</div>
 								</div>
-								<div role="listitem" class="item_project-tags w-dyn-item">
-									<div class="txt_project-tag yellow w-condition-invisible">Stop motion</div>
-									<div class="txt_project-tag">Stop motion</div>
-								</div>
-								<div role="listitem" class="item_project-tags w-dyn-item">
-									<div class="txt_project-tag yellow w-condition-invisible">Photography</div>
-									<div class="txt_project-tag">Photography</div>
-								</div>
-								<div role="listitem" class="item_project-tags w-dyn-item">
-									<div class="txt_project-tag yellow">Product Launch</div>
-									<div class="txt_project-tag w-condition-invisible">Product Launch</div>
-								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -82,7 +71,7 @@
 						class="img_dark-dot bottom-left"
 					/>
 				</div>
-				<div class="txt_brand-spotlight project-collection">BRAND SPOTLIGHT</div>
+				<div class="txt_brand-spotlight project-collection">Dream Team</div>
 			</div>
 		</div>
 
@@ -97,7 +86,7 @@
 			<div class="slider-wrapper">
 				<div
 					role="list"
-					class="mx-auto grid max-w-6xl grid-cols-1 gap-x-4 md:grid-cols-2 lg:grid-cols-3"
+					class="mx-auto grid max-w-6xl grid-cols-1 gap-x-4 md:grid-cols-2 lg:grid-cols-3 px-6 gap-y-4"
 				>
 					{#each team as member}
 						<TeamMemberCard {member} />

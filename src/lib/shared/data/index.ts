@@ -13,7 +13,6 @@ import {
 	groupsByRegion,
 	allGroups,
 	promoFnbGroups,
-	apiListing,
 	// countriesList,
 	poland
 } from './groupsList';
@@ -23,7 +22,6 @@ export {
 	promoFnbGroups,
 	nav,
 	// countriesList,
-	apiListing,
 	groupsByRegion,
 	allGroups,
 	groupsListAfrika,

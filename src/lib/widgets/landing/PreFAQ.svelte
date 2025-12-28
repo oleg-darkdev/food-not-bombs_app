@@ -4,10 +4,11 @@
 	// import {  } from '$entities'
 
 	import { RoundedBtnLink, Tag } from '$sharedUi';
+	
 </script>
 
 <section class="section recent-case-study">
-	<div class="grid_recent-case-study">
+	<div class="grid_recent-case-study  ">
 		<div class="item_recent-case-study cream">
 			<div id="case-study" class="wrap_recent-case-study texts">
 				<h2 class="h_semi-bold section-heading recent-case-study">

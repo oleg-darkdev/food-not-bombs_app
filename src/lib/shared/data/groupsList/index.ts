@@ -248,11 +248,6 @@ let groupsByRegion = [
 	}
 ];
 
-const apiListing = groupsByRegion.map(({ title, shortDesc, api }) => ({
-	title,
-	shortDesc,
-	api
-}));
 
 // function getUniqueCountries(items) {
 // 	return [...new Set(items.map((item) => item.country).filter(Boolean))];
@@ -264,7 +259,6 @@ export {
 	poland,
 	czechRepublic,
 	promoFnbGroups,
-	apiListing,
 	// countriesList,
 	groupsListAfrika,
 	groupsByRegion,

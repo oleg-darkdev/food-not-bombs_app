@@ -105,6 +105,17 @@
 </div>
 
 <style lang="postcss">
+	.cta_primary.tag-style {
+		border-style: solid;
+		border-width: 2px;
+		padding: 0.5em 0.7em 0.4em;
+		font-size: 0.8em;
+	}
+
+	.cta_primary.tag-style.yellow {
+		background-color: var(--background--yellow);
+	}
+
 	.h_semi-bold.italic.group {
 		text-align: center;
 		/* text-transform: uppercase; */

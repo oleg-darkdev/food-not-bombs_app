@@ -8,7 +8,7 @@ let nav = [
 		link: '/#about'
 	},
 	{
-		title: 'Print-and-Play',
+		title: 'Print&Play',
 		link: '/#print-and-play'
 	},
 	{
