@@ -29,7 +29,7 @@ const poland = [
 			]
 		],
 		photos: '',
-		name: 'Gorzów Wielkopolski',
+		name: 'Jedzenie Zamiast Bomb: Gorzów Wielkopolski',
 		country: 'Poland',
 		city: 'Gorzów Wielkopolski',
 		sharingAddress: '',

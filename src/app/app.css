@@ -1357,56 +1357,13 @@ body {
 	display: flex;
 }
 
-.header {
-	z-index: 2147483647;
-	border-bottom: 1px solid var(--borders--army-green);
-	background-color: var(--background--cream);
-	flex-flow: row;
-	justify-content: flex-start;
-	align-items: center;
-	padding-top: 1.2em;
-	padding-bottom: 1.2em;
-	padding-left: 3em;
-	display: flex;
-	position: relative;
-	inset: 0% 0% auto;
-}
 
-.wrap_main-nav {
-	justify-content: flex-end;
-	align-items: center;
-	width: 100%;
-	padding-right: 3em;
-	display: flex;
-}
-
-.link_header-logo {
-	z-index: 30;
-	position: absolute;
-}
-
-.link_header-logo:hover {
-	z-index: 35;
-}
-
-.link_header-logo.w--current {
-	align-self: center;
-	inset: 0% auto -10% 3em;
-}
 
 .svg_pophaus-logo {
 	width: 100em;
 	max-width: 9em;
 }
 
-.list_main-nav {
-	grid-column-gap: 0.5em;
-	grid-row-gap: 0.5em;
-	justify-content: space-around;
-	margin-bottom: 0;
-	padding-left: 0;
-	display: flex;
-}
 
 .item_nav-link {
 	border: 1px solid var(--borders--army-green);
@@ -1922,11 +1879,6 @@ body {
 	position: relative;
 }
 
-.wrap_main-nav-container {
-	justify-content: space-between;
-	align-items: center;
-	font-size: 0.8vw;
-}
 
 .lottie_pophaus-menu {
 	pointer-events: none;
@@ -1934,32 +1886,7 @@ body {
 	position: absolute;
 }
 
-.btn_nav-menu---open {
-	aspect-ratio: 1;
-	background-color: var(--background--cream);
-	cursor: pointer;
-	flex-flow: column;
-	justify-content: center;
-	align-items: center;
-	width: 5em;
-	display: none;
-	position: relative;
-	overflow: hidden;
-}
 
-.block_main-nav {
-	grid-column-gap: 0.5em;
-	grid-row-gap: 0.5em;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-	display: flex;
-}
-
-.btn_menu-close {
-	background-color: #efefef00;
-	display: none;
-}
 
 .btn_nav-menu---close {
 	aspect-ratio: 1;
@@ -4216,9 +4143,6 @@ body {
 		cursor: pointer;
 	}
 
-	.header {
-		border-bottom-width: 0.1em;
-	}
 
 	.item_nav-link {
 		border-width: 0.1em;
@@ -4617,38 +4541,14 @@ body {
 		height: auto;
 	}
 
-	.header {
-		z-index: 999999999;
-		justify-content: flex-start;
-		align-items: center;
-		padding-left: 3em;
-		padding-right: 3em;
-	}
+	
 
-	.wrap_main-nav {
-		justify-content: flex-end;
-		align-items: center;
-		padding-right: 0;
-	}
-
-	.link_header-logo.w--current {
-		z-index: 40;
-		margin-left: auto;
-		margin-right: auto;
-		top: auto;
-		bottom: auto;
-	}
 
 	.svg_pophaus-logo {
 		max-width: 17em;
 	}
 
-	.list_main-nav {
-		grid-column-gap: 0.3em;
-		grid-row-gap: 0.3em;
-		flex-flow: column;
-		width: 100%;
-	}
+	
 
 	.item_nav-link {
 		border-style: none;
@@ -4731,89 +4631,14 @@ body {
 		display: none;
 	}
 
-	.wrap_main-nav-container {
-		z-index: 999999;
-		flex-flow: column;
-		justify-content: flex-start;
-		align-items: center;
-		font-size: 1vw;
-		display: none;
-		position: relative;
-		inset: -2.5em auto auto 0%;
-	}
-
-	.wrap_main-nav-container.wrap_card-style-1 {
-		width: 24em;
-		height: 32em;
-		font-size: 1.2em;
-		inset: 110% auto 0% 4%;
-	}
 
 	.lottie_pophaus-menu {
 		width: 21em;
 		display: flex;
 	}
 
-	.btn_nav-menu---open {
-		background-color: #fef4de00;
-		width: 7em;
-		display: flex;
-		z-index: 30 !important;
-	}
+	
 
-	.btn_nav-menu---open:active {
-		z-index: 30;
-	}
-
-	.block_main-nav {
-		z-index: 40;
-		grid-column-gap: 1em;
-		grid-row-gap: 1em;
-		border: 1px solid var(--borders--army-green);
-		background-color: var(--background--beige);
-		background-image: url('../images/corner-dot-army-green.svg'),
-			url('../images/corner-dot-army-green.svg'), url('../images/corner-dot-army-green.svg'),
-			url('../images/corner-dot-army-green.svg');
-		background-position:
-			5% 3%,
-			95% 3%,
-			95% 97%,
-			5% 97%;
-		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-		background-size: 1em, 1em, 1em, 1em;
-		border-radius: 2em;
-		flex-flow: column;
-		width: 100em;
-		max-width: 23em;
-		padding: 1em 3em 2em;
-		font-size: 1.4em;
-		position: absolute;
-		bottom: -37em;
-		left: auto;
-		right: -5.9em;
-	}
-
-	.btn_menu-close {
-		background-color: #f1bc4800;
-		width: 100vw;
-		height: 100vh;
-		padding-bottom: 0;
-		padding-right: 0;
-		display: none;
-		position: fixed;
-		inset: -4em auto 0% -90em;
-	}
-
-	.btn_nav-menu---close {
-		background-color: #fef4de00;
-		width: 7em;
-		display: none;
-		z-index: 30 !important;
-	}
-
-	.btn_nav-menu---close:active {
-		z-index: 30;
-	}
 
 	.wrap_form-block {
 		max-width: 95em;
@@ -5477,9 +5302,6 @@ body {
 		overflow: clip;
 	}
 
-	.link_header-logo {
-		top: 2em;
-	}
 
 	.svg_pophaus-logo {
 		max-width: 25em;
@@ -5618,24 +5440,12 @@ body {
 
 
 
-	.wrap_main-nav-container {
-		top: 0;
-	}
 
 	.lottie_pophaus-menu {
 		width: 23em;
 	}
 
-	.btn_nav-menu---open {
-		width: 8em;
-	}
-
-	.block_main-nav {
-		border-radius: 1.5em;
-		font-size: 2em;
-		bottom: -32.8em;
-		right: -4.2em;
-	}
+	
 
 	.btn_nav-menu---close {
 		width: 8em;
@@ -6401,19 +6211,12 @@ body {
 		font-size: 4em;
 	}
 
-	.link_header-logo {
-		padding-top: 3em;
-		padding-left: 3em;
-	}
-
+	
 	.svg_pophaus-logo {
 		max-width: 32em;
 	}
 
-	.list_main-nav {
-		grid-column-gap: 0em;
-		grid-row-gap: 0em;
-	}
+	
 
 	.item_nav-link.w--current {
 		background-color: var(--background--cream);
@@ -6531,25 +6334,15 @@ body {
 		padding: 0.8em 2.1em;
 	}
 
-	.wrap_main-nav-container {
-		display: none;
-		top: 0;
-	}
+	
 
 	.lottie_pophaus-menu {
 		width: 35em;
 	}
 
-	.btn_nav-menu---open {
-		width: 15em;
-	}
+	
 
-	.block_main-nav {
-		grid-column-gap: 0.1em;
-		grid-row-gap: 0.1em;
-		border-radius: 1em;
-		font-size: 3em;
-	}
+	
 
 	.btn_nav-menu---close {
 		width: 15em;

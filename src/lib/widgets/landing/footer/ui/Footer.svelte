@@ -7,9 +7,7 @@
 </script>
 
 <footer class="section footer">
-	<a name="contact"></a>
-
-	<div class="wrap_footer">
+	<div id="contact" class="wrap_footer">
 		<div class="wrap_footer-logo">
 			<a href="/" class="link_footer-logo w-inline-block">
 				<!-- footer-logo -->

@@ -7,7 +7,7 @@
 	
 </script>
 
-<section class="section recent-case-study">
+<section id='print-and-play' class="section recent-case-study">
 	<div class="grid_recent-case-study  ">
 		<div class="item_recent-case-study cream">
 			<div id="case-study" class="wrap_recent-case-study texts">

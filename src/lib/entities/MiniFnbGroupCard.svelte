@@ -22,17 +22,17 @@
 			</div>
 
 			<a href="./groups/{group.id}" class="" target="_blank">
-				<!-- group-name -->
 				<div class="w-layout-vflex wrap_card-heading h-auto px-4">
-					<!-- <h3 class="h_semi-bold group-name group mb-20 h-full italic">{group.name}</h3> -->
+					<h3 class="h_semi-bold group-name group mb-20 h-full italic">{group.city}</h3>
 				</div>
 				<div class="wrap_project-details">
-					<div class="wrap_project-card-hero">
+					<!-- wrap_project-card-hero -->
+					<div class="">
 						<img
 							src={group.logo ? group.logo : '/images/groups/default_logo.png'}
 							loading="eager"
 							alt=""
-							class="img_project-hero"
+							class="h-24 w-24 rounded-full object-cover"
 						/>
 					</div>
 				</div>

@@ -4,9 +4,8 @@
 	// import {  } from '$entities'
 </script>
 
-<a name="mission"></a>
 
-<section class="section hero">
+<section id='mission' class="section hero">
 	<div class="grid_top-fold-hero _50-50">
 		<div class="grid_item">
 			<div class="grid-mission centered-vertical about-page">

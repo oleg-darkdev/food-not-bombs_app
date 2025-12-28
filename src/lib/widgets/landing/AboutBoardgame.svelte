@@ -4,8 +4,9 @@
 	// import {  } from '$entities'
 </script>
 
-<a name="about"></a>
-<section class="section top-creative">
+<!-- <a name="about"></a> -->
+
+<section id='about' class="section top-creative">
 	<div class="wrap_top-creative">
 		<div class="wrap_top-creative-headline">
 			<div class="txt_tag-name top-creative">Lorem Ipsum jest tekstem stosowanym</div>

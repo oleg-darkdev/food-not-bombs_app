@@ -7,7 +7,7 @@
 
 </script>
 
-<section class="section organic-social-sample-work">
+<section id='gallery' class="section organic-social-sample-work">
 	<!-- <div class="wrap_section-heading studio-page">
 		<h1 class="h_regular studio">
 			Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.

@@ -8,9 +8,8 @@
 	<div class="wrap_our-team">
 		<!-- <h2 class="h_semi-bold our-team italic">Our Team</h2> -->
 
-		<a name="team"></a>
 
-		<div class="list_projects w-dyn-items max-w-6xl">
+		<div id='team' class="list_projects w-dyn-items max-w-6xl">
 			<div role="listitem" class="wrap_project-card w-dyn-item">
 				<div class="wrap_project-image mobile-lanscape-center">
 					<a href="/" class="link_project-card auto-height w-inline-block">
