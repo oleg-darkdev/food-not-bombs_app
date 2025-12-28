@@ -28,6 +28,7 @@ const config = {
 			$widgets: 'src/lib/widgets',
 			$shared: 'src/lib/shared',
 			$sharedData: 'src/lib/shared/data',
+			$sharedUi: 'src/lib/shared/ui',
 			$sharedStores: 'src/lib/shared/stores',
 			$sharedUtils: 'src/lib/shared/utils',
 			$sharedTypes: 'src/lib/shared/types'
