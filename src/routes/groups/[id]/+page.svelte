@@ -1,7 +1,7 @@
 <script lang="ts">
 	// import {  } from '$sharedData';
-	import { GroupBanner, BasicInfo } from '$entitiesApp';
-	import { Footer, Header, FAQ, Gallery } from '$widgetsLanding';
+	// import { GroupBanner, BasicInfo } from '$entitiesApp';
+	// import { Footer, Header, FAQ, Gallery } from '$widgetsLanding';
 
 	let { data } = $props();
 
@@ -43,13 +43,13 @@
 	<h1 class="h1_semibold subpage-heading">{name}</h1>
 </section>
 
-<GroupBanner {banner} {country} />
+<!-- <GroupBanner {banner} {country} /> -->
 
 <!-- <section class="section subpage-heading projects">
 	<h1 class="h1_semibold subpage-heading">Lorem impsum.</h1>
 </section> -->
 
-<BasicInfo
+<!-- <BasicInfo
 	{logo}
 	{since}
 	{facebook}
@@ -67,18 +67,18 @@
 	{contactPhone}
 	{contactName}
 	{notes}
-/>
+/> -->
 
 <!-- <FreeBlock_4 /> -->
 
-{#if gallery.length >= 1}
+<!-- {#if gallery.length >= 1}
 	<Gallery {gallery} />
-{/if}
+{/if} -->
 <!-- <Team /> -->
 
-<FAQ />
+<!-- <FAQ /> -->
 
-<Footer />
+<!-- <Footer /> -->
 
 <style lang="postcss">
 </style>
