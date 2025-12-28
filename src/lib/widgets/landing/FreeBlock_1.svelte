@@ -30,7 +30,7 @@
 									<div class="wrap_project-card-hero">
 										<a href="/" class="link_project-card w-inline-block">
 											<img
-												src="/images/671567bf876d15f5abd337b0_Lifelines%20%2826%29.jpg"
+												src="/images/lines.jpg"
 												loading="lazy"
 												alt=""
 												sizes="(max-width: 479px) 64vw, (max-width: 767px) 735.671875px, (max-width: 991px) 434.71875px, 304px"

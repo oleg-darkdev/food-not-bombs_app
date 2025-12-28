@@ -31,11 +31,7 @@
 							href="/project/lifelines"
 							class="link_project-card w-inline-block inline"
 						>
-							<img
-								src="/images/671567bf876d15f5abd337b0_Lifelines%20%2826%29.jpg"
-								loading="lazy"
-								alt=""
-							/>
+							<img src="/images/lines.jpg" loading="lazy" alt="" />
 						</a>
 						<div class="wrap_project-category">
 							<div class="collection_project-tags w-dyn-list">
@@ -68,11 +64,7 @@
 					</div>
 					<div class="wrap_project-info">
 						<a aria-label="Project link" href="/" class="link_project-card w-inline-block">
-							<img
-								src="/images/671567bf876d15f5abd337b0_Lifelines%20%2826%29.jpg"
-								loading="lazy"
-								alt=""
-							/>
+							<img src="/images/lines.jpg" loading="lazy" alt="" />
 						</a>
 					</div>
 					<div class="w-layout-vflex img_corner-dots">

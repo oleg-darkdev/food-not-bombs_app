@@ -7,8 +7,8 @@
 	import { TeamMemberCard } from '$entities';
 </script>
 
-<div class="list_projects w-dyn-items mx-auto max-w-4xl ">
-	<div role="listitem" class="wrap_project-card ">
+<div class="list_projects w-dyn-items mx-auto max-w-4xl">
+	<div role="listitem" class="wrap_project-card">
 		<div class="wrap_project-image mobile-lanscape-center">
 			<p class="h_regular section-paragraph mx-auto mb-2 max-w-3xl">
 				Публичное api с данными различными групп fnb. Есди вы заметили ошибку или у вас есть
@@ -19,11 +19,7 @@
 			</p>
 
 			<a aria-label="Project link" href="/" class="link_project-card w-inline-block inline">
-				<img
-					src="/images/671567bf876d15f5abd337b0_Lifelines%20%2826%29.jpg"
-					loading="lazy"
-					alt=""
-				/>
+				<img src="/images/lines.jpg" loading="lazy" alt="" />
 			</a>
 			<div class="wrap_project-category">
 				<div class="collection_project-tags w-dyn-list">
