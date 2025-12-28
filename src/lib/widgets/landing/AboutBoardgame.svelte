@@ -85,4 +85,19 @@
 </section>
 
 <style lang="postcss">
+	.wrap_top-creative-container {
+	z-index: 30;
+	aspect-ratio: 1;
+	background-color: var(--texts--deep-red);
+	border-radius: 1.5em;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	width: 100em;
+	max-width: 36em;
+	padding-left: 2em;
+	padding-right: 2em;
+	display: flex;
+	position: relative;
+}
 </style>
