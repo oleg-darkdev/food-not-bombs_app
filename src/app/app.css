@@ -10,6 +10,15 @@
 	text-overflow: ellipsis;
 }
 
+
+.truncate-15 {
+	display: inline-block;
+	max-width: 15ch;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
 .truncate-6 {
 	max-width: 6ch;
 	overflow: hidden;
@@ -49,6 +58,18 @@
 }
 .text-orange {
 	color: var(--background--orange);
+}
+.bg-red {
+	background-color: var(--texts--deep-red);
+}
+.bg-yellow {
+	background-color: var(--background--yellow);
+}
+.bg-pink {
+	background-color: var(--background--pink);
+}
+.bg-orange {
+	background-color: var(--background--orange);
 }
 .w-layout-vflex {
 	flex-direction: column;
@@ -404,8 +425,6 @@ img {
 .section.creator-application {
 	background-color: var(--background--cream);
 }
-
-
 
 .section.subpage-heading {
 	border-bottom: 2px solid var(--borders--army-green);
@@ -1781,22 +1800,6 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100%;
-	display: flex;
-	position: relative;
-}
-
-.wrap_top-creative-container {
-	z-index: 30;
-	aspect-ratio: 1;
-	background-color: var(--texts--deep-red);
-	border-radius: 1.5em;
-	flex-flow: column;
-	justify-content: center;
-	align-items: center;
-	width: 100em;
-	max-width: 36em;
-	padding-left: 2em;
-	padding-right: 2em;
 	display: flex;
 	position: relative;
 }
@@ -3655,20 +3658,6 @@ body {
 	display: flex;
 }
 
-.grid_project-page-explore {
-	grid-column-gap: 1em;
-	grid-row-gap: 1em;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-}
-
-.item_project-page-explore.wrap_top-creative-container {
-	aspect-ratio: 16 / 9;
-	padding-left: 4.5em;
-	padding-right: 4.5em;
-}
-
 .wrap_curtain-animation {
 	z-index: 90;
 	width: 100vw;
@@ -4572,8 +4561,6 @@ body {
 		font-size: 1.3em;
 	}
 
-
-
 	.section.video-ugc {
 		padding-left: 8em;
 		padding-right: 8em;
@@ -4809,10 +4796,6 @@ body {
 		padding-left: 5em;
 		padding-right: 5em;
 	}
-
-
-
-	
 
 	.marquee {
 		overflow: hidden;
@@ -5315,7 +5298,6 @@ body {
 		font-size: 1.6em;
 	}
 
-	
 	.section.subpage-heading.projects {
 		padding-bottom: 7em;
 	}
@@ -5675,8 +5657,6 @@ body {
 		padding-right: 0;
 	}
 
-	
-	
 	.wrap_creator-application {
 		max-width: 54em;
 	}
@@ -6325,7 +6305,6 @@ body {
 		text-align: left;
 	}
 
-	
 	.section.subpage-heading.projects {
 		padding-bottom: 10em;
 	}
@@ -6600,10 +6579,6 @@ body {
 		padding-left: 0;
 		padding-right: 0;
 	}
-
-	
-
-	
 
 	.wrap_creator-application {
 		font-size: 1em;
@@ -7043,10 +7018,6 @@ body {
 
 	.wrap__project-page-explore-heading {
 		margin-bottom: 5em;
-	}
-
-	.item_project-page-explore.wrap_top-creative-container {
-		max-width: 44em;
 	}
 
 	.span_emphasis {
