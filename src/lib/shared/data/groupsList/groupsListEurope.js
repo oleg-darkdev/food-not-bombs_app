@@ -37,8 +37,11 @@ import germany from './europe/germany';
 
 const groupsListEurope = [
 	{ id: 'poland', data: poland },
+	{ id: 'czech', data: czechRepublic }
 	// { id: 'czech', data: czechRepublic }
 ];
+
+
 export {
 	groupsListEurope, poland, czechRepublic
 }

@@ -11,17 +11,23 @@ import promoFnbGroups from './promo';
 
 // import groupsListAfrika from './groupsListAfrika';
 
-const allGroups = [
-	...groupsListAfrika,
-	...groupsListAustralia,
-	...groupsListAsia,
-	...groupsListCanada,
-	...groupsListCentralSouthAmerica,
-	...groupsListMexico,
-	...groupsListUsa,
-	...groupsListRussia
+// const allGroups = [
+	// ...groupsListAfrika,
+	// ...groupsListAustralia,
+	// ...groupsListAsia,
+	// ...groupsListCanada,
+	// ...groupsListCentralSouthAmerica,
+	// ...groupsListMexico,
+	// ...groupsListUsa,
+	// ...groupsListRussia,
 	// ...groupsListEurope
-];
+
+
+// 	...poland, ...czechRepublic
+// ];
+
+const allGroups = [].concat(poland, czechRepublic)
+
 
 let groupsByRegion = [
 	{

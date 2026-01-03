@@ -128,6 +128,285 @@ const poland = [
 	// 	facebookChecked: false
 	// },
 	{
+		logo: '/images/groups/europe/poland/poznan/logo.png',
+		since: '',
+		facebook: 'https://www.facebook.com/jedzeniezamiastbombpoznan',
+		inst: '',
+		gallery: [
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/poland/poznan/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/europe/poland/poznan/1.jpg', alt: 'image 2' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/poland/poznan/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/europe/poland/poznan/4.jpg', alt: 'image 4' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/poland/poznan/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/europe/poland/poznan/6.jpg', alt: 'image 6' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/poland/poznan/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/europe/poland/poznan/8.jpg', alt: 'image 8' }
+				}
+			],
+
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/poland/poznan/9.jpg', alt: 'image 9' },
+					square: { img: '/images/groups/europe/poland/poznan/10.jpg', alt: 'image 10' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/poland/poznan/11.jpg', alt: 'image 11' },
+					square: { img: '/images/groups/europe/poland/poznan/12.jpg', alt: 'image 12' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/poland/poznan/13.jpg', alt: 'image 13' },
+					square: { img: '/images/groups/europe/poland/poznan/14.jpg', alt: 'image 14' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/poland/poznan/115.jpg', alt: 'image 15' },
+					square: { img: '/images/groups/europe/poland/poznan/16.jpg', alt: 'image 16' }
+				}
+			],
+
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/poland/poznan/17.jpg', alt: 'image 17' },
+					square: { img: '/images/groups/europe/poland/poznan/18.jpg', alt: 'image 18' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/poland/poznan/19.jpg', alt: 'image 19' },
+					square: { img: '/images/groups/europe/poland/poznan/20.jpg', alt: 'image 20' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/poland/poznan/21.jpg', alt: 'image 21' },
+					square: { img: '/images/groups/europe/poland/poznan/22.jpg', alt: 'image 22' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/poland/poznan/23.jpg', alt: 'image 23' },
+					square: { img: '/images/groups/europe/poland/poznan/24.jpg', alt: 'image 24' }
+				}
+			],
+
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/poland/poznan/25.jpg', alt: 'image 25' },
+					square: { img: '/images/groups/europe/poland/poznan/26.jpg', alt: 'image 26' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/poland/poznan/27.jpg', alt: 'image 27' },
+					square: { img: '/images/groups/europe/poland/poznan/28.jpg', alt: 'image 28' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/poland/poznan/29.jpg', alt: 'image 29' },
+					square: { img: '/images/groups/europe/poland/poznan/30.jpg', alt: 'image 30' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/poland/poznan/31.jpg', alt: 'image 31' },
+					square: { img: '/images/groups/europe/poland/poznan/32.jpg', alt: 'image 32' }
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/poland/poznan/33.jpg', alt: 'image 33' },
+					square: { img: '/images/groups/europe/poland/poznan/34.jpg', alt: 'image 34' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/poland/poznan/35.jpg', alt: 'image 35' },
+					square: { img: '/images/groups/europe/poland/poznan/36.jpg', alt: 'image 36' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/poland/poznan/37.jpg', alt: 'image 37' },
+					square: { img: '/images/groups/europe/poland/poznan/38.jpg', alt: 'image 38' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/poland/poznan/39.jpg', alt: 'image 39' },
+					square: { img: '/images/groups/europe/poland/poznan/40.jpg', alt: 'image 40' }
+				}
+			],
+
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/poland/poznan/41.jpg', alt: 'image 33' },
+					square: { img: '/images/groups/europe/poland/poznan/42.jpg', alt: 'image 34' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/poland/poznan/43.jpg', alt: 'image 35' },
+					square: { img: '/images/groups/europe/poland/poznan/44.jpg', alt: 'image 36' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/poland/plock/45.jpg', alt: 'image 37' },
+					square: { img: '/images/groups/europe/poland/plock/46.jpg', alt: 'image 38' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/poland/plock/47.jpg', alt: 'image 39' },
+					square: { img: '/images/groups/europe/poland/plock/48.jpg', alt: 'image 40' }
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/poland/plock/49.jpg', alt: 'image 33' },
+					square: { img: '/images/groups/europe/poland/plock/50.jpg', alt: 'image 34' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/poland/plock/51.jpg', alt: 'image 35' },
+					square: { img: '/images/groups/europe/poland/plock/52.jpg', alt: 'image 36' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/poland/plock/53.jpg', alt: 'image 37' },
+					square: { img: '/images/groups/europe/poland/plock/54.jpg', alt: 'image 38' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/poland/plock/55.jpg', alt: 'image 39' },
+					square: { img: '/images/groups/europe/poland/plock/56.jpg', alt: 'image 40' }
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/poland/plock/57.jpg', alt: 'image 33' },
+					square: { img: '/images/groups/europe/poland/plock/58.jpg', alt: 'image 34' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/poland/plock/59.jpg', alt: 'image 35' },
+					square: { img: '/images/groups/europe/poland/plock/60.jpg', alt: 'image 36' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/poland/plock/61.jpg', alt: 'image 37' },
+					square: { img: '/images/groups/europe/poland/plock/62.jpg', alt: 'image 38' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/poland/plock/63.jpg', alt: 'image 39' },
+					square: { img: '/images/groups/europe/poland/plock/64.jpg', alt: 'image 40' }
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/poland/plock/65.jpg', alt: 'image 33' },
+					square: { img: '/images/groups/europe/poland/plock/66.jpg', alt: 'image 34' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/poland/plock/67.jpg', alt: 'image 35' },
+					square: { img: '/images/groups/europe/poland/plock/68.jpg', alt: 'image 36' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/poland/plock/69.jpg', alt: 'image 37' },
+					square: { img: '/images/groups/europe/poland/plock/70.jpg', alt: 'image 38' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/poland/plock/71.jpg', alt: 'image 39' },
+					square: { img: '/images/groups/europe/poland/plock/72.jpg', alt: 'image 40' }
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/poland/plock/73.jpg', alt: 'image 33' },
+					square: { img: '/images/groups/europe/poland/plock/74.jpg', alt: 'image 34' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/poland/plock/75.jpg', alt: 'image 35' },
+					square: { img: '/images/groups/europe/poland/plock/76.jpg', alt: 'image 36' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/poland/plock/77.jpg', alt: 'image 37' },
+					square: { img: '/images/groups/europe/poland/plock/78.jpg', alt: 'image 38' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/poland/plock/79.jpg', alt: 'image 39' },
+					square: { img: '/images/groups/europe/poland/plock/80.jpg', alt: 'image 40' }
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/poland/plock/81.jpg', alt: 'image 33' },
+					square: { img: '/images/groups/europe/poland/plock/82.jpg', alt: 'image 34' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/poland/plock/83.jpg', alt: 'image 35' },
+					square: { img: '/images/groups/europe/poland/plock/84.jpg', alt: 'image 36' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/poland/plock/85.jpg', alt: 'image 37' },
+					square: { img: '/images/groups/europe/poland/plock/86.jpg', alt: 'image 38' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/poland/plock/87.jpg', alt: 'image 39' },
+					square: { img: '/images/groups/europe/poland/plock/88.jpg', alt: 'image 40' }
+				}
+			]
+		],
+		photos: '',
+		name: 'FNB Poznań',
+		country: 'Poland',
+		city: 'Poznań',
+		sharingAddress: '',
+		sharingInfo: '',
+		email: 'foodnotbombspoznan@protonmail.com',
+		website: '',
+		notes: 'WESPRZYJ NAS! https://zrzutka.pl/3cjzvk',
+		videos: [{ title: '', link: '' }],
+		twitter: '',
+		cookingAddress: '',
+		cookingInfo: '',
+		contactPhone: '',
+		contactName: '',
+		emtyDel: '',
+		id: 'poznan-fnb',
+		banner: '/images/groups/europe/poland/poznan/banner.jpg',
+		mailingAddress: '',
+		imgCollected: true,
+		infoChecked: true,
+		ready: false,
+		opitimise: false,
+		facebookChecked: true
+	},
+
+	{
 		logo: '/images/groups/europe/poland/plock/logo.jpg',
 		since: '',
 		facebook: 'https://www.facebook.com/fnbplock/',
@@ -2243,153 +2522,153 @@ const poland = [
 		opitimise: false,
 		facebookChecked: true
 	},
-	{
-		logo: '/images/groups/europe/poland/gdansk/logo.jpg',
-		since: '',
-		facebook: '',
-		inst: '',
-		gallery: [
-			[
-				{
-					class: '_1',
-					tall: { img: '/images/groups/europe/poland/gdansk/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/gdansk/2.jpg', alt: 'image 2' }
-				},
-				{
-					class: '_2',
-					tall: { img: '/images/groups/europe/poland/gdansk/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/gdansk/4.jpg', alt: 'image 4' }
-				},
-				{
-					class: '_3',
-					tall: { img: '/images/groups/europe/poland/gdansk/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/gdansk/6.jpg', alt: 'image 6' }
-				},
-				{
-					class: '_4',
-					tall: { img: '/images/groups/europe/poland/gdansk/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/gdansk/8.jpg', alt: 'image 8' }
-				}
-			],
+	// {
+	// 	logo: '/images/groups/europe/poland/gdansk/logo.jpg',
+	// 	since: '',
+	// 	facebook: '',
+	// 	inst: '',
+	// 	gallery: [
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/1.jpg', alt: 'image 1' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/2.jpg', alt: 'image 2' }
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/3.jpg', alt: 'image 3' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/4.jpg', alt: 'image 4' }
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/5.jpg', alt: 'image 5' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/6.jpg', alt: 'image 6' }
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/7.jpg', alt: 'image 7' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/8.jpg', alt: 'image 8' }
+	// 			}
+	// 		],
 
-			[
-				{
-					class: '_1',
-					tall: { img: '/images/groups/europe/poland/gdansk/9.jpg', alt: 'image 9' },
-					square: { img: '/images/groups/europe/poland/gdansk/10.jpg', alt: 'image 10' }
-				},
-				{
-					class: '_2',
-					tall: { img: '/images/groups/europe/poland/gdansk/11.jpg', alt: 'image 11' },
-					square: { img: '/images/groups/europe/poland/gdansk/12.jpg', alt: 'image 12' }
-				},
-				{
-					class: '_3',
-					tall: { img: '/images/groups/europe/poland/gdansk/13.jpg', alt: 'image 13' },
-					square: { img: '/images/groups/europe/poland/gdansk/14.jpg', alt: 'image 14' }
-				},
-				{
-					class: '_4',
-					tall: { img: '/images/groups/europe/poland/gdansk/15.jpg', alt: 'image 15' },
-					square: { img: '/images/groups/europe/poland/gdansk/16.jpg', alt: 'image 16' }
-				}
-			],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/9.jpg', alt: 'image 9' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/10.jpg', alt: 'image 10' }
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/11.jpg', alt: 'image 11' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/12.jpg', alt: 'image 12' }
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/13.jpg', alt: 'image 13' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/14.jpg', alt: 'image 14' }
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/15.jpg', alt: 'image 15' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/16.jpg', alt: 'image 16' }
+	// 			}
+	// 		],
 
-			[
-				{
-					class: '_1',
-					tall: { img: '/images/groups/europe/poland/gdansk/17.jpg', alt: 'image 17' },
-					square: { img: '/images/groups/europe/poland/gdansk/18.jpg', alt: 'image 18' }
-				},
-				{
-					class: '_2',
-					tall: { img: '/images/groups/europe/poland/gdansk/19.jpg', alt: 'image 19' },
-					square: { img: '/images/groups/europe/poland/gdansk/20.jpg', alt: 'image 20' }
-				},
-				{
-					class: '_3',
-					tall: { img: '/images/groups/europe/poland/gdansk/21.jpg', alt: 'image 21' },
-					square: { img: '/images/groups/europe/poland/gdansk/22.jpg', alt: 'image 22' }
-				},
-				{
-					class: '_4',
-					tall: { img: '/images/groups/europe/poland/gdansk/23.jpg', alt: 'image 23' },
-					square: { img: '/images/groups/europe/poland/gdansk/24.jpg', alt: 'image 24' }
-				}
-			],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/17.jpg', alt: 'image 17' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/18.jpg', alt: 'image 18' }
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/19.jpg', alt: 'image 19' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/20.jpg', alt: 'image 20' }
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/21.jpg', alt: 'image 21' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/22.jpg', alt: 'image 22' }
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/23.jpg', alt: 'image 23' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/24.jpg', alt: 'image 24' }
+	// 			}
+	// 		],
 
-			[
-				{
-					class: '_1',
-					tall: { img: '/images/groups/europe/poland/gdansk/25.jpg', alt: 'image 25' },
-					square: { img: '/images/groups/europe/poland/gdansk/26.jpg', alt: 'image 26' }
-				},
-				{
-					class: '_2',
-					tall: { img: '/images/groups/europe/poland/gdansk/27.jpg', alt: 'image 27' },
-					square: { img: '/images/groups/europe/poland/gdansk/28.jpg', alt: 'image 28' }
-				},
-				{
-					class: '_3',
-					tall: { img: '/images/groups/europe/poland/gdansk/29.jpg', alt: 'image 29' },
-					square: { img: '/images/groups/europe/poland/gdansk/30.jpg', alt: 'image 30' }
-				},
-				{
-					class: '_4',
-					tall: { img: '/images/groups/europe/poland/gdansk/31.jpg', alt: 'image 31' },
-					square: { img: '/images/groups/europe/poland/gdansk/32.jpg', alt: 'image 32' }
-				}
-			],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/25.jpg', alt: 'image 25' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/26.jpg', alt: 'image 26' }
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/27.jpg', alt: 'image 27' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/28.jpg', alt: 'image 28' }
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/29.jpg', alt: 'image 29' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/30.jpg', alt: 'image 30' }
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/31.jpg', alt: 'image 31' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/32.jpg', alt: 'image 32' }
+	// 			}
+	// 		],
 
-			[
-				{
-					class: '_1',
-					tall: { img: '/images/groups/europe/poland/gdansk/33.jpg', alt: 'image 33' },
-					square: { img: '/images/groups/europe/poland/gdansk/34.jpg', alt: 'image 34' }
-				},
-				{
-					class: '_2',
-					tall: { img: '/images/groups/europe/poland/gdansk/35.jpg', alt: 'image 35' },
-					square: { img: '/images/groups/europe/poland/gdansk/36.jpg', alt: 'image 36' }
-				},
-				{
-					class: '_3',
-					tall: { img: '/images/groups/europe/poland/gdansk/37.jpg', alt: 'image 37' },
-					square: { img: '/images/groups/europe/poland/gdansk/38.jpg', alt: 'image 38' }
-				},
-				{
-					class: '_4',
-					tall: { img: '/images/groups/europe/poland/gdansk/39.jpg', alt: 'image 39' },
-					square: { img: '/images/groups/europe/poland/gdansk/40.jpg', alt: 'image 40' }
-				}
-			]
-		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/33.jpg', alt: 'image 33' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/34.jpg', alt: 'image 34' }
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/35.jpg', alt: 'image 35' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/36.jpg', alt: 'image 36' }
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/37.jpg', alt: 'image 37' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/38.jpg', alt: 'image 38' }
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: { img: '/images/groups/europe/poland/gdansk/39.jpg', alt: 'image 39' },
+	// 				square: { img: '/images/groups/europe/poland/gdansk/40.jpg', alt: 'image 40' }
+	// 			}
+	// 		]
+	// 	],
 
-		photos: '',
-		name: 'Jedzenie Zamiast Bomb: ',
-		country: 'Poland',
-		city: ' ',
-		sharingAddress: '',
-		sharingInfo: '',
-		email: '',
-		website: '',
-		videos: [{ title: '', link: '' }],
-		twitter: '',
-		cookingAddress: '',
-		cookingInfo: '',
-		contactPhone: '',
-		contactName: '',
-		emtyDel: '',
-		notes: ``,
-		id: '-fnb',
-		banner: '',
-		mailingAddress: '',
-		imgCollected: true,
-		infoChecked: true,
-		ready: false,
-		opitimise: false,
-		facebookChecked: true
-	},
+	// 	photos: '',
+	// 	name: 'Jedzenie Zamiast Bomb: ',
+	// 	country: 'Poland',
+	// 	city: ' ',
+	// 	sharingAddress: '',
+	// 	sharingInfo: '',
+	// 	email: '',
+	// 	website: '',
+	// 	videos: [{ title: '', link: '' }],
+	// 	twitter: '',
+	// 	cookingAddress: '',
+	// 	cookingInfo: '',
+	// 	contactPhone: '',
+	// 	contactName: '',
+	// 	emtyDel: '',
+	// 	notes: ``,
+	// 	id: '-fnb',
+	// 	banner: '',
+	// 	mailingAddress: '',
+	// 	imgCollected: true,
+	// 	infoChecked: true,
+	// 	ready: false,
+	// 	opitimise: false,
+	// 	facebookChecked: true
+	// },
 	{
 		logo: '/images/groups/europe/poland/tarnow/logo.jpg',
 		since: '',
@@ -3124,155 +3403,63 @@ const poland = [
 		ready: false,
 		opitimise: false,
 		facebookChecked: true
+	},
+
+	{
+		logo: '/images/groups/europe/poland/mysliborz/logo.jpg',
+		since: '',
+		facebook: 'https://www.facebook.com/profile.php?id=100067046658913',
+		inst: '',
+		gallery: [
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/poland/mysliborz/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/europe/poland/mysliborz/2.jpg', alt: 'image 2' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/poland/mysliborz/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/europe/poland/mysliborz/4.jpg', alt: 'image 4' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/poland/mysliborz/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/europe/poland/mysliborz/6.jpg', alt: 'image 6' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/poland/mysliborz/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/europe/poland/mysliborz/8.jpg', alt: 'image 8' }
+				}
+			]
+		],
+
+		photos: '',
+		name: 'Jedzenie Zamiast Bomb: Myślibórz',
+		country: 'Poland',
+		city: 'Myślibórz',
+		sharingAddress: '',
+		sharingInfo: '',
+		email: '',
+		website: '',
+		videos: [{ title: '', link: '' }],
+		twitter: '',
+		cookingAddress: '',
+		cookingInfo: '',
+		contactPhone: '',
+		contactName: '',
+		emtyDel: '',
+		notes: `Jedzenie Zamiast Bomb ( Food Not Bombs ) wydział w Myśliborzu, organizacja non profit, charytatywna`,
+		id: 'mysliborz-fnb',
+		banner: '',
+		mailingAddress: '',
+		imgCollected: true,
+		infoChecked: true,
+		ready: false,
+		opitimise: false,
+		facebookChecked: true
 	}
-
-	// {
-	// 	logo: '/images/groups/europe/poland/gdansk/logo.jpg',
-	// 	since: '',
-	// 	facebook: '',
-	// 	inst: '',
-	// 	gallery: [
-	// 		[
-	// 			{
-	// 				class: '_1',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/1.jpg', alt: 'image 1' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/2.jpg', alt: 'image 2' }
-	// 			},
-	// 			{
-	// 				class: '_2',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/3.jpg', alt: 'image 3' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/4.jpg', alt: 'image 4' }
-	// 			},
-	// 			{
-	// 				class: '_3',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/5.jpg', alt: 'image 5' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/6.jpg', alt: 'image 6' }
-	// 			},
-	// 			{
-	// 				class: '_4',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/7.jpg', alt: 'image 7' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/8.jpg', alt: 'image 8' }
-	// 			}
-	// 		],
-
-	// 		[
-	// 			{
-	// 				class: '_1',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/9.jpg', alt: 'image 9' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/10.jpg', alt: 'image 10' }
-	// 			},
-	// 			{
-	// 				class: '_2',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/11.jpg', alt: 'image 11' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/12.jpg', alt: 'image 12' }
-	// 			},
-	// 			{
-	// 				class: '_3',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/13.jpg', alt: 'image 13' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/14.jpg', alt: 'image 14' }
-	// 			},
-	// 			{
-	// 				class: '_4',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/15.jpg', alt: 'image 15' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/16.jpg', alt: 'image 16' }
-	// 			}
-	// 		],
-
-	// 		[
-	// 			{
-	// 				class: '_1',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/17.jpg', alt: 'image 17' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/18.jpg', alt: 'image 18' }
-	// 			},
-	// 			{
-	// 				class: '_2',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/19.jpg', alt: 'image 19' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/20.jpg', alt: 'image 20' }
-	// 			},
-	// 			{
-	// 				class: '_3',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/21.jpg', alt: 'image 21' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/22.jpg', alt: 'image 22' }
-	// 			},
-	// 			{
-	// 				class: '_4',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/23.jpg', alt: 'image 23' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/24.jpg', alt: 'image 24' }
-	// 			}
-	// 		],
-
-	// 		[
-	// 			{
-	// 				class: '_1',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/25.jpg', alt: 'image 25' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/26.jpg', alt: 'image 26' }
-	// 			},
-	// 			{
-	// 				class: '_2',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/27.jpg', alt: 'image 27' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/28.jpg', alt: 'image 28' }
-	// 			},
-	// 			{
-	// 				class: '_3',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/29.jpg', alt: 'image 29' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/30.jpg', alt: 'image 30' }
-	// 			},
-	// 			{
-	// 				class: '_4',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/31.jpg', alt: 'image 31' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/32.jpg', alt: 'image 32' }
-	// 			}
-	// 		],
-
-	// 		[
-	// 			{
-	// 				class: '_1',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/33.jpg', alt: 'image 33' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/34.jpg', alt: 'image 34' }
-	// 			},
-	// 			{
-	// 				class: '_2',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/35.jpg', alt: 'image 35' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/36.jpg', alt: 'image 36' }
-	// 			},
-	// 			{
-	// 				class: '_3',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/37.jpg', alt: 'image 37' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/38.jpg', alt: 'image 38' }
-	// 			},
-	// 			{
-	// 				class: '_4',
-	// 				tall: { img: '/images/groups/europe/poland/gdansk/39.jpg', alt: 'image 39' },
-	// 				square: { img: '/images/groups/europe/poland/gdansk/40.jpg', alt: 'image 40' }
-	// 			}
-	// 		]
-	// 	],
-
-	// 	photos: '',
-	// 	name: 'Jedzenie Zamiast Bomb: ',
-	// 	country: 'Poland',
-	// 	city: ' ',
-	// 	sharingAddress: '',
-	// 	sharingInfo: '',
-	// 	email: '',
-	// 	website: '',
-	// 	videos: [{ title: '', link: '' }],
-	// 	twitter: '',
-	// 	cookingAddress: '',
-	// 	cookingInfo: '',
-	// 	contactPhone: '',
-	// 	contactName: '',
-	// 	emtyDel: '',
-	// 	notes: ``,
-	// 	id: '-fnb',
-	// 	banner: '',
-	// 	mailingAddress: '',
-	// 	imgCollected: true,
-	// 	infoChecked: true,
-	// 	ready: false,
-	// 	opitimise: false,
-	// 	facebookChecked: true
-	// },
 	// {
 	// 	logo: '/images/groups/europe/poland/gdansk/logo.jpg',
 	// 	since: '',

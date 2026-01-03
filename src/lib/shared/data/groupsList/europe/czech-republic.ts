@@ -790,7 +790,7 @@ Kdokoliv je vítán, či už na jídlo, pomoc nebo pokec :)`,
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
-		id: 'kralupy-fnb',
+		id: 'prostejov-fnb',
 		banner: '',
 		mailingAddress: '',
 		imgCollected: false,
@@ -1174,7 +1174,7 @@ Kdokoliv je vítán, či už na jídlo, pomoc nebo pokec :)`,
 		facebookChecked: false
 	},
 	{
-		logo: '/images/groups/europe/czech-republic/kralupy/logo.jpg',
+		logo: '/images/groups/europe/czech-republic/jihlava/logo.jpg',
 		since: '',
 		facebook: '',
 		inst: '',
@@ -1182,64 +1182,64 @@ Kdokoliv je vítán, či už na jídlo, pomoc nebo pokec :)`,
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/czech-republic/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/czech-republic/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/europe/czech-republic/jihlava/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/europe/czech-republic/jihlava/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/czech-republic/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/czech-republic/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/europe/czech-republic/jihlava/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/europe/czech-republic/jihlava/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/czech-republic/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/czech-republic/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/europe/czech-republic/jihlava/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/europe/czech-republic/jihlava/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/czech-republic/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/czech-republic/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/europe/czech-republic/jihlava/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/europe/czech-republic/jihlava/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/czech-republic/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/europe/czech-republic/jihlava/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/10.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/11.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/12.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/13.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/14.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/15.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/16.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -1248,44 +1248,44 @@ Kdokoliv je vítán, či už na jídlo, pomoc nebo pokec :)`,
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/17.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/18.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/19.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/20.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/21.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/22.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/23.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/24.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -1294,44 +1294,44 @@ Kdokoliv je vítán, či už na jídlo, pomoc nebo pokec :)`,
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/25.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/26.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/27.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/28.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/29.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/30.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/31.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/32.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -1340,44 +1340,44 @@ Kdokoliv je vítán, či už na jídlo, pomoc nebo pokec :)`,
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/33.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/34.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/35.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/36.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/37.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/38.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/39.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/40.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -1386,44 +1386,44 @@ Kdokoliv je vítán, či už na jídlo, pomoc nebo pokec :)`,
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/41.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/42.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/43.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/44.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/45.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/46.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/47.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/48.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -1432,44 +1432,44 @@ Kdokoliv je vítán, či už na jídlo, pomoc nebo pokec :)`,
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/41.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/42.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/43.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/44.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/45.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/46.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/47.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/48.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -1478,44 +1478,44 @@ Kdokoliv je vítán, či už na jídlo, pomoc nebo pokec :)`,
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/49.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/50.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/51.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/52.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/53.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/54.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/czech-republic/opole/55.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/czech-republic/opole/56.jpg',
+						img: '/images/groups/europe/czech-republic/jihlava/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -1536,7 +1536,7 @@ Kdokoliv je vítán, či už na jídlo, pomoc nebo pokec :)`,
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
-		id: '-fnb',
+		id: 'jihlava-fnb',
 		banner: '',
 		mailingAddress: '',
 		imgCollected: false,
@@ -1545,378 +1545,7 @@ Kdokoliv je vítán, či už na jídlo, pomoc nebo pokec :)`,
 		opitimise: false,
 		facebookChecked: false
 	},
-	{
-		logo: '/images/groups/europe/czech-republic/kralupy/logo.jpg',
-		since: '',
-		facebook: 'https://www.facebook.com/foodnotbombscb/?fref=ts',
-		inst: '',
-		gallery: [
-			[
-				{
-					class: '_1',
-					tall: { img: '/images/groups/europe/czech-republic/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/czech-republic/opole/2.jpg', alt: 'image 2' }
-				},
-				{
-					class: '_2',
-					tall: { img: '/images/groups/europe/czech-republic/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/czech-republic/opole/4.jpg', alt: 'image 4' }
-				},
-				{
-					class: '_3',
-					tall: { img: '/images/groups/europe/czech-republic/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/czech-republic/opole/6.jpg', alt: 'image 6' }
-				},
-				{
-					class: '_4',
-					tall: { img: '/images/groups/europe/czech-republic/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/czech-republic/opole/8.jpg', alt: 'image 8' }
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: { img: '/images/groups/europe/czech-republic/opole/9.jpg', alt: 'image 9' },
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/10.jpg',
-						alt: 'image 10'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/11.jpg',
-						alt: 'image 11'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/12.jpg',
-						alt: 'image 12'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/13.jpg',
-						alt: 'image 13'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/14.jpg',
-						alt: 'image 14'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/15.jpg',
-						alt: 'image 15'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/16.jpg',
-						alt: 'image 16'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/17.jpg',
-						alt: 'image 17'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/18.jpg',
-						alt: 'image 18'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/19.jpg',
-						alt: 'image 19'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/20.jpg',
-						alt: 'image 20'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/21.jpg',
-						alt: 'image 21'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/22.jpg',
-						alt: 'image 22'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/23.jpg',
-						alt: 'image 23'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/24.jpg',
-						alt: 'image 24'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/25.jpg',
-						alt: 'image 25'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/26.jpg',
-						alt: 'image 26'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/27.jpg',
-						alt: 'image 27'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/28.jpg',
-						alt: 'image 28'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/29.jpg',
-						alt: 'image 29'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/30.jpg',
-						alt: 'image 30'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/31.jpg',
-						alt: 'image 31'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/32.jpg',
-						alt: 'image 32'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/33.jpg',
-						alt: 'image 33'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/34.jpg',
-						alt: 'image 34'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/35.jpg',
-						alt: 'image 35'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/36.jpg',
-						alt: 'image 36'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/37.jpg',
-						alt: 'image 37'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/38.jpg',
-						alt: 'image 38'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/39.jpg',
-						alt: 'image 39'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/40.jpg',
-						alt: 'image 40'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/41.jpg',
-						alt: 'image 41'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/42.jpg',
-						alt: 'image 42'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/43.jpg',
-						alt: 'image 43'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/44.jpg',
-						alt: 'image 44'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/45.jpg',
-						alt: 'image 45'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/46.jpg',
-						alt: 'image 46'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/47.jpg',
-						alt: 'image 47'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/48.jpg',
-						alt: 'image 48'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/41.jpg',
-						alt: 'image 41'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/42.jpg',
-						alt: 'image 42'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/43.jpg',
-						alt: 'image 43'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/44.jpg',
-						alt: 'image 44'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/45.jpg',
-						alt: 'image 45'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/46.jpg',
-						alt: 'image 46'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/47.jpg',
-						alt: 'image 47'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/48.jpg',
-						alt: 'image 48'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/49.jpg',
-						alt: 'image 49'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/50.jpg',
-						alt: 'image 50'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/51.jpg',
-						alt: 'image 51'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/52.jpg',
-						alt: 'image 52'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/53.jpg',
-						alt: 'image 53'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/54.jpg',
-						alt: 'image 54'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/55.jpg',
-						alt: 'image 55'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/56.jpg',
-						alt: 'image 56'
-					}
-				}
-			]
-		],
-		photos: '',
-		name: 'Jídlo Místo Zbraní: České Budějovice',
-		country: 'Czech Republic',
-		city: 'České Budějovice',
-		sharingAddress: 'Na Sadech 18/19, České Budějovice 3, ,370 01, Czech Republic',
-		sharingInfo: 'Saturdays 1-1:30pm',
-		email: 'foodnotbombscb@gmail.com',
-		website: '',
-		videos: [{ title: '', link: '' }],
-		twitter: '',
-		cookingAddress: '',
-		cookingInfo: '',
-		contactPhone: '',
-		contactName: '',
-		emtyDel: '',
-		id: '-fnb',
-		banner: '',
-		mailingAddress: '',
-		imgCollected: false,
-		infoChecked: false,
-		ready: false,
-		opitimise: false,
-		facebookChecked: false
-	},
+
 	{
 		logo: '/images/groups/europe/czech-republic/vysoke-myto/logo.jpg',
 		since: '',
@@ -1970,378 +1599,7 @@ Kdokoliv je vítán, či už na jídlo, pomoc nebo pokec :)`,
 		opitimise: false,
 		facebookChecked: true
 	},
-	{
-		logo: '/images/groups/europe/czech-republic/kralupy/logo.jpg',
-		since: '',
-		facebook: 'https://www.facebook.com/fnbpardubice',
-		inst: '',
-		gallery: [
-			[
-				{
-					class: '_1',
-					tall: { img: '/images/groups/europe/czech-republic/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/czech-republic/opole/2.jpg', alt: 'image 2' }
-				},
-				{
-					class: '_2',
-					tall: { img: '/images/groups/europe/czech-republic/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/czech-republic/opole/4.jpg', alt: 'image 4' }
-				},
-				{
-					class: '_3',
-					tall: { img: '/images/groups/europe/czech-republic/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/czech-republic/opole/6.jpg', alt: 'image 6' }
-				},
-				{
-					class: '_4',
-					tall: { img: '/images/groups/europe/czech-republic/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/czech-republic/opole/8.jpg', alt: 'image 8' }
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: { img: '/images/groups/europe/czech-republic/opole/9.jpg', alt: 'image 9' },
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/10.jpg',
-						alt: 'image 10'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/11.jpg',
-						alt: 'image 11'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/12.jpg',
-						alt: 'image 12'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/13.jpg',
-						alt: 'image 13'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/14.jpg',
-						alt: 'image 14'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/15.jpg',
-						alt: 'image 15'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/16.jpg',
-						alt: 'image 16'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/17.jpg',
-						alt: 'image 17'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/18.jpg',
-						alt: 'image 18'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/19.jpg',
-						alt: 'image 19'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/20.jpg',
-						alt: 'image 20'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/21.jpg',
-						alt: 'image 21'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/22.jpg',
-						alt: 'image 22'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/23.jpg',
-						alt: 'image 23'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/24.jpg',
-						alt: 'image 24'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/25.jpg',
-						alt: 'image 25'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/26.jpg',
-						alt: 'image 26'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/27.jpg',
-						alt: 'image 27'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/28.jpg',
-						alt: 'image 28'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/29.jpg',
-						alt: 'image 29'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/30.jpg',
-						alt: 'image 30'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/31.jpg',
-						alt: 'image 31'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/32.jpg',
-						alt: 'image 32'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/33.jpg',
-						alt: 'image 33'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/34.jpg',
-						alt: 'image 34'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/35.jpg',
-						alt: 'image 35'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/36.jpg',
-						alt: 'image 36'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/37.jpg',
-						alt: 'image 37'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/38.jpg',
-						alt: 'image 38'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/39.jpg',
-						alt: 'image 39'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/40.jpg',
-						alt: 'image 40'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/41.jpg',
-						alt: 'image 41'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/42.jpg',
-						alt: 'image 42'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/43.jpg',
-						alt: 'image 43'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/44.jpg',
-						alt: 'image 44'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/45.jpg',
-						alt: 'image 45'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/46.jpg',
-						alt: 'image 46'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/47.jpg',
-						alt: 'image 47'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/48.jpg',
-						alt: 'image 48'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/41.jpg',
-						alt: 'image 41'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/42.jpg',
-						alt: 'image 42'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/43.jpg',
-						alt: 'image 43'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/44.jpg',
-						alt: 'image 44'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/45.jpg',
-						alt: 'image 45'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/46.jpg',
-						alt: 'image 46'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/47.jpg',
-						alt: 'image 47'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/48.jpg',
-						alt: 'image 48'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/49.jpg',
-						alt: 'image 49'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/50.jpg',
-						alt: 'image 50'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/51.jpg',
-						alt: 'image 51'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/52.jpg',
-						alt: 'image 52'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/53.jpg',
-						alt: 'image 53'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/54.jpg',
-						alt: 'image 54'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/55.jpg',
-						alt: 'image 55'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/56.jpg',
-						alt: 'image 56'
-					}
-				}
-			]
-		],
-		photos: '',
-		name: 'Jídlo Místo Zbraní: Pardubice',
-		country: 'Czech Republic',
-		city: 'Pardubice',
-		sharingAddress: 'Pardubice, Pardubice Region, Czech Republic',
-		sharingInfo: 'Saturdays',
-		email: 'fnb-pce@autistici.org',
-		website: 'http://food-not-bombs.cz/pardubice',
-		videos: [{ title: '', link: '' }],
-		twitter: '',
-		cookingAddress: '',
-		cookingInfo: '',
-		contactPhone: '',
-		contactName: '',
-		emtyDel: '',
-		id: '-fnb',
-		banner: '',
-		mailingAddress: '',
-		imgCollected: false,
-		infoChecked: false,
-		ready: false,
-		opitimise: false,
-		facebookChecked: false
-	},
+
 	{
 		/******
          * 
@@ -3116,7 +2374,7 @@ Vaříme vegansky, velmi zřídka vegetariánsky, mnohdy používáme suroviny, 
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
-		id: '-fnb',
+		id: 'kolin-fnb',
 		banner: '',
 		mailingAddress: '',
 		imgCollected: false,
@@ -3314,380 +2572,380 @@ Vaříme vegansky, velmi zřídka vegetariánsky, mnohdy používáme suroviny, 
 		opitimise: false,
 		facebookChecked: true
 	},
+	// {
+	// 	logo: '/images/groups/europe/czech-republic/kralupy/logo.jpg',
+	// 	since: '',
+	// 	facebook: 'https://www.facebook.com/groups/853901144638911/\nhttps://www.facebook.com/FNBLBC/',
+	// 	inst: '',
+	// 	gallery: [
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/1.jpg', alt: 'image 1' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/2.jpg', alt: 'image 2' }
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/3.jpg', alt: 'image 3' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/4.jpg', alt: 'image 4' }
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/5.jpg', alt: 'image 5' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/6.jpg', alt: 'image 6' }
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/7.jpg', alt: 'image 7' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/8.jpg', alt: 'image 8' }
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/9.jpg', alt: 'image 9' },
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/10.jpg',
+	// 					alt: 'image 10'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/11.jpg',
+	// 					alt: 'image 11'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/12.jpg',
+	// 					alt: 'image 12'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/13.jpg',
+	// 					alt: 'image 13'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/14.jpg',
+	// 					alt: 'image 14'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/15.jpg',
+	// 					alt: 'image 15'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/16.jpg',
+	// 					alt: 'image 16'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/17.jpg',
+	// 					alt: 'image 17'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/18.jpg',
+	// 					alt: 'image 18'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/19.jpg',
+	// 					alt: 'image 19'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/20.jpg',
+	// 					alt: 'image 20'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/21.jpg',
+	// 					alt: 'image 21'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/22.jpg',
+	// 					alt: 'image 22'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/23.jpg',
+	// 					alt: 'image 23'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/24.jpg',
+	// 					alt: 'image 24'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/25.jpg',
+	// 					alt: 'image 25'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/26.jpg',
+	// 					alt: 'image 26'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/27.jpg',
+	// 					alt: 'image 27'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/28.jpg',
+	// 					alt: 'image 28'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/29.jpg',
+	// 					alt: 'image 29'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/30.jpg',
+	// 					alt: 'image 30'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/31.jpg',
+	// 					alt: 'image 31'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/32.jpg',
+	// 					alt: 'image 32'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/33.jpg',
+	// 					alt: 'image 33'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/34.jpg',
+	// 					alt: 'image 34'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/35.jpg',
+	// 					alt: 'image 35'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/36.jpg',
+	// 					alt: 'image 36'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/37.jpg',
+	// 					alt: 'image 37'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/38.jpg',
+	// 					alt: 'image 38'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/39.jpg',
+	// 					alt: 'image 39'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/40.jpg',
+	// 					alt: 'image 40'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/49.jpg',
+	// 					alt: 'image 49'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/50.jpg',
+	// 					alt: 'image 50'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/51.jpg',
+	// 					alt: 'image 51'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/52.jpg',
+	// 					alt: 'image 52'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/53.jpg',
+	// 					alt: 'image 53'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/54.jpg',
+	// 					alt: 'image 54'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/55.jpg',
+	// 					alt: 'image 55'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/56.jpg',
+	// 					alt: 'image 56'
+	// 				}
+	// 			}
+	// 		]
+	// 	],
+	// 	photos: '',
+	// 	name: 'Jídlo Místo Zbraní: Liberec',
+	// 	country: 'Czech Republic',
+	// 	city: 'Liberec',
+	// 	sharingAddress: 'Liberec, Liberec Region, Czech Republic',
+	// 	sharingInfo: 'Sundays',
+	// 	email: 'liberec@food-not-bombs.cz',
+	// 	website: 'http://food-not-bombs.cz/liberec',
+	// 	videos: [{ title: '', link: '' }],
+	// 	twitter: '',
+	// 	cookingAddress: '',
+	// 	cookingInfo: '',
+	// 	contactPhone: '',
+	// 	contactName: '',
+	// 	emtyDel: '',
+	// 	id: '-fnb',
+	// 	banner: '',
+	// 	mailingAddress: '',
+	// 	imgCollected: false,
+	// 	infoChecked: false,
+	// 	ready: false,
+	// 	opitimise: false,
+	// 	facebookChecked: false
+	// },
 	{
-		logo: '/images/groups/europe/czech-republic/kralupy/logo.jpg',
-		since: '',
-		facebook: 'https://www.facebook.com/groups/853901144638911/\nhttps://www.facebook.com/FNBLBC/',
-		inst: '',
-		gallery: [
-			[
-				{
-					class: '_1',
-					tall: { img: '/images/groups/europe/czech-republic/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/czech-republic/opole/2.jpg', alt: 'image 2' }
-				},
-				{
-					class: '_2',
-					tall: { img: '/images/groups/europe/czech-republic/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/czech-republic/opole/4.jpg', alt: 'image 4' }
-				},
-				{
-					class: '_3',
-					tall: { img: '/images/groups/europe/czech-republic/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/czech-republic/opole/6.jpg', alt: 'image 6' }
-				},
-				{
-					class: '_4',
-					tall: { img: '/images/groups/europe/czech-republic/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/czech-republic/opole/8.jpg', alt: 'image 8' }
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: { img: '/images/groups/europe/czech-republic/opole/9.jpg', alt: 'image 9' },
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/10.jpg',
-						alt: 'image 10'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/11.jpg',
-						alt: 'image 11'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/12.jpg',
-						alt: 'image 12'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/13.jpg',
-						alt: 'image 13'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/14.jpg',
-						alt: 'image 14'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/15.jpg',
-						alt: 'image 15'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/16.jpg',
-						alt: 'image 16'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/17.jpg',
-						alt: 'image 17'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/18.jpg',
-						alt: 'image 18'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/19.jpg',
-						alt: 'image 19'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/20.jpg',
-						alt: 'image 20'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/21.jpg',
-						alt: 'image 21'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/22.jpg',
-						alt: 'image 22'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/23.jpg',
-						alt: 'image 23'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/24.jpg',
-						alt: 'image 24'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/25.jpg',
-						alt: 'image 25'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/26.jpg',
-						alt: 'image 26'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/27.jpg',
-						alt: 'image 27'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/28.jpg',
-						alt: 'image 28'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/29.jpg',
-						alt: 'image 29'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/30.jpg',
-						alt: 'image 30'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/31.jpg',
-						alt: 'image 31'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/32.jpg',
-						alt: 'image 32'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/33.jpg',
-						alt: 'image 33'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/34.jpg',
-						alt: 'image 34'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/35.jpg',
-						alt: 'image 35'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/36.jpg',
-						alt: 'image 36'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/37.jpg',
-						alt: 'image 37'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/38.jpg',
-						alt: 'image 38'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/39.jpg',
-						alt: 'image 39'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/40.jpg',
-						alt: 'image 40'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/41.jpg',
-						alt: 'image 41'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/42.jpg',
-						alt: 'image 42'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/43.jpg',
-						alt: 'image 43'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/44.jpg',
-						alt: 'image 44'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/45.jpg',
-						alt: 'image 45'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/46.jpg',
-						alt: 'image 46'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/47.jpg',
-						alt: 'image 47'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/48.jpg',
-						alt: 'image 48'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/41.jpg',
-						alt: 'image 41'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/42.jpg',
-						alt: 'image 42'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/43.jpg',
-						alt: 'image 43'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/44.jpg',
-						alt: 'image 44'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/45.jpg',
-						alt: 'image 45'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/46.jpg',
-						alt: 'image 46'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/47.jpg',
-						alt: 'image 47'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/48.jpg',
-						alt: 'image 48'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/49.jpg',
-						alt: 'image 49'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/50.jpg',
-						alt: 'image 50'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/51.jpg',
-						alt: 'image 51'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/52.jpg',
-						alt: 'image 52'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/53.jpg',
-						alt: 'image 53'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/54.jpg',
-						alt: 'image 54'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/55.jpg',
-						alt: 'image 55'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/56.jpg',
-						alt: 'image 56'
-					}
-				}
-			]
-		],
-		photos: '',
-		name: 'Jídlo Místo Zbraní: Liberec',
-		country: 'Czech Republic',
-		city: 'Liberec',
-		sharingAddress: 'Liberec, Liberec Region, Czech Republic',
-		sharingInfo: 'Sundays',
-		email: 'liberec@food-not-bombs.cz',
-		website: 'http://food-not-bombs.cz/liberec',
-		videos: [{ title: '', link: '' }],
-		twitter: '',
-		cookingAddress: '',
-		cookingInfo: '',
-		contactPhone: '',
-		contactName: '',
-		emtyDel: '',
-		id: '-fnb',
-		banner: '',
-		mailingAddress: '',
-		imgCollected: false,
-		infoChecked: false,
-		ready: false,
-		opitimise: false,
-		facebookChecked: false
-	},
-	{
-		logo: '/images/groups/europe/czech-republic/kralupy/logo.jpg',
+		logo: '/images/groups/europe/czech-republic/decin/logo.jpg',
 		since: '',
 		facebook: '',
 		inst: '',
@@ -4035,7 +3293,7 @@ Vaříme vegansky, velmi zřídka vegetariánsky, mnohdy používáme suroviny, 
 			]
 		],
 		photos: '',
-		name: 'Jídlo Místo Zbraní: DecinJídlo',
+		name: 'Jídlo Místo Zbraní: Decin',
 		country: 'Czech Republic',
 		city: 'Decin',
 		sharingAddress: 'Main Railway Station, Decin, Czech Republic',
@@ -4049,7 +3307,7 @@ Vaříme vegansky, velmi zřídka vegetariánsky, mnohdy používáme suroviny, 
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
-		id: '-fnb',
+		id: 'decin-fnb',
 		banner: '',
 		mailingAddress: '',
 		imgCollected: false,
@@ -4421,7 +3679,7 @@ Vaříme vegansky, velmi zřídka vegetariánsky, mnohdy používáme suroviny, 
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
-		id: '-fnb',
+		id: 'usti-nad-labem-fnb',
 		banner: '',
 		mailingAddress: '',
 		imgCollected: false,
@@ -4529,378 +3787,6 @@ Vaříme vegansky, velmi zřídka vegetariánsky, mnohdy používáme suroviny, 
 		facebookChecked: true
 	},
 
-	{
-		logo: '/images/groups/europe/czech-republic/kralupy/logo.jpg',
-		since: '',
-		facebook: 'https://www.facebook.com/foodnotbombscb/?fref=ts',
-		inst: '',
-		gallery: [
-			[
-				{
-					class: '_1',
-					tall: { img: '/images/groups/europe/czech-republic/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/czech-republic/opole/2.jpg', alt: 'image 2' }
-				},
-				{
-					class: '_2',
-					tall: { img: '/images/groups/europe/czech-republic/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/czech-republic/opole/4.jpg', alt: 'image 4' }
-				},
-				{
-					class: '_3',
-					tall: { img: '/images/groups/europe/czech-republic/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/czech-republic/opole/6.jpg', alt: 'image 6' }
-				},
-				{
-					class: '_4',
-					tall: { img: '/images/groups/europe/czech-republic/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/czech-republic/opole/8.jpg', alt: 'image 8' }
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: { img: '/images/groups/europe/czech-republic/opole/9.jpg', alt: 'image 9' },
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/10.jpg',
-						alt: 'image 10'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/11.jpg',
-						alt: 'image 11'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/12.jpg',
-						alt: 'image 12'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/13.jpg',
-						alt: 'image 13'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/14.jpg',
-						alt: 'image 14'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/15.jpg',
-						alt: 'image 15'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/16.jpg',
-						alt: 'image 16'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/17.jpg',
-						alt: 'image 17'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/18.jpg',
-						alt: 'image 18'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/19.jpg',
-						alt: 'image 19'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/20.jpg',
-						alt: 'image 20'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/21.jpg',
-						alt: 'image 21'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/22.jpg',
-						alt: 'image 22'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/23.jpg',
-						alt: 'image 23'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/24.jpg',
-						alt: 'image 24'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/25.jpg',
-						alt: 'image 25'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/26.jpg',
-						alt: 'image 26'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/27.jpg',
-						alt: 'image 27'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/28.jpg',
-						alt: 'image 28'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/29.jpg',
-						alt: 'image 29'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/30.jpg',
-						alt: 'image 30'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/31.jpg',
-						alt: 'image 31'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/32.jpg',
-						alt: 'image 32'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/33.jpg',
-						alt: 'image 33'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/34.jpg',
-						alt: 'image 34'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/35.jpg',
-						alt: 'image 35'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/36.jpg',
-						alt: 'image 36'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/37.jpg',
-						alt: 'image 37'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/38.jpg',
-						alt: 'image 38'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/39.jpg',
-						alt: 'image 39'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/40.jpg',
-						alt: 'image 40'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/41.jpg',
-						alt: 'image 41'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/42.jpg',
-						alt: 'image 42'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/43.jpg',
-						alt: 'image 43'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/44.jpg',
-						alt: 'image 44'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/45.jpg',
-						alt: 'image 45'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/46.jpg',
-						alt: 'image 46'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/47.jpg',
-						alt: 'image 47'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/48.jpg',
-						alt: 'image 48'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/41.jpg',
-						alt: 'image 41'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/42.jpg',
-						alt: 'image 42'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/43.jpg',
-						alt: 'image 43'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/44.jpg',
-						alt: 'image 44'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/45.jpg',
-						alt: 'image 45'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/46.jpg',
-						alt: 'image 46'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/47.jpg',
-						alt: 'image 47'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/48.jpg',
-						alt: 'image 48'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/49.jpg',
-						alt: 'image 49'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/50.jpg',
-						alt: 'image 50'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/51.jpg',
-						alt: 'image 51'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/52.jpg',
-						alt: 'image 52'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/53.jpg',
-						alt: 'image 53'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/54.jpg',
-						alt: 'image 54'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/europe/czech-republic/opole/55.jpg',
-						alt: 'image 55'
-					},
-					square: {
-						img: '/images/groups/europe/czech-republic/opole/56.jpg',
-						alt: 'image 56'
-					}
-				}
-			]
-		],
-		photos: '',
-		name: 'Jídlo Místo Zbraní: České Budějovice',
-		country: 'Czech Republic',
-		city: 'České Budějovice',
-		sharingAddress: 'Na Sadech 18/19, České Budějovice 3, ,370 01, Czech Republic',
-		sharingInfo: 'Saturdays 1-1:30pm',
-		email: 'foodnotbombscb@gmail.com',
-		website: '',
-		videos: [{ title: '', link: '' }],
-		twitter: '',
-		cookingAddress: '',
-		cookingInfo: '',
-		contactPhone: '',
-		contactName: '',
-		emtyDel: '',
-		id: '-fnb',
-		banner: '',
-		mailingAddress: '',
-		imgCollected: false,
-		infoChecked: false,
-		ready: false,
-		opitimise: false,
-		facebookChecked: false
-	},
 	{
 		logo: '/images/groups/europe/czech-republic/kralupy/logo.jpg',
 		since: '',
@@ -5336,7 +4222,4338 @@ Vaříme vegansky, velmi zřídka vegetariánsky, mnohdy používáme suroviny, 
 		ready: false,
 		opitimise: false,
 		facebookChecked: true
+	},
+	{
+		logo: '/images/groups/europe/czech-republic/ceske-budejovice/logo.jpg',
+		since: '',
+		facebook: 'https://www.facebook.com/foodnotbombscb',
+		inst: '',
+		gallery: [
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/1.jpg',
+						alt: 'image 1'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/2.jpg',
+						alt: 'image 2'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/3.jpg',
+						alt: 'image 3'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/4.jpg',
+						alt: 'image 4'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/5.jpg',
+						alt: 'image 5'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/6.jpg',
+						alt: 'image 6'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/7.jpg',
+						alt: 'image 7'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/8.jpg',
+						alt: 'image 8'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/9.jpg',
+						alt: 'image 9'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/10.jpg',
+						alt: 'image 10'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/11.jpg',
+						alt: 'image 11'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/12.jpg',
+						alt: 'image 12'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/13.jpg',
+						alt: 'image 13'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/14.jpg',
+						alt: 'image 14'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/15.jpg',
+						alt: 'image 15'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/16.jpg',
+						alt: 'image 16'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/17.jpg',
+						alt: 'image 17'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/18.jpg',
+						alt: 'image 18'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/19.jpg',
+						alt: 'image 19'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/20.jpg',
+						alt: 'image 20'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/21.jpg',
+						alt: 'image 21'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/22.jpg',
+						alt: 'image 22'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/23.jpg',
+						alt: 'image 23'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/24.jpg',
+						alt: 'image 24'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/25.jpg',
+						alt: 'image 25'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/26.jpg',
+						alt: 'image 26'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/27.jpg',
+						alt: 'image 27'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/28.jpg',
+						alt: 'image 28'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/29.jpg',
+						alt: 'image 29'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/30.jpg',
+						alt: 'image 30'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/31.jpg',
+						alt: 'image 31'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/32.jpg',
+						alt: 'image 32'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/33.jpg',
+						alt: 'image 33'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/34.jpg',
+						alt: 'image 34'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/35.jpg',
+						alt: 'image 35'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/36.jpg',
+						alt: 'image 36'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/37.jpg',
+						alt: 'image 37'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/38.jpg',
+						alt: 'image 38'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/39.jpg',
+						alt: 'image 39'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/40.jpg',
+						alt: 'image 40'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/41.jpg',
+						alt: 'image 41'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/42.jpg',
+						alt: 'image 42'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/43.jpg',
+						alt: 'image 43'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/44.jpg',
+						alt: 'image 44'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/45.jpg',
+						alt: 'image 45'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/46.jpg',
+						alt: 'image 46'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/47.jpg',
+						alt: 'image 47'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/48.jpg',
+						alt: 'image 48'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/41.jpg',
+						alt: 'image 41'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/42.jpg',
+						alt: 'image 42'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/43.jpg',
+						alt: 'image 43'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/44.jpg',
+						alt: 'image 44'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/45.jpg',
+						alt: 'image 45'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/46.jpg',
+						alt: 'image 46'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/47.jpg',
+						alt: 'image 47'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/48.jpg',
+						alt: 'image 48'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/49.jpg',
+						alt: 'image 49'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/50.jpg',
+						alt: 'image 50'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/51.jpg',
+						alt: 'image 51'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/52.jpg',
+						alt: 'image 52'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/53.jpg',
+						alt: 'image 53'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/54.jpg',
+						alt: 'image 54'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/55.jpg',
+						alt: 'image 55'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/ceske-budejovice/56.jpg',
+						alt: 'image 56'
+					}
+				}
+			]
+		],
+		photos: '',
+		name: 'Jídlo Místo Zbraní: České Budějovice',
+		country: 'Czech Republic',
+		city: 'České Budějovice',
+		sharingAddress: 'Na Sadech 18/19, České Budějovice 3, ,370 01, Czech Republic',
+		sharingInfo: 'Saturdays 1-1:30pm',
+		email: 'foodnotbombscb@gmail.com',
+		website: '',
+		videos: [{ title: '', link: '' }],
+		twitter: '',
+		cookingAddress: '',
+		cookingInfo: '',
+		contactPhone: '',
+		contactName: '',
+		emtyDel: '',
+		id: 'ceske-budejovice-fnb',
+		banner: '',
+		notes:
+			'Jsme nezávislá komunita, která chce poukázat na plýtvání potravinami, problém bezdomovectví a utrpení tzv. hospodářských zvířat.',
+		mailingAddress: '',
+		imgCollected: true,
+		infoChecked: true,
+		ready: false,
+		opitimise: false,
+		facebookChecked: true
+	},
+	{
+		logo: '/images/groups/europe/czech-republic/kosice/logo.png',
+		since: '',
+		facebook: 'https://www.facebook.com/jedlomiestozbrani',
+		inst: '',
+		gallery: [
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/czech-republic/kosice/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/europe/czech-republic/kosice/2.jpg', alt: 'image 2' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/czech-republic/kosice/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/europe/czech-republic/kosice/4.jpg', alt: 'image 4' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/czech-republic/kosice/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/europe/czech-republic/kosice/6.jpg', alt: 'image 6' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/czech-republic/kosice/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/europe/czech-republic/kosice/8.jpg', alt: 'image 8' }
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/czech-republic/kosice/9.jpg', alt: 'image 9' },
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/10.jpg',
+						alt: 'image 10'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/11.jpg',
+						alt: 'image 11'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/12.jpg',
+						alt: 'image 12'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/13.jpg',
+						alt: 'image 13'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/14.jpg',
+						alt: 'image 14'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/15.jpg',
+						alt: 'image 15'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/16.jpg',
+						alt: 'image 16'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/17.jpg',
+						alt: 'image 17'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/18.jpg',
+						alt: 'image 18'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/19.jpg',
+						alt: 'image 19'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/20.jpg',
+						alt: 'image 20'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/21.jpg',
+						alt: 'image 21'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/22.jpg',
+						alt: 'image 22'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/23.jpg',
+						alt: 'image 23'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/24.jpg',
+						alt: 'image 24'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/25.jpg',
+						alt: 'image 25'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/26.jpg',
+						alt: 'image 26'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/27.jpg',
+						alt: 'image 27'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/28.jpg',
+						alt: 'image 28'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/29.jpg',
+						alt: 'image 29'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/30.jpg',
+						alt: 'image 30'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/31.jpg',
+						alt: 'image 31'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/32.jpg',
+						alt: 'image 32'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/33.jpg',
+						alt: 'image 33'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/34.jpg',
+						alt: 'image 34'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/35.jpg',
+						alt: 'image 35'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/36.jpg',
+						alt: 'image 36'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/37.jpg',
+						alt: 'image 37'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/38.jpg',
+						alt: 'image 38'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/39.jpg',
+						alt: 'image 39'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/40.jpg',
+						alt: 'image 40'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/41.jpg',
+						alt: 'image 41'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/42.jpg',
+						alt: 'image 42'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/43.jpg',
+						alt: 'image 43'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/44.jpg',
+						alt: 'image 44'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/45.jpg',
+						alt: 'image 45'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/46.jpg',
+						alt: 'image 46'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/47.jpg',
+						alt: 'image 47'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/48.jpg',
+						alt: 'image 48'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/41.jpg',
+						alt: 'image 41'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/42.jpg',
+						alt: 'image 42'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/43.jpg',
+						alt: 'image 43'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/44.jpg',
+						alt: 'image 44'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/45.jpg',
+						alt: 'image 45'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/46.jpg',
+						alt: 'image 46'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/47.jpg',
+						alt: 'image 47'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/48.jpg',
+						alt: 'image 48'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/49.jpg',
+						alt: 'image 49'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/50.jpg',
+						alt: 'image 50'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/51.jpg',
+						alt: 'image 51'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/52.jpg',
+						alt: 'image 52'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/53.jpg',
+						alt: 'image 53'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/54.jpg',
+						alt: 'image 54'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/kosice/55.jpg',
+						alt: 'image 55'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/kosice/56.jpg',
+						alt: 'image 56'
+					}
+				}
+			]
+		],
+		photos: '',
+		name: 'Jídlo Místo Zbraní: Košice',
+		country: 'Czech Republic',
+		city: 'Košice',
+		sharingAddress: '',
+		sharingInfo: '',
+		email: '',
+		website: 'https://foodnotbombske.tumblr.com/',
+		videos: [{ title: '', link: '' }],
+		twitter: '',
+		cookingAddress: '',
+		cookingInfo: '',
+		contactPhone: '',
+		contactName: '',
+		emtyDel: '',
+		notes:
+			'Food Not Bombs je dobrovoľná iniciatíva, ktorá rozdáva teplé jedlo zdarma ľuďom, ktorx ho potrebujú.',
+		id: 'kosice-fnb',
+		banner: '',
+		mailingAddress: '',
+		imgCollected: true,
+		infoChecked: true,
+		ready: false,
+		opitimise: false,
+		facebookChecked: true
+	},
+	{
+		logo: '/images/groups/europe/czech-republic/kolín/logo.jpg',
+		since: '',
+		facebook: 'https://www.facebook.com/profile.php?id=100068969239213',
+		inst: '',
+		gallery: [
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/czech-republic/opole/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/europe/czech-republic/opole/2.jpg', alt: 'image 2' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/czech-republic/opole/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/europe/czech-republic/opole/4.jpg', alt: 'image 4' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/czech-republic/opole/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/europe/czech-republic/opole/6.jpg', alt: 'image 6' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/czech-republic/opole/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/europe/czech-republic/opole/8.jpg', alt: 'image 8' }
+				}
+			]
+		],
+		photos: '',
+		name: 'Jídlo Místo Zbraní: Kolín',
+		country: 'Czech Republic',
+		city: 'Kolín',
+		sharingAddress: '',
+		sharingInfo: '',
+		email: '',
+		website: '',
+		videos: [{ title: '', link: '' }],
+		twitter: '',
+		cookingAddress: '',
+		cookingInfo: '',
+		contactPhone: '',
+		contactName: '',
+		emtyDel: '',
+		id: 'kolín-fnb',
+		banner: '',
+		mailingAddress: '',
+		imgCollected: true,
+		infoChecked: true,
+		ready: false,
+		opitimise: false,
+		facebookChecked: true
+	},
+	{
+		logo: '/images/groups/europe/czech-republic/jesenicko/logo.jpg',
+		since: '',
+		facebook: 'https://www.facebook.com/fnb.jes/',
+		inst: '',
+		gallery: [
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/czech-republic/opole/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/europe/czech-republic/opole/2.jpg', alt: 'image 2' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/czech-republic/opole/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/europe/czech-republic/opole/4.jpg', alt: 'image 4' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/czech-republic/opole/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/europe/czech-republic/opole/6.jpg', alt: 'image 6' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/czech-republic/opole/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/europe/czech-republic/opole/8.jpg', alt: 'image 8' }
+				}
+			]
+		],
+		photos: '',
+		name: 'Jídlo Místo Zbraní: Jesenicko',
+		country: 'Czech Republic',
+		city: 'Jesenicko',
+		sharingAddress: '',
+		sharingInfo: '',
+		email: '',
+		website: '',
+		videos: [{ title: '', link: '' }],
+		twitter: '',
+		cookingAddress: '',
+		cookingInfo: '',
+		contactPhone: '',
+		contactName: '',
+		emtyDel: '',
+		notes:
+			'Jedná se o celosvětový projekt, jehož základními kameny jsou vzájemná pomoc a solidarita. Hlavní náplní je pravidelné rozdávání teplého jídla zdarma.',
+		id: 'jesenicko-fnb',
+		banner: '/images/groups/europe/czech-republic/jesenicko/banner.jpg',
+		mailingAddress: '',
+		imgCollected: true,
+		infoChecked: true,
+		ready: false,
+		opitimise: false,
+		facebookChecked: true
+	},
+	{
+		logo: '/images/groups/europe/czech-republic/pardubice/logo.jpg',
+		since: '',
+		facebook: 'https://www.facebook.com/fnbpardubice',
+		inst: '',
+		gallery: [
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/czech-republic/pardubice/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/europe/czech-republic/pardubice/2.jpg', alt: 'image 2' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/czech-republic/pardubice/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/europe/czech-republic/pardubice/4.jpg', alt: 'image 4' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/czech-republic/pardubice/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/europe/czech-republic/pardubice/6.jpg', alt: 'image 6' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/czech-republic/pardubice/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/europe/czech-republic/pardubice/8.jpg', alt: 'image 8' }
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/czech-republic/pardubice/9.jpg', alt: 'image 9' },
+					square: {
+						img: '/images/groups/europe/czech-republic/pardubice/10.jpg',
+						alt: 'image 10'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/pardubice/11.jpg',
+						alt: 'image 11'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/pardubice/12.jpg',
+						alt: 'image 12'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/pardubice/13.jpg',
+						alt: 'image 13'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/pardubice/14.jpg',
+						alt: 'image 14'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/pardubice/15.jpg',
+						alt: 'image 15'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/pardubice/16.jpg',
+						alt: 'image 16'
+					}
+				}
+			]
+		],
+
+		photos: '',
+		name: 'Jídlo Místo Zbraní: Pardubice',
+		country: 'Czech Republic',
+		city: 'Pardubice',
+		sharingAddress: 'Pardubice, Pardubice Region, Czech Republic',
+		sharingInfo: 'Saturdays',
+		email: 'fnb-pce@autistici.org',
+		website: 'http://food-not-bombs.cz/pardubice',
+		videos: [{ title: '', link: '' }],
+		twitter: '',
+		cookingAddress: '',
+		cookingInfo: '',
+		notes: `Jsme svobodomyslná komunita, která chce navázat na tradici rozdávání veganského jídla na ulici lidem bez přístřeší nebo ve špatné životní situaci.`,
+		contactPhone: '',
+		contactName: '',
+		emtyDel: '',
+		id: 'pardubice-fnb',
+		banner: '',
+		mailingAddress: '',
+		imgCollected: true,
+		infoChecked: true,
+		ready: false,
+		opitimise: false,
+		facebookChecked: true
+	},
+	{
+		logo: '/images/groups/europe/czech-republic/liberec/logo.jpg',
+		since: '',
+		facebook: 'https://www.facebook.com/FNBLBC',
+		inst: '',
+		gallery: [
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/czech-republic/liberec/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/europe/czech-republic/liberec/2.jpg', alt: 'image 2' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/czech-republic/liberec/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/europe/czech-republic/liberec/4.jpg', alt: 'image 4' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/czech-republic/liberec/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/europe/czech-republic/liberec/6.jpg', alt: 'image 6' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/czech-republic/liberec/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/europe/czech-republic/liberec/8.jpg', alt: 'image 8' }
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/czech-republic/liberec/9.jpg', alt: 'image 9' },
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/10.jpg',
+						alt: 'image 10'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/11.jpg',
+						alt: 'image 11'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/12.jpg',
+						alt: 'image 12'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/13.jpg',
+						alt: 'image 13'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/14.jpg',
+						alt: 'image 14'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/15.jpg',
+						alt: 'image 15'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/16.jpg',
+						alt: 'image 16'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/17.jpg',
+						alt: 'image 17'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/18.jpg',
+						alt: 'image 18'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/19.jpg',
+						alt: 'image 19'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/20.jpg',
+						alt: 'image 20'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/21.jpg',
+						alt: 'image 21'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/22.jpg',
+						alt: 'image 22'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/23.jpg',
+						alt: 'image 23'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/24.jpg',
+						alt: 'image 24'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/25.jpg',
+						alt: 'image 25'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/26.jpg',
+						alt: 'image 26'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/27.jpg',
+						alt: 'image 27'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/28.jpg',
+						alt: 'image 28'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/29.jpg',
+						alt: 'image 29'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/30.jpg',
+						alt: 'image 30'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/31.jpg',
+						alt: 'image 31'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/32.jpg',
+						alt: 'image 32'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/33.jpg',
+						alt: 'image 33'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/34.jpg',
+						alt: 'image 34'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/35.jpg',
+						alt: 'image 35'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/36.jpg',
+						alt: 'image 36'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/37.jpg',
+						alt: 'image 37'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/38.jpg',
+						alt: 'image 38'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/39.jpg',
+						alt: 'image 39'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/40.jpg',
+						alt: 'image 40'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/41.jpg',
+						alt: 'image 41'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/42.jpg',
+						alt: 'image 42'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/43.jpg',
+						alt: 'image 43'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/44.jpg',
+						alt: 'image 44'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/45.jpg',
+						alt: 'image 45'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/46.jpg',
+						alt: 'image 46'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/47.jpg',
+						alt: 'image 47'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/48.jpg',
+						alt: 'image 48'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/41.jpg',
+						alt: 'image 41'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/42.jpg',
+						alt: 'image 42'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/43.jpg',
+						alt: 'image 43'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/44.jpg',
+						alt: 'image 44'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/45.jpg',
+						alt: 'image 45'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/46.jpg',
+						alt: 'image 46'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/47.jpg',
+						alt: 'image 47'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/48.jpg',
+						alt: 'image 48'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/49.jpg',
+						alt: 'image 49'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/50.jpg',
+						alt: 'image 50'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/51.jpg',
+						alt: 'image 51'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/52.jpg',
+						alt: 'image 52'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/53.jpg',
+						alt: 'image 53'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/54.jpg',
+						alt: 'image 54'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/czech-republic/liberec/55.jpg',
+						alt: 'image 55'
+					},
+					square: {
+						img: '/images/groups/europe/czech-republic/liberec/56.jpg',
+						alt: 'image 56'
+					}
+				}
+			]
+		],
+		photos: '',
+		name: 'Jídlo Místo Zbraní: Liberec',
+		country: 'Czech Republic',
+		city: 'Liberec',
+		sharingAddress: '',
+		sharingInfo: 'Sundays',
+		email: 'fnb-lbc@riseup.net',
+		website: '',
+		videos: [{ title: '', link: '' }],
+		twitter: '',
+		cookingAddress: '',
+		cookingInfo: '',
+		contactPhone: '',
+		contactName: '',
+		emtyDel: '',
+		notes:
+			'Každou neděli ve 13 hodin rozdáváme teplé jídlo v parku před kostelem u Malého náměstí v Liberci.',
+		id: 'liberec-fnb',
+		banner: '',
+		mailingAddress: '',
+		imgCollected: true,
+		infoChecked: true,
+		ready: false,
+		opitimise: false,
+		facebookChecked: true
 	}
+	// {
+	// 	logo: '/images/groups/europe/czech-republic/kralupy/logo.jpg',
+	// 	since: '',
+	// 	facebook: '',
+	// 	inst: '',
+	// 	gallery: [
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/1.jpg', alt: 'image 1' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/2.jpg', alt: 'image 2' }
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/3.jpg', alt: 'image 3' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/4.jpg', alt: 'image 4' }
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/5.jpg', alt: 'image 5' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/6.jpg', alt: 'image 6' }
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/7.jpg', alt: 'image 7' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/8.jpg', alt: 'image 8' }
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/9.jpg', alt: 'image 9' },
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/10.jpg',
+	// 					alt: 'image 10'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/11.jpg',
+	// 					alt: 'image 11'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/12.jpg',
+	// 					alt: 'image 12'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/13.jpg',
+	// 					alt: 'image 13'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/14.jpg',
+	// 					alt: 'image 14'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/15.jpg',
+	// 					alt: 'image 15'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/16.jpg',
+	// 					alt: 'image 16'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/17.jpg',
+	// 					alt: 'image 17'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/18.jpg',
+	// 					alt: 'image 18'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/19.jpg',
+	// 					alt: 'image 19'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/20.jpg',
+	// 					alt: 'image 20'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/21.jpg',
+	// 					alt: 'image 21'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/22.jpg',
+	// 					alt: 'image 22'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/23.jpg',
+	// 					alt: 'image 23'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/24.jpg',
+	// 					alt: 'image 24'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/25.jpg',
+	// 					alt: 'image 25'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/26.jpg',
+	// 					alt: 'image 26'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/27.jpg',
+	// 					alt: 'image 27'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/28.jpg',
+	// 					alt: 'image 28'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/29.jpg',
+	// 					alt: 'image 29'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/30.jpg',
+	// 					alt: 'image 30'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/31.jpg',
+	// 					alt: 'image 31'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/32.jpg',
+	// 					alt: 'image 32'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/33.jpg',
+	// 					alt: 'image 33'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/34.jpg',
+	// 					alt: 'image 34'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/35.jpg',
+	// 					alt: 'image 35'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/36.jpg',
+	// 					alt: 'image 36'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/37.jpg',
+	// 					alt: 'image 37'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/38.jpg',
+	// 					alt: 'image 38'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/39.jpg',
+	// 					alt: 'image 39'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/40.jpg',
+	// 					alt: 'image 40'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/49.jpg',
+	// 					alt: 'image 49'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/50.jpg',
+	// 					alt: 'image 50'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/51.jpg',
+	// 					alt: 'image 51'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/52.jpg',
+	// 					alt: 'image 52'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/53.jpg',
+	// 					alt: 'image 53'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/54.jpg',
+	// 					alt: 'image 54'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/55.jpg',
+	// 					alt: 'image 55'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/56.jpg',
+	// 					alt: 'image 56'
+	// 				}
+	// 			}
+	// 		]
+	// 	],
+	// 	photos: '',
+	// 	name: 'Jídlo Místo Zbraní: ',
+	// 	country: 'Czech Republic',
+	// 	city: '',
+	// 	sharingAddress: '',
+	// 	sharingInfo: '',
+	// 	email: '',
+	// 	website: '',
+	// 	videos: [{ title: '', link: '' }],
+	// 	twitter: '',
+	// 	cookingAddress: '',
+	// 	cookingInfo: '',
+	// 	contactPhone: '',
+	// 	contactName: '',
+	// 	emtyDel: '',
+	// 	id: '-fnb',
+	// 	banner: '',
+	// 	mailingAddress: '',
+	// 	imgCollected: false,
+	// 	infoChecked: false,
+	// 	ready: false,
+	// 	opitimise: false,
+	// 	facebookChecked: false
+	// },
+	// {
+	// 	logo: '/images/groups/europe/czech-republic/kralupy/logo.jpg',
+	// 	since: '',
+	// 	facebook: '',
+	// 	inst: '',
+	// 	gallery: [
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/1.jpg', alt: 'image 1' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/2.jpg', alt: 'image 2' }
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/3.jpg', alt: 'image 3' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/4.jpg', alt: 'image 4' }
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/5.jpg', alt: 'image 5' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/6.jpg', alt: 'image 6' }
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/7.jpg', alt: 'image 7' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/8.jpg', alt: 'image 8' }
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/9.jpg', alt: 'image 9' },
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/10.jpg',
+	// 					alt: 'image 10'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/11.jpg',
+	// 					alt: 'image 11'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/12.jpg',
+	// 					alt: 'image 12'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/13.jpg',
+	// 					alt: 'image 13'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/14.jpg',
+	// 					alt: 'image 14'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/15.jpg',
+	// 					alt: 'image 15'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/16.jpg',
+	// 					alt: 'image 16'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/17.jpg',
+	// 					alt: 'image 17'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/18.jpg',
+	// 					alt: 'image 18'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/19.jpg',
+	// 					alt: 'image 19'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/20.jpg',
+	// 					alt: 'image 20'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/21.jpg',
+	// 					alt: 'image 21'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/22.jpg',
+	// 					alt: 'image 22'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/23.jpg',
+	// 					alt: 'image 23'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/24.jpg',
+	// 					alt: 'image 24'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/25.jpg',
+	// 					alt: 'image 25'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/26.jpg',
+	// 					alt: 'image 26'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/27.jpg',
+	// 					alt: 'image 27'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/28.jpg',
+	// 					alt: 'image 28'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/29.jpg',
+	// 					alt: 'image 29'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/30.jpg',
+	// 					alt: 'image 30'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/31.jpg',
+	// 					alt: 'image 31'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/32.jpg',
+	// 					alt: 'image 32'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/33.jpg',
+	// 					alt: 'image 33'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/34.jpg',
+	// 					alt: 'image 34'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/35.jpg',
+	// 					alt: 'image 35'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/36.jpg',
+	// 					alt: 'image 36'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/37.jpg',
+	// 					alt: 'image 37'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/38.jpg',
+	// 					alt: 'image 38'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/39.jpg',
+	// 					alt: 'image 39'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/40.jpg',
+	// 					alt: 'image 40'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/49.jpg',
+	// 					alt: 'image 49'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/50.jpg',
+	// 					alt: 'image 50'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/51.jpg',
+	// 					alt: 'image 51'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/52.jpg',
+	// 					alt: 'image 52'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/53.jpg',
+	// 					alt: 'image 53'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/54.jpg',
+	// 					alt: 'image 54'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/55.jpg',
+	// 					alt: 'image 55'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/56.jpg',
+	// 					alt: 'image 56'
+	// 				}
+	// 			}
+	// 		]
+	// 	],
+	// 	photos: '',
+	// 	name: 'Jídlo Místo Zbraní: ',
+	// 	country: 'Czech Republic',
+	// 	city: '',
+	// 	sharingAddress: '',
+	// 	sharingInfo: '',
+	// 	email: '',
+	// 	website: '',
+	// 	videos: [{ title: '', link: '' }],
+	// 	twitter: '',
+	// 	cookingAddress: '',
+	// 	cookingInfo: '',
+	// 	contactPhone: '',
+	// 	contactName: '',
+	// 	emtyDel: '',
+	// 	id: '-fnb',
+	// 	banner: '',
+	// 	mailingAddress: '',
+	// 	imgCollected: false,
+	// 	infoChecked: false,
+	// 	ready: false,
+	// 	opitimise: false,
+	// 	facebookChecked: false
+	// },
+	// {
+	// 	logo: '/images/groups/europe/czech-republic/kralupy/logo.jpg',
+	// 	since: '',
+	// 	facebook: '',
+	// 	inst: '',
+	// 	gallery: [
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/1.jpg', alt: 'image 1' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/2.jpg', alt: 'image 2' }
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/3.jpg', alt: 'image 3' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/4.jpg', alt: 'image 4' }
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/5.jpg', alt: 'image 5' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/6.jpg', alt: 'image 6' }
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/7.jpg', alt: 'image 7' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/8.jpg', alt: 'image 8' }
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/9.jpg', alt: 'image 9' },
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/10.jpg',
+	// 					alt: 'image 10'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/11.jpg',
+	// 					alt: 'image 11'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/12.jpg',
+	// 					alt: 'image 12'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/13.jpg',
+	// 					alt: 'image 13'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/14.jpg',
+	// 					alt: 'image 14'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/15.jpg',
+	// 					alt: 'image 15'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/16.jpg',
+	// 					alt: 'image 16'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/17.jpg',
+	// 					alt: 'image 17'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/18.jpg',
+	// 					alt: 'image 18'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/19.jpg',
+	// 					alt: 'image 19'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/20.jpg',
+	// 					alt: 'image 20'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/21.jpg',
+	// 					alt: 'image 21'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/22.jpg',
+	// 					alt: 'image 22'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/23.jpg',
+	// 					alt: 'image 23'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/24.jpg',
+	// 					alt: 'image 24'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/25.jpg',
+	// 					alt: 'image 25'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/26.jpg',
+	// 					alt: 'image 26'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/27.jpg',
+	// 					alt: 'image 27'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/28.jpg',
+	// 					alt: 'image 28'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/29.jpg',
+	// 					alt: 'image 29'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/30.jpg',
+	// 					alt: 'image 30'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/31.jpg',
+	// 					alt: 'image 31'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/32.jpg',
+	// 					alt: 'image 32'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/33.jpg',
+	// 					alt: 'image 33'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/34.jpg',
+	// 					alt: 'image 34'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/35.jpg',
+	// 					alt: 'image 35'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/36.jpg',
+	// 					alt: 'image 36'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/37.jpg',
+	// 					alt: 'image 37'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/38.jpg',
+	// 					alt: 'image 38'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/39.jpg',
+	// 					alt: 'image 39'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/40.jpg',
+	// 					alt: 'image 40'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/49.jpg',
+	// 					alt: 'image 49'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/50.jpg',
+	// 					alt: 'image 50'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/51.jpg',
+	// 					alt: 'image 51'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/52.jpg',
+	// 					alt: 'image 52'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/53.jpg',
+	// 					alt: 'image 53'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/54.jpg',
+	// 					alt: 'image 54'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/55.jpg',
+	// 					alt: 'image 55'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/56.jpg',
+	// 					alt: 'image 56'
+	// 				}
+	// 			}
+	// 		]
+	// 	],
+	// 	photos: '',
+	// 	name: 'Jídlo Místo Zbraní: ',
+	// 	country: 'Czech Republic',
+	// 	city: '',
+	// 	sharingAddress: '',
+	// 	sharingInfo: '',
+	// 	email: '',
+	// 	website: '',
+	// 	videos: [{ title: '', link: '' }],
+	// 	twitter: '',
+	// 	cookingAddress: '',
+	// 	cookingInfo: '',
+	// 	contactPhone: '',
+	// 	contactName: '',
+	// 	emtyDel: '',
+	// 	id: '-fnb',
+	// 	banner: '',
+	// 	mailingAddress: '',
+	// 	imgCollected: false,
+	// 	infoChecked: false,
+	// 	ready: false,
+	// 	opitimise: false,
+	// 	facebookChecked: false
+	// },
+	// {
+	// 	logo: '/images/groups/europe/czech-republic/kralupy/logo.jpg',
+	// 	since: '',
+	// 	facebook: '',
+	// 	inst: '',
+	// 	gallery: [
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/1.jpg', alt: 'image 1' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/2.jpg', alt: 'image 2' }
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/3.jpg', alt: 'image 3' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/4.jpg', alt: 'image 4' }
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/5.jpg', alt: 'image 5' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/6.jpg', alt: 'image 6' }
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/7.jpg', alt: 'image 7' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/8.jpg', alt: 'image 8' }
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/9.jpg', alt: 'image 9' },
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/10.jpg',
+	// 					alt: 'image 10'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/11.jpg',
+	// 					alt: 'image 11'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/12.jpg',
+	// 					alt: 'image 12'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/13.jpg',
+	// 					alt: 'image 13'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/14.jpg',
+	// 					alt: 'image 14'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/15.jpg',
+	// 					alt: 'image 15'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/16.jpg',
+	// 					alt: 'image 16'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/17.jpg',
+	// 					alt: 'image 17'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/18.jpg',
+	// 					alt: 'image 18'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/19.jpg',
+	// 					alt: 'image 19'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/20.jpg',
+	// 					alt: 'image 20'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/21.jpg',
+	// 					alt: 'image 21'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/22.jpg',
+	// 					alt: 'image 22'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/23.jpg',
+	// 					alt: 'image 23'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/24.jpg',
+	// 					alt: 'image 24'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/25.jpg',
+	// 					alt: 'image 25'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/26.jpg',
+	// 					alt: 'image 26'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/27.jpg',
+	// 					alt: 'image 27'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/28.jpg',
+	// 					alt: 'image 28'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/29.jpg',
+	// 					alt: 'image 29'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/30.jpg',
+	// 					alt: 'image 30'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/31.jpg',
+	// 					alt: 'image 31'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/32.jpg',
+	// 					alt: 'image 32'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/33.jpg',
+	// 					alt: 'image 33'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/34.jpg',
+	// 					alt: 'image 34'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/35.jpg',
+	// 					alt: 'image 35'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/36.jpg',
+	// 					alt: 'image 36'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/37.jpg',
+	// 					alt: 'image 37'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/38.jpg',
+	// 					alt: 'image 38'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/39.jpg',
+	// 					alt: 'image 39'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/40.jpg',
+	// 					alt: 'image 40'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/49.jpg',
+	// 					alt: 'image 49'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/50.jpg',
+	// 					alt: 'image 50'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/51.jpg',
+	// 					alt: 'image 51'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/52.jpg',
+	// 					alt: 'image 52'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/53.jpg',
+	// 					alt: 'image 53'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/54.jpg',
+	// 					alt: 'image 54'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/55.jpg',
+	// 					alt: 'image 55'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/56.jpg',
+	// 					alt: 'image 56'
+	// 				}
+	// 			}
+	// 		]
+	// 	],
+	// 	photos: '',
+	// 	name: 'Jídlo Místo Zbraní: ',
+	// 	country: 'Czech Republic',
+	// 	city: '',
+	// 	sharingAddress: '',
+	// 	sharingInfo: '',
+	// 	email: '',
+	// 	website: '',
+	// 	videos: [{ title: '', link: '' }],
+	// 	twitter: '',
+	// 	cookingAddress: '',
+	// 	cookingInfo: '',
+	// 	contactPhone: '',
+	// 	contactName: '',
+	// 	emtyDel: '',
+	// 	id: '-fnb',
+	// 	banner: '',
+	// 	mailingAddress: '',
+	// 	imgCollected: false,
+	// 	infoChecked: false,
+	// 	ready: false,
+	// 	opitimise: false,
+	// 	facebookChecked: false
+	// },
+	// {
+	// 	logo: '/images/groups/europe/czech-republic/kralupy/logo.jpg',
+	// 	since: '',
+	// 	facebook: '',
+	// 	inst: '',
+	// 	gallery: [
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/1.jpg', alt: 'image 1' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/2.jpg', alt: 'image 2' }
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/3.jpg', alt: 'image 3' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/4.jpg', alt: 'image 4' }
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/5.jpg', alt: 'image 5' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/6.jpg', alt: 'image 6' }
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/7.jpg', alt: 'image 7' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/8.jpg', alt: 'image 8' }
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/9.jpg', alt: 'image 9' },
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/10.jpg',
+	// 					alt: 'image 10'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/11.jpg',
+	// 					alt: 'image 11'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/12.jpg',
+	// 					alt: 'image 12'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/13.jpg',
+	// 					alt: 'image 13'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/14.jpg',
+	// 					alt: 'image 14'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/15.jpg',
+	// 					alt: 'image 15'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/16.jpg',
+	// 					alt: 'image 16'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/17.jpg',
+	// 					alt: 'image 17'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/18.jpg',
+	// 					alt: 'image 18'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/19.jpg',
+	// 					alt: 'image 19'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/20.jpg',
+	// 					alt: 'image 20'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/21.jpg',
+	// 					alt: 'image 21'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/22.jpg',
+	// 					alt: 'image 22'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/23.jpg',
+	// 					alt: 'image 23'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/24.jpg',
+	// 					alt: 'image 24'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/25.jpg',
+	// 					alt: 'image 25'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/26.jpg',
+	// 					alt: 'image 26'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/27.jpg',
+	// 					alt: 'image 27'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/28.jpg',
+	// 					alt: 'image 28'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/29.jpg',
+	// 					alt: 'image 29'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/30.jpg',
+	// 					alt: 'image 30'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/31.jpg',
+	// 					alt: 'image 31'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/32.jpg',
+	// 					alt: 'image 32'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/33.jpg',
+	// 					alt: 'image 33'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/34.jpg',
+	// 					alt: 'image 34'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/35.jpg',
+	// 					alt: 'image 35'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/36.jpg',
+	// 					alt: 'image 36'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/37.jpg',
+	// 					alt: 'image 37'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/38.jpg',
+	// 					alt: 'image 38'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/39.jpg',
+	// 					alt: 'image 39'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/40.jpg',
+	// 					alt: 'image 40'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/49.jpg',
+	// 					alt: 'image 49'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/50.jpg',
+	// 					alt: 'image 50'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/51.jpg',
+	// 					alt: 'image 51'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/52.jpg',
+	// 					alt: 'image 52'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/53.jpg',
+	// 					alt: 'image 53'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/54.jpg',
+	// 					alt: 'image 54'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/55.jpg',
+	// 					alt: 'image 55'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/56.jpg',
+	// 					alt: 'image 56'
+	// 				}
+	// 			}
+	// 		]
+	// 	],
+	// 	photos: '',
+	// 	name: 'Jídlo Místo Zbraní: ',
+	// 	country: 'Czech Republic',
+	// 	city: '',
+	// 	sharingAddress: '',
+	// 	sharingInfo: '',
+	// 	email: '',
+	// 	website: '',
+	// 	videos: [{ title: '', link: '' }],
+	// 	twitter: '',
+	// 	cookingAddress: '',
+	// 	cookingInfo: '',
+	// 	contactPhone: '',
+	// 	contactName: '',
+	// 	emtyDel: '',
+	// 	id: '-fnb',
+	// 	banner: '',
+	// 	mailingAddress: '',
+	// 	imgCollected: false,
+	// 	infoChecked: false,
+	// 	ready: false,
+	// 	opitimise: false,
+	// 	facebookChecked: false
+	// },
+	// {
+	// 	logo: '/images/groups/europe/czech-republic/kralupy/logo.jpg',
+	// 	since: '',
+	// 	facebook: '',
+	// 	inst: '',
+	// 	gallery: [
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/1.jpg', alt: 'image 1' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/2.jpg', alt: 'image 2' }
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/3.jpg', alt: 'image 3' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/4.jpg', alt: 'image 4' }
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/5.jpg', alt: 'image 5' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/6.jpg', alt: 'image 6' }
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/7.jpg', alt: 'image 7' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/8.jpg', alt: 'image 8' }
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/9.jpg', alt: 'image 9' },
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/10.jpg',
+	// 					alt: 'image 10'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/11.jpg',
+	// 					alt: 'image 11'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/12.jpg',
+	// 					alt: 'image 12'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/13.jpg',
+	// 					alt: 'image 13'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/14.jpg',
+	// 					alt: 'image 14'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/15.jpg',
+	// 					alt: 'image 15'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/16.jpg',
+	// 					alt: 'image 16'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/17.jpg',
+	// 					alt: 'image 17'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/18.jpg',
+	// 					alt: 'image 18'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/19.jpg',
+	// 					alt: 'image 19'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/20.jpg',
+	// 					alt: 'image 20'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/21.jpg',
+	// 					alt: 'image 21'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/22.jpg',
+	// 					alt: 'image 22'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/23.jpg',
+	// 					alt: 'image 23'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/24.jpg',
+	// 					alt: 'image 24'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/25.jpg',
+	// 					alt: 'image 25'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/26.jpg',
+	// 					alt: 'image 26'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/27.jpg',
+	// 					alt: 'image 27'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/28.jpg',
+	// 					alt: 'image 28'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/29.jpg',
+	// 					alt: 'image 29'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/30.jpg',
+	// 					alt: 'image 30'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/31.jpg',
+	// 					alt: 'image 31'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/32.jpg',
+	// 					alt: 'image 32'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/33.jpg',
+	// 					alt: 'image 33'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/34.jpg',
+	// 					alt: 'image 34'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/35.jpg',
+	// 					alt: 'image 35'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/36.jpg',
+	// 					alt: 'image 36'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/37.jpg',
+	// 					alt: 'image 37'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/38.jpg',
+	// 					alt: 'image 38'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/39.jpg',
+	// 					alt: 'image 39'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/40.jpg',
+	// 					alt: 'image 40'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/49.jpg',
+	// 					alt: 'image 49'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/50.jpg',
+	// 					alt: 'image 50'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/51.jpg',
+	// 					alt: 'image 51'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/52.jpg',
+	// 					alt: 'image 52'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/53.jpg',
+	// 					alt: 'image 53'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/54.jpg',
+	// 					alt: 'image 54'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/55.jpg',
+	// 					alt: 'image 55'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/56.jpg',
+	// 					alt: 'image 56'
+	// 				}
+	// 			}
+	// 		]
+	// 	],
+	// 	photos: '',
+	// 	name: 'Jídlo Místo Zbraní: ',
+	// 	country: 'Czech Republic',
+	// 	city: '',
+	// 	sharingAddress: '',
+	// 	sharingInfo: '',
+	// 	email: '',
+	// 	website: '',
+	// 	videos: [{ title: '', link: '' }],
+	// 	twitter: '',
+	// 	cookingAddress: '',
+	// 	cookingInfo: '',
+	// 	contactPhone: '',
+	// 	contactName: '',
+	// 	emtyDel: '',
+	// 	id: '-fnb',
+	// 	banner: '',
+	// 	mailingAddress: '',
+	// 	imgCollected: false,
+	// 	infoChecked: false,
+	// 	ready: false,
+	// 	opitimise: false,
+	// 	facebookChecked: false
+	// },
+	// {
+	// 	logo: '/images/groups/europe/czech-republic/kralupy/logo.jpg',
+	// 	since: '',
+	// 	facebook: '',
+	// 	inst: '',
+	// 	gallery: [
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/1.jpg', alt: 'image 1' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/2.jpg', alt: 'image 2' }
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/3.jpg', alt: 'image 3' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/4.jpg', alt: 'image 4' }
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/5.jpg', alt: 'image 5' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/6.jpg', alt: 'image 6' }
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/7.jpg', alt: 'image 7' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/8.jpg', alt: 'image 8' }
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/9.jpg', alt: 'image 9' },
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/10.jpg',
+	// 					alt: 'image 10'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/11.jpg',
+	// 					alt: 'image 11'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/12.jpg',
+	// 					alt: 'image 12'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/13.jpg',
+	// 					alt: 'image 13'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/14.jpg',
+	// 					alt: 'image 14'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/15.jpg',
+	// 					alt: 'image 15'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/16.jpg',
+	// 					alt: 'image 16'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/17.jpg',
+	// 					alt: 'image 17'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/18.jpg',
+	// 					alt: 'image 18'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/19.jpg',
+	// 					alt: 'image 19'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/20.jpg',
+	// 					alt: 'image 20'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/21.jpg',
+	// 					alt: 'image 21'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/22.jpg',
+	// 					alt: 'image 22'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/23.jpg',
+	// 					alt: 'image 23'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/24.jpg',
+	// 					alt: 'image 24'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/25.jpg',
+	// 					alt: 'image 25'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/26.jpg',
+	// 					alt: 'image 26'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/27.jpg',
+	// 					alt: 'image 27'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/28.jpg',
+	// 					alt: 'image 28'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/29.jpg',
+	// 					alt: 'image 29'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/30.jpg',
+	// 					alt: 'image 30'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/31.jpg',
+	// 					alt: 'image 31'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/32.jpg',
+	// 					alt: 'image 32'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/33.jpg',
+	// 					alt: 'image 33'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/34.jpg',
+	// 					alt: 'image 34'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/35.jpg',
+	// 					alt: 'image 35'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/36.jpg',
+	// 					alt: 'image 36'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/37.jpg',
+	// 					alt: 'image 37'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/38.jpg',
+	// 					alt: 'image 38'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/39.jpg',
+	// 					alt: 'image 39'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/40.jpg',
+	// 					alt: 'image 40'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/49.jpg',
+	// 					alt: 'image 49'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/50.jpg',
+	// 					alt: 'image 50'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/51.jpg',
+	// 					alt: 'image 51'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/52.jpg',
+	// 					alt: 'image 52'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/53.jpg',
+	// 					alt: 'image 53'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/54.jpg',
+	// 					alt: 'image 54'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/55.jpg',
+	// 					alt: 'image 55'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/56.jpg',
+	// 					alt: 'image 56'
+	// 				}
+	// 			}
+	// 		]
+	// 	],
+	// 	photos: '',
+	// 	name: 'Jídlo Místo Zbraní: ',
+	// 	country: 'Czech Republic',
+	// 	city: '',
+	// 	sharingAddress: '',
+	// 	sharingInfo: '',
+	// 	email: '',
+	// 	website: '',
+	// 	videos: [{ title: '', link: '' }],
+	// 	twitter: '',
+	// 	cookingAddress: '',
+	// 	cookingInfo: '',
+	// 	contactPhone: '',
+	// 	contactName: '',
+	// 	emtyDel: '',
+	// 	id: '-fnb',
+	// 	banner: '',
+	// 	mailingAddress: '',
+	// 	imgCollected: false,
+	// 	infoChecked: false,
+	// 	ready: false,
+	// 	opitimise: false,
+	// 	facebookChecked: false
+	// },
+	// {
+	// 	logo: '/images/groups/europe/czech-republic/kralupy/logo.jpg',
+	// 	since: '',
+	// 	facebook: '',
+	// 	inst: '',
+	// 	gallery: [
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/1.jpg', alt: 'image 1' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/2.jpg', alt: 'image 2' }
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/3.jpg', alt: 'image 3' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/4.jpg', alt: 'image 4' }
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/5.jpg', alt: 'image 5' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/6.jpg', alt: 'image 6' }
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/7.jpg', alt: 'image 7' },
+	// 				square: { img: '/images/groups/europe/czech-republic/opole/8.jpg', alt: 'image 8' }
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: { img: '/images/groups/europe/czech-republic/opole/9.jpg', alt: 'image 9' },
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/10.jpg',
+	// 					alt: 'image 10'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/11.jpg',
+	// 					alt: 'image 11'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/12.jpg',
+	// 					alt: 'image 12'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/13.jpg',
+	// 					alt: 'image 13'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/14.jpg',
+	// 					alt: 'image 14'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/15.jpg',
+	// 					alt: 'image 15'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/16.jpg',
+	// 					alt: 'image 16'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/17.jpg',
+	// 					alt: 'image 17'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/18.jpg',
+	// 					alt: 'image 18'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/19.jpg',
+	// 					alt: 'image 19'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/20.jpg',
+	// 					alt: 'image 20'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/21.jpg',
+	// 					alt: 'image 21'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/22.jpg',
+	// 					alt: 'image 22'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/23.jpg',
+	// 					alt: 'image 23'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/24.jpg',
+	// 					alt: 'image 24'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/25.jpg',
+	// 					alt: 'image 25'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/26.jpg',
+	// 					alt: 'image 26'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/27.jpg',
+	// 					alt: 'image 27'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/28.jpg',
+	// 					alt: 'image 28'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/29.jpg',
+	// 					alt: 'image 29'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/30.jpg',
+	// 					alt: 'image 30'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/31.jpg',
+	// 					alt: 'image 31'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/32.jpg',
+	// 					alt: 'image 32'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/33.jpg',
+	// 					alt: 'image 33'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/34.jpg',
+	// 					alt: 'image 34'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/35.jpg',
+	// 					alt: 'image 35'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/36.jpg',
+	// 					alt: 'image 36'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/37.jpg',
+	// 					alt: 'image 37'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/38.jpg',
+	// 					alt: 'image 38'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/39.jpg',
+	// 					alt: 'image 39'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/40.jpg',
+	// 					alt: 'image 40'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/41.jpg',
+	// 					alt: 'image 41'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/42.jpg',
+	// 					alt: 'image 42'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/43.jpg',
+	// 					alt: 'image 43'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/44.jpg',
+	// 					alt: 'image 44'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/45.jpg',
+	// 					alt: 'image 45'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/46.jpg',
+	// 					alt: 'image 46'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/47.jpg',
+	// 					alt: 'image 47'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/48.jpg',
+	// 					alt: 'image 48'
+	// 				}
+	// 			}
+	// 		],
+	// 		[
+	// 			{
+	// 				class: '_1',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/49.jpg',
+	// 					alt: 'image 49'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/50.jpg',
+	// 					alt: 'image 50'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_2',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/51.jpg',
+	// 					alt: 'image 51'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/52.jpg',
+	// 					alt: 'image 52'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_3',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/53.jpg',
+	// 					alt: 'image 53'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/54.jpg',
+	// 					alt: 'image 54'
+	// 				}
+	// 			},
+	// 			{
+	// 				class: '_4',
+	// 				tall: {
+	// 					img: '/images/groups/europe/czech-republic/opole/55.jpg',
+	// 					alt: 'image 55'
+	// 				},
+	// 				square: {
+	// 					img: '/images/groups/europe/czech-republic/opole/56.jpg',
+	// 					alt: 'image 56'
+	// 				}
+	// 			}
+	// 		]
+	// 	],
+	// 	photos: '',
+	// 	name: 'Jídlo Místo Zbraní: ',
+	// 	country: 'Czech Republic',
+	// 	city: '',
+	// 	sharingAddress: '',
+	// 	sharingInfo: '',
+	// 	email: '',
+	// 	website: '',
+	// 	videos: [{ title: '', link: '' }],
+	// 	twitter: '',
+	// 	cookingAddress: '',
+	// 	cookingInfo: '',
+	// 	contactPhone: '',
+	// 	contactName: '',
+	// 	emtyDel: '',
+	// 	id: '-fnb',
+	// 	banner: '',
+	// 	mailingAddress: '',
+	// 	imgCollected: false,
+	// 	infoChecked: false,
+	// 	ready: false,
+	// 	opitimise: false,
+	// 	facebookChecked: false
+	//	}
 ];
 
 export default data;
