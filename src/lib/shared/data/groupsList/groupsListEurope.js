@@ -23,7 +23,7 @@ import greece from './europe/greece';
 import macedonia from './europe/macedonia';
 import bulgaria from './europe/bulgaria';
 import romania from './europe/romania';
-import serbia from './europe/serbia';
+import serbia from '../../../../serbia';
 import bosniaAndHerzegovina from './europe/bosnia-and-herzegovina';
 import croatia from './europe/croatia';
 import hungary from './europe/hungary';

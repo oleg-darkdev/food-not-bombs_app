@@ -10,7 +10,7 @@ export const load: PageLoad = ({ params }) => {
 	const group = allGroups.find((g) => g.id === params.id);
 
 
-	console.log(group)
+	// console.log(group)
 	if (!group) {
 		throw error(404, 'Group not found');
 	}
