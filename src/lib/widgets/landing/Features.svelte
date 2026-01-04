@@ -84,7 +84,7 @@
 								src="/images/3_stage.jpg"
 								loading="eager"
 								width="213"
-								alt="Image 1 sign"
+								alt="Image 1 "
 								class="img_featured-service"
 							/>
 						</div>
@@ -92,13 +92,13 @@
 							id="w-node-_1c7bdb57-c74a-5ae4-a116-7343a02858ae-ff0cf01d"
 							class="item_video-wrap slider-item no-stroke service-hero"
 						>
-							<img src="/images/1_stage.jpg" loading="eager" alt="Image 2 sign" class="img_performance-hero-tall" />
+							<img src="/images/1_stage.jpg" loading="eager" alt="Image 2 " class="img_performance-hero-tall" />
 						</div>
 						<div
 							id="w-node-b24406bf-994d-3729-5a34-206d25df844d-ff0cf01d"
 							class="item_video-wrap slider-item no-stroke service-hero"
 						>
-							<img src="/images/2_stage.jpg" loading="eager" alt="Image 3 sign" class="img_performance-hero-tall" />
+							<img src="/images/2_stage.jpg" loading="eager" alt="Image 3 " class="img_performance-hero-tall" />
 						</div>
 						<div
 							id="w-node-_822cc2d8-252c-97aa-f4a1-6e54ab8f97f6-ff0cf01d"
@@ -126,10 +126,10 @@
 							class="wrap_featured-image"
 						>
 							<img
-								src="/images/4_stage.jpg"
+								src="/images/6_stage.jpg"
 								loading="eager"
 								width="213"
-								alt="Image 5 sign"
+								alt="Image 5 "
 								class="img_featured-service"
 							/>
 						</div>
@@ -137,13 +137,13 @@
 							id="w-node-_1c7bdb57-c74a-5ae4-a116-7343a02858ae-ff0cf01d"
 							class="item_video-wrap slider-item no-stroke service-hero"
 						>
-							<img src="/images/6_stage.jpg" loading="eager" alt="Image 6 sign" class="img_performance-hero-tall" />
+							<img src="/images/4_stage.jpg" loading="eager" alt="Image 6 " class="img_performance-hero-tall" />
 						</div>
 						<div
 							id="w-node-b24406bf-994d-3729-5a34-206d25df844d-ff0cf01d"
 							class="item_video-wrap slider-item no-stroke service-hero"
 						>
-							<img src="/images/5_stage.jpg" loading="eager" alt="Image 7 sign" class="img_performance-hero-tall" />
+							<img src="/images/5_stage.jpg" loading="eager" alt="Image 7 " class="img_performance-hero-tall" />
 						</div>
 						<div
 							id="w-node-_822cc2d8-252c-97aa-f4a1-6e54ab8f97f6-ff0cf01d"

@@ -1,120 +1,196 @@
 const gallery = [
+	// [
+	// 	{
+	// 		class: '_1',
+	// 		tall: { img: '/images/photos/gallery/transportation/1.JPG', alt: 'image 1' },
+	// 		square: { img: '/images/photos/gallery/transportation/2.JPG', alt: 'image 2' }
+	// 	},
+	// 	{
+	// 		class: '_2',
+	// 		tall: { img: '', alt: 'image 3' },
+	// 		// /images/photos/gallery/transportation/3.JPG
+	// 		// /images/photos/gallery/transportation/4.JPG
+	// 		square: { img: '', alt: 'image 4' }
+	// 	},
+	// 	{
+	// 		class: '_3',
+	// 		// presentation
+	// 		tall: { img: '/images/1_stage.jpg', alt: 'image 5' },
+	// 		square: { img: '/images/2_stage.jpg', alt: 'image 6' }
+	// 	},
+	// 	{
+	// 		class: '_4',
+	// 		tall: { img: '/images/photos/gallery/transportation/11.JPG', alt: 'image 7' },
+	// 		square: { img: '/images/photos/gallery/transportation/8.JPG', alt: 'image 8' }
+	// 	}
+	// ],
+
 	[
 		{
 			class: '_1',
-			tall: { img: '/images/photos/gallery/1.JPG', alt: 'image 1' },
-			square: { img: '/images/photos/gallery/2.JPG', alt: 'image 2' }
+			tall: { img: '/images/1_stage.jpg', alt: 'image 9' },
+			square: { img: '/images/2_stage.jpg', alt: 'image 10' }
 		},
 		{
 			class: '_2',
-			tall: { img: '/images/photos/gallery/3.JPG', alt: 'image 3' },
-			square: { img: '/images/photos/gallery/4.JPG', alt: 'image 4' }
+			tall: { img: '/images/photos/gallery/flags/5.jpg', alt: 'image 11' },
+			square: { img: '/images/photos/gallery/bakeries/2.jpg', alt: 'image 12' }
 		},
 		{
 			class: '_3',
-			// presentation
-			tall: { img: '/images/photos/gallery/transportation/5.jpg', alt: 'image 5' },
-			square: { img: '', alt: 'image 6' }
+			// /images/photos/gallery/transportation/13.JPG
+			tall: { img: '/images/4_stage.jpg', alt: 'image 13' },
+			// /images/photos/gallery/transportation/14.JPG
+			square: { img: '/images/photos/gallery/distribution/5.jpg', alt: 'image 14' }
 		},
 		{
 			class: '_4',
-			tall: { img: '/images/photos/gallery/7.JPG', alt: 'image 7' },
-			square: { img: '/images/photos/gallery/8.JPG', alt: 'image 8' }
+			// /images/photos/gallery/transportation/15.JPG
+			tall: { img: '/images/photos/gallery/handshake/11.jpg', alt: 'image 15' },
+			// /images/photos/gallery/transportation/16.JPG
+			square: { img: '/images/photos/gallery/salad/11.jpg', alt: 'image 16' }
 		}
 	],
 
 	[
 		{
 			class: '_1',
-			tall: { img: '/images/photos/gallery/9.JPG', alt: 'image 9' },
-			square: { img: '/images/photos/gallery/transportation/1.jpg', alt: 'image 10' }
+			tall: { img: '/images/photos/gallery/animals/1.jpg', alt: 'image 17' },
+			square: { img: '/images/photos/gallery/atmosphere/1.jpg', alt: 'image 18' }
 		},
 		{
 			class: '_2',
-			tall: { img: '/images/photos/gallery/11.JPG', alt: 'image 11' },
-			square: { img: '/images/photos/gallery/12.JPG', alt: 'image 12' }
+			// /images/photos/gallery/atmosphere/4.jpg
+			tall: { img: '/images/photos/gallery/booties/24.jpg', alt: 'image 19' },
+			square: { img: '', alt: 'image 20' }
 		},
 		{
 			class: '_3',
-			tall: { img: '/images/photos/gallery/13.JPG', alt: 'image 13' },
-			square: { img: '/images/photos/gallery/14.JPG', alt: 'image 14' }
+			// tall:
+			// /images/photos/gallery/atmosphere/16.jpg
+			//
+			tall: { img: '/images/photos/gallery/atmosphere/15.jpg', alt: 'image 21' },
+			square: { img: '/images/photos/gallery/booties/26.jpg', alt: 'image 22' }
 		},
 		{
 			class: '_4',
-			tall: { img: '/images/photos/gallery/15.JPG', alt: 'image 15' },
-			square: { img: '/images/photos/gallery/16.JPG', alt: 'image 16' }
+			tall: { img: '/images/photos/gallery/bakeries/1.jpg', alt: 'image 23' },
+			square: { img: '', alt: 'image 24' }
+		}
+	],
+	// /images/photos/gallery/bakeries/8.jpg
+
+	// /images/photos/gallery/booties/23.jpg
+	[
+		{
+			class: '_1',
+			tall: { img: '/images/photos/gallery/canned/8.jpg', alt: 'image 33' },
+			square: { img: '', alt: 'image 34' }
+		},
+		{
+			class: '_2',
+			tall: { img: '/images/photos/gallery/distribution/6.jpg', alt: 'image 35' },
+			square: { img: '/images/photos/gallery/distribution/7.jpg', alt: 'image 36' }
+		},
+		{
+			class: '_3',
+			tall: { img: '/images/6_stage.jpg', alt: 'image 37' },
+			square: { img: '/images/photos/gallery/flags/6.jpg', alt: 'image 38' }
+		},
+		{
+			class: '_4',
+			tall: { img: '/images/photos/gallery/handshake/5.jpg', alt: 'image 39' },
+			square: { img: '/images/photos/gallery/handshake/7.jpg', alt: 'image 40' }
+		}
+	],
+	[
+		{
+			class: '_1',
+			tall: { img: '/images/5_stage.jpg', alt: 'image 33' },
+			square: { img: '/images/photos/gallery/handshake/14.jpg', alt: 'image 34' }
+		},
+		{
+			class: '_2',
+			tall: { img: '/images/photos/gallery/handshake/15.jpg', alt: 'image 35' },
+			square: { img: '/images/photos/gallery/persons/4.jpg', alt: 'image 36' }
+		},
+		{
+			class: '_3',
+			tall: { img: '/images/photos/gallery/salad/15.jpg', alt: 'image 37' },
+			square: { img: '/images/photos/gallery/persons/10.jpg', alt: 'image 38' }
+		},
+		{
+			class: '_4',
+			tall: { img: '/images/photos/gallery/persons/11.jpg', alt: 'image 39' },
+			square: { img: '', alt: 'image 40' }
 		}
 	]
-
 	// [
 	// 	{
 	// 		class: '_1',
-	// 		tall: { img: '/images/photos/gallery/17.JPG', alt: 'image 17' },
-	// 		square: { img: '/images/photos/gallery/18.JPG', alt: 'image 18' },
+	// 		tall: { img: '/images/photos/gallery/persons/19.jpg', alt: 'image 33' },
+	// 		square: { img: '/images/photos/gallery/salad/1.jpg', alt: 'image 34' }
 	// 	},
 	// 	{
 	// 		class: '_2',
-	// 		tall: { img: '/images/photos/gallery/19.JPG', alt: 'image 19' },
-	// 		square: { img: '/images/photos/gallery/20.JPG', alt: 'image 20' },
+	// 		tall: { img: '/images/photos/gallery/salad/9.jpg', alt: 'image 35' },
+	// 		square: { img: '/images/photos/gallery/salad/11.jpg', alt: 'image 36' }
 	// 	},
 	// 	{
 	// 		class: '_3',
-	// 		tall: { img: '/images/photos/gallery/21.JPG', alt: 'image 21' },
-	// 		square: { img: '/images/photos/gallery/22.JPG', alt: 'image 22' },
+	// 		tall: { img: '/images/photos/gallery/salad/13.jpg', alt: 'image 37' },
+	// 		square: { img: '/images/photos/gallery/salad/15.jpg', alt: 'image 38' }
 	// 	},
 	// 	{
 	// 		class: '_4',
-	// 		tall: { img: '/images/photos/gallery/23.JPG', alt: 'image 23' },
-	// 		square: { img: '/images/photos/gallery/24.JPG', alt: 'image 24' },
+	// 		tall: { img: '/images/photos/gallery/transport/5.jpg', alt: 'image 39' },
+	// 		square: { img: '/images/photos/gallery/transport/3.jpg', alt: 'image 40' }
 	// 	}
 	// ],
-
 	// [
 	// 	{
 	// 		class: '_1',
-	// 		tall: { img: '/images/photos/gallery/25.JPG', alt: 'image 25' },
-	// 		square: { img: '/images/photos/gallery/26.JPG', alt: 'image 26' },
+	// 		tall: { img: '/images/photos/gallery/canned/8.jpg', alt: 'image 33' },
+	// 		square: { img: '/images/photos/gallery/distribution/5.jpg', alt: 'image 34' }
 	// 	},
 	// 	{
 	// 		class: '_2',
-	// 		tall: { img: '/images/photos/gallery/27.JPG', alt: 'image 27' },
-	// 		square: { img: '/images/photos/gallery/28.JPG', alt: 'image 28' },
+	// 		tall: { img: '/images/photos/gallery/distribution/6.jpg', alt: 'image 35' },
+	// 		square: { img: '/images/photos/gallery/distribution/7.jpg', alt: 'image 36' }
 	// 	},
 	// 	{
 	// 		class: '_3',
-	// 		tall: { img: '/images/photos/gallery/29.JPG', alt: 'image 29' },
-	// 		square: { img: '/images/photos/gallery/30.JPG', alt: 'image 30' },
+	// 		tall: { img: '/images/photos/gallery/flags/5.jpg', alt: 'image 37' },
+	// 		square: { img: '/images/photos/gallery/flags/6.jpg', alt: 'image 38' }
 	// 	},
 	// 	{
 	// 		class: '_4',
-	// 		tall: { img: '/images/photos/gallery/31.JPG', alt: 'image 31' },
-	// 		square: { img: '/images/photos/gallery/32.JPG', alt: 'image 32' },
+	// 		tall: { img: '/images/photos/gallery/handshake/5.jpg', alt: 'image 39' },
+	// 		square: { img: '/images/photos/gallery/handshake/7.jpg', alt: 'image 40' }
 	// 	}
 	// ],
-
 	// [
 	// 	{
 	// 		class: '_1',
-	// 		tall: { img: '/images/photos/gallery/33.JPG', alt: 'image 33' },
-	// 		square: { img: '/images/photos/gallery/34.JPG', alt: 'image 34' },
+	// 		tall: { img: '/images/photos/gallery/canned/8.jpg', alt: 'image 33' },
+	// 		square: { img: '/images/photos/gallery/distribution/5.jpg', alt: 'image 34' }
 	// 	},
 	// 	{
 	// 		class: '_2',
-	// 		tall: { img: '/images/photos/gallery/35.JPG', alt: 'image 35' },
-	// 		square: { img: '/images/photos/gallery/36.JPG', alt: 'image 36' },
+	// 		tall: { img: '/images/photos/gallery/distribution/6.jpg', alt: 'image 35' },
+	// 		square: { img: '/images/photos/gallery/distribution/7.jpg', alt: 'image 36' }
 	// 	},
 	// 	{
 	// 		class: '_3',
-	// 		tall: { img: '/images/photos/gallery/37.JPG', alt: 'image 37' },
-	// 		square: { img: '/images/photos/gallery/38.JPG', alt: 'image 38' },
+	// 		tall: { img: '/images/photos/gallery/flags/5.jpg', alt: 'image 37' },
+	// 		square: { img: '/images/photos/gallery/flags/6.jpg', alt: 'image 38' }
 	// 	},
 	// 	{
 	// 		class: '_4',
-	// 		tall: { img: '/images/photos/gallery/39.JPG', alt: 'image 39' },
-	// 		square: { img: '/images/photos/gallery/40.JPG', alt: 'image 40' },
+	// 		tall: { img: '/images/photos/gallery/handshake/5.jpg', alt: 'image 39' },
+	// 		square: { img: '/images/photos/gallery/handshake/7.jpg', alt: 'image 40' }
 	// 	}
 	// ]
 ];
 
-
-export default gallery
+export default gallery;
