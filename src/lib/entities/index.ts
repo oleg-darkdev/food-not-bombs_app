@@ -6,7 +6,7 @@ import FnbGroupCard from './FnbGroupCard.svelte';
 import BigLinkBtn from './BigLinkBtn.svelte';
 import RecipeCard from './RecipeCard.svelte';
 import MiniFnbGroupCard from './MiniFnbGroupCard.svelte';
-// import BoardgameCard from './BoardgameCard.svelte';
+import StatsList from './StatsList.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
@@ -14,6 +14,7 @@ import MiniFnbGroupCard from './MiniFnbGroupCard.svelte';
 
 export {
 	FaqCard,
+	StatsList,
 	TeamMemberCard,
 	GroupBanner,
 	MiniFnbGroupCard,

@@ -13,7 +13,7 @@
 		''
 	];
 
-	let { groups, api } = $props();
+	let { groups, api, stats } = $props();
 </script>
 
 <a name="about"></a>
@@ -78,10 +78,10 @@
 					<div class="grid_featured-work-hero">
 						<div
 							id="w-node-_091448a0-0a1d-f996-854b-efec066e6fce-ff0cf01d"
-							class="wrap_featured-image"
+							class="wrap_featured-image mb-2"
 						>
 							<img
-								src=""
+								src="/images/3_stage.jpg"
 								loading="eager"
 								width="213"
 								alt="Image 1 sign"
@@ -92,13 +92,13 @@
 							id="w-node-_1c7bdb57-c74a-5ae4-a116-7343a02858ae-ff0cf01d"
 							class="item_video-wrap slider-item no-stroke service-hero"
 						>
-							<img src="" loading="eager" alt="Image 2 sign" class="img_performance-hero-tall" />
+							<img src="/images/1_stage.jpg" loading="eager" alt="Image 2 sign" class="img_performance-hero-tall" />
 						</div>
 						<div
 							id="w-node-b24406bf-994d-3729-5a34-206d25df844d-ff0cf01d"
 							class="item_video-wrap slider-item no-stroke service-hero"
 						>
-							<img src="" loading="eager" alt="Image 3 sign" class="img_performance-hero-tall" />
+							<img src="/images/2_stage.jpg" loading="eager" alt="Image 3 sign" class="img_performance-hero-tall" />
 						</div>
 						<div
 							id="w-node-_822cc2d8-252c-97aa-f4a1-6e54ab8f97f6-ff0cf01d"
@@ -108,7 +108,7 @@
 								src=""
 								loading="eager"
 								width="213"
-								alt="Image 4 sign"
+								alt=""
 								class="img_featured-service"
 							/>
 						</div>
@@ -126,7 +126,7 @@
 							class="wrap_featured-image"
 						>
 							<img
-								src=""
+								src="/images/4_stage.jpg"
 								loading="eager"
 								width="213"
 								alt="Image 5 sign"
@@ -137,13 +137,13 @@
 							id="w-node-_1c7bdb57-c74a-5ae4-a116-7343a02858ae-ff0cf01d"
 							class="item_video-wrap slider-item no-stroke service-hero"
 						>
-							<img src="" loading="eager" alt="Image 6 sign" class="img_performance-hero-tall" />
+							<img src="/images/6_stage.jpg" loading="eager" alt="Image 6 sign" class="img_performance-hero-tall" />
 						</div>
 						<div
 							id="w-node-b24406bf-994d-3729-5a34-206d25df844d-ff0cf01d"
 							class="item_video-wrap slider-item no-stroke service-hero"
 						>
-							<img src="" loading="eager" alt="Image 7 sign" class="img_performance-hero-tall" />
+							<img src="/images/5_stage.jpg" loading="eager" alt="Image 7 sign" class="img_performance-hero-tall" />
 						</div>
 						<div
 							id="w-node-_822cc2d8-252c-97aa-f4a1-6e54ab8f97f6-ff0cf01d"
@@ -153,13 +153,13 @@
 								src=""
 								loading="eager"
 								width="213"
-								alt="Image 8 sign"
+								alt=""
 								class="img_featured-service"
 							/>
 						</div>
 						<div class="txt_video-tags performance-3">6. Distributing <br /> to those in need</div>
-						<div class="txt_video-tags performance-2">5. Menu planning</div>
-						<div class="txt_video-tags performance-1">4. Transportation</div>
+						<div class="txt_video-tags performance-2">5. Cooking</div>
+						<div class="txt_video-tags performance-1">4. Menu planning</div>
 					</div>
 				</div>
 			</div>
@@ -168,73 +168,14 @@
 		<div class="" id="api">
 			{@render api()}
 		</div>
-		<div class="mx-auto my-10 flex flex-col justify-center">
-			<div class="wrap__project-page-explore-heading flex flex-col pb-4">
-				<h2 class="h1_semibold project-page-explore pb-2 text-center">
-					A very large <br /> list of collectives <br />
-					<span class="">Food Not Bombs.</span>
-				</h2>
 
-				<p class="h_regular section-paragraph mx-auto mb-2 max-w-3xl">
-					We have gathered information for you, about
-					<span class="text-span-3"> 400+ local Food Not Bombs collectives </span>
-					from more than <span class="text-span-3">40+ countries.</span>
-				</p>
 
-				<ul class="h_regular section-paragraph flex flex-col pb-2">
-					<li>
-						Europe - <em class="italic-text">
-							<span class="change-this-class">... collectives.</span>
-						</em>
-					</li>
-					<li>
-						Africa - <em class="italic-text">
-							<span class="change-this-class">... collectives.</span>
-						</em>
-					</li>
-					<li>
-						Asia - <em class="italic-text">
-							<span class="change-this-class">... collectives.</span>
-						</em>
-					</li>
-					<li>
-						Canada - <em class="italic-text">
-							<span class="change-this-class">... collectives.</span>
-						</em>
-					</li>
-					<li>
-						Latin America - <em class="italic-text">
-							<span class="change-this-class">... collectives.</span>
-						</em>
-					</li>
-					<li>
-						Mexico - <em class="italic-text">
-							<span class="change-this-class">... collectives.</span>
-						</em>
-					</li>
-					<li>
-						Russia - <em class="italic-text">
-							<span class="change-this-class">... collectives.</span>
-						</em>
-					</li>
-					<li>
-						U.S.A. - <em class="italic-text">
-							<span class="change-this-class">... collectives.</span>
-						</em>
-					</li>
-					<li>
-						Europe - <em class="italic-text">
-							<span class="change-this-class">... collectives.</span>
-						</em>
-					</li>
-				</ul>
-				<p class="h_regular section-paragraph mx-auto mb-2 max-w-3xl">
-					We have also prepared contact details so that you can ask your questions.
-				</p>
-			</div>
+				<div class="mx-auto my-10 flex flex-col justify-center">
+			{@render stats()}
 
 			{@render groups()}
 		</div>
+		
 
 		<RoundedBtnLink title="Complete list of FNB collectives" link="/groups" blank={true} />
 	</div>

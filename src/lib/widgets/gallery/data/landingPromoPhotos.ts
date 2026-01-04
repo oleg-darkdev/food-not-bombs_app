@@ -1,24 +1,25 @@
-const gallery= [
+const gallery = [
 	[
 		{
 			class: '_1',
 			tall: { img: '/images/photos/gallery/1.JPG', alt: 'image 1' },
-			square: { img: '/images/photos/gallery/2.JPG', alt: 'image 2' },
+			square: { img: '/images/photos/gallery/2.JPG', alt: 'image 2' }
 		},
 		{
 			class: '_2',
 			tall: { img: '/images/photos/gallery/3.JPG', alt: 'image 3' },
-			square: { img: '/images/photos/gallery/4.JPG', alt: 'image 4' },
+			square: { img: '/images/photos/gallery/4.JPG', alt: 'image 4' }
 		},
 		{
 			class: '_3',
-			tall: { img: '/images/photos/gallery/5.JPG', alt: 'image 5' },
-			square: { img: '/images/photos/gallery/6.JPG', alt: 'image 6' },
+			// presentation
+			tall: { img: '/images/photos/gallery/transportation/5.jpg', alt: 'image 5' },
+			square: { img: '', alt: 'image 6' }
 		},
 		{
 			class: '_4',
 			tall: { img: '/images/photos/gallery/7.JPG', alt: 'image 7' },
-			square: { img: '/images/photos/gallery/8.JPG', alt: 'image 8' },
+			square: { img: '/images/photos/gallery/8.JPG', alt: 'image 8' }
 		}
 	],
 
@@ -26,24 +27,24 @@ const gallery= [
 		{
 			class: '_1',
 			tall: { img: '/images/photos/gallery/9.JPG', alt: 'image 9' },
-			square: { img: '/images/photos/gallery/10.JPG', alt: 'image 10' },
+			square: { img: '/images/photos/gallery/transportation/1.jpg', alt: 'image 10' }
 		},
 		{
 			class: '_2',
 			tall: { img: '/images/photos/gallery/11.JPG', alt: 'image 11' },
-			square: { img: '/images/photos/gallery/12.JPG', alt: 'image 12' },
+			square: { img: '/images/photos/gallery/12.JPG', alt: 'image 12' }
 		},
 		{
 			class: '_3',
 			tall: { img: '/images/photos/gallery/13.JPG', alt: 'image 13' },
-			square: { img: '/images/photos/gallery/14.JPG', alt: 'image 14' },
+			square: { img: '/images/photos/gallery/14.JPG', alt: 'image 14' }
 		},
 		{
 			class: '_4',
 			tall: { img: '/images/photos/gallery/15.JPG', alt: 'image 15' },
-			square: { img: '/images/photos/gallery/16.JPG', alt: 'image 16' },
+			square: { img: '/images/photos/gallery/16.JPG', alt: 'image 16' }
 		}
-	],
+	]
 
 	// [
 	// 	{

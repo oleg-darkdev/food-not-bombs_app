@@ -35,15 +35,15 @@
 	} from '$widgets';
 	// import { SEO } from '$sharedUtils';
 
+	import { StatsList } from '$entities';
 
 	function getLogosAndIds(data) {
-	return data.map(item => ({
-		id: item.id,
-		img: item.logo,
-		alt: item.name
-	}));
-}
-
+		return data.map((item) => ({
+			id: item.id,
+			img: item.logo,
+			alt: item.name
+		}));
+	}
 </script>
 
 <svelte:head>
@@ -58,7 +58,7 @@
 <main class="main-wrapper">
 	<Hero />
 
-	<Marquee logos={getLogosAndIds(promoFnbGroups)}/>
+	<Marquee logos={getLogosAndIds(promoFnbGroups)} />
 
 	<BigLightDivider />
 
@@ -70,7 +70,9 @@
 		{#snippet api()}
 			<ApiListing />
 		{/snippet}
-
+		{#snippet stats()}
+			<StatsList />
+		{/snippet}
 		{#snippet groups()}
 			<GroupsListingMini groupsData={promoFnbGroups.slice(0, 4)} />
 		{/snippet}

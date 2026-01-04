@@ -19,7 +19,7 @@ const team = [
 	{
 		bio: '',
 		fullName: 'PIKACHU',
-		photo: '/images/photos/dream_team/solty_4.JPG',
+		photo: '/images/photos/dream_team/pika.png',
 		// photo: '/images/photos/dream_team/om_2.png',
 		role: 'Lorem impsum',
 		organisation: {
