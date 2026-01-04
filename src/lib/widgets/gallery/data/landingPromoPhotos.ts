@@ -29,12 +29,15 @@ const gallery = [
 		{
 			class: '_1',
 			tall: { img: '/images/1_stage.jpg', alt: 'image 9' },
-			square: { img: '/images/2_stage.jpg', alt: 'image 10' }
+			square: { img: '/images/photos/boardgame/promo/3.JPG', alt: 'image 10' }
 		},
 		{
 			class: '_2',
 			tall: { img: '/images/photos/gallery/flags/5.jpg', alt: 'image 11' },
-			square: { img: '/images/photos/gallery/bakeries/2.jpg', alt: 'image 12' }
+			square: {
+				img: '/images/photos/boardgame/promo/8.JPG',
+				alt: 'image 12'
+			}
 		},
 		{
 			class: '_3',
@@ -61,8 +64,12 @@ const gallery = [
 		{
 			class: '_2',
 			// /images/photos/gallery/atmosphere/4.jpg
-			tall: { img: '/images/photos/gallery/booties/24.jpg', alt: 'image 19' },
-			square: { img: '', alt: 'image 20' }
+			// /images/photos/gallery/booties/24.jpg
+			tall: {
+				img: '/images/photos/boardgame/promo/2.JPG',
+				alt: 'image 19'
+			},
+			square: { img: '/images/photos/boardgame/promo/11.JPG', alt: 'image 20' }
 		},
 		{
 			class: '_3',
@@ -74,23 +81,29 @@ const gallery = [
 		},
 		{
 			class: '_4',
-			tall: { img: '/images/photos/gallery/bakeries/1.jpg', alt: 'image 23' },
-			square: { img: '', alt: 'image 24' }
+			tall: {
+				img: '/images/photos/gallery/distribution/6.jpg',
+				alt: 'image 23'
+			},
+			square: { img: '/images/photos/gallery/bakeries/2.jpg', alt: 'image 24' }
 		}
 	],
 	// /images/photos/gallery/bakeries/8.jpg
-
+	// /images/photos/gallery/bakeries/1.jpg
 	// /images/photos/gallery/booties/23.jpg
 	[
 		{
 			class: '_1',
 			tall: { img: '/images/photos/gallery/canned/8.jpg', alt: 'image 33' },
-			square: { img: '', alt: 'image 34' }
+			square: { img: '/images/2_stage.jpg', alt: 'image 34' }
 		},
 		{
 			class: '_2',
-			tall: { img: '/images/photos/gallery/distribution/6.jpg', alt: 'image 35' },
-			square: { img: '/images/photos/gallery/distribution/7.jpg', alt: 'image 36' }
+			tall: { img: '/images/photos/boardgame/promo/9.JPG', alt: 'image 35' },
+			square: {
+				img: '/images/photos/boardgame/promo/1.JPG',
+				alt: 'image 36'
+			}
 		},
 		{
 			class: '_3',
@@ -122,31 +135,31 @@ const gallery = [
 		{
 			class: '_4',
 			tall: { img: '/images/photos/gallery/persons/11.jpg', alt: 'image 39' },
-			square: { img: '', alt: 'image 40' }
+			square: { img: '/images/photos/gallery/distribution/7.jpg', alt: 'image 40' }
 		}
 	]
 	// [
 	// 	{
 	// 		class: '_1',
-	// 		tall: { img: '/images/photos/gallery/persons/19.jpg', alt: 'image 33' },
-	// 		square: { img: '/images/photos/gallery/salad/1.jpg', alt: 'image 34' }
+	// 		tall: { img: '	', alt: 'image 33' },
+	// 		square: { img: '', alt: 'image 34' }
 	// 	},
 	// 	{
 	// 		class: '_2',
-	// 		tall: { img: '/images/photos/gallery/salad/9.jpg', alt: 'image 35' },
-	// 		square: { img: '/images/photos/gallery/salad/11.jpg', alt: 'image 36' }
+	// 		tall: { img: '', alt: 'image 35' },
+	// 		square: { img: '', alt: 'image 36' }
 	// 	},
 	// 	{
 	// 		class: '_3',
-	// 		tall: { img: '/images/photos/gallery/salad/13.jpg', alt: 'image 37' },
-	// 		square: { img: '/images/photos/gallery/salad/15.jpg', alt: 'image 38' }
+	// 		tall: { img: '', alt: 'image 37' },
+	// 		square: { img: '', alt: 'image 38' }
 	// 	},
 	// 	{
 	// 		class: '_4',
-	// 		tall: { img: '/images/photos/gallery/transport/5.jpg', alt: 'image 39' },
-	// 		square: { img: '/images/photos/gallery/transport/3.jpg', alt: 'image 40' }
+	// 		tall: { img: '/images/photos/boardgame/promo/15.JPG', alt: 'image 39' },
+	// 		square: { img: '/images/photos/boardgame/promo/16.JPG', alt: 'image 40' }
 	// 	}
-	// ],
+	// ]
 	// [
 	// 	{
 	// 		class: '_1',
