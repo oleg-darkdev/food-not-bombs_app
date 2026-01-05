@@ -29,13 +29,13 @@
 
 <section class="section services">
 	<div class="wrap_performance-serivces">
-		<h2 class="h_semi-bold section-heading beige small">
+		<h2 class="h_semi-bold heading-features text-beige small">
 			About
 			<br />
-			<span class="text-army-green h_regular italic"> Soup4All</span>
+			boardgame
 			<br />
 
-			boardgame
+			<span class="text-army-green h_regular sub-heading-features italic"> Soup4All</span>
 		</h2>
 		<div class="grid_service-showcase performance">
 			<div class="wrap_featured-work-texts">
@@ -189,4 +189,25 @@
 </section>
 
 <style lang="postcss">
+	.heading-features {
+		text-align: center;
+		font-size: 5em;
+	}
+
+	@media screen and (max-width: 767px) {
+		.heading-features {
+			font-size: 5em;
+		}
+	}
+
+	@media screen and (max-width: 479px) {
+		.h_regular.sub-heading-features {
+			font-size: 3em;
+		}
+	}
+
+	/* 
+.wrap_heading-features {
+		font-size: 1.4em;
+	} */
 </style>

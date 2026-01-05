@@ -20,9 +20,12 @@
 						Soup4All seeks to raise public awareness of poverty and homelessness <span
 							class="bold italic"
 						>
-							by distributing free vegan / vegetarian food in public places and providing
-							opportunities for poor, homeless, and disenfranchised people to meet.</span
-						>
+							by distributing free vegan / vegetarian food
+						</span>
+						in public places and providing opportunities
+						<span class="bold italic"
+							>for poor, homeless, and disenfranchised people to meet.
+						</span>
 					</h1>
 					<!-- This food is used to prepare meals
 						that are offered free of charge to anyone who is hungry. -->

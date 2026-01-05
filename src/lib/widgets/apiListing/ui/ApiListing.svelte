@@ -18,7 +18,7 @@
 		</div> -->
 		<div class="wrap_api-listing py-8">
 			<div class="">
-				<p class="h_regular section-paragraph mx-auto mb-2 max-w-3xl">
+				<p class="h-api mx-auto mb-2 max-w-3xl">
 					Public API with data from various FNB groups. If you notice an error or have missing data, <a
 						href="/#contact">contact us.</a
 					>
@@ -52,6 +52,13 @@
 </div>
 
 <style lang="postcss">
+	.h-api {
+		text-align: center;
+		font-size: 2.5em;
+		font-weight: 400;
+		line-height: 1.2;
+	}
+
 	.wrap_api-listing {
 		border-radius: 1em;
 		width: 100em;
@@ -71,6 +78,9 @@
 	@media screen and (max-width: 767px) {
 		.wrap_api-listing {
 			width: auto;
+		}
+		.h-api {
+			font-size: 5em;
 		}
 	}
 </style>

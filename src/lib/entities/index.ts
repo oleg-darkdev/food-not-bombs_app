@@ -9,13 +9,14 @@ import MiniFnbGroupCard from './MiniFnbGroupCard.svelte';
 import StatsList from './StatsList.svelte';
 import SmallRectangleBtn from './SmallRectangleBtn.svelte';
 import GroupsListCard from './GroupsListCard.svelte';
-// import BoardgameCard from './BoardgameCard.svelte';
+import AppFooterBtn from './AppFooterBtn.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
 
 export {
 	FaqCard,
 	StatsList,
 	GroupsListCard,
+	AppFooterBtn,
 	SmallRectangleBtn,
 	TeamMemberCard,
 	GroupBanner,

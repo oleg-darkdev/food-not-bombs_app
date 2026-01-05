@@ -10,18 +10,18 @@
 	// console.log(groupData);
 </script>
 
-<section class="section meet-our-friends collection w-full">
+<div class="section meet-our-friends collection  w-full">
 	<div class="wrap_meet-our-friends w-full">
 		<div class="collection_projects w-full">
 			<div role="list" class="list_projects w-dyn-items w-full">
 				<div role="listitem" class="wrap_project-card w-dyn-item w-full">
 					<!-- <div class="wrap-banner mobile-lanscape-center"></div> -->
-					<div class="wrap-banner-img w-full">
-						<div class="wrap_card-heading services flex flex-row items-center justify-center">
+					<div class="wrap-banner-img w-full ">
+						<div class="wrap_card-heading services py-2 flex flex-row items-center justify-center">
 							<h3 class="h_semi-bold services italic mr-1">
 								{region}:   <span class='ml-4'>{groupsLength}</span>
 							</h3>
-							<img src="/images/groups/default_logo.png" class="-mt-8 h-16 w-16" alt="" />
+							<img src="/images/groups/default_logo.png" class="lg:-mt-8  lg:h-16 lg:w-16 h-4 w-4" alt="" />
 						</div>
 
 						<div class="wrap_services-list w-full">
@@ -29,7 +29,7 @@
 							<ul role="list" class=" w-list-unstyled w-full px-6">
 								{#each groupData as group (group.id)}
 									<li
-										class="item_services-card transition-transform duration-200 ease-in-out hover:scale-105"
+										class="item_services-card  transition-transform duration-200 ease-in-out hover:scale-105"
 									>
 										<div
 											class="txt_services-list-item caps service flex flex-row items-center justify-between"
@@ -40,11 +40,11 @@
 														src={group.logo ? group.logo : '/images/groups/default_logo.png'}
 														loading="eager"
 														alt=""
-														class="h-12 w-12 rounded-full object-cover"
+														class="lg:h-12 lg:w-12 h-8 w-8 rounded-full object-cover"
 													/>
 												</div>
 
-												<span class=""> {group.city} </span>
+												<span class="txt_services-list-item caps service"> {group.city} </span>
 											</div>
 
 											<div role="list" class="flex max-w-2xl flex-row items-center justify-between">
@@ -147,7 +147,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 
 <style lang="postcss">
 	.wrap-banner {
@@ -185,7 +185,7 @@
 		.wrap-banner-img {
 			width: auto;
 			max-width: none;
-			display: none;
+			/* display: none; */
 		}
 
 		.wrap-banner {
@@ -215,7 +215,7 @@
 
 	.txt_services-list-item.caps.service {
 		letter-spacing: 0.1em;
-		font-size: 1.2em;
+		font-size: 1.8em;
 	}
 	.item_services-card {
 		border-bottom: 2px solid var(--borders--army-green);

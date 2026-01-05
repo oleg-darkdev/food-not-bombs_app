@@ -23,7 +23,7 @@
 
 			<a href="./groups/{group.id}" class="" target="_blank">
 				<div class="w-layout-vflex wrap_card-heading h-auto px-4">
-					<h3 class="h_semi-bold group-name group mx-auto mb-20 h-full italic">{group.city}</h3>
+					<h3 class="h_semi-bold group-name group mx-auto mb-20 px-4 h-full italic">{group.city}</h3>
 				</div>
 				<div class="wrap_project-details">
 					<!-- wrap_project-card-hero -->

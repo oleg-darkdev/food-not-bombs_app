@@ -6,11 +6,9 @@
 	let { apiListingData } = $props();
 </script>
 
-<ul role="list" class="list_studio-featured-work py-4 w-list-unstyled mx-auto">
+<ul role="list" class="list-api w-list-unstyled mx-auto p-1 lg:py-4">
 	{#each apiListingData as api}
-		<li
-			class="item_studio-featured-work transition-transform duration-200 ease-in-out hover:scale-105"
-		>
+		<li class="item-api transition-transform duration-200 ease-in-out hover:scale-105">
 			<a href={api.api.route} class="h-full w-full" target="_blank">
 				<div class="txt_studio-featured-work">
 					{api.title}:
@@ -22,7 +20,7 @@
 </ul>
 
 <style lang="postcss">
-	.item_studio-featured-work {
+	.item-api {
 		border: 5px solid var(--background--pink);
 		background-color: var(--background--cream);
 		text-transform: uppercase;
@@ -33,7 +31,7 @@
 		font-size: 1.6em;
 	}
 
-	.list_studio-featured-work {
+	.list-api {
 		grid-column-gap: 0.7em;
 		grid-row-gap: 0.7em;
 		flex-flow: column;
@@ -46,23 +44,24 @@
 	}
 
 	@media screen and (min-width: 1440px) {
-		.item_studio-featured-work {
+		.item-api {
 			border-width: 0.3em;
 		}
 	}
 
 	@media screen and (max-width: 767px) {
-		/* .list_studio-featured-work {
+		/* .list-api {
 		max-width: 40em;
 	} */
-		.item_studio-featured-work {
+		.item-api {
 			/* padding-left: 0; */
 		}
 	}
 	@media screen and (max-width: 479px) {
-		.list_studio-featured-work {
+		.list-api {
 			/* max-width: 25em; */
 			font-size: 1.4em;
+			max-width: 90%;
 		}
 	}
 </style>
