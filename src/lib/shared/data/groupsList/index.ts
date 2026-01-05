@@ -5,7 +5,7 @@ import groupsListCanada from './groupsListCanada';
 import groupsListCentralSouthAmerica from './groupsListCentralSouthAmerica';
 import groupsListMexico from './groupsListMexico';
 import groupsListUsa from './groupsListUsa';
-import { groupsListEurope, poland, czechRepublic } from './groupsListEurope';
+import { groupsListEurope, poland, czechRepublic, ukraine } from './groupsListEurope';
 import groupsListRussia from './groupsListRussia';
 import promoFnbGroups from './promo';
 
@@ -26,7 +26,7 @@ import promoFnbGroups from './promo';
 // 	...poland, ...czechRepublic
 // ];
 
-const allGroups = [].concat(poland, czechRepublic)
+const allGroups = [].concat(poland, ukraine, czechRepublic)
 
 
 let groupsByRegion = [
@@ -263,6 +263,7 @@ let groupsByRegion = [
 
 export {
 	poland,
+	ukraine,
 	czechRepublic,
 	promoFnbGroups,
 	// countriesList,

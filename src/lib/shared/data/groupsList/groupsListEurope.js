@@ -37,14 +37,14 @@ import germany from './europe/germany';
 
 const groupsListEurope = [
 	{ id: 'poland', data: poland },
-	{ id: 'czech', data: czechRepublic }
+	{ id: 'czech', data: czechRepublic },
+	{ id: 'ukraine', data: ukraine }
+
 	// { id: 'czech', data: czechRepublic }
 ];
 
 
-export {
-	groupsListEurope, poland, czechRepublic
-}
+export { groupsListEurope, poland, czechRepublic, ukraine };
 
 // const data = [
 // 	...turkey,

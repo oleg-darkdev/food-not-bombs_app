@@ -59,7 +59,7 @@
 	<Hero />
 
 	<Marquee logos={getLogosAndIds(promoFnbGroups.slice(0, 15))} />
-	<Marquee logos={getLogosAndIds(promoFnbGroups.slice(15, promoFnbGroups.length - 1))} />
+	<Marquee logos={getLogosAndIds(promoFnbGroups.slice(15, promoFnbGroups.length))} />
 
 	<BigLightDivider />
 

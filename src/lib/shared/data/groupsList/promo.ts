@@ -810,6 +810,33 @@ Kdokoliv je vítán, či už na jídlo, pomoc nebo pokec :)`,
 		banner: '',
 		notes: 'Food Not Bombs Pruszków - darmowe posiłki dla potrzebujących w Pruszkowie.',
 		mailingAddress: ''
+	},
+	{
+		logo: '/images/groups/europe/ukraine/dnepr/logo.jpg',
+		since: '',
+		facebook: 'https://www.facebook.com/fnbdnepr',
+		inst: '',
+		gallery: [],
+		photos: '',
+		name: 'Їжа Замість Бомб: Dnepr',
+		country: 'Czech Republic',
+		city: 'Dnepr',
+		sharingAddress: '',
+		sharingInfo: '',
+		email: '',
+		website: 'https://vk.com/dnepr_fnb',
+		videos: [{ title: '', link: '' }],
+		twitter: '',
+		cookingAddress: '',
+		cookingInfo: '',
+		contactPhone: '',
+		contactName: '',
+		emtyDel: '',
+		notes:
+			'Еда вместо бомб (Food not bombs) - это протест против бедности и социальной несправедливости современного общества.',
+		id: 'dnepr-fnb',
+		banner: '/images/groups/europe/ukraine/dnepr/banner.jpg',
+		mailingAddress: ''
 	}
 	// {
 	// 	logo: '/images/groups/europe/czech-republic/liberec/logo.jpg',
