@@ -4,23 +4,36 @@
 	// import {  } from '$entities'
 </script>
 
-
-<section id='mission' class="section hero">
+<section id="mission" class="section hero">
 	<div class="grid_top-fold-hero _50-50">
 		<div class="grid_item">
 			<div class="grid-mission centered-vertical about-page">
 				<div class="w-layout-vflex wrap_hero-headline about-page">
 					<h1 class="h1_regular main-headline small">
-						Lorem Ipsum jest <span class="bold italic">tekstem,</span> stosowanym
-						<span class="bold italic">jako przykładowy</span>: <br /> przemyśle poligraficznym.
+						<!-- <span class="bold italic">Food Not Bombs (FNB)</span> is a loose-knit group of independent
+						collectives.  -->
+						In <span class="bold italic"> Soup4All boardgame,</span>
+						players collects food, primarily surplus food that would otherwise go to waste and be thrown
+						away.
 					</h1>
 					<h1 class="h1_regular main-headline small">
-						Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie
-						niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy
-						Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje
-						Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach
-						osobistych, jak Aldus PageMaker
+						Soup4All seeks to raise public awareness of poverty and homelessness <span
+							class="bold italic"
+						>
+							by distributing free vegan / vegetarian food in public places and providing
+							opportunities for poor, homeless, and disenfranchised people to meet.</span
+						>
 					</h1>
+					<!-- This food is used to prepare meals
+						that are offered free of charge to anyone who is hungry. -->
+
+					<!-- <p class="h1_regular main-headline small">
+						FNB's principles include veganism, vegetarianism, the distribution of free food, group
+						autonomy, consensus decision-making, and nonviolent direct action.
+					</p>
+					<p class="h1_regular main-headline small"></p>
+					<p class="h1_regular main-headline small"></p>
+					<p class="h1_regular main-headline small"></p> -->
 				</div>
 			</div>
 		</div>

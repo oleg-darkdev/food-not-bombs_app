@@ -7,9 +7,9 @@
 <section class="section value-prop-message">
 	<div class="wrap_section-paragraph">
 		<h2 class="h_regular section-paragraph">
-			В мире, где еда часто выбрасывается, <span class="text-span-3">а люди </span>остаются
-			голодными, <em class="italic-text-2"> группа волонтёров </em> решает действовать
-			<em class="italic-text">иначе.</em>.
+			In a world where food is often thrown away, <span class="text-span-3">while people</span>
+			remain hungry, <em class="italic-text-2">a group of volunteers</em> decides to act
+			<em class="italic-text">differently.</em>
 		</h2>
 	</div>
 </section>

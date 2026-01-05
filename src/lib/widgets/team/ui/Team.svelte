@@ -4,7 +4,7 @@
 	import { TeamMemberCard } from '$entities';
 </script>
 
-<section class="section our-team">
+<section class="section our-team overflow-hidden">
 	<div class="wrap_our-team">
 		<!-- <h2 class="h_semi-bold our-team italic">Our Team</h2> -->
 

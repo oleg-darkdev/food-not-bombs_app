@@ -58,7 +58,8 @@
 <main class="main-wrapper">
 	<Hero />
 
-	<Marquee logos={getLogosAndIds(promoFnbGroups)} />
+	<Marquee logos={getLogosAndIds(promoFnbGroups.slice(0, 15))} />
+	<Marquee logos={getLogosAndIds(promoFnbGroups.slice(15, promoFnbGroups.length - 1))} />
 
 	<BigLightDivider />
 
@@ -74,7 +75,7 @@
 			<StatsList />
 		{/snippet}
 		{#snippet groups()}
-			<GroupsListingMini groupsData={promoFnbGroups.slice(0, 4)} />
+			<GroupsListingMini groupsData={promoFnbGroups.slice(0, 8)} />
 		{/snippet}
 	</Features>
 

@@ -44,13 +44,19 @@
 		<span class="">Food Not Bombs.</span>
 	</h2>
 
-	<p class="h_regular section-paragraph mx-auto mb-2 max-w-3xl">
+	<p class="h_regular list-text mx-auto mb-2 max-w-3xl px-4 ">
 		We have gathered information for you, about
 		<span class="text-span-3"> <em id="allGroups"></em>+ local Food Not Bombs collectives </span>
 		from more than <span class="text-span-3"><em id="countries">+</em> countries.</span>
 	</p>
 
-	<ul class="h_regular section-paragraph flex flex-col pb-2">
+	<p class="h_regular list-text mx-auto mb-2 pt-8 max-w-3xl px-4">
+		Groups by countries.
+		<!-- <span class="text-span-3"> <em id="allGroups"></em>+ local Food Not Bombs collectives </span>
+		from more than <span class="text-span-3"><em id="countries">+</em> countries.</span> -->
+	</p>
+
+	<ul class="h_regular list-text flex flex-col py-2">
 		<li>
 			Europe - <em class="italic-text">
 				<span class="change-this-class" id="europeCountUp"></span> collectives.
@@ -97,10 +103,22 @@
 						</em>
 					</li> -->
 	</ul>
-	<p class="h_regular section-paragraph mx-auto mb-2 max-w-3xl">
+	<p class="h_regular list-text mx-auto mb-2 max-w-3xl">
 		We have also prepared contact details so that you can ask your questions.
 	</p>
 </div>
 
 <style lang="postcss">
+	.h_regular.list-text {
+		text-align: center;
+		font-size: 2.5em;
+		font-weight: 400;
+		line-height: 1.2;
+	}
+
+	@media screen and (max-width: 767px) {
+		.h_regular.list-text {
+			font-size: 5em;
+		}
+	}
 </style>

@@ -9,7 +9,9 @@
 <section id='about' class="section top-creative">
 	<div class="wrap_top-creative">
 		<div class="wrap_top-creative-headline">
-			<div class="txt_tag-name top-creative">Lorem Ipsum jest tekstem stosowanym</div>
+			<div class="txt_tag-name top-creative">
+				Boardgame about - Food Not Bombs
+			</div>
 			<div class="wrap_top-creative-container">
 				<h1 class="h_semi-bold top-creative ad-of-the-month">Lorem Ipsum <br /> jest tekstem</h1>
 				<img
@@ -39,9 +41,11 @@
 			</div>
 		</div>
 		<div class="wrap_top-creative-hero">
-			<div class="txt_video-tags _4">60 минут</div>
-			<div class="txt_video-tags _2">Кооперативная игра</div>
-			<div class="txt_video-tags _3">4 игрока</div>
+			<div class="txt_video-tags _4">60 minutes</div>
+			<div class="txt_video-tags _2">
+				Cooperative game
+			</div>
+			<div class="txt_video-tags _3">4 players</div>
 			<div class="w-layout-vflex wrap_stats-data no-style">
 				<div class="txt_video-tags stats">FNB</div>
 				<div class="wrap_stats-data card">

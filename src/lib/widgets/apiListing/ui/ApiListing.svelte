@@ -2,21 +2,28 @@
 	// import team from '../data/team';
 	import { apiListingData } from '$widgets';
 	import { RoundedBtnLink, ApiListing } from '$sharedUi';
-
 </script>
 
 <div class="list_projects w-dyn-items mx-auto max-w-4xl">
 	<div role="listitem" class="wrap_project-card">
-		<div class="wrap_project-image mobile-lanscape-center">
+		<!-- <div class="wrap_project-image mobile-lanscape-center">
 			<p class="h_regular section-paragraph mx-auto mb-2 max-w-3xl">
-				Публичное api с данными различными групп fnb. Есди вы заметили ошибку или у вас есть
-				отсутствующие данные, свяжитесь с нами ...
+				Public API with data from various FNB groups. If you notice an error or have missing data, <a
+					href="/#contact">contact us.</a
+				>
 			</p>
 			<p class="h_regular section-paragraph mx-auto mb-2 max-w-3xl">
 				We have also prepared contact details so that you can ask your questions.
 			</p>
-		</div>
-		<div class="wrap_api-listing">
+		</div> -->
+		<div class="wrap_api-listing py-8">
+			<div class="">
+				<p class="h_regular section-paragraph mx-auto mb-2 max-w-3xl">
+					Public API with data from various FNB groups. If you notice an error or have missing data, <a
+						href="/#contact">contact us.</a
+					>
+				</p>
+			</div>
 			<ApiListing {apiListingData} />
 		</div>
 		<div class="w-layout-vflex img_corner-dots">
@@ -48,7 +55,7 @@
 	.wrap_api-listing {
 		border-radius: 1em;
 		width: 100em;
-		max-width: 50%;
+		/* max-width: 100%; */
 		margin-left: 4em;
 		margin-right: 4em;
 		overflow: clip;

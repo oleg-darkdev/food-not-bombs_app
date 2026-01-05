@@ -33,24 +33,6 @@
 	</div>
 </section>
 
-<div class="flex flex-row flex-wrap">
-	{#each logos as logo}
-		<!-- <a href="" target="_blank"> -->
-		<!-- marquee-image -->
-		<!-- rounded-full bg-beige p-2 -->
-		<div class="w-layout-vflex m-2">
-			<!-- img_client-logo -->
-			<img
-				src={logo.img}
-				loading="lazy"
-				width="69"
-				alt={logo.alt}
-				class="h-24 w-24 rounded-full object-cover"
-			/>
-		</div>
-		<!-- </a> -->
-	{/each}
-</div>
 
 <style lang="postcss">
 	.img_client-logo {

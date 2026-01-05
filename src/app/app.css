@@ -10,7 +10,6 @@
 	text-overflow: ellipsis;
 }
 
-
 .truncate-15 {
 	display: inline-block;
 	max-width: 15ch;
@@ -52,6 +51,9 @@
 }
 .text-yellow {
 	color: var(--background--yellow);
+}
+.text-army-green {
+	color: var(--texts--army-green);
 }
 .text-pink {
 	color: var(--background--pink);
@@ -949,8 +951,6 @@ body {
 	font-size: 1.2em;
 }
 
-
-
 .cta_primary.yellow-tag {
 	background-color: var(--background--yellow);
 	border-width: 2px;
@@ -977,8 +977,6 @@ body {
 	margin-top: 1.5em;
 	padding: 0.5em 2em 0.3em;
 }
-
-
 
 .cta_primary.blog-item {
 	font-size: 1.3em;
@@ -1357,13 +1355,10 @@ body {
 	display: flex;
 }
 
-
-
 .svg_pophaus-logo {
 	width: 100em;
 	max-width: 9em;
 }
-
 
 .item_nav-link {
 	border: 1px solid var(--borders--army-green);
@@ -1772,9 +1767,6 @@ body {
 	inset: 0% auto auto 0%;
 }
 
-
-
-
 .video-background_portfolio-showcase {
 	z-index: 10;
 	height: 100%;
@@ -1805,7 +1797,6 @@ body {
 	align-items: stretch;
 	margin-right: -0.5em;
 }
-
 
 .vid_feature-creation {
 	aspect-ratio: 9 / 16;
@@ -1879,14 +1870,11 @@ body {
 	position: relative;
 }
 
-
 .lottie_pophaus-menu {
 	pointer-events: none;
 	width: 13em;
 	position: absolute;
 }
-
-
 
 .btn_nav-menu---close {
 	aspect-ratio: 1;
@@ -2742,8 +2730,6 @@ body {
 	display: flex;
 }
 
-
-
 .wrap_studio-gallery-grid-cta {
 	flex-flow: column;
 	justify-content: center;
@@ -2904,8 +2890,6 @@ body {
 	height: 100%;
 	display: inline-block;
 }
-
-
 
 .grid_service-showcase {
 	grid-column-gap: 0em;
@@ -4143,7 +4127,6 @@ body {
 		cursor: pointer;
 	}
 
-
 	.item_nav-link {
 		border-width: 0.1em;
 	}
@@ -4179,8 +4162,6 @@ body {
 	.wrap_squad-member.wrap_card-style-1.about-page {
 		border-width: 0.1em;
 	}
-
-
 
 	.grid_featured-work-hero {
 		grid-column-gap: 1em;
@@ -4541,14 +4522,9 @@ body {
 		height: auto;
 	}
 
-	
-
-
 	.svg_pophaus-logo {
 		max-width: 17em;
 	}
-
-	
 
 	.item_nav-link {
 		border-style: none;
@@ -4631,14 +4607,10 @@ body {
 		display: none;
 	}
 
-
 	.lottie_pophaus-menu {
 		width: 21em;
 		display: flex;
 	}
-
-	
-
 
 	.wrap_form-block {
 		max-width: 95em;
@@ -4681,8 +4653,6 @@ body {
 	.text-block {
 		text-align: center;
 	}
-
-	
 
 	.txt_subpage-heading-description {
 		font-size: 1.5em;
@@ -5217,8 +5187,6 @@ body {
 		font-size: 2em;
 	}
 
-	
-
 	.cta_primary.blog-item {
 		font-size: 2.2em;
 	}
@@ -5301,7 +5269,6 @@ body {
 		display: block;
 		overflow: clip;
 	}
-
 
 	.svg_pophaus-logo {
 		max-width: 25em;
@@ -5433,19 +5400,13 @@ body {
 		font-size: 1.7em;
 	}
 
-	
 	.marquee-content {
 		grid-column-gap: 2em;
 	}
 
-
-
-
 	.lottie_pophaus-menu {
 		width: 23em;
 	}
-
-	
 
 	.btn_nav-menu---close {
 		width: 8em;
@@ -5501,7 +5462,6 @@ body {
 	.wrap_hero-headline.about-page {
 		font-size: 1.4em;
 	}
-
 
 	.txt_subpage-heading-description {
 		max-width: 32em;
@@ -5645,10 +5605,6 @@ body {
 		padding-top: 0;
 		font-size: 1.6em;
 	}
-
-	
-
-
 
 	.grid_image-gallery {
 		grid-template-columns: 1fr 1fr;
@@ -6151,8 +6107,6 @@ body {
 		font-size: 2.5em;
 	}
 
-	
-
 	.cta_primary.careers {
 		font-size: 3em;
 	}
@@ -6211,12 +6165,9 @@ body {
 		font-size: 4em;
 	}
 
-	
 	.svg_pophaus-logo {
 		max-width: 32em;
 	}
-
-	
 
 	.item_nav-link.w--current {
 		background-color: var(--background--cream);
@@ -6334,15 +6285,9 @@ body {
 		padding: 0.8em 2.1em;
 	}
 
-	
-
 	.lottie_pophaus-menu {
 		width: 35em;
 	}
-
-	
-
-	
 
 	.btn_nav-menu---close {
 		width: 15em;
@@ -6421,7 +6366,6 @@ body {
 	.wrap_hero-headline.about-page {
 		font-size: 1.9em;
 	}
-
 
 	.txt_subpage-heading-description {
 		max-width: 23em;
@@ -6546,8 +6490,6 @@ body {
 	.wrap_featured-work-texts {
 		font-size: 2.2em;
 	}
-
-	
 
 	.grid_image-gallery.masonry {
 		column-count: 2;

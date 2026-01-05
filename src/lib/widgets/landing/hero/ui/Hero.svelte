@@ -10,18 +10,26 @@
 			<div class="grid-hero">
 				<div class="w-layout-vflex wrap_hero-headline">
 					<h1 class="h1_regular main-headline">
-						Готовим для всех нуждающихся <em>до последнего дня </em>пока идут войны.
+						We cook <em> for everyone in need until the very last day </em> — while wars are still going
+						on.
 					</h1>
 					<h1 class="h1_regular main-headline body-copy performance-page">
-						Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle
-						poligraficznym.
+						Soup4All is <span class="bold italic">a cooperative educational board game </span>
+						supplemented by a web application.
+
+						<br />
+						It was created to demonstrate the
+						<span class="bold italic">
+							real-life practices of the international mutual aid movement “Food Not Bombs.”</span
+						>
 					</h1>
+
 					<div class="wrap_hero-cta">
-						<a href="/" class="cta_primary w-inline-block">
-							<div class="txt_cta-name">Lorem Ipsum jest</div>
+						<a href="/#print-and-play" class="cta_primary w-inline-block">
+							<div class="txt_cta-name">Print & Play</div>
 						</a>
-						<a href="/" class="cta_primary orange hero-cta w-inline-block">
-							<div class="txt_cta-name">tekstem</div>
+						<a href="/#about" class="cta_primary orange hero-cta w-inline-block">
+							<div class="txt_cta-name">About</div>
 						</a>
 					</div>
 				</div>
