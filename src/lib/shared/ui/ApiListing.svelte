@@ -6,13 +6,17 @@
 	let { apiListingData } = $props();
 </script>
 
-<ul role="list" class="list_studio-featured-work w-list-unstyled">
+<ul role="list" class="list_studio-featured-work py-4 w-list-unstyled mx-auto">
 	{#each apiListingData as api}
-		<li class="item_studio-featured-work">
-			<div class="txt_studio-featured-work">
-				{api.title}:
-				<a href={api.api.route} class="truncate-6 ml-4" target="_blank">{api.api.route}</a>
-			</div>
+		<li
+			class="item_studio-featured-work transition-transform duration-200 ease-in-out hover:scale-105"
+		>
+			<a href={api.api.route} class="h-full w-full" target="_blank">
+				<div class="txt_studio-featured-work">
+					{api.title}:
+					<span class="truncate-6 ml-4">{api.api.route}</span>
+				</div>
+			</a>
 		</li>
 	{/each}
 </ul>
@@ -34,7 +38,8 @@
 		grid-row-gap: 0.7em;
 		flex-flow: column;
 		width: 100%;
-		/* max-width: 26em; */
+		justify-content: center;
+		max-width: 40em;
 		margin-top: 1em;
 		padding-left: 0;
 		display: flex;
