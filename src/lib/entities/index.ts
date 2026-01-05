@@ -7,14 +7,16 @@ import BigLinkBtn from './BigLinkBtn.svelte';
 import RecipeCard from './RecipeCard.svelte';
 import MiniFnbGroupCard from './MiniFnbGroupCard.svelte';
 import StatsList from './StatsList.svelte';
-// import BoardgameCard from './BoardgameCard.svelte';
-// import BoardgameCard from './BoardgameCard.svelte';
+import SmallRectangleBtn from './SmallRectangleBtn.svelte';
+import GroupsListCard from './GroupsListCard.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
 
 export {
 	FaqCard,
 	StatsList,
+	GroupsListCard,
+	SmallRectangleBtn,
 	TeamMemberCard,
 	GroupBanner,
 	MiniFnbGroupCard,

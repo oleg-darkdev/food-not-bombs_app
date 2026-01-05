@@ -133,4 +133,14 @@
 		font-style: normal;
 		font-weight: 400;
 	}
+
+	@media screen and (max-width: 767px) {
+		.h_semi-bold.italic.name.group-name {
+			max-width: 7em;
+			margin-left: auto;
+			margin-right: auto;
+			font-style: normal;
+			font-weight: 400;
+		}
+	}
 </style>

@@ -1,5 +1,5 @@
 <script lang="ts">
-	// import {  } from '$shared';
+	import { SocialRoundIconLink } from '$sharedUi';
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
 
@@ -70,34 +70,13 @@
 		<div class="wrap_footer-social-links">
 			<ul role="list" class="list_footer-links social w-list-unstyled">
 				<li class="item_social-link mx-auto">
-					<a href="/" target="_blank" class="ico_footer-icon w-inline-block">
-						<img
-							src="/images/instagram.png"
-							loading="lazy"
-							alt="Instagram"
-							class="img_footer-icon social-media"
-						/>
-					</a>
+					<SocialRoundIconLink icon="/images/instagram.png" alt="Instagram" link="/" />
 				</li>
 				<li class="item_social-link mx-auto">
-					<a href="/" class="ico_footer-icon w-inline-block">
-						<img
-							src="/images/linkedIn.png"
-							loading="lazy"
-							alt="Linkedin"
-							class="img_footer-icon social-media"
-						/>
-					</a>
+					<SocialRoundIconLink icon="/images/linkedIn.png" alt="Linkedin" link="/" />
 				</li>
 				<li class="item_social-link mx-auto">
-					<a href="/" target="_blank" class="ico_footer-icon w-inline-block">
-						<img
-							src="/images/pinterest.png"
-							loading="lazy"
-							alt="Pinterest"
-							class="img_footer-icon social-media"
-						/>
-					</a>
+					<SocialRoundIconLink icon="/images/pinterest.png" alt="Pinterest" link="/" />
 				</li>
 			</ul>
 		</div>
@@ -228,11 +207,6 @@
 		padding: 0.2em;
 		display: flex;
 		overflow: hidden;
-	}
-
-	.img_footer-icon {
-		width: 100%;
-		max-width: 80%;
 	}
 
 	.wrap_footer {

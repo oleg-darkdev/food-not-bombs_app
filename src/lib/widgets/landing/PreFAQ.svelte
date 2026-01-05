@@ -4,35 +4,46 @@
 	// import {  } from '$entities'
 
 	import { RoundedBtnLink, Tag } from '$sharedUi';
-	
 </script>
 
-<section id='print-and-play' class="section recent-case-study">
-	<div class="grid_recent-case-study  ">
+<section id="print-and-play" class="section recent-case-study">
+	<div class="grid_recent-case-study">
 		<div class="item_recent-case-study cream">
 			<div id="case-study" class="wrap_recent-case-study texts">
 				<h2 class="h_semi-bold section-heading recent-case-study">
-					Lorem Ipsum <br />jest tekstem
+					We cook <em> for everyone in need until the very last day </em> — while wars are still going
+					on.
 				</h2>
+
 				<div class="wrap_client-info">
 					<div class="w-layout-vflex warp_client-name">
-						<div class="txt_case-study-brand-name">Lorem Ipsum:</div>
-						<div class="txt_case-study-brand-name">Lorem Ipsum</div>
+						<div class="txt_case-study-brand-name">Author introduction letter</div>
+						<!-- <div class="txt_case-study-brand-name">Lorem Ipsum</div> -->
 					</div>
 					<div class="w-layout-vflex warp_client-name">
-						<div class="txt_case-study-brand-industry">Lorem Ipsum:</div>
-						<div class="txt_case-study-brand-industry">Lorem Ipsum</div>
+						<div class="txt_case-study-brand-industry">Oleg Medvedev <a href="https://github.com/oleg-darkdev" target="_blank">(@oleg_darkdev)</a> </div>
+						<!-- <div class="txt_case-study-brand-industry">Lorem Ipsum</div> -->
 					</div>
 				</div>
+
+				<p class="txt_paragraph sans-serif">
+					I dedicate this game to the initiatives <em
+						>“Food Not Bombs — East” (Minsk) and “Jedzenie Zamiast Bomb” (Gdańsk)</em
+					> , where I spent most of my time preparing and distributing food.
+				</p>
 				<p class="txt_paragraph sans-serif">
 					<strong>
-						Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem
-						próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym,
-						pozostając praktycznie niezmienionym.
+						I hope that when my breath is gone, humanity will no longer know the need for food aid
+						or the meaning of the word “war.”
 					</strong>
 				</p>
+
+				<p class="txt_paragraph sans-serif">
+					To every Food Not Bombs activist, I wish you steadfast faith in your ideals and the
+					strength to continue the revolution.
+				</p>
 				<div class="space-between flex w-full flex-row">
-					<RoundedBtnLink title="Start the game" link="/app" blank={true} />
+					<RoundedBtnLink title="Start game" link="/app" blank={true} />
 
 					<RoundedBtnLink
 						title="Print&Play"
@@ -50,7 +61,7 @@
 					<div class="wrap_card-style-1 past-clients">
 						<div class="wrap_card-content client-projects more-max-width">
 							<div class="w-layout-vflex wrap_card-heading clients organic-page-min-height">
-								<h3 class="h_semi-bold name regular italic">Lorem Ipsum jest</h3>
+								<h3 class="h_semi-bold name regular italic">Soup4All <br/> boardgame </h3>
 							</div>
 							<div class="wrap_project-details">
 								<div class="wrap_project-card-hero">
@@ -73,7 +84,7 @@
 						</div>
 					</div>
 					<div class="wrap_card-tags">
-						<div class="txt_tag-name more-height">Lorem Ipsum jest tekstem</div>
+						<div class="txt_tag-name more-height">#Soup4All #FNB #FOODNOTBOMBS</div>
 					</div>
 				</div>
 			</div>

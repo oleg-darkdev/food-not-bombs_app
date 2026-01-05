@@ -28,6 +28,33 @@ const data = [
 		mailingAddress: ''
 	},
 	{
+		logo: '/images/groups/europe/serbia/novi-sad/logo.png',
+		since: '',
+		facebook: 'https://www.facebook.com/kuhinjasolidarnosti/',
+		inst: 'https://www.instagram.com/kuhinjasolidarnosti.ns/',
+		gallery: [],
+		photos: '',
+		name: 'Kuhinja solidarnosti: Novi Sad',
+		country: 'Serbia',
+		city: 'Novi Sad',
+		sharingAddress: '',
+		sharingInfo: '',
+		email: 'kuhinjasolidarnosti.ns@gmail.com',
+		website: '',
+		videos: [{ title: '', link: '' }],
+		twitter: '',
+		cookingAddress: 'Vojvode Bojovića 13, Novi Sad, Serbia',
+		cookingInfo: '',
+		contactPhone: '381-21-51077',
+		contactName: 'Sava',
+		emtyDel: '',
+		id: 'novi-sad-fnb',
+		banner: '',
+		notes:
+			'Samoorganizovani aktivistički kolektiv koji priprema obroke utorkom i subotom ugroženim građanima.',
+		mailingAddress: ''
+	},
+	{
 		logo: '/images/groups/europe/poland/gdansk/logo.jpg',
 		since: '',
 		facebook: 'https://www.facebook.com/FNBgdansk',
@@ -84,6 +111,33 @@ const data = [
 		mailingAddress: 'Kromera 6a, Wroclaw - Jagiellonczyka 10c, Wroclaw'
 	},
 	{
+		logo: '/images/groups/europe/slovakia/piestany/logo.png',
+		since: '',
+		facebook:
+			'https://www.facebook.com/Food-Not-Bombs-Pie%C5%A1%C5%A5any-1668841296687856/?ref=ts&fref=ts',
+		inst: '',
+		gallery: [],
+		photos: '',
+		name: 'FNB Piešťany',
+		country: 'Slovakia',
+		city: 'Piešťany',
+		sharingAddress: 'Hlboká St, Piešťany, Slovakia',
+		sharingInfo: 'Thursdays 4-5:15pm Park near Hlboká street',
+		email: 'bebewander@mail.com',
+		website: '',
+		videos: [{ title: '', link: '' }],
+		twitter: '',
+		cookingAddress: '',
+		cookingInfo: '',
+		contactPhone: '',
+		contactName: 'Lilly',
+		emtyDel: '',
+		id: 'piestany-fnb',
+		banner: '',
+		mailingAddress: 'Park near Hlboká street'
+	},
+
+	{
 		logo: '/images/groups/europe/poland/opole/logo.jpg',
 		since: '',
 		facebook: 'https://www.facebook.com/Jedzenie-Zamiast-Bomb-OPOLE-734268783250475/',
@@ -111,6 +165,7 @@ const data = [
 			'Jedzenie Zamiast Bomb (FNB) to forma protestu przeciwko wojnie, marnowaniu żywności, zabijaniu zwierząt i niesprawiedliwościom społecznym. Polega na rozdawaniu darmowych, wegańskich posiłków dostępnych dla wszystkich.',
 		mailingAddress: ''
 	},
+
 	{
 		logo: '/images/groups/europe/poland/krakow/logo.jpg',
 		since: '',
@@ -543,6 +598,34 @@ Kdokoliv je vítán, či už na jídlo, pomoc nebo pokec :)`,
 		mailingAddress: ''
 	},
 	{
+		logo: '/images/groups/europe/croatia/zagreb/logo.jpg',
+		since: '',
+		facebook: 'https:www.facebook.com/sickasweare',
+		inst: 'https:www.instagram.com/food.not.bombs_zagreb/',
+		gallery: [],
+		photos: '',
+		name: 'Hrana,a ne oruzje: Zagreb',
+		country: 'Croatia',
+		city: 'Zagreb',
+		sharingAddress: '',
+		sharingInfo: '',
+		// hrana.aneoruzje@zamir.net
+		email: 'hnozagreb@gmail.com',
+		website: 'https://hno-zg.blogspot.com/',
+		videos: 'https:www.youtube.com/watch?v=yKxydzCy-wk',
+		twitter: '',
+		cookingAddress: '',
+		cookingInfo: '',
+		contactPhone: '',
+		contactName: '',
+		emtyDel: '',
+		id: 'zagreb-fnb',
+		banner: '/images/groups/europe/croatia/zagreb/banner.jpg',
+		notes:
+			'Hrana, a ne oružje je anarhistički kolektiv koji se bavi direktnim akcijama dijeljenja besplatne veganske hrane na javnim površinama u centru grada.',
+		mailingAddress: ''
+	},
+	{
 		logo: '/images/groups/europe/czech-republic/plzen/logo.jpg',
 		since: '',
 		facebook: 'https://www.facebook.com/foodnotbombsplzen/',
@@ -596,14 +679,14 @@ Kdokoliv je vítán, či už na jídlo, pomoc nebo pokec :)`,
 		mailingAddress: ''
 	},
 	{
-		logo: '/images/groups/europe/czech-republic/kosice/logo.png',
+		logo: '/images/groups/europe/slovakia/kosice/logo.png',
 		since: '',
 		facebook: 'https://www.facebook.com/jedlomiestozbrani',
 		inst: '',
 		gallery: [],
 		photos: '',
-		name: 'Jídlo Místo Zbraní: Košice',
-		country: 'Czech Republic',
+		name: 'Jedlo Namiesto Zbraní: Košice',
+		country: 'Slovakia',
 		city: 'Košice',
 		sharingAddress: '',
 		sharingInfo: '',
@@ -838,6 +921,7 @@ Kdokoliv je vítán, či už na jídlo, pomoc nebo pokec :)`,
 		banner: '/images/groups/europe/ukraine/dnepr/banner.jpg',
 		mailingAddress: ''
 	}
+
 	// {
 	// 	logo: '/images/groups/europe/czech-republic/liberec/logo.jpg',
 	// 	since: '',

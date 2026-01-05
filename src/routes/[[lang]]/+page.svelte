@@ -3,16 +3,14 @@
 	import { promoFnbGroups } from '$sharedData';
 
 	import {
-		Newsletter,
+		
 		Features,
 		Available,
-		FreeBlock_1,
+		
 		Header,
 		PreFAQ,
 		Mission,
-		FreeBlock_5,
-		FreeBlock_4,
-		FreeBlock_6,
+		
 		Footer,
 		Slider,
 		Hero,
@@ -93,13 +91,7 @@
 
 	<FAQ />
 
-	<!-- <FreeBlock_1 /> -->
-
-	<!-- <Newsletter /> -->
-
-	<!-- <FreeBlock_5 /> -->
-
-	<!-- <FreeBlock_6 /> -->
+	
 </main>
 
 <Footer />
