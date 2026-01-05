@@ -53,16 +53,12 @@
 		<section class="my-20 flex w-full flex-col items-center justify-center">
 			<a name={groupData.id}></a>
 
-			<h2>{groupData.id} – {groupData.data.length}</h2>
-
-			<div
-				class="mx-auto grid max-w-6xl px-2 "
-			>
-				<!-- {#each groupData.data as group (group.id)} -->
-					<!-- {#if group.imgCollected} -->
-					<GroupsListCard groupData={groupData.data} />
-					<!-- {/if} -->
-				<!-- {/each} -->
+			<div class="mx-auto grid max-w-6xl px-2">
+				<GroupsListCard
+					region={groupData.id}
+					groupsLength={groupData.data.length}
+					groupData={groupData.data}
+				/>
 			</div>
 		</section>
 	{/each}

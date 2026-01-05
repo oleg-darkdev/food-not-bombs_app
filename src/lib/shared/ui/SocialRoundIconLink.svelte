@@ -10,7 +10,7 @@
 Instagram
 /images/instagram.png
 -->
-<a href={link} target="_blank" class="ico_footer-icon w-inline-block">
+<a href={link} target="_blank" class="ico_footer-icon w-inline-block transition-transform duration-200 ease-in-out hover:scale-105">
 	<img src={icon} loading="lazy" {alt} class="img_footer-icon social-media" />
 </a>
 

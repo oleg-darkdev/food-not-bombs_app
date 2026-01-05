@@ -5,27 +5,32 @@
 	import { getSocialHandle } from '$sharedUtils';
 	import { SocialRoundIconLink } from '$sharedUi';
 
-	let { groupData } = $props();
+	let { groupData, groupsLength, region } = $props();
 
 	// console.log(groupData);
 </script>
 
-<section class="section meet-our-friends collection w-full ">
+<section class="section meet-our-friends collection w-full">
 	<div class="wrap_meet-our-friends w-full">
 		<div class="collection_projects w-full">
 			<div role="list" class="list_projects w-dyn-items w-full">
 				<div role="listitem" class="wrap_project-card w-dyn-item w-full">
 					<!-- <div class="wrap-banner mobile-lanscape-center"></div> -->
 					<div class="wrap-banner-img w-full">
-						<div class="wrap_card-heading services">
-							<h3 class="h_semi-bold services italic">Region name</h3>
+						<div class="wrap_card-heading services flex flex-row items-center justify-center">
+							<h3 class="h_semi-bold services italic mr-1">
+								{region}:   <span class='ml-4'>{groupsLength}</span>
+							</h3>
+							<img src="/images/groups/default_logo.png" class="-mt-8 h-16 w-16" alt="" />
 						</div>
 
 						<div class="wrap_services-list w-full">
 							<!-- <ul role="list" class="list_services-card w-list-unstyled"> -->
-							<ul role="list" class=" w-list-unstyled w-full">
+							<ul role="list" class=" w-list-unstyled w-full px-6">
 								{#each groupData as group (group.id)}
-									<li class="item_services-card w-full">
+									<li
+										class="item_services-card transition-transform duration-200 ease-in-out hover:scale-105"
+									>
 										<div
 											class="txt_services-list-item caps service flex flex-row items-center justify-between"
 										>
