@@ -50,10 +50,10 @@
 {#if activeScreen == 1}
 	<!-- <h2>Список в разработке</h2> -->
 	{#each groupsListEurope as groupData (groupData.id)}
-		<section class="my-20 flex w-full flex-col items-center justify-center">
+		<section class="my-20  h-auto flex w-full flex-col items-center justify-center">
 			<a name={groupData.id}></a>
 
-			<div class="mx-auto grid max-w-6xl px-2">
+			<div class="mx-auto  max-w-6xl px-2">
 				<GroupsListCard
 					region={groupData.id}
 					groupsLength={groupData.data.length}
