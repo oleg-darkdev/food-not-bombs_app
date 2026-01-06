@@ -285,9 +285,9 @@
 			grid-row-gap: 1em;
 			border: 1px solid var(--borders--army-green);
 			background-color: var(--background--beige);
-			background-image: url('../images/corner-dot-army-green.svg'),
-				url('../images/corner-dot-army-green.svg'), url('../images/corner-dot-army-green.svg'),
-				url('../images/corner-dot-army-green.svg');
+			background-image: url('/images/corner-dot-army-green.svg'),
+				url('/images/corner-dot-army-green.svg'), url('/images/corner-dot-army-green.svg'),
+				url('/images/corner-dot-army-green.svg');
 			background-position:
 				5% 3%,
 				95% 3%,
