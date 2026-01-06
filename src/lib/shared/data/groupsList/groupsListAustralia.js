@@ -3722,7 +3722,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/foodnotbombsotautahi/?fref=nf',
+		facebook: 'https://www.facebook.com/foodnotbombsotautahi',
 		inst: '',
 		gallery: [
 			[

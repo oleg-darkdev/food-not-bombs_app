@@ -1121,7 +1121,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/groups/949420305096355/?fref=nf',
+		facebook: 'https://www.facebook.com/groups/949420305096355',
 		inst: '',
 		gallery: [
 			[
@@ -6293,7 +6293,7 @@ const data = [
 		logo: '',
 		since: '',
 		facebook:
-			'https://www.facebook.com/FoodNotBombsLondonOntario/?fref=ts https://www.facebook.com/London-Really-Really-Free-Market-and-Food-Not-Bombs-238291882867998/?fref=ts',
+			'https://www.facebook.com/FoodNotBombsLondonOntario https://www.facebook.com/London-Really-Really-Free-Market-and-Food-Not-Bombs-238291882867998',
 		inst: '',
 		gallery: [
 			[
@@ -6665,7 +6665,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/Foodnotbombswaterloo/?fref=ts',
+		facebook: 'https://www.facebook.com/Foodnotbombswaterloo',
 		inst: '',
 		gallery: [
 			[
@@ -12598,7 +12598,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/foodnotbombsherbrooke/?fref=ts',
+		facebook: 'https://www.facebook.com/foodnotbombsherbrooke',
 		inst: '',
 		gallery: [
 			[

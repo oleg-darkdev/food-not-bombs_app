@@ -767,7 +767,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/fnbmandalay/?fref=nf',
+		facebook: 'https://www.facebook.com/fnbmandalay',
 		inst: '',
 		gallery: [
 			[
@@ -4892,7 +4892,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'www.facebook.com/FnbCianjur/?pnref=lhc',
+		facebook: 'www.facebook.com/FnbCianjur',
 		inst: '',
 		gallery: [
 			[
@@ -10895,7 +10895,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/jah.FNB/?fref=nf',
+		facebook: 'https://www.facebook.com/jah.FNB',
 		inst: '',
 		gallery: [
 			[
@@ -14271,8 +14271,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook:
-			'https://www.facebook.com/FNB-City-of-San-Jose-del-Monte-Bulacan-140684539432830/?fref=nf',
+		facebook: 'https://www.facebook.com/FNB-City-of-San-Jose-del-Monte-Bulacan-140684539432830',
 		inst: '',
 		gallery: [
 			[
@@ -15024,7 +15023,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/groups/130771196999669/?fref=nf',
+		facebook: 'https://www.facebook.com/groups/130771196999669',
 		inst: '',
 		gallery: [
 			[

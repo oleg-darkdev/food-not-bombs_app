@@ -19436,7 +19436,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/foodnotbombsolympia/?fref=ts',
+		facebook: 'https://www.facebook.com/foodnotbombsolympia',
 		inst: 'https://www.instagram.com/olyfnb/',
 		gallery: [
 			[
@@ -39959,7 +39959,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/groups/122230948880/?fref=nf',
+		facebook: 'https://www.facebook.com/groups/122230948880',
 		inst: '',
 		gallery: [
 			[
@@ -43317,7 +43317,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/Food-Not-Bombs-Lancaster-335112529937143/?fref=ts',
+		facebook: 'https://www.facebook.com/Food-Not-Bombs-Lancaster-335112529937143',
 		inst: '',
 		gallery: [
 			[
@@ -47795,7 +47795,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/groups/183932764972643/?fref=nf',
+		facebook: 'https://www.facebook.com/groups/183932764972643',
 		inst: '',
 		gallery: [
 			[
@@ -50407,7 +50407,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/groups/22119743962/?fref=nf',
+		facebook: 'https://www.facebook.com/groups/22119743962',
 		inst: 'https://www.instagram.com/riverside_food_not_bombs/',
 		gallery: [
 			[
@@ -53020,7 +53020,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/Food-Not-Bombs-Santa-Ana-178426648907170/?fref=nf',
+		facebook: 'https://www.facebook.com/Food-Not-Bombs-Santa-Ana-178426648907170',
 		inst: '',
 		gallery: [
 			[
@@ -53393,7 +53393,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/groups/345712594287/?fref=nf',
+		facebook: 'https://www.facebook.com/groups/345712594287',
 		inst: '',
 		gallery: [
 			[
@@ -70191,7 +70191,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/ThePeoplesPicnic/?fref=nf',
+		facebook: 'https://www.facebook.com/ThePeoplesPicnic',
 		inst: 'https://www.instagram.com/denverfoodnotbombs/',
 		gallery: [
 			[
@@ -71313,7 +71313,7 @@ const data = [
 		logo: '',
 		since: '',
 		facebook:
-			'https://www.facebook.com/foodnotbombsamarillo/?fref=ts https://www.facebook.com/groups/422941651245913/',
+			'https://www.facebook.com/foodnotbombsamarillo https://www.facebook.com/groups/422941651245913/',
 		inst: '',
 		gallery: [
 			[
@@ -73179,7 +73179,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/groups/tacosnotbombs/?fref=nf',
+		facebook: 'https://www.facebook.com/groups/tacosnotbombs',
 		inst: '',
 		gallery: [
 			[
@@ -84011,7 +84011,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/fnbmemphis/?fref=ts',
+		facebook: 'https://www.facebook.com/fnbmemphis',
 		inst: '',
 		gallery: [
 			[
@@ -84385,7 +84385,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/fnbmemphis/?fref=ts',
+		facebook: 'https://www.facebook.com/fnbmemphis',
 		inst: '',
 		gallery: [
 			[
@@ -105313,7 +105313,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/Food-Not-Bombs-Wilmington-NC-140552105989411/?fref=ts',
+		facebook: 'https://www.facebook.com/Food-Not-Bombs-Wilmington-NC-140552105989411',
 		inst: '',
 		gallery: [
 			[
@@ -115775,7 +115775,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/fnbdvrde/?fref=ts',
+		facebook: 'https://www.facebook.com/fnbdvrde',
 		inst: '',
 		gallery: [
 			[
@@ -119515,7 +119515,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/Charlottesville-Food-Not-Bombs-133767613318249/?fref=ts',
+		facebook: 'https://www.facebook.com/Charlottesville-Food-Not-Bombs-133767613318249',
 		inst: '',
 		gallery: [
 			[
@@ -120261,7 +120261,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/RichmondFoodNotBombs/?fref=ts',
+		facebook: 'https://www.facebook.com/RichmondFoodNotBombs',
 		inst: '@richmondfoodnotbombs',
 		gallery: [
 			[
@@ -129226,7 +129226,7 @@ const data = [
 		logo: '',
 		since: '',
 		facebook:
-			'https://www.facebook.com/Kent-County-Food-Not-Bombs-298943742111/?fref=ts | https://www.facebook.com/groups/79019074021/',
+			'https://www.facebook.com/Kent-County-Food-Not-Bombs-298943742111 | https://www.facebook.com/groups/79019074021/',
 		inst: '',
 		gallery: [
 			[
@@ -144904,7 +144904,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/Lancaster-Food-Not-Bombs-190028101039424/?fref=ts',
+		facebook: 'https://www.facebook.com/Lancaster-Food-Not-Bombs-190028101039424',
 		inst: '',
 		gallery: [
 			[
@@ -146026,7 +146026,7 @@ const data = [
 		logo: '',
 		since: '',
 		facebook:
-			'https://www.facebook.com/groups/558924280827750/ https://www.facebook.com/West-Philly-Food-Not-Bombs-221895184606526/?fref=ts',
+			'https://www.facebook.com/groups/558924280827750/ https://www.facebook.com/West-Philly-Food-Not-Bombs-221895184606526',
 		inst: '',
 		gallery: [
 			[
@@ -146401,7 +146401,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/NPFNB/?fref=ts',
+		facebook: 'https://www.facebook.com/NPFNB',
 		inst: '',
 		gallery: [
 			[
@@ -146774,7 +146774,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/NPFNB/?fref=ts',
+		facebook: 'https://www.facebook.com/NPFNB',
 		inst: '',
 		gallery: [
 			[
@@ -168818,7 +168818,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/FnBFV/?fref=nf',
+		facebook: 'https://www.facebook.com/FnBFV',
 		inst: '',
 		gallery: [
 			[

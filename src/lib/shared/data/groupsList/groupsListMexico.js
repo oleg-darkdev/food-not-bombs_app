@@ -5216,7 +5216,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/FoodNotBombsPuebla/?fref=ts',
+		facebook: 'https://www.facebook.com/FoodNotBombsPuebla',
 		inst: '',
 		gallery: [
 			[

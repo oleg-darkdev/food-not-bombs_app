@@ -2236,7 +2236,7 @@ const data = [
 	{
 		logo: '',
 		since: '',
-		facebook: 'https://www.facebook.com/groups/19992468810/?fref=ts',
+		facebook: 'https://www.facebook.com/groups/19992468810',
 		inst: '',
 		gallery: [
 			[
