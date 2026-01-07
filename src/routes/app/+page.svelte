@@ -3,11 +3,22 @@
 	import { FAQ, GroupsListingMini, ApiListing } from '$widgets';
 	import { StatsList } from '$entities';
 	import { promoFnbGroups } from '$sharedData';
+	import { AppFooterBtn } from '$entities';
 
-	import { kit, foodTokens, roles, preparation, winTokens, loseTokens, winLose } from '$sharedData';
+	import {
+		kit,
+		foodTokens,
+		roles,
+		preparation,
+		winTokens,
+		loseTokens,
+		winLose,
+		volunteeringApp,
+		volunteeringGame,
+		volunteeringFnb
+	} from '$sharedData';
 	// import { GroupsList } from '$widgets';
 	// import { SEO } from '$sharedUtils';
-	import { AppFooterBtn } from '$entities';
 
 	let activeScreen = $state(0),
 		stepInstruction = $state(0),
@@ -20,15 +31,24 @@
 	console.log(winTokens);
 	console.log(loseTokens);
 	console.log(winLose);
+	console.log(volunteeringApp);
+	console.log(volunteeringGame);
+	console.log(volunteeringFnb);
+	// console.log(kit);
+	// console.log(kit);
+	// console.log(kit);
+	// console.log(kit);
+	// console.log(kit);
+	// console.log(kit);
 	// console.log(kit);
 	// console.log(kit);
 	// console.log(kit);
 </script>
 
-<div class="h-screen bg-pink">
+<div class="bg-pink h-screen">
 	<!-- <GroupsList /> -->
 	<main
-		class="flex h-[90vh] z-30 bg-yellow flex-col content-center items-center justify-center overflow-x-hidden overflow-y-scroll py-20"
+		class="bg-yellow z-30 flex h-[90vh] flex-col content-center items-center justify-center overflow-x-hidden overflow-y-scroll py-20"
 	>
 		{#if activeScreen == 1}
 			{#if stepWelcome}
@@ -46,9 +66,9 @@
 	</main>
 
 	<footer class="fixed bottom-0 left-0 w-full pb-4">
-		<div class="mx-auto w-full max-w-4xl ">
+		<div class="mx-auto w-full max-w-4xl">
 			{#if activeScreen == 0}
-				<div class="grid grid-cols-2 gap-x-8 px-4 ">
+				<div class="grid grid-cols-2 gap-x-8 px-4">
 					<AppFooterBtn
 						onclick={() => {
 							activeScreen = 1;
@@ -66,7 +86,7 @@
 					/>
 				</div>
 			{:else if activeScreen == 1}
-				<div class="grid grid grid-cols-[35%_35%_35%] gap-x-4 ">
+				<div class="grid grid grid-cols-[35%_35%_35%] gap-x-4">
 					<AppFooterBtn
 						onclick={() => {
 							stepWelcome = 1;
@@ -94,7 +114,7 @@
 				</div>
 			{:else if activeScreen == 2}
 				<!-- grid grid-cols-3 gap-x-4 -->
-				<div class="grid grid grid-cols-[35%_35%_35%] gap-x-4 ">
+				<div class="grid grid grid-cols-[35%_35%_35%] gap-x-4">
 					{#if activeScreen == 1}
 						<!-- <AppFooterBtn
 							onclick={() => {
@@ -112,14 +132,14 @@
 							text="Next"
 						/> -->
 					{:else if activeScreen == 2 && stepInstruction <= 9}
-					<AppFooterBtn
-						onclick={() => {
-							activeScreen = 0;
-							stepInstruction = 1;
-							// console.log('activeScreen == 1');
-						}}
-						text="Menu"
-					/>
+						<AppFooterBtn
+							onclick={() => {
+								activeScreen = 0;
+								stepInstruction = 1;
+								// console.log('activeScreen == 1');
+							}}
+							text="Menu"
+						/>
 
 						<AppFooterBtn
 							onclick={() => {
