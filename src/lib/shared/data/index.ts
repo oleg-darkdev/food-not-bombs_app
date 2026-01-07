@@ -11,9 +11,10 @@ import winLose from './app-i18/rules/win-lose/en';
 // import foodTokens from './app-i18/components/tablets/en';
 // import foodTokens from './app-i18/components/tablets/en';
 // import foodTokens from './app-i18/components/tablets/en';
-// import foodTokens from './app-i18/components/tablets/en';
-// import foodTokens from './app-i18/components/tablets/en';
-// import foodTokens from './app-i18/components/tablets/en';
+
+import volunteeringApp from './app-i18/volunteering/app/en';
+import volunteeringGame from './app-i18/volunteering/game/en';
+import volunteeringFnb from './app-i18/volunteering/fnb/en';
 // import foodTokens from './app-i18/components/tablets/en';
 // import foodTokens from './app-i18/components/tablets/en';
 
@@ -42,9 +43,11 @@ export {
 	roles,
 	preparation,
 	winTokens,
-loseTokens,
-
-winLose,
+	loseTokens,
+	volunteeringApp,
+	volunteeringGame,
+	volunteeringFnb,
+	winLose,
 	// data
 	poland,
 	promoFnbGroups,

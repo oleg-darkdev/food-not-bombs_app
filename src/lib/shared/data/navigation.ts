@@ -5,32 +5,36 @@ let nav = [
 	// },
 	{
 		title: 'About',
-		link: '/#about'
+		link: '#about'
 	},
-	{
-		title: 'Print&Play',
-		link: '/#print-and-play'
-	},
+
 	{
 		title: 'Mission',
-		link: '/#mission'
+		link: '#mission'
 	},
-	// {
-	// 	title: '',
-	// 	link: '/'
-	// },
+	{
+		title: 'Api',
+		link: '#api'
+	},
 	{
 		title: 'Team',
-		link: '/#team'
+		link: '#team'
 	},
 	{
 		title: 'F.A.Q.',
-		link: '/#faq'
+		link: '#faq'
 	},
 	{
-		title: '',
-		link: '/'
+		title: 'Gallery',
+		link: '#gallery'
+	},
+	{
+		title: 'Print&Play',
+		link: '#print-and-play'
 	}
 ];
 
+
+
+//       
 export default nav;
