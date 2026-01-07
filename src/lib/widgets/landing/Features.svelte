@@ -13,6 +13,90 @@
 		''
 	];
 
+	const projectRoles = [
+		{
+			position: 'Website and App Testers',
+			tasks: 'Suitable for attentive regular users.',
+			stack: '-'
+		},
+		{
+			position: 'Web Developers',
+			tasks: 'Frontend development, building website features and functionality.',
+			stack: 'JavaScript, React, Vue, Angular'
+		},
+		{
+			position: 'Designers',
+			tasks: 'Creating instructions, editing photos uploaded to the website.',
+			stack: '-'
+		},
+		{
+			position: 'Video Editors',
+			tasks: "Creating promo videos, let's plays, and other video content.",
+			stack: 'Video editing software (e.g., Adobe Premiere, Final Cut, DaVinci Resolve)'
+		},
+		{
+			position: 'Translators',
+			tasks: 'Translation between languages and adaptation for local audiences.',
+			stack: 'Russian ↔ English, any other local languages'
+		}
+	];
+
+	const targetAudience = [
+		'People interested in issues of social and environmental sustainability',
+		'Participants in and supporters of initiatives such as Food Not Bombs, Food Sharing, food-sharing movements, as well as anti-war and humanitarian movements',
+		'People with experience in self-organization and participation in horizontal communities, as well as those who wish to gain such experience',
+		'NGOs, educational centers, and cultural spaces where workshops are held and access to open libraries is available',
+		'Educators and facilitators who use educational board games as learning tools',
+		'Suitable for running workshops in NGOs working in the field of food sharing, food banks, and related initiatives'
+	];
+
+	const gameTasks = [
+		'Locate and collect surplus food from various city locations',
+		'Calculate the optimal amount of food waste',
+		'Minimize food waste at all stages of the game',
+		'Discuss and make collective decisions as a team',
+		'Practice horizontal decision-making and shared responsibility',
+		"Adapt strategy without disrupting the team's overall work",
+		'Manage resources between food collection, preparation, and distribution',
+		'Decide what to cook now based on the needs of those in need and what can be saved for future rounds'
+	];
+
+	const webAppFeatures = {
+		title: 'Web Application Features',
+		aims: [
+			'Display information from the database through the user interface (UI).',
+			'Public API for data access.',
+			'Interactive instruction for the rules of the board game.',
+			"Interactive assistant: 'How to Become a Volunteer.'",
+			'Interactive assistant for preparing the board game.',
+			'Assistant during the gameplay.'
+		]
+	};
+
+	const ecoGoals = {
+		title: 'Aims of the Project for Environmental and Social Sustainability 🌍',
+		aims: [
+			'Promote discussions about the impact of food waste on the environment and social equity.',
+			'Encourage the development of rational and ethical food consumption.',
+			'Motivate users to participate in volunteer initiatives and develop skills for collective responsibility.',
+			"Demonstrate how food waste can be reduced using the examples of the 'Food Sharing' and 'Food Not Bombs' initiatives."
+		]
+	};
+
+	const fnbAimsPart = {
+		title: 'Goals of the Soup4All Project',
+		aims: [
+			'Showcase all stages of activity using the example of a specific Food Not Bombs group.',
+			'Preserve historical information about the activities of Food Not Bombs groups in different countries.',
+			'Facilitate networking and collaboration between groups.',
+			'Unite the community around the activities of Food Not Bombs groups.',
+			'Motivate project users to participate in Food Not Bombs initiatives.',
+			'Promote the ideas of mutual aid and food sharing.',
+			'Use an educational board game and interactive materials to clearly demonstrate the processes of organizing free food distribution and the work of Food Not Bombs groups.',
+			'Familiarize users with the history, principles, and key initiatives of the Food Not Bombs movement.'
+		]
+	};
+
 	const fnbStages = [
 		`Organizing your Food Not Bombs group`,
 		`Build strategy and consensus`,

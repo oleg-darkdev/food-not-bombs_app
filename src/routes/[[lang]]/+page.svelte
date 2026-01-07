@@ -3,14 +3,11 @@
 	import { promoFnbGroups } from '$sharedData';
 
 	import {
-		
 		Features,
 		Available,
-		
 		Header,
 		PreFAQ,
 		Mission,
-		
 		Footer,
 		Slider,
 		Hero,
@@ -90,8 +87,6 @@
 	<PreFAQ />
 
 	<FAQ />
-
-	
 </main>
 
 <Footer />

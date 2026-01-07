@@ -1,39 +1,5 @@
 <script lang="ts">
-	// import { nav } from '$sharedData';
-	let nav = [
-		// {
-		// 	title: '',
-		// 	link: '/'
-		// },
-		{
-			title: 'About',
-			link: '#about'
-		},
-		{
-			title: 'Print&Play',
-			link: '#print-and-play'
-		},
-		{
-			title: 'Mission',
-			link: '#mission'
-		},
-		{
-			title: 'Api',
-			link: '#api'
-		},
-		{
-			title: 'Team',
-			link: '#team'
-		},
-		{
-			title: 'F.A.Q.',
-			link: '#faq'
-		},
-		{
-			title: 'Gallery',
-			link: '#gallery'
-		}
-	];
+	import { nav } from '$sharedData';
 
 	import { goto } from '$app/navigation';
 	// import {  } from '$widgets';
