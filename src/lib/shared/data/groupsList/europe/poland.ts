@@ -1333,7 +1333,7 @@ const poland = [
 	{
 		logo: '/images/groups/europe/poland/katowice/logo.jpg',
 		since: '',
-		facebook: 'https://www.facebook.com/Food-Not-Bombs-Katowice-447198898819351/?pnref=story',
+		facebook: 'https://www.facebook.com/Food-Not-Bombs-Katowice-447198898819351',
 		inst: '',
 		gallery: [
 			[
