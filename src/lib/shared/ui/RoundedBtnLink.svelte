@@ -7,10 +7,12 @@
 </script>
 
 <!-- Let's talk #contact -->
-<div class="flex flex-col items-center justify-center mx-2 transition-transform duration-200 ease-in-out hover:scale-105">
+<div
+	class="mx-2 flex flex-col items-center justify-center transition-transform duration-200 ease-in-out hover:scale-105"
+>
 	<a
 		href={link}
-		target={blank ? blank : ''}
+		target={blank ? 'blank' : ''}
 		class="cta_primary {yellow ? 'bg-yellow' : 'bg-pink'}  studio-page more-btn w-inline-block"
 	>
 		<div class="txt_cta-name underline">{title}</div>

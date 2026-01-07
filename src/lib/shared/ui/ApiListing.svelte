@@ -2,6 +2,7 @@
 	// import {  } from '$shared';
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
+	import { RoundedBtnLink } from '$sharedUi';
 
 	let { apiListingData } = $props();
 </script>
@@ -17,6 +18,10 @@
 			</a>
 		</li>
 	{/each}
+
+	<div class="pt-8">
+		<RoundedBtnLink title="Complete list of API" link="/docs#api" blank={true} />
+	</div>
 </ul>
 
 <style lang="postcss">

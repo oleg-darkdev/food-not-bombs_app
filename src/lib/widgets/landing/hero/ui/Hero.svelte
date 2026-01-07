@@ -171,6 +171,16 @@
 </section>
 
 <style lang="postcss">
+	
+.grid_top-fold-hero {
+	grid-column-gap: 0em;
+	grid-row-gap: 0em;
+	grid-template-rows: auto;
+	grid-template-columns: 0.75fr 1fr;
+	grid-auto-columns: 1fr;
+	display: grid;
+}
+
 	.grid-hero {
 		grid-column-gap: 2em;
 		grid-row-gap: 2em;
@@ -191,6 +201,9 @@
 			height: 46em;
 			font-size: 1.2em;
 		}
+		.grid_top-fold-hero {
+		grid-template-columns: 1fr;
+	}
 	}
 
 	@media screen and (max-width: 479px) {

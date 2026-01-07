@@ -3,15 +3,16 @@
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
 
-	let { text, onclick } = $props();
+	let { text, onclick, icon } = $props();
 </script>
 
 <div
 	{onclick}
 	class="item_project-page-explore wrap_small-rectangle-btn bg-red hover:bg-orange transition-transform duration-200 ease-in-out hover:scale-105"
 >
-	<div class="link_project-page-explore w-inline-block">
-		<h1 class="h_semi-bold top-creative">{text}</h1>
+	<div class=" w-inline-block">
+		<!-- <h1 class="h_semi-bold top-creative">{text}</h1> -->
+		 <img src="{icon}" class='h-10 w-10' alt="{text}">
 	</div>
 	<img
 		src="/images/corner-dot-white.svg"
@@ -41,7 +42,7 @@
 
 <style lang="postcss">
 	.item_project-page-explore.wrap_small-rectangle-btn {
-		aspect-ratio: 22 / 9;
+		aspect-ratio: 22 / 14;
 		padding-left: 2.5em;
 		padding-right: 2.5em;
 	}
@@ -64,7 +65,7 @@
 
 	@media screen and (max-width: 479px) {
 		.item_project-page-explore.wrap_small-rectangle-btn {
-			max-width: 30em;
+			max-width: 22em;
 		}
 	}
 </style>
