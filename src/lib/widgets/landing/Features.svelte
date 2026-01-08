@@ -13,37 +13,9 @@
 		''
 	];
 
-	const projectRoles = [
-		{
-			position: 'Website and App Testers',
-			tasks: 'Suitable for attentive regular users.',
-			stack: '-'
-		},
-		{
-			position: 'Web Developers',
-			tasks: 'Frontend development, building website features and functionality.',
-			stack: 'JavaScript, React, Vue, Angular'
-		},
-		{
-			position: 'Designers',
-			tasks: 'Creating instructions, editing photos uploaded to the website.',
-			stack: '-'
-		},
-		{
-			position: 'Video Editors',
-			tasks: "Creating promo videos, let's plays, and other video content.",
-			stack: 'Video editing software (e.g., Adobe Premiere, Final Cut, DaVinci Resolve)'
-		},
-		{
-			position: 'Translators',
-			tasks: 'Translation between languages and adaptation for local audiences.',
-			stack: 'Russian ↔ English, any other local languages'
-		}
-	];
-
 	const targetAudience = [
 		'People interested in issues of social and environmental sustainability',
-		'Participants in and supporters of initiatives such as Food Not Bombs, Food Sharing, food-sharing movements, as well as anti-war and humanitarian movements',
+		'Participants in and supporters of initiatives such as Food Not Bombs, Food Sharing,  as well as anti-war and humanitarian movements',
 		'People with experience in self-organization and participation in horizontal communities, as well as those who wish to gain such experience',
 		'NGOs, educational centers, and cultural spaces where workshops are held and access to open libraries is available',
 		'Educators and facilitators who use educational board games as learning tools',
@@ -82,7 +54,6 @@
 			"Demonstrate how food waste can be reduced using the examples of the 'Food Sharing' and 'Food Not Bombs' initiatives."
 		]
 	};
-
 	const fnbAimsPart = {
 		title: 'Goals of the Soup4All Project',
 		aims: [
@@ -123,16 +94,59 @@
 		</h2>
 		<div class="grid_service-showcase performance">
 			<div class="wrap_featured-work-texts">
-				<p class="txt_paragraph sans-serif performance-service">
-					Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle
-					poligraficznym. Показать все этапы активности фнб
+				<!-- <h1 class="h1_regular main-headline small">
+					<span class="bold italic">Food Not Bombs (FNB)</span> is a loose-knit group of independent
+						collectives. 
+					In <span class="bold italic"> Soup4All boardgame,</span>
+					players collects food, primarily surplus food that would otherwise go to waste and be thrown
+					away.
+				</h1> -->
+
+				<div class="wrap_client-info">
+					<div class="w-layout-vflex warp_client-name">
+						<div class="txt_case-study-brand-name">The game is suitable for:</div>
+						<!-- <div class="txt_case-study-brand-name">Lorem Ipsum</div> -->
+					</div>
+					<!-- <div class="w-layout-vflex warp_client-name">
+						<div class="txt_case-study-brand-industry">
+							Oleg Medvedev <a href="https://github.com/oleg-darkdev" target="_blank"
+								>(@oleg_darkdev)</a
+							>
+						</div>
+						<div class="txt_case-study-brand-industry">Lorem Ipsum</div>
+					</div> -->
+				</div>
+				<ul class="txt_paragraph sans-serif mb-10">
+					{#each targetAudience as target, i}
+						<li class="mb-2"><em>{i + 1}. {target} </em></li>
+					{/each}
+				</ul>
+				<p class="txt_paragraph sans-serif">
+					<strong> Tasks to be solved by players in the game:</strong>
 				</p>
-				<p class="txt_paragraph sans-serif performance-service">
-					An open source project, distributed under licenses <a
-						href="“https://creativecommons.org/licenses/by-nc-sa/4.0/”"
-						target="_blank">CC BY-NC-SA 4.0</a
+				<ul class="txt_paragraph sans-serif">
+					{#each gameTasks as tasks, i}
+						<li class="mb-2"><em>{i + 1}. {tasks} </em></li>
+					{/each}
+				</ul>
+
+				<p class="txt_paragraph sans-serif">
+					An open source project licensed under
+					<a href="“https://creativecommons.org/licenses/by-nc-sa/4.0/”" target="_blank"
+						>CC BY-NC-SA 4.0</a
 					>
 				</p>
+
+				<!-- This food is used to prepare meals
+						that are offered free of charge to anyone who is hungry. -->
+
+				<!-- <p class="h1_regular main-headline small">
+						FNB's principles include veganism, vegetarianism, the distribution of free food, group
+						autonomy, consensus decision-making, and nonviolent direct action.
+					</p>
+					<p class="h1_regular main-headline small"></p>
+					<p class="h1_regular main-headline small"></p>
+					<p class="h1_regular main-headline small"></p> -->
 				<!-- <ul class="h_regular  flex flex-col items-start justify-start pb-2">
 					{#each fnbStages as stage, i}
 						<li class='mb-4'>
@@ -254,8 +268,6 @@
 
 		<div class="" id="api">
 			{@render api()}
-
-			
 		</div>
 
 		<div class="mx-auto my-10 flex flex-col justify-center">

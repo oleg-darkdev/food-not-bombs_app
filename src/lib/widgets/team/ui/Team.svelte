@@ -1,5 +1,7 @@
 <script lang="ts">
 	import team from '../data/team';
+	import lookingFor from '../data/lookingFor';
+
 	// import {  } from '$widgets';
 	import { TeamMemberCard } from '$entities';
 </script>
@@ -8,23 +10,35 @@
 	<div class="wrap_our-team">
 		<!-- <h2 class="h_semi-bold our-team italic">Our Team</h2> -->
 
-
-		<div id='team' class="list_projects w-dyn-items max-w-6xl">
+		<div id="team" class="list_projects w-dyn-items max-w-6xl">
 			<div role="listitem" class="wrap_project-card w-dyn-item">
 				<div class="wrap_project-image mobile-lanscape-center">
 					<a href="/" class="link_project-card auto-height w-inline-block">
-						<h2 class="h2_project-name">Венгрия-Польша, и Пикачу.</h2>
+						<h2 class="h2_project-name">Lorem Ipsum has been the industry's standard</h2>
 					</a>
 					<p class="txt_paragraph project-card-summary _0-em inline">
-						Спасибо сообществу фнб ведущим публичную деятельность, если бы не вы - этот проект не
-						получился бы
+						<!-- Спасибо сообществу фнб ведущим публичную деятельность, если бы не вы - этот проект не
+						получился бы -->
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+						printer took a galley of type and scrambled it to make a type specimen book.
 					</p>
+
+					<!-- <ul>
+						{#each lookingFor as spec}
+							<li>
+								<h2>{spec.position}</h2>
+
+								<p>{spec.tasks}</p>
+								<p>{spec.stack}</p>
+							</li>
+						{/each}
+					</ul> -->
 					<a aria-label="Project link" href="/" class="link_project-card w-inline-block inline">
 						<img src="/images/photos/dream_team/3.JPG" loading="lazy" alt="" />
 					</a>
 					<div class="wrap_project-category">
 						<div class="collection_project-tags w-dyn-list">
-							<div role="list" class="list_project-tags w-dyn-items">
+							<!-- <div role="list" class="list_project-tags w-dyn-items">
 								<div role="listitem" class="item_project-tags w-dyn-item">
 									<div class="txt_project-tag yellow w-condition-invisible">Creative Direction</div>
 									<div class="txt_project-tag">Creative Direction</div>
@@ -33,8 +47,7 @@
 									<div class="txt_project-tag yellow w-condition-invisible">Video</div>
 									<div class="txt_project-tag">Video</div>
 								</div>
-								
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
@@ -85,7 +98,7 @@
 			<div class="slider-wrapper">
 				<div
 					role="list"
-					class="mx-auto grid max-w-6xl grid-cols-1 gap-x-4 md:grid-cols-2 lg:grid-cols-3 px-6 gap-y-4"
+					class="mx-auto grid max-w-6xl grid-cols-1 gap-x-4 gap-y-4 px-6 md:grid-cols-2 lg:grid-cols-3"
 				>
 					{#each team as member}
 						<TeamMemberCard {member} />
