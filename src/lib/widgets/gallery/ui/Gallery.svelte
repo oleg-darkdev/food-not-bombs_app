@@ -15,7 +15,7 @@
 	</div> -->
 	<div class="wrap_organic-social-portfolio">
 		{#each gallery as row}
-			<div class="grid_organic-social-portfolio pb-2">
+			<div class="grid_organic-social-portfolio  pb-2">
 				{#each row as img, i}
 					<div class="column_organic-social-portfolio {img.class}">
 						{#if i % 2 === 0}
