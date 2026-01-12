@@ -2,7 +2,11 @@
 	import { Hero } from '$widgetsApp';
 	import { FAQ, GroupsListingMini, ApiListing } from '$widgets';
 	import { StatsList, AppFooterBtn } from '$entities';
-	import { promoFnbGroups } from '$sharedData';
+	import { ScenariousList, RoundCard } from '$entitiesApp';
+
+	import { promoFnbGroups,  } from '$sharedData';
+	import { stepInstruction, selectedMenu } from '$sharedStores';
+	import { fade, fly } from 'svelte/transition';
 
 	import {
 		kit,
@@ -19,8 +23,10 @@
 	// import { GroupsList } from '$widgets';
 	// import { SEO } from '$sharedUtils';
 
-	let activeScreen = $state(0),
-		stepInstruction = $state(0),
+	const substepInstruction = stepInstruction.subscribe((value) => {});
+
+	let // $selectedMenu = $state(0),
+		// $stepInstruction = $state(0),
 		stepWelcome = $state(1);
 
 	console.log(kit);
@@ -47,31 +53,66 @@
 <div class="bg-pink h-screen">
 	<!-- <GroupsList /> -->
 	<main
-		class="bg-yellow flex h-[87vh] flex-col content-center items-center justify-center overflow-x-hidden overflow-y-scroll lg:h-[90vh]"
+		class="bg-yellow flex h-[87vh] flex-col content-center items-center overflow-x-hidden overflow-y-scroll lg:h-[90vh]"
 	>
-		{#if activeScreen == 0}
+		{#if $selectedMenu == 0}
 			<Hero />
-		{:else if activeScreen == 1}
-		<!-- open source & social links data -->
-			{#if stepWelcome}{:else if stepWelcome == 2}
-				<GroupsListingMini groupsData={promoFnbGroups.slice(0, 8)} />
-			{:else if stepWelcome == 3}
-				<ApiListing />
-			{:else if stepWelcome == 4}
-				<StatsList />
-			{:else if stepWelcome == 5}
-				<FAQ />
+		{:else if $selectedMenu == 1}
+			<div class="pb-40 pt-10">
+				<!-- open source & social links data -->
+				{#if $stepInstruction == 1}
+					<div class="" in:fly={{ y: 50 }} out:fade>
+						<h2>{$stepInstruction} {$stepInstruction == 2}</h2>
+					</div>
+				{:else if $stepInstruction == 2}
+					<div class="" in:fly={{ y: 50 }} out:fade>
+						<GroupsListingMini groupsData={promoFnbGroups.slice(0, 8)} />
+					</div>
+				{:else if $stepInstruction == 3}
+					<div class="" in:fly={{ y: 50 }} out:fade><ApiListing /></div>
+				{:else if $stepInstruction == 4}
+					<div class="" in:fly={{ y: 50 }} out:fade>
+						<StatsList />
+					</div>
+				{:else if $stepInstruction == 5}
+					<div class="" in:fly={{ y: 50 }} out:fade>
+						<FAQ />
+					</div>
+
+					<!-- <div class="py-40"> -->
+					<!-- </div> -->
+				{/if}
+			</div>
+		{:else if $selectedMenu == 2}
+			<ScenariousList />
+
+			<RoundCard />
+			{#if $stepInstruction == 1}
+				<div class="" in:fly={{ y: 50 }} out:fade>
+					<!-- <h2>{$stepInstruction} {$stepInstruction == 2}</h2> -->
+				</div>
+			{:else if $stepInstruction == 2}
+				<div class="" in:fly={{ y: 50 }} out:fade></div>
+			{:else if $stepInstruction == 3}
+				<div class="" in:fly={{ y: 50 }} out:fade></div>
+			{:else if $stepInstruction == 4}
+				<div class="" in:fly={{ y: 50 }} out:fade></div>
+			{:else if $stepInstruction == 5}
+				<div class="" in:fly={{ y: 50 }} out:fade></div>
+
+				<!-- <div class="py-40"> -->
+				<!-- </div> -->
 			{/if}
-		{:else if activeScreen == 2}{/if}
+		{/if}
 	</main>
 
 	<footer class="fixed bottom-0 left-0 z-30 w-full px-10 pb-4">
 		<div class="mx-auto w-full max-w-4xl">
-			{#if activeScreen == 0}
+			{#if $selectedMenu == 0}
 				<div class="mx-auto grid w-fit grid-cols-2 gap-x-8">
 					<AppFooterBtn
 						onclick={() => {
-							activeScreen = 1;
+							$selectedMenu = 1;
 						}}
 						icon="/images/icons/"
 						text="Start"
@@ -79,18 +120,19 @@
 
 					<AppFooterBtn
 						onclick={() => {
-							activeScreen = 2;
+							$selectedMenu = 2;
 						}}
 						icon="/images/icons/"
 						text="Instruction"
 					/>
 				</div>
-			{:else if activeScreen == 1}
+			{:else if $selectedMenu == 1}
 				<div class="mx-auto grid grid grid-cols-3 gap-x-4">
 					<AppFooterBtn
 						onclick={() => {
-							stepWelcome = 1;
-							activeScreen = 0;
+							$stepInstruction = 1;
+							$selectedMenu = 0;
+							console.log('click MEnu');
 						}}
 						icon="/images/icons/"
 						text="="
@@ -98,7 +140,10 @@
 
 					<AppFooterBtn
 						onclick={() => {
-							stepWelcome -= 1;
+							stepInstruction.update((n) => n - 1);
+							console.log('click prev');
+							// console.log($stepInstruction);
+							console.log($selectedMenu);
 						}}
 						icon="/images/icons/"
 						text=">"
@@ -106,16 +151,19 @@
 
 					<AppFooterBtn
 						onclick={() => {
-							stepWelcome += 1;
+							stepInstruction.update((n) => n + 1);
+							console.log('click next');
+							// console.log($stepInstruction);
+							console.log($selectedMenu);
 						}}
 						icon="/images/icons/"
 						text="<"
 					/>
 				</div>
-			{:else if activeScreen == 2}
+			{:else if $selectedMenu == 2}
 				<!-- grid grid-cols-3 gap-x-4 -->
 				<div class="mx-auto grid grid grid-cols-3 gap-x-4">
-					{#if activeScreen == 1}
+					{#if $selectedMenu == 1}
 						<!-- <AppFooterBtn
 							onclick={() => {
 								stepWelcome = stepWelcome - 1;
@@ -127,15 +175,15 @@
 						<AppFooterBtn
 							onclick={() => {
 								stepWelcome = stepWelcome + 1;
-								console.log('activeScreen == 1');
+								console.log('$selectedMenu == 1');
 							}}
 							icon='/images/icons/' text="Next"
 						/> -->
-					{:else if activeScreen == 2 && stepInstruction <= 9}
+					{:else if $selectedMenu == 2 && $stepInstruction <= 9}
 						<AppFooterBtn
 							onclick={() => {
-								activeScreen = 0;
-								stepInstruction = 1;
+								$selectedMenu = 0;
+								$stepInstruction = 1;
 							}}
 							icon="/images/icons/"
 							text="="
@@ -143,7 +191,9 @@
 
 						<AppFooterBtn
 							onclick={() => {
-								stepInstruction = 1;
+								$stepInstruction += 1;
+								console.log('click prev');
+								console.log($stepInstruction);
 							}}
 							icon="/images/icons/"
 							text="<"
@@ -151,15 +201,17 @@
 
 						<AppFooterBtn
 							onclick={() => {
-								stepInstruction = 2;
+								$stepInstruction -= 2;
+								console.log('click prev');
+								console.log($stepInstruction);
 							}}
 							icon="/images/icons/"
 							text=">"
 						/>
 						<!-- <div class="grid grid-cols-2 gap-6 my-20"> -->
-						<!-- <PrevStepBtn bind:step={stepInstruction} icon='/images/icons/' text="Poprzedni slajd" />
+						<!-- <PrevStepBtn bind:step={$stepInstruction} icon='/images/icons/' text="Poprzedni slajd" />
 
-					<NextStepBtn bind:step={stepInstruction} icon='/images/icons/' text="Następny slajd" /> -->
+					<NextStepBtn bind:step={$stepInstruction} icon='/images/icons/' text="Następny slajd" /> -->
 						<!-- </div> -->
 					{/if}
 				</div>
