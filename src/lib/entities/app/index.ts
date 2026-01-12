@@ -1,6 +1,6 @@
 
-// import BoardgameCard from './BoardgameCard.svelte';
-// import BoardgameCard from './BoardgameCard.svelte';
+import ScenariousList from './ScenariousList.svelte';
+import RoundCard from './RoundCard.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
@@ -8,4 +8,4 @@
 // import BoardgameCard from './BoardgameCard.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
 
-export { };
+export { ScenariousList, RoundCard };
