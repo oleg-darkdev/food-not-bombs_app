@@ -8,11 +8,11 @@
 
 <div
 	{onclick}
-	class="item_project-page-explore wrap_small-rectangle-btn bg-red hover:bg-orange transition-transform duration-200 ease-in-out hover:scale-105"
+	class="item_project-page-explore wrap_small-rectangle-btn bg-yellow hover:bg-orange transition-transform duration-200 ease-in-out hover:scale-105"
 >
 	<div class=" w-inline-block">
 		<!-- <h1 class="h_semi-bold top-creative">{text}</h1> -->
-		 <img src="{icon}" class='h-10 w-10' alt="{text}">
+		 <img src="{icon}" class='lg:h-32 lg:w-32 w-10 h-10' alt="{text}">
 	</div>
 	<img
 		src="/images/corner-dot-white.svg"

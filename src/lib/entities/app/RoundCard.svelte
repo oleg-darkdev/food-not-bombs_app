@@ -3,22 +3,11 @@
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
 
-	import { scenarios, locations, runGame } from '$sharedData';
-
-	let roundResult = $state(null);
-
-	function nextRound() {
-		roundResult = runGame(locations, scenarios.medium, 1);
-		console.log(roundResult.locations);
-	}
-
-	let currentScenario = scenarios.medium;
-
 	// runGame(locations, currentScenario);
+	let { roundResult } = $props();
 </script>
 
 <div class="max-w-2xl">
-	<button on:click={nextRound}> Следующий раунд </button>
 
 	{#if roundResult}
 		<!-- <GameRoundView {} /> -->
