@@ -41,7 +41,7 @@ function generateRound(locations, scenario, round) {
 
 			if (Math.random() < chance) {
 				// Применяем эффект к результату
-				event.effect(result);
+				// event.effect(result);
 
 				triggeredEvents.push({
 					locationId: location.id,
