@@ -10,7 +10,16 @@ import StatsList from './StatsList.svelte';
 import SmallRectangleBtn from './SmallRectangleBtn.svelte';
 import GroupsListCard from './GroupsListCard.svelte';
 import AppFooterBtn from './AppFooterBtn.svelte';
-// import BoardgameCard from './BoardgameCard.svelte';
+// import BigBtnIconText from './BigBtnIconText.svelte';
+// import BigBtnIconText from './BigBtnIconText.svelte';
+// import BigBtnIconText from './BigBtnIconText.svelte';
+// import BigBtnIconText from './BigBtnIconText.svelte';
+// import BigBtnIconText from './BigBtnIconText.svelte';
+// import BigBtnIconText from './BigBtnIconText.svelte';
+// import BigBtnIconText from './BigBtnIconText.svelte';
+// import BigBtnIconText from './BigBtnIconText.svelte';
+// import BigBtnIconText from './BigBtnIconText.svelte';
+// import BigBtnIconText from './BigBtnIconText.svelte';
 
 export {
 	FaqCard,

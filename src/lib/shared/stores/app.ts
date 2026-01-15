@@ -5,6 +5,6 @@ const stepInstruction = writable(1),
 	stepGame = writable(0),
 	actualRound = writable(0),
 	roundResults = writable([]),
-	selectedMenu = writable(2);
+	selectedMenu = writable(0);
 
 export { stepInstruction, actualRound,  roundResults, currentScenario, stepGame, selectedMenu };

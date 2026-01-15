@@ -19,28 +19,22 @@
 		</div>
 	{/if} -->
 
-		{#if roundResult.globalBalance}
-			<div class="event balance">
-				⚖️ <strong>Глобальный баланс</strong>
-				<span>
-					{roundResult.globalBalance.totalBefore} → {roundResult.globalBalance.totalAfter}
-				</span>
-			</div>
-		{/if}
+		
 
-		{#if roundResult.locationEvents?.length}
+		<!-- {#if roundResult.locationEvents?.length}
 			<div class="event-group">
 				<h4>📍 События в локациях</h4>
 
 				{#each roundResult.locationEvents as e}
 					<div class="event local">
-						<!-- ✨ <strong>{e.locationId}</strong> -->
+						✨ <strong>{e.locationId}</strong>
 						<span>{e.eventId}</span>
 						<small>(шанс {Math.round(e.chance * 100)}%)</small>
+						 <span>{e.locationId}</span>
 					</div>
 				{/each}
 			</div>
-		{/if}
+		{/if} -->
 
 		<table class="locations">
 			<thead>
@@ -51,15 +45,15 @@
 				</tr>
 			</thead>
 
-			<tbody>
+			<!-- <tbody>
 				{#each roundResult.locations as loc (loc.number)}
 					<tr class:empty={loc.resources === 0} class:high={loc.resources >= 4}>
 						<td>{loc.number}: {loc.title}</td>
-						<!-- <td>{loc.locationId}</td> -->
+						<td>{loc.locationId}</td>
 						<td class="resources">{loc.resources}</td>
 					</tr>
 				{/each}
-			</tbody>
+			</tbody> -->
 		</table>
 	{/if}
 </div>

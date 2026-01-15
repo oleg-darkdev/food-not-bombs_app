@@ -4,6 +4,7 @@
 	// import {  } from '$entities'
 
 	import { RoundedBtnLink, Tag } from '$sharedUi';
+	
 </script>
 
 <section id="print-and-play" class="section recent-case-study">

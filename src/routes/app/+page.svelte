@@ -2,7 +2,12 @@
 	import { Hero } from '$widgetsApp';
 	import { FAQ, GroupsListingMini, ApiListing } from '$widgets';
 	import { StatsList, AppFooterBtn } from '$entities';
-	import { ScenariousList, RoundCard } from '$entitiesApp';
+	import {
+		ScenariousList,
+		RoundCard,
+		BigBtnIconText,
+		ResourcesGenerationResultListCard
+	} from '$entitiesApp';
 
 	import { promoFnbGroups } from '$sharedData';
 	import {
@@ -12,7 +17,9 @@
 		roundResults,
 		actualRound
 	} from '$sharedStores';
-	import { fade, fly } from 'svelte/transition';
+	import { Tag } from '$sharedUi';
+
+	import { fade, fly, slide } from 'svelte/transition';
 
 	import {
 		kit,
@@ -28,22 +35,26 @@
 	} from '$sharedData';
 
 	import { scenarios, locations, runGame } from '$sharedData';
-
-	let roundResult = $state(null);
+	let // $selectedMenu = $state(0),
+		// $stepInstruction = $state(0),
+		stepWelcome = $state(1),
+		maxRound = $state(5),
+		roundResult = $state(null),
+		maxGameStep = $state(7);
 
 	const substepInstruction = stepInstruction.subscribe((value) => {});
 	// const subroundResults = roundResults.subscribe((value) => {});
 
 	function nextRound() {
-		roundResult = runGame(locations, scenarios.medium, 1);
-		// console.log(roundResult.locations);
+		if ($actualRound < maxRound && $roundResults.length - 1 < maxRound) {
+			const roundResult = runGame(locations, scenarios.medium, 1);
 
-		roundResults.update((results) => {
-			results.push(roundResult);
-			return results;
-		});
-		console.log($roundResults);
-		// console.log($actualRound);
+			roundResults.update((results) => [...results, roundResult]);
+
+			console.log($roundResults);
+		} else {
+			console.log('Достигнут максимальный раунд');
+		}
 	}
 
 	function clearRoundResults() {
@@ -57,21 +68,17 @@
 	// import { GroupsList } from '$widgets';
 	// import { SEO } from '$sharedUtils';
 
-	let // $selectedMenu = $state(0),
-		// $stepInstruction = $state(0),
-		stepWelcome = $state(1),
-		maxRound = $state(5),
-		maxGameStep = $state(7);
-	console.log(kit);
-	console.log(foodTokens);
-	console.log(roles);
-	console.log(preparation);
-	console.log(winTokens);
-	console.log(loseTokens);
-	console.log(winLose);
-	console.log(volunteeringApp);
-	console.log(volunteeringGame);
-	console.log(volunteeringFnb);
+	// console.log(kit);
+	// console.log(foodTokens);
+	// console.log(roles);
+	// console.log(preparation);
+	// console.log(winTokens);
+	// console.log(loseTokens);
+	// console.log(winLose);
+	// console.log(volunteeringApp);
+	// console.log(volunteeringGame);
+	// console.log(volunteeringFnb);
+
 	// console.log(kit);
 	// console.log(kit);
 	// console.log(kit);
@@ -83,7 +90,7 @@
 	// console.log(kit);
 </script>
 
-<div class="bg-pink h-screen">
+<div class="bg-army-green h-screen">
 	<!-- <GroupsList /> -->
 	<main
 		class="bg-yellow flex h-[87vh] flex-col content-center items-center overflow-x-hidden overflow-y-scroll lg:h-[90vh]"
@@ -94,46 +101,81 @@
 			<ScenariousList />
 
 			{#if $stepGame == 0}
-				<div class="" in:fly={{ y: 50 }} out:fade>
+				<div class="flex flex-col pt-10" transition:slide>
 					<!-- <h1>hello</h1> -->
 					{#if $roundResults.length > 0}
-						<button
-							on:click={() => {
+						<BigBtnIconText
+							onclick={() => {
 								clearRoundResults();
-								stepGame.update((n) => n + 1);
-							}}
-						>
-							Очистить результаты
-						</button>
-						<button on:click={() => stepGame.update((n) => n + 1)}>
-							Продолжить предыдущую игру
-						</button>
-					{:else}
-						<button
-							on:click={() => {
-								stepGame.update((n) => n + 1);
-								actualRound.update((n) => n + 1);
-
+								stepGame.set(1);
+								actualRound.set(1);
 								nextRound();
 							}}
-						>
-							Начать новую игру
-						</button>
+							icon="/images/icons/close.svg"
+							text="Delete previous game"
+						/>
+						<BigBtnIconText
+							onclick={() => {
+								// stepGame.update((n) => n + 1);
+							}}
+							icon="/images/icons/play.svg"
+							text="Continue previous game"
+						/>
+					{:else}
+						<BigBtnIconText
+							onclick={() => {
+								stepGame.update((n) => n + 1);
+								actualRound.update((n) => n + 1);
+								nextRound();
+							}}
+							icon="/images/icons/play.svg"
+							text="Start new game"
+						/>
 					{/if}
 				</div>
-			{:else if $stepGame == 1 && $stepGame <= 5}
-				<div class="" in:fly={{ y: 50 }} out:fade>
+			{:else if $stepGame > 0 && $stepGame <= 5}
+				<!-- {#if $selectedPlayMenu == 1}
+					{#if $basicMode.progress < $basicMode.data.length}
+					
+					-->
+				<div class="" transition:slide>
 					<h2>{$actualRound}</h2>
 
 					{#each $roundResults as roundResult, index}
-						{#if index == $actualRound}
-							<RoundCard {roundResult} />
+						{#if index + 1 == $actualRound}
+							<div class="" transition:slide>
+								<h2>round info {index + 1}</h2>
+
+								<div class="flex flex-col justify-between">
+									{#each roundResult.locationEvents as e}
+										<div role="listitem" class="item_project-tags w-dyn-item">
+											<!-- roundResult.locationEvents -->
+
+											<span class="text-red text-2xl">#{e.locationId} {e.eventId}</span>
+										</div>
+									{/each}
+								</div>
+
+								<!-- <RoundCard {roundResult} /> -->
+
+								<!-- {#if roundResult.globalBalance}
+									<div class="event balance">
+										⚖️ <strong>Глобальный баланс</strong>
+										<span>
+											{roundResult.globalBalance.totalBefore} → {roundResult.globalBalance
+												.totalAfter}
+										</span>
+									</div>
+								{/if} -->
+
+								<ResourcesGenerationResultListCard locations={roundResult.locations} />
+							</div>
 						{/if}
 					{/each}
 					<!-- <h2>{$stepGame} {$stepGame == 2}</h2> -->
 				</div>
 			{:else if $stepGame == 5}
-				<div class="" in:fly={{ y: 50 }} out:fade>
+				<div class="" transition:slide>
 					<!-- <RoundCard {roundResult} /> -->
 				</div>
 
@@ -144,21 +186,21 @@
 			<div class="pb-40 pt-10">
 				<!-- open source & social links data -->
 				{#if $stepInstruction == 1}
-					<div class="" in:fly={{ y: 50 }} out:fade>
+					<div class="" transition:slide>
 						<h2>{$stepInstruction} {$stepInstruction == 2}</h2>
 					</div>
 				{:else if $stepInstruction == 2}
-					<div class="" in:fly={{ y: 50 }} out:fade>
+					<div class="" transition:slide>
 						<GroupsListingMini groupsData={promoFnbGroups.slice(0, 8)} />
 					</div>
 				{:else if $stepInstruction == 3}
-					<div class="" in:fly={{ y: 50 }} out:fade><ApiListing /></div>
+					<div class="" transition:slide><ApiListing /></div>
 				{:else if $stepInstruction == 4}
-					<div class="" in:fly={{ y: 50 }} out:fade>
+					<div class="" transition:slide>
 						<StatsList />
 					</div>
 				{:else if $stepInstruction == 5}
-					<div class="" in:fly={{ y: 50 }} out:fade>
+					<div class="" transition:slide>
 						<FAQ />
 					</div>
 
@@ -179,6 +221,7 @@
 						}}
 						icon="/images/icons/play.svg"
 						text="Start"
+						bg="bg-yellow"
 					/>
 
 					<AppFooterBtn
@@ -187,6 +230,7 @@
 						}}
 						icon="/images/icons/instruction.svg"
 						text="Instruction"
+						bg="bg-pink"
 					/>
 				</div>
 			{:else if $selectedMenu == 1}
@@ -205,12 +249,14 @@
 						}}
 						icon="/images/icons/menu.svg"
 						text="menu"
+						bg="bg-pink"
 					/>
 
 					{#if $stepGame != 0}
 						<AppFooterBtn
 							onclick={() => {
 								// console.log();
+								actualRound.update((n) => n - 1);
 								stepGame.update((n) => n - 1);
 								// console.log('click prev');
 								// console.log($stepInstruction);
@@ -218,6 +264,7 @@
 							}}
 							icon="/images/icons/left_arrow.svg"
 							text="Prev"
+							bg="bg-yellow"
 						/>
 					{/if}
 
@@ -241,6 +288,7 @@
 							}}
 							icon="/images/icons/right_arrow.svg"
 							text="Next"
+							bg="bg-yellow"
 						/>
 					{/if}
 				</div>
@@ -273,6 +321,7 @@
 							}}
 							icon="/images/icons/menu.svg"
 							text="menu"
+							bg="bg-pink"
 						/>
 
 						<AppFooterBtn
@@ -283,6 +332,7 @@
 							}}
 							icon="/images/icons/left_arrow.svg"
 							text="Prev"
+							bg="bg-yellow"
 						/>
 
 						<AppFooterBtn
@@ -293,6 +343,7 @@
 							}}
 							icon="/images/icons/right_arrow.svg"
 							text="Next"
+							bg="bg-yellow"
 						/>
 						<!-- <div class="grid grid-cols-2 gap-6 my-20"> -->
 						<!-- <PrevStepBtn bind:step={$stepInstruction} icon='/images/icons/' text="Poprzedni slajd" />

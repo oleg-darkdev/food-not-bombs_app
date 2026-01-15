@@ -3,17 +3,17 @@
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
 
-let { text, onclick, icon, bg } = $props();
+	let { text, onclick, icon } = $props();
 </script>
 
-<!-- hover:bg-orange -->
 <div
 	{onclick}
-	class="item_project-page-explore wrap_small-rectangle-btn {bg}  transition-transform duration-200 ease-in-out hover:scale-105"
+	class="item_project-page-explore wrap_small-rectangle-btn bg-pink hover:bg-orange transition-transform duration-200 ease-in-out hover:scale-105"
 >
-	<div class=" w-inline-block">
+	<div class=" w-inline-block flex flex-row">
 		<!-- <h1 class="h_semi-bold top-creative">{text}</h1> -->
-		 <img src="{icon}" class='lg:h-32 lg:w-32 w-10 h-10' alt="{text}">
+		<img src={icon} class="h-10 w-10 lg:h-32 lg:w-32" alt={text} />
+		<h1 class="text-green-army font-bold lg:text-5xl text-2xl">{text}</h1>
 	</div>
 	<img
 		src="/images/corner-dot-white.svg"
@@ -43,7 +43,7 @@ let { text, onclick, icon, bg } = $props();
 
 <style lang="postcss">
 	.item_project-page-explore.wrap_small-rectangle-btn {
-		aspect-ratio: 22 / 14;
+		aspect-ratio: 22 / 10;
 		padding-left: 2.5em;
 		padding-right: 2.5em;
 	}
@@ -57,7 +57,7 @@ let { text, onclick, icon, bg } = $props();
 		justify-content: center;
 		align-items: center;
 		/* width: 100em; */
-		max-width: 26em;
+		max-width: 40em;
 		padding-left: 2em;
 		padding-right: 2em;
 		display: flex;
