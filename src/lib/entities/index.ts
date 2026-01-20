@@ -10,8 +10,8 @@ import StatsList from './StatsList.svelte';
 import SmallRectangleBtn from './SmallRectangleBtn.svelte';
 import GroupsListCard from './GroupsListCard.svelte';
 import AppFooterBtn from './AppFooterBtn.svelte';
-// import BigBtnIconText from './BigBtnIconText.svelte';
-// import BigBtnIconText from './BigBtnIconText.svelte';
+import InsstructionListCard from './InsstructionListCard.svelte';
+import PlayerRoleCard from './PlayerRoleCard.svelte';
 // import BigBtnIconText from './BigBtnIconText.svelte';
 // import BigBtnIconText from './BigBtnIconText.svelte';
 // import BigBtnIconText from './BigBtnIconText.svelte';
@@ -23,8 +23,10 @@ import AppFooterBtn from './AppFooterBtn.svelte';
 
 export {
 	FaqCard,
+	PlayerRoleCard,
 	StatsList,
 	GroupsListCard,
+	InsstructionListCard,
 	AppFooterBtn,
 	SmallRectangleBtn,
 	TeamMemberCard,

@@ -1,4 +1,5 @@
 const en = {
+	desc: 'Preparing for the game',
 	steps: [
 		{
 			step: '',

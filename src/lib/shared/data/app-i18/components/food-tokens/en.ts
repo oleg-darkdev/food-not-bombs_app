@@ -1,4 +1,5 @@
 const en = {
+	title: 'Food tokens',
 	tokens: [
 		{
 			label: 'Fruits',

@@ -5,120 +5,42 @@
 	import { getSocialHandle } from '$sharedUtils';
 	import { SocialRoundIconLink } from '$sharedUi';
 
-	let { groupData, groupsLength, region } = $props();
+	let { list, start, title } = $props();
 
 	// console.log(groupData);
 </script>
 
-<div class="section meet-our-friends collection  w-full">
+<div class="section max-w-4xl meet-our-friends collection w-full mx-auto">
 	<div class="wrap_meet-our-friends w-full">
 		<div class="collection_projects w-full">
 			<div role="list" class="list_projects w-dyn-items w-full">
 				<div role="listitem" class="wrap_project-card w-dyn-item w-full">
 					<!-- <div class="wrap-banner mobile-lanscape-center"></div> -->
-					<div class="wrap-banner-img w-full ">
-						<div class="wrap_card-heading services py-2 flex flex-row items-center justify-center">
-							<h3 class="h_semi-bold services italic mr-1">
-								{region}:   <span class='ml-4'>{groupsLength}</span>
+					<div class="wrap-banner-img w-full">
+						<div class="wrap_card-heading services flex flex-row items-center justify-center py-2">
+							<h3 class="h_semi-bold services mr-1 italic">
+								<span class="ml-4">
+									{title}
+								</span>
 							</h3>
-							<img src="/images/groups/default_logo.png" class="lg:-mt-8  lg:h-16 lg:w-16 h-4 w-4" alt="" />
+							<img
+								src="/images/groups/default_logo.png"
+								class="h-4 w-4 lg:-mt-8 lg:h-16 lg:w-16"
+								alt=""
+							/>
 						</div>
 
 						<div class="wrap_services-list w-full">
+							{@render start()}
+
 							<!-- <ul role="list" class="list_services-card w-list-unstyled"> -->
-							 <!-- 
+							<!-- 
 							<div class="" id="api">
-			{@render api()}
 		</div>
 
 		-->
 							<ul role="list" class=" w-list-unstyled w-full px-6">
-								{#each groupData as group (group.id)}
-									<li
-										class="item_services-card  transition-transform duration-200 ease-in-out hover:scale-105"
-									>
-										<div
-											class="txt_services-list-item caps service flex flex-row items-center justify-between"
-										>
-											<div class="flex max-w-sm flex-row items-center">
-												<div class="mr-4">
-													<img
-														src={group.logo ? group.logo : '/images/groups/default_logo.png'}
-														loading="eager"
-														alt=""
-														class="lg:h-12 lg:w-12 h-8 w-8 rounded-full object-cover"
-													/>
-												</div>
-
-												<span class="txt_services-list-item caps service"> {group.city} </span>
-											</div>
-
-											<div role="list" class="flex max-w-2xl flex-row items-center justify-between">
-												{#if group.facebook}
-													<div role="listitem" class="item_project-tags w-dyn-item">
-														<SocialRoundIconLink
-															icon="/images/instagram.png"
-															alt="Facebook"
-															link={group.facebook}
-														/>
-													</div>
-												{/if}
-
-												{#if group.inst}
-													<div role="listitem" class="item_project-tags w-dyn-item">
-														<SocialRoundIconLink
-															icon="/images/instagram.png"
-															alt="Instagram"
-															link={group.inst}
-														/>
-													</div>
-												{/if}
-
-												{#if group.website}
-													<div role="listitem" class="item_project-tags w-dyn-item">
-														<SocialRoundIconLink
-															icon="/images/facebook.png"
-															alt={group.website}
-															link={group.website}
-														/>
-													</div>
-												{/if}
-
-												{#if group.email}
-													<div role="listitem" class="item_project-tags w-dyn-item">
-														<a
-															href={`mailto:${group.email}`}
-															target="_blank"
-															class=" cta_primary tag-style">email</a
-														>
-													</div>
-												{/if}
-
-												{#if group.twitter}
-													<div role="listitem" class="item_project-tags w-dyn-item">
-														<SocialRoundIconLink
-															icon="/images/facebook.png"
-															alt="twitter"
-															link={group.twitter}
-														/>
-													</div>
-												{/if}
-
-												<!-- {#if group.contactPhone}
-													<div role="listitem" class="item_project-tags w-dyn-item">
-														<a
-															href={`tel:${group.contactPhone}`}
-															class="cta_primary yellow tag-style"
-														>
-															{group.contactPhone ? group.contactPhone : group.contactName}
-														</a>
-													</div>
-												{/if} -->
-											</div>
-											<!-- {ingredient.count} -->
-										</div>
-									</li>
-								{/each}
+								{@render list()}
 							</ul>
 						</div>
 					</div>

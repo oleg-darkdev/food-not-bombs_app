@@ -32,6 +32,54 @@
 
 	import { StatsList } from '$entities';
 
+	const imgs = [
+		{
+			altText: '',
+			img: '/images/photos/boardgame/promo/2.JPG'
+		},
+		// {
+		// 	altText: '',
+		// 	img: '/images/photos/boardgame/promo/3.JPG'
+		// },
+		// {
+		// 	altText: '',
+		// 	img: '/images/photos/boardgame/promo/4.JPG'
+		// },
+		// {
+		// 	altText: '',
+		// 	img: '/images/photos/boardgame/promo/5.JPG'
+		// },
+		// {
+		// 	altText: '',
+		// 	img: '/images/photos/boardgame/promo/6.JPG'
+		// },
+
+		{
+			altText: '',
+			img: '/images/photos/boardgame/promo/8.JPG'
+		},
+		{
+			altText: '',
+			img: '/images/photos/boardgame/promo/11.JPG'
+		},
+		{
+			altText: '',
+			img: '/images/photos/boardgame/promo/15.JPG'
+		},
+		{
+			altText: '',
+			img: '/images/photos/boardgame/promo/9.JPG'
+		},
+		{
+			altText: '',
+			img: '/images/photos/boardgame/promo/16.JPG'
+		},
+		{
+			altText: '',
+			img: '/images/photos/boardgame/promo/1.JPG'
+		}
+	];
+
 	function getLogosAndIds(data) {
 		return data.map((item) => ({
 			id: item.id,
@@ -78,7 +126,9 @@
 
 	<VeganMenu />
 
-	<Slider />
+	<Slider {imgs}/>
+
+	
 
 	<Team />
 

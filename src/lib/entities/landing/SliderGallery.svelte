@@ -4,45 +4,10 @@
 	// import {  } from '$entities'
 
 	let { imgs } = $props();
-
-	console.log(imgs);
 </script>
 
-<section class="section ugc-gallery">
-	<div class="wrap_ugc-gallery-heading">
-		<div class="wrap_section-paragraph center-vertical-padding">
-			<h2 class="h_regular section-paragraph">
-				Lorem Ipsum jest tekstem <br />
-			</h2>
-
-			<h2 class="h_regular section-paragraph">
-				Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.
-			</h2>
-		</div>
-	</div>
-	<!-- wrap_slider-buttons -->
-	<!-- <div class=" flex w-full justify-center">
-		<div class="mx-auto flex w-[200px] justify-between">
-			<button aria-label="Slider previous button" class="btn_slider-arrow prev-slide">
-				<img
-					src="/images/slider-arrow-left.png"
-					loading="lazy"
-					alt="Previous"
-					class="img_slider-arrow-left"
-				/>
-			</button>
-			<button aria-label="Slider next button" class="btn_slider-arrow next-slide">
-				<img
-					src="/images/slider-arrow-right.png"
-					loading="lazy"
-					alt="Next"
-					class="img_slider-arrow-right"
-				/>
-			</button>
-		</div>
-	</div> -->
-	<div class="wrap_ugc-gallery">
-		<!-- <div class="wrap_slider-buttons video-ugc">
+<div class="wrap_ugc-gallery">
+	<!-- <div class="wrap_slider-buttons video-ugc">
 			<button aria-label="Slider previous button" class="btn_slider-arrow prev-slide">
 				<img
 					loading="lazy"
@@ -60,30 +25,31 @@
 				/>
 			</button>
 		</div> -->
-		<div class="img_floating-element high-roas">
-			<div class="txt_floating-element uppercase">
-				<span class="text-orange">F</span>ood <br />
-				<span class="text-yellow">N</span>ot <br />
-				<span class="text-orange">B</span>ombs
-			</div>
+	<div class="img_floating-element high-roas">
+		<div class="txt_floating-element uppercase">
+			<span class="text-orange">F</span>ood <br />
+			<span class="text-yellow">N</span>ot <br />
+			<span class="text-orange">B</span>ombs
 		</div>
-		<div class="img_floating-element low-cta">
-			<div class="txt_floating-element">
-				<span class="text-orange">F</span>ood <br />
-				<span class="text-red">N</span>ot <br />
-				<span class="text-orange">B</span>ombs
-			</div>
+	</div>
+	<div class="img_floating-element low-cta">
+		<div class="txt_floating-element">
+			<span class="text-orange">F</span>ood <br />
+			<span class="text-red">N</span>ot <br />
+			<span class="text-orange">B</span>ombs
 		</div>
-		<div class="ugc_video-gallery slider-wrapper w-dyn-list">
-			<div role="list" class="list_video-ugc slider-list w-dyn-items">
-				{#each imgs as img}
-					<div style="" role="listitem" class="item_video-wrap slider-item">
-						<!-- <a href="#" class="link_lightbox w-inline-block w-lightbox"> -->
-						<div class="item-tail">
-							<img src={img.img} alt="" class="img_performance-hero-tall" />
-						</div>
+	</div>
 
-						<!-- <video
+	<div class="ugc_video-gallery slider-wrapper w-dyn-list">
+		<div role="list" class="list_video-ugc slider-list w-dyn-items">
+			{#each imgs as img}
+				<div style="" role="listitem" class="item_img-wrap slider-item">
+					<!-- <a href="#" class="link_lightbox w-inline-block w-lightbox"> -->
+					<div class="w-full h-full">
+						<img src={img.img} alt={img.altText} class="img_performance-hero-tall" />
+					</div>
+
+					<!-- <video
 							src="media/sc16vw.mp4"
 							autoplay="autoplay"
 							data-video="header"
@@ -94,20 +60,12 @@
 						>
 							<source src="media/sc16vw.mp4" type="video/mp4" class="video_source" />
 						</video> -->
-						<!-- </a> -->
-					</div>
-				{/each}
-			</div>
+					<!-- </a> -->
+				</div>
+			{/each}
 		</div>
 	</div>
-
-	
-	<div class="wrap_ugc-gallery-cta">
-		<a href="#contact" class="cta_primary keep-em-hooked w-inline-block">
-			<div class="txt_cta-name">get in touch</div>
-		</a>
-	</div>
-</section>
+</div>
 
 <style lang="postcss">
 	.img_performance-hero-tall {
@@ -168,38 +126,33 @@
 		transform: rotate(-18.15deg);
 	}
 
-	.item_video-wrap.slider-item {
+	.item_img-wrap.slider-item {
 		aspect-ratio: 9 / 15.9;
-		background-color: var(--texts--army-green);
+		/* background-color: var(--texts--army-green); */
 		cursor: pointer;
 		/* background-image: url('/images/hand.svg'); */
 		background-position: 50%;
 		background-repeat: no-repeat;
-		background-size: cover;
+		/* background-size: cover; */
 		flex-flow: row;
 		justify-content: center;
 		align-self: stretch;
 		align-items: stretch;
 		width: 100em;
-		max-width: 17em;
+		max-width: 23em;
 		/* transition: transform 0.2s; */
 		display: flex;
 		overflow: clip;
 	}
 
-	.item_video-wrap.slider-item:hover {
+	.item_img-wrap.slider-item:hover {
 		transform: scale(1.09);
 	}
 
-	.item_project-video.slider-item {
-		flex-basis: auto;
-		width: 100em;
-		max-width: 17em;
-	}
 	.list_video-ugc.slider-list {
 		grid-column-gap: 1em;
 		grid-row-gap: 1em;
-		justify-content: flex-center;
+		justify-content: center;
 		align-items: center;
 		padding: 2.6em 0;
 	}
@@ -237,7 +190,7 @@
 	}
 
 	@media screen and (min-width: 1440px) {
-		.item_video-wrap.slider-item {
+		.item_img-wrap.slider-item {
 			border-width: 0.1em;
 		}
 	}
@@ -246,12 +199,12 @@
 			padding-left: 3em;
 			padding-right: 3em;
 		}
-		.item_video-wrap.slider-item {
+		.item_img-wrap.slider-item {
 			border-radius: 2em;
-			max-width: 23.7em;
+			max-width: 27.7em;
 		}
 
-		.item_video-wrap.slider-item:hover {
+		.item_img-wrap.slider-item:hover {
 			transform: none;
 		}
 	}
@@ -267,7 +220,7 @@
 		.slider-wrapper {
 			padding-top: 10em;
 		}
-		.item_video-wrap.slider-item {
+		.item_img-wrap.slider-item {
 			border-radius: 2.5em;
 			max-width: 32em;
 		}
@@ -289,7 +242,7 @@
 		.slider-wrapper {
 			padding-top: 7em;
 		}
-		.item_video-wrap.slider-item {
+		.item_img-wrap.slider-item {
 			border-radius: 5em;
 			max-width: 65em;
 		}

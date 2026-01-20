@@ -12,45 +12,45 @@ const en = {
 				'Can cook delicious soup by mixing vegetables and fruits. Only the Cook can pay with tokens to use the vegetable and fruit mixer (smoothies).',
 			capacity: 0,
 			startingTokens: 0,
-			icon: ''
+			icon: '/images/kit/tokens/players/cook_token_promo.svg'
 		},
 
 		{
 			name: 'Mira Brown',
-			role: 'Courier',
+			role: 'Cargo',
 			ability: 'When collecting food, can take 2 additional food tokens.',
 			capacity: 0,
 			startingTokens: 0,
-			icon: ''
+			icon: '/images/kit/tokens/players/cargo_token_promo.svg'
 		},
 
 		{
 			name: 'Susan Eaton',
-			role: 'Conservator',
-			ability: 'Can preserve 20 additional liters of canned food.',
+			role: 'Preserver',
+			ability: 'Canned food for 1 action token.',
 			capacity: 0,
 			startingTokens: 0,
-			icon: ''
+			icon: '/images/kit/tokens/players/preserver_token_promo.svg'
 		},
 
 		{
 			name: 'Brian Feigenbaum',
-			role: 'Trainer',
+			role: 'Coach',
 			ability:
 				'Regularly conducts team training sessions. Each round provides +10 universal tokens available to all players.',
 			capacity: 0,
 			startingTokens: 0,
-			icon: ''
+			icon: '/images/kit/tokens/players/coach_token_promo.svg'
 		},
 
 		{
 			name: 'CT',
 			role: 'Scout',
 			ability:
-				'His mere presence in the game unlocks 2 tokens for players at the start of each round.',
+				'His mere participation in the game opens up 2 tokens in each location for players at the beginning of the round.',
 			capacity: 0,
 			startingTokens: 0,
-			icon: ''
+			icon: '/images/kit/tokens/players/scout_token_promo.svg'
 		},
 
 		{
@@ -60,27 +60,27 @@ const en = {
 				'Keeps track of waste from the city map and kitchen. The main calculator of the team — all calculation tasks should be assigned to him.',
 			capacity: 0,
 			startingTokens: 0,
-			icon: ''
+			icon: '/images/kit/tokens/players/counter_token_promo.svg'
 		},
 
 		{
 			name: 'Amy Rothstien',
-			role: 'Unknown',
+			role: 'In preparation',
 			ability:
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 			capacity: 0,
 			startingTokens: 0,
-			icon: ''
+			icon: '/images/kit/tokens/players/uni_token_promo.svg.svg'
 		},
 
 		{
 			name: 'Keith McHenry',
-			role: 'Unknown',
+			role: 'In preparation',
 			ability:
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 			capacity: 0,
 			startingTokens: 0,
-			icon: ''
+			icon: '/images/kit/tokens/players/uni_token_promo.svg.svg'
 		}
 	]
 };
