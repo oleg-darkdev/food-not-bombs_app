@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.69 56.69">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ec6740;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fef4de;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="-2.83" y="-2.83" width="62.36" height="62.36" transform="translate(56.69 0) rotate(90)"/>
+  <g>
+    <path class="cls-3" d="m52.26,26.64h-10.37c-.79-6.18-5.65-11.05-11.84-11.84V4.44h-3.42v10.37c-6.18.79-11.05,5.66-11.84,11.84H4.44v3.42h10.37c.79,6.18,5.65,11.05,11.84,11.84v10.37h3.42v-10.37c6.18-.79,11.05-5.66,11.84-11.84h10.37v-3.42Zm-23.91,11.96c-5.66,0-10.25-4.59-10.25-10.25s4.59-10.25,10.25-10.25,10.25,4.59,10.25,10.25c0,5.66-4.59,10.24-10.25,10.25Z"/>
+    <rect id="_Transparent_Rectangle_" data-name=" Transparent Rectangle " class="cls-2" x="1.02" y="1.02" width="54.65" height="54.65"/>
+  </g>
+</svg>

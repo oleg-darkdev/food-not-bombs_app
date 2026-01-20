@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.69 56.69">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fef4de;
+      }
+
+      .cls-3 {
+        fill: #7cb7d6;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" x="-2.83" y="-2.83" width="62.36" height="62.36" transform="translate(56.69 0) rotate(90)"/>
+  <g>
+    <polygon class="cls-2" points="25.07 15.25 18.52 15.25 18.52 8.7 15.25 8.7 15.25 15.25 8.7 15.25 8.7 18.52 15.25 18.52 15.25 25.07 18.52 25.07 18.52 18.52 25.07 18.52 25.07 15.25"/>
+    <rect class="cls-2" x="8.7" y="33.26" width="16.37" height="3.27"/>
+    <rect class="cls-2" x="8.7" y="41.45" width="16.37" height="3.27"/>
+    <rect class="cls-2" x="31.62" y="15.25" width="16.37" height="3.27"/>
+    <polygon class="cls-2" points="42.12 38.17 47.99 32.29 45.69 29.98 39.81 35.86 33.93 29.98 31.62 32.29 37.5 38.17 31.62 44.05 33.93 46.36 39.81 40.48 45.69 46.36 47.99 44.05 42.12 38.17"/>
+    <rect id="_Transparent_Rectangle_" data-name=" Transparent Rectangle " class="cls-1" x="2.15" y="2.15" width="52.39" height="52.39"/>
+  </g>
+</svg>
