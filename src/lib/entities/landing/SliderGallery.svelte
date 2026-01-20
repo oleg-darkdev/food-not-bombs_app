@@ -43,13 +43,23 @@
 	<div class="ugc_video-gallery slider-wrapper w-dyn-list">
 		<div role="list" class="list_video-ugc slider-list w-dyn-items">
 			{#each imgs as img}
-				<div style="" role="listitem" class="item_img-wrap slider-item">
-					<!-- <a href="#" class="link_lightbox w-inline-block w-lightbox"> -->
-					<div class="w-full h-full">
-						<img src={img.img} alt={img.altText} class="img_performance-hero-tall" />
+				<div style="" role="listitem" class="flex flex-col items-center justify-center">
+					<div class="bg-yellow wrap_title location-title mb-2">
+						<div class="location-title-line-one mb-2">{img.title}</div>
+						<!-- <div class="location-title-line-two">
+							<a href={member.organisation.link} class="link_footer" target="_blank"
+								>{member.organisation.title}</a
+							>
+						</div> -->
 					</div>
+					<div class="item_img-wrap slider-item rounded-2xl">
+						<!-- <a href="#" class="link_lightbox w-inline-block w-lightbox"> -->
 
-					<!-- <video
+						<div class="h-full w-full">
+							<img src={img.img} alt={img.altText} class="img_performance-hero-tall" />
+						</div>
+
+						<!-- <video
 							src="media/sc16vw.mp4"
 							autoplay="autoplay"
 							data-video="header"
@@ -60,7 +70,8 @@
 						>
 							<source src="media/sc16vw.mp4" type="video/mp4" class="video_source" />
 						</video> -->
-					<!-- </a> -->
+						<!-- </a> -->
+					</div>
 				</div>
 			{/each}
 		</div>
@@ -68,6 +79,30 @@
 </div>
 
 <style lang="postcss">
+	.wrap_title {
+		margin-top: 1em;
+	}
+
+	.location-title {
+		flex-flow: column;
+		width: 100%;
+		margin-top: 1.3em;
+	}
+
+	.location-title {
+		/* color: var(--background--beige); */
+		text-align: center;
+		text-transform: uppercase;
+		border-radius: 10em;
+		justify-content: center;
+		align-items: center;
+		max-width: 15em;
+		padding: 1em 2.3em;
+		font-size: 1em;
+		line-height: 1.2;
+		display: flex;
+	}
+
 	.img_performance-hero-tall {
 		aspect-ratio: 9 / 16;
 		object-fit: cover;
@@ -195,6 +230,9 @@
 		}
 	}
 	@media screen and (max-width: 991px) {
+		.location-title {
+			min-height: 4em;
+		}
 		.slider-list {
 			padding-left: 3em;
 			padding-right: 3em;
@@ -210,6 +248,11 @@
 	}
 
 	@media screen and (max-width: 767px) {
+		.location-title {
+			padding-top: 0.6em;
+			padding-bottom: 0.6em;
+			font-size: 1.1em;
+		}
 		.img_floating-element {
 			font-size: 4em;
 		}
@@ -231,6 +274,9 @@
 	}
 
 	@media screen and (max-width: 479px) {
+		.location-title {
+			font-size: 1em;
+		}
 		.img_floating-element {
 			font-size: 5.6em;
 		}

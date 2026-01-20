@@ -1,6 +1,8 @@
 const en = {
-	main: {
+	package: {
 		category: 'Package Contents',
+		anchor: 'package',
+
 		items: [
 			{ img: '/images/kit/package/.svg', title: 'Free web application (optional)', quantity: 1 },
 			{
@@ -8,7 +10,7 @@ const en = {
 				title: 'Optional dice (if you don’t want to use the web application)',
 				quantity: 8
 			},
-			{ img: '/images/kit/package/.svg', title: 'Colored role tokens', quantity: 8 },
+			// { img: '/images/kit/package/.svg', title: 'Colored role tokens', quantity: 8 },
 			{
 				img: '/images/kit/package/.svg',
 				title: 'Mini cargo bike figurines (eco-plastic made from corn)',
@@ -18,8 +20,12 @@ const en = {
 	},
 	tokens: {
 		category: 'Tokens',
+		anchor: 'tokens',
+
 		players: {
 			category: 'Players roles tokens',
+			anchor: 'players-tokens',
+
 			items: [
 				{
 					img: '/images/kit/tokens/players/cargo_token_promo.svg',
@@ -43,6 +49,7 @@ const en = {
 		},
 		food: {
 			category: 'Food tokens:',
+			anchor: 'food-tokens',
 
 			items: [
 				{
@@ -74,27 +81,41 @@ const en = {
 		},
 		reward: {
 			category: 'Reward / Lose tokens:',
+			anchor: 'reward-tokens',
 
 			items: [
 				{
-					img: '/images/kit/tokens/reward/gratitude.svg',
+					img: '/images/kit/tokens/reward/map_token_promo.svg',
 					title: 'Reward: “Gratitude from those in need”',
 					quantity: 10
 				},
 				{
-					img: '/images/kit/tokens/reward/zero-waste.svg',
+					img: '/images/kit/tokens/reward/kitchen_token_promo.svg',
 					title: 'Reward: “Zero-Waste Cooking”',
 					quantity: 8
 				},
 				{
-					img: '/images/kit/tokens/reward/rescuers.svg',
+					img: '/images/kit/tokens/reward/society_token_promo.svg',
 					title: 'Reward: “Food Rescuers”',
 					quantity: 10
 				}
 			]
 		},
+		lose: {
+			category: 'Lose token:',
+			anchor: 'lose-tokens',
+
+			items: [
+				{
+					img: '/images/kit/tokens/reward/lose_token_promo.svg',
+					title: 'Lose token',
+					quantity: 2
+				}
+			]
+		},
 		other: {
 			category: 'Other tokens',
+			anchor: 'other-tokens',
 
 			items: [
 				{
@@ -105,10 +126,14 @@ const en = {
 			]
 		}
 	},
+
 	tablets: {
 		category: 'Tablets',
+		anchor: 'tablets',
+
 		players: {
 			category: 'Players tablets',
+			anchor: 'players-tablets',
 
 			items: [
 				// Player role
@@ -146,6 +171,7 @@ const en = {
 		},
 		map: {
 			category: 'Map tablets',
+			anchor: 'map-tablets',
 
 			items: [
 				// {
@@ -160,14 +186,14 @@ const en = {
 				// },
 				{
 					img: '/images/kit/tablets/map/map_left.svg',
-					altText: 'Left side of the city map',
+					title: 'City map: left side',
 					quantity: 1
 				},
-				{ img: '/images/kit/tablets/map/map_center.svg', altText: 'Kitchen', quantity: 1 },
+				{ img: '/images/kit/tablets/map/map_center.svg', title: 'Kitchen', quantity: 1 },
 
 				{
 					img: '/images/kit/tablets/map/map_right.svg',
-					altText: 'Right side of the city map',
+					title: 'City map: right side',
 					quantity: 1
 				}
 			]

@@ -1,4 +1,5 @@
 import nav from './navigation';
+import docsNav from './docsNav';
 
 // engine
 // import applyRareEvent from './engine/applyRareEvent';
@@ -73,7 +74,7 @@ export {
 	biasedRandom,
 	escalationFactor,
 	applyEscalationToBias,
-calculateLocationEventChance,
+	calculateLocationEventChance,
 
 	// app
 	kit,
@@ -90,6 +91,7 @@ calculateLocationEventChance,
 	// data
 	poland,
 	promoFnbGroups,
+	docsNav,
 	nav,
 	// countriesList,
 	groupsByRegion,
