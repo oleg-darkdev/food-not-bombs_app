@@ -1,7 +1,7 @@
 const docsNav = [
 	{
 		title: 'Game components',
-		anchor: 'tokens',
+		anchor: 'components',
 		subNav: [
 			{
 				anchor: 'tokens',
@@ -126,6 +126,96 @@ const docsNav = [
 						anchor: '',
 						title: ''
 					}
+				]
+			}
+		]
+	},
+	{
+		title: '',
+		anchor: '',
+		subNav: [
+			{
+				anchor: '',
+				title: '',
+				subSubNav: [
+					{
+						anchor: '',
+						title: ''
+					},
+					{
+						anchor: '',
+						title: ''
+					},
+					{
+						anchor: '',
+						title: ''
+					},
+					{
+						anchor: '',
+						title: ''
+					}
+				]
+			},
+			{
+				anchor: '',
+				title: '',
+				subSubNav: [
+					{
+						anchor: '',
+						title: ''
+					},
+					{
+						anchor: '',
+						title: ''
+					}
+				]
+			}
+		]
+	},
+	{
+		title: 'Questions and answers',
+		anchor: 'faq',
+		subNav: [
+			{
+				anchor: 'boardgame-faq',
+				title: 'Boardgame FAQ',
+				subSubNav: [
+					// {
+					// 	anchor: '',
+					// 	title: ''
+					// },
+					// {
+					// 	anchor: '',
+					// 	title: ''
+					// }
+				]
+			},
+			{
+				anchor: 'app-faq',
+				title: 'Application FAQ',
+				subSubNav: [
+					// {
+					// 	anchor: '',
+					// 	title: ''
+					// },
+					// {
+					// 	anchor: '',
+					// 	title: ''
+					// }
+				]
+			},
+			{
+				anchor: 'fnb-faq',
+				title: 'Food Not Bombs FAQ',
+				subSubNav: [
+					// {
+					// 	anchor: '',
+					// 	title: ''
+					// },
+					// {
+					// 	anchor: '',
+					// 	title: ''
+					// }
 				]
 			}
 		]

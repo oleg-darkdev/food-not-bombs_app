@@ -45,7 +45,7 @@
 	<div id='app-faq' class="wrap_faq-content">
 		<div class="wrap__project-page-explore-heading">
 			<h2 class="h1_semibold project-page-explore">
-				<span class="text-army-green">App FAQ</span>
+				<span class="text-army-green">Application FAQ</span>
 			</h2>
 		</div>
 		<nav class="collection_faq w-dyn-list mb-6">
@@ -65,7 +65,7 @@
 	<div id='fnb-faq' class="wrap_faq-content">
 		<div class="wrap__project-page-explore-heading">
 			<h2 class="h1_semibold project-page-explore">
-				<span class="text-army-green">FNB FAQ</span>
+				<span class="text-army-green">Food Not Bombs FAQ</span>
 			</h2>
 		</div>
 		<nav class="collection_faq w-dyn-list mb-6">

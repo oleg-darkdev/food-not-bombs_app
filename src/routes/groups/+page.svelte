@@ -1,14 +1,13 @@
 <script lang="ts">
 	let { data } = $props();
+	import { ScrollToTop } from '$sharedUi';
+	import { FnbGroupCard, MiniFnbGroupCard, GroupsListCard, SmallRectangleBtn } from '$entities';
 
 	const { groupsListEurope } = data;
 
-	console.log(data)
-	import { FnbGroupCard, MiniFnbGroupCard, GroupsListCard } from '$entities';
-	// import { SEO } from '$sharedUtils';
-	// groupsByRegion, allGroups, countriesList
+	console.log(data);
+
 	// import { Newsletter, FreeBlock_1, FreeBlock_5, FreeBlock_4, FreeBlock_6 } from '$widgetsLanding';
-	import { SmallRectangleBtn } from '$entities';
 
 	let activeScreen = $state(2);
 </script>
@@ -88,5 +87,7 @@
 {:else if activeScreen == 3}
 	<h2>карта в разработке</h2>
 {/if}
+
+<ScrollToTop />
 
 <style lang="postcss"></style>

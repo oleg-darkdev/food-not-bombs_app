@@ -1,8 +1,23 @@
 <script lang="ts">
 	// import {} from '$sharedData';
-	import { InsstructionListCard } from '$entities';
+	import { InsstructionListCard, PlayerRoleCard } from '$entities';
 	import { SliderGallery } from '$entitiesLanding';
-	import { PlayerRoleCard } from '$entities';
+	import { ScrollToTop } from '$sharedUi';
+	import { PreFAQ, Footer } from '$widgetsLanding';
+
+	import {
+		// Team,
+		// CallingAll,
+		// BigLightDivider,
+		// Gallery,
+		// Marquee,
+		FAQ
+		// VeganMenu,
+		// LangSwitcher,
+		// landingPromoPhotos,
+		// GroupsListingMini,
+		// ApiListing
+	} from '$widgets';
 
 	let { data } = $props();
 
@@ -51,11 +66,12 @@
 				<li
 					class="item_services-card transition-transform duration-200 ease-in-out hover:scale-105"
 				>
-					<div
-						class="txt_services-list-item caps service flex flex-row items-center justify-between"
-					>
-						<p class="flex max-w-sm flex-row items-center">
-							<!-- <div class="mr-4">
+					<a href="#{navItem.anchor}" class="">
+						<div
+							class="txt_services-list-item caps service flex flex-row items-center justify-between"
+						>
+							<p class="flex max-w-sm flex-row items-center">
+								<!-- <div class="mr-4">
 								<img
 									src={token.img}
 									loading="eager"
@@ -63,22 +79,22 @@
 									class="h-8 w-8 rounded-full object-cover lg:h-12 lg:w-12"
 								/>
 							</div> -->
-							<img
-								src="/images/corner-dot-army-green.svg"
-								loading="lazy"
-								alt=""
-								class="mr-2 h-2 w-2"
-							/>
+								<img
+									src="/images/corner-dot-army-green.svg"
+									loading="lazy"
+									alt=""
+									class="mr-2 h-2 w-2"
+								/>
 
-							<!-- pointer-events: none;
+								<!-- pointer-events: none;
 	width: 2em;
 	margin: 1em;
 	position: absolute; -->
 
-							<span class="txt_services-list-item caps service">{navItem.title} </span>
-						</p>
+								<span class="txt_services-list-item caps service">{navItem.title} </span>
+							</p>
 
-						<!-- <div role="list" class="flex max-w-2xl flex-row items-center justify-between">
+							<!-- <div role="list" class="flex max-w-2xl flex-row items-center justify-between">
 							<div role="listitem" class="item_project-tags w-dyn-item">
 								<p>
 									x<span class="txt_services-list-item caps service text-2xl font-bold"
@@ -87,8 +103,9 @@
 								</p>
 							</div>
 						</div> -->
-						<!-- {ingredient.count} -->
-					</div>
+							<!-- {ingredient.count} -->
+						</div>
+					</a>
 				</li>
 				<div class="pl-4 lg:pl-6">
 					{#each navItem.subNav as subNav}
@@ -112,20 +129,20 @@
 						</div> -->
 
 								<div role="list" class="flex w-full flex-row items-center justify-between">
-									<div role="listitem" class="item_project-tags w-dyn-item">
-										<img
-											src="/images/corner-dot-army-green.svg"
-											loading="lazy"
-											alt=""
-											class="mr-2 h-2 w-2"
-										/>
+									<a href="#{subNav.anchor}" class="">
+										<div role="listitem" class="item_project-tags w-dyn-item">
+											<img
+												src="/images/corner-dot-army-green.svg"
+												loading="lazy"
+												alt=""
+												class="mr-2 h-2 w-2"
+											/>
 
-										<a href="#{subNav.anchor}" class="">
 											<span class="txt_services-list-item caps service text-2xl font-bold"
 												>{subNav.title}</span
 											>
-										</a>
-									</div>
+										</div>
+									</a>
 								</div>
 								<!-- {ingredient.count} -->
 							</div>
@@ -178,12 +195,13 @@
 	{/snippet}
 </InsstructionListCard>
 
+
 <InsstructionListCard title={kit.tokens.category}>
 	{#snippet start()}{/snippet}
 
 	{#snippet list()}
-		<div class="" id="package">
-			<h2 class="text-center">{kit.package.category}</h2>
+		<div class="" id="components">
+			<h2 id='package' class="text-center">{kit.package.category}</h2>
 
 			{#each kit.package.items as packageItem}
 				<li
@@ -376,6 +394,14 @@
 
 <a name="api"></a>
 <a name="updates"></a>
+
+
+<ScrollToTop />
+
+<PreFAQ />
+<FAQ />
+
+<Footer />
 
 <style lang="postcss">
 </style>
