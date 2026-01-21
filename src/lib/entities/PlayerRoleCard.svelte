@@ -5,14 +5,16 @@
 
 	let { role } = $props();
 
-	import { Tag } from '$sharedUi';
+	// import { Tag } from '$sharedUi';
 </script>
 
 <div role="listitem" class="slider-item w-dyn-item">
 	<div class="wrap_squad-member wrap_card-style-1 about-page">
 		<div class="wrap_card-content client-projects our-team about-page">
 			<div class="w-layout-vflex wrap_card-heading clients new team-member">
-				<h3 class="h_semi-bold name team-member italic">{role.title} <span class='text-sm'>x{role.quantity}</span></h3>
+				<!-- {role.title} -->
+				<h3 class="h_semi-bold name team-member italic">x{role.quantity}</h3>
+				<!--  <span class='text-sm'></span> -->
 			</div>
 			<div class="wrap_project-details">
 				<div class="player-role-card">

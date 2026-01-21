@@ -6,14 +6,38 @@
 
 <!-- <a name="about"></a> -->
 
-<section id='about' class="section top-creative">
+<section id="about" class="section top-creative">
 	<div class="wrap_top-creative">
 		<div class="wrap_top-creative-headline">
-			<div class="txt_tag-name top-creative">
-				Boardgame about - Food Not Bombs
-			</div>
+			<div class="txt_tag-name top-creative">Boardgame about - Food Not Bombs</div>
 			<div class="wrap_top-creative-container">
-				<h1 class="h_semi-bold top-creative ad-of-the-month">Lorem Ipsum <br /> jest tekstem</h1>
+				<!-- <h1 class="h_semi-bold top-creative ad-of-the-month">Lorem Ipsum <br /> jest tekstem</h1> -->
+				<div class="flex flex-col items-center justify-center">
+					<div class="flex w-full flex-row items-center justify-start">
+						<img src="/images/icons/players.svg" class="mr-2 h-20 w-20" alt="" />
+						<h2 class="h1_semibold text-yellow pb-2 text-center">4-6 players.</h2>
+					</div>
+
+					<div class="flex w-full flex-row items-center justify-start">
+						<img src="/images/icons/time.svg" class="mr-2 h-20 w-20" alt="" />
+						<h2 class="h1_semibold text-yellow pb-2 text-center">42-78 min.</h2>
+					</div>
+
+					<div class="flex w-full flex-row items-center justify-start mb-6">
+						<img src="/images/icons/age.svg" class="mr-2 h-20 w-20" alt="" />
+						<h2 class="h1_semibold text-yellow pb-2 text-center">12+ years.</h2>
+					</div>
+
+					<div class="flex w-full flex-col items-center justify-start">
+						<h4 class="h1_regular main-headline small text-orange pb-2 text-center">
+							<!-- This open source project is distributed under license: -->
+							 CC BY-NC-SA 4.0
+							<!-- <span class=""></span> -->
+						</h4>
+						<img src="/images/cc_logotype.svg" class="mr-2 h-20 w-64" alt="" />
+						
+					</div>
+				</div>
 				<img
 					src="/images/corner-dot-white.svg"
 					loading="lazy"
@@ -42,9 +66,7 @@
 		</div>
 		<div class="wrap_top-creative-hero">
 			<div class="txt_video-tags _4">60 minutes</div>
-			<div class="txt_video-tags _2">
-				Cooperative game
-			</div>
+			<div class="txt_video-tags _2">Cooperative game</div>
 			<div class="txt_video-tags _3">4 players</div>
 			<div class="w-layout-vflex wrap_stats-data no-style">
 				<div class="txt_video-tags stats">FNB</div>

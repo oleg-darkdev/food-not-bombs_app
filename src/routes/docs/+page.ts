@@ -10,6 +10,7 @@ import {
 	volunteeringApp,
 	volunteeringGame,
 	volunteeringFnb,
+	promoFnbGroups,
 	docsNav
 } from '$sharedData';
 
@@ -22,6 +23,7 @@ export const load: PageLoad = async () => {
 		preparation,
 		winTokens,
 		loseTokens,
+		promoFnbGroups,
 		winLose,
 		volunteeringApp,
 		volunteeringGame,

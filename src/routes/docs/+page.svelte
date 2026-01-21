@@ -2,8 +2,10 @@
 	// import {} from '$sharedData';
 	import { InsstructionListCard, PlayerRoleCard } from '$entities';
 	import { SliderGallery } from '$entitiesLanding';
-	import { ScrollToTop } from '$sharedUi';
+	import { ScrollToTop, Tag } from '$sharedUi';
 	import { PreFAQ, Footer } from '$widgetsLanding';
+	import { GroupsListingMini } from '$widgets';
+	import { PlayerRoleInfo } from '$widgetsApp';
 
 	import {
 		// Team,
@@ -11,7 +13,8 @@
 		// BigLightDivider,
 		// Gallery,
 		// Marquee,
-		FAQ
+		FAQ,
+		ApiListing
 		// VeganMenu,
 		// LangSwitcher,
 		// landingPromoPhotos,
@@ -26,6 +29,7 @@
 		foodTokens,
 		roles,
 		preparation,
+		promoFnbGroups,
 		winTokens,
 		loseTokens,
 		winLose,
@@ -34,6 +38,8 @@
 		volunteeringFnb,
 		docsNav
 	} = data;
+
+	console.log(kit.playersStuff.items);
 
 	// console.log(kit); // done
 
@@ -71,39 +77,14 @@
 							class="txt_services-list-item caps service flex flex-row items-center justify-between"
 						>
 							<p class="flex max-w-sm flex-row items-center">
-								<!-- <div class="mr-4">
-								<img
-									src={token.img}
-									loading="eager"
-									alt=""
-									class="h-8 w-8 rounded-full object-cover lg:h-12 lg:w-12"
-								/>
-							</div> -->
 								<img
 									src="/images/corner-dot-army-green.svg"
 									loading="lazy"
 									alt=""
 									class="mr-2 h-2 w-2"
 								/>
-
-								<!-- pointer-events: none;
-	width: 2em;
-	margin: 1em;
-	position: absolute; -->
-
 								<span class="txt_services-list-item caps service">{navItem.title} </span>
 							</p>
-
-							<!-- <div role="list" class="flex max-w-2xl flex-row items-center justify-between">
-							<div role="listitem" class="item_project-tags w-dyn-item">
-								<p>
-									x<span class="txt_services-list-item caps service text-2xl font-bold"
-										>{token.quantity}</span
-									>
-								</p>
-							</div>
-						</div> -->
-							<!-- {ingredient.count} -->
 						</div>
 					</a>
 				</li>
@@ -115,20 +96,7 @@
 							<div
 								class="txt_services-list-item caps service flex flex-row items-center justify-between"
 							>
-								<!-- <div class="flex max-w-sm flex-row items-center">
-							<div class="mr-4">
-								<img
-									src={packageItem.img}
-									loading="eager"
-									alt=""
-									class="h-8 w-8 rounded-full object-cover lg:h-12 lg:w-12"
-								/>
-							</div>
-
-							<span class="txt_services-list-item caps service">{packageItem.title} </span>
-						</div> -->
-
-								<div role="list" class="flex w-full flex-row items-center justify-between">
+								<div role="list" class="flex w-full flex-row items-center justify-start">
 									<a href="#{subNav.anchor}" class="">
 										<div role="listitem" class="item_project-tags w-dyn-item">
 											<img
@@ -144,7 +112,6 @@
 										</div>
 									</a>
 								</div>
-								<!-- {ingredient.count} -->
 							</div>
 						</li>
 						<div class="pl-6 lg:pl-12">
@@ -155,19 +122,6 @@
 									<div
 										class="txt_services-list-item caps service flex flex-row items-center justify-between"
 									>
-										<!-- <div class="flex max-w-sm flex-row items-center">
-							<div class="mr-4">
-								<img
-									src={packageItem.img}
-									loading="eager"
-									alt=""
-									class="h-8 w-8 rounded-full object-cover lg:h-12 lg:w-12"
-								/>
-							</div>
-
-							<span class="txt_services-list-item caps service">{packageItem.title} </span>
-						</div> -->
-
 										<div role="list" class="flex w-full flex-row items-center justify-between">
 											<div role="listitem" class="item_project-tags w-dyn-item">
 												<img
@@ -195,13 +149,12 @@
 	{/snippet}
 </InsstructionListCard>
 
-
 <InsstructionListCard title={kit.tokens.category}>
 	{#snippet start()}{/snippet}
 
 	{#snippet list()}
 		<div class="" id="components">
-			<h2 id='package' class="text-center">{kit.package.category}</h2>
+			<h2 id="package" class="text-center">{kit.package.category}</h2>
 
 			{#each kit.package.items as packageItem}
 				<li
@@ -224,7 +177,7 @@
 						</div>
 
 						<div role="list" class="flex max-w-2xl flex-row items-center justify-between">
-							<div role="listitem" class="item_project-tags w-dyn-item">
+							<div role="listitem" class="item_project-tags w-dyn-item flex flex-row items-center">
 								<p>
 									x<span class="txt_services-list-item caps service text-2xl font-bold"
 										>{packageItem.quantity}</span
@@ -238,10 +191,11 @@
 			{/each}
 		</div>
 		<a name="tokens"></a>
-		<div class="" id="players-tokens">
-			<h2 class="text-center">{kit.tokens.players.category}</h2>
 
-			{#each kit.tokens.players.items as token}
+		<div class="" id="players-tokens">
+			<h2 class="text-center">{kit.playersStuff.category}</h2>
+
+			{#each kit.playersStuff.items as item}
 				<li
 					class="item_services-card transition-transform duration-200 ease-in-out hover:scale-105"
 				>
@@ -251,31 +205,36 @@
 						<div class="flex max-w-sm flex-row items-center">
 							<div class="mr-4">
 								<img
-									src={token.img}
+									src={item.token.img}
 									loading="eager"
 									alt=""
 									class="h-8 w-8 rounded-full object-cover lg:h-12 lg:w-12"
 								/>
 							</div>
 
-							<span class="txt_services-list-item caps service">{token.title} </span>
+							<span class="txt_services-list-item caps service">{item.title} </span>
 						</div>
 
 						<div role="list" class="flex max-w-2xl flex-row items-center justify-between">
-							<div role="listitem" class="item_project-tags w-dyn-item">
-								<p>
+							<div role="listitem" class="item_project-tags w-dyn-item flex flex-row items-center">
+								<p class="mr-2">
 									x<span class="txt_services-list-item caps service text-2xl font-bold"
-										>{token.quantity}</span
+										>{item.token.quantity}</span
 									>
 								</p>
+								<div class=" ">
+									<a href="#{item.anchor}" class="">
+										<Tag text="more" bgColor="" />
+									</a>
+								</div>
 							</div>
 						</div>
 						<!-- {ingredient.count} -->
 					</div>
 				</li>
+				<!-- {/each} -->
 			{/each}
 		</div>
-
 		<div class="" id="food-tokens">
 			<h2 class="text-center">{kit.tokens.food.category}</h2>
 
@@ -383,25 +342,50 @@
 </section>
 
 <section id="players-tablets" class="">
-	<h2 class="text-center">{kit.tablets.players.category}</h2>
+	<h2 class="text-center">{kit.playersStuff.category}</h2>
 
 	<div class=" flex flex-row flex-wrap justify-center gap-x-4 gap-y-2">
-		{#each kit.tablets.players.items as role}
-			<PlayerRoleCard {role} />
+		{#each kit.playersStuff.items as role}
+			<PlayerRoleCard role={role.tablet} />
 		{/each}
 	</div>
 </section>
 
-<a name="api"></a>
+<section>
+	<div class="">
+		{#each kit.playersStuff.desc as p}
+			<p class="mb-2">{p}</p>
+		{/each}
+	</div>
+	<div class="py-10">
+		{#each kit.playersStuff.items as player}
+			<div id={player.anchor} class="mb-10">
+				<PlayerRoleInfo {player} />
+			</div>
+		{/each}
+	</div>
+</section>
+
 <a name="updates"></a>
 
+<!-- <GroupsListingMini groupsData={promoFnbGroups.slice(0, 8)} /> -->
 
-<ScrollToTop />
+<section id="groups">
+	<ApiListing />
+
+	<!-- вывесте черещ groups list - ссылки на api, и ссылку группы с указанием количества групп в базее и стран входящих -->
+	<div class="" id="c-s-america"></div>
+</section>
 
 <PreFAQ />
 <FAQ />
 
 <Footer />
 
+<ScrollToTop />
+
 <style lang="postcss">
+	.txt_services-list-item {
+		text-align: left;
+	}
 </style>

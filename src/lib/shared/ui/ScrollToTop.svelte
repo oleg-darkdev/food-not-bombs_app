@@ -21,7 +21,7 @@
 </script>
 
 {#if $showButton}
-	<button class="scroll-top bg-army-green w-20 h-20 rounded-full flex justify-center items-center " on:click={scrollToTop} aria-label="Scroll to top"> <img src="/images/icons/left_arrow.svg" class='text-2xl text-beige' alt="↑"> </button>
+	<button class="scroll-top bg-army-green w-20 h-20 rounded-full flex justify-center items-center " on:click={scrollToTop} aria-label="Scroll to top"> <img src="/images/icons/scroll_top.svg" class='text-2xl text-beige' alt="↑"> </button>
 {/if}
 
 <style>

@@ -1,3 +1,6 @@
+import { groupsByRegion } from './groupsList';
+import kit from './app-i18/components/kit/en';
+
 const docsNav = [
 	{
 		title: 'Game components',
@@ -46,130 +49,302 @@ const docsNav = [
 			}
 		]
 	},
+	// {
+	// 	title: '',
+	// 	anchor: '',
+	// 	subNav: [
+	// 		{
+	// 			anchor: '',
+	// 			title: '',
+	// 			subSubNav: [
+	// 				{
+	// 					anchor: '',
+	// 					title: ''
+	// 				},
+	// 				{
+	// 					anchor: '',
+	// 					title: ''
+	// 				},
+	// 				{
+	// 					anchor: '',
+	// 					title: ''
+	// 				},
+	// 				{
+	// 					anchor: '',
+	// 					title: ''
+	// 				}
+	// 			]
+	// 		},
+	// 		{
+	// 			anchor: '',
+	// 			title: '',
+	// 			subSubNav: [
+	// 				{
+	// 					anchor: '',
+	// 					title: ''
+	// 				},
+	// 				{
+	// 					anchor: '',
+	// 					title: ''
+	// 				}
+	// 			]
+	// 		}
+	// 	]
+	// },
+	// {
+	// 	title: '',
+	// 	anchor: '',
+	// 	subNav: [
+	// 		{
+	// 			anchor: '',
+	// 			title: '',
+	// 			subSubNav: [
+	// 				{
+	// 					anchor: '',
+	// 					title: ''
+	// 				},
+	// 				{
+	// 					anchor: '',
+	// 					title: ''
+	// 				},
+	// 				{
+	// 					anchor: '',
+	// 					title: ''
+	// 				},
+	// 				{
+	// 					anchor: '',
+	// 					title: ''
+	// 				}
+	// 			]
+	// 		},
+	// 		{
+	// 			anchor: '',
+	// 			title: '',
+	// 			subSubNav: [
+	// 				{
+	// 					anchor: '',
+	// 					title: ''
+	// 				},
+	// 				{
+	// 					anchor: '',
+	// 					title: ''
+	// 				}
+	// 			]
+	// 		}
+	// 	]
+	// },
 	{
-		title: '',
-		anchor: '',
+		title: 'Roles',
+		anchor: 'roles',
 		subNav: [
 			{
-				anchor: '',
-				title: '',
+				anchor: kit.playersStuff.items[0].anchor,
+				title: `${kit.playersStuff.items[0].name} - ${kit.playersStuff.items[0].title}`,
+				subSubNav: []
+			},
+			{
+				anchor: kit.playersStuff.items[1].anchor,
+				title: `${kit.playersStuff.items[1].name} - ${kit.playersStuff.items[1].title}`,
+				subSubNav: []
+			},
+			{
+				anchor: kit.playersStuff.items[2].anchor,
+				title: `${kit.playersStuff.items[2].name} - ${kit.playersStuff.items[2].title}`,
+				subSubNav: []
+			},
+			{
+				anchor: kit.playersStuff.items[3].anchor,
+				title: `${kit.playersStuff.items[3].name} - ${kit.playersStuff.items[3].title}`,
+				subSubNav: []
+			},
+			{
+				anchor: kit.playersStuff.items[4].anchor,
+				title: `${kit.playersStuff.items[4].name} - ${kit.playersStuff.items[4].title}`,
+				subSubNav: []
+			},
+			{
+				anchor: kit.playersStuff.items[5].anchor,
+				title: `${kit.playersStuff.items[5].name} - ${kit.playersStuff.items[5].title}`,
+				subSubNav: []
+			},
+			{
+				anchor: kit.playersStuff.items[6].anchor,
+				title: `${kit.playersStuff.items[6].name} - ${kit.playersStuff.items[6].title}`,
+				subSubNav: []
+			},
+			{
+				anchor: kit.playersStuff.items[7].anchor,
+				title: `${kit.playersStuff.items[7].name} - ${kit.playersStuff.items[7].title}`,
+				subSubNav: []
+			},
+			// {
+			// 	anchor: kit.playersStuff.items[8].anchor,
+			// 	title: `${kit.playersStuff.items[8].name} - ${kit.playersStuff.items[8].title}`,
+			// 	subSubNav: []
+			// },
+			// {
+			// 	anchor: kit.playersStuff.items[9].anchor,
+			// 	title: `${kit.playersStuff.items[9].name} - ${kit.playersStuff.items[9].title}`,
+			// 	subSubNav: []
+			// },
+		]
+	},
+	{
+		title: 'Food Not Bombs groups',
+		anchor: 'groups',
+		subNav: [
+			{
+				anchor: 'api',
+				title: 'Api',
 				subSubNav: [
-					{
-						anchor: '',
-						title: ''
-					},
-					{
-						anchor: '',
-						title: ''
-					},
-					{
-						anchor: '',
-						title: ''
-					},
-					{
-						anchor: '',
-						title: ''
-					}
+					// {
+					// 	anchor: '',
+					// 	title: ''
+					// },
 				]
 			},
 			{
-				anchor: '',
-				title: '',
+				anchor: groupsByRegion[0].anchor,
+				title: groupsByRegion[0].title,
 				subSubNav: [
-					{
-						anchor: '',
-						title: ''
-					},
-					{
-						anchor: '',
-						title: ''
-					}
+					// {
+					// 	anchor: '',
+					// 	title: ''
+					// },
+				]
+			},
+			{
+				anchor: groupsByRegion[1].anchor,
+				title: groupsByRegion[1].title,
+				subSubNav: [
+					// {
+					// 	anchor: '',
+					// 	title: ''
+					// },
+				]
+			},
+			{
+				anchor: groupsByRegion[2].anchor,
+				title: groupsByRegion[2].title,
+				subSubNav: [
+					// {
+					// 	anchor: '',
+					// 	title: ''
+					// },
+				]
+			},
+			{
+				anchor: groupsByRegion[3].anchor,
+				title: groupsByRegion[3].title,
+				subSubNav: [
+					// {
+					// 	anchor: '',
+					// 	title: ''
+					// },
+				]
+			},
+			{
+				anchor: groupsByRegion[4].anchor,
+				title: groupsByRegion[4].title,
+				subSubNav: [
+					// {
+					// 	anchor: '',
+					// 	title: ''
+					// },
+				]
+			},
+			{
+				anchor: groupsByRegion[5].anchor,
+				title: groupsByRegion[5].title,
+				subSubNav: [
+					// {
+					// 	anchor: '',
+					// 	title: ''
+					// },
+				]
+			},
+			{
+				anchor: groupsByRegion[6].anchor,
+				title: groupsByRegion[6].title,
+				subSubNav: [
+					// {
+					// 	anchor: '',
+					// 	title: ''
+					// },
+				]
+			},
+			{
+				anchor: groupsByRegion[7].anchor,
+				title: groupsByRegion[7].title,
+				subSubNav: [
+					// {
+					// 	anchor: '',
+					// 	title: ''
+					// },
+				]
+			},
+			{
+				anchor: groupsByRegion[8].anchor,
+				title: groupsByRegion[8].title,
+				subSubNav: [
+					// {
+					// 	anchor: '',
+					// 	title: ''
+					// },
+				]
+			},
+			{
+				anchor: groupsByRegion[9].anchor,
+				title: groupsByRegion[9].title,
+				subSubNav: [
+					// {
+					// 	anchor: '',
+					// 	title: ''
+					// },
 				]
 			}
 		]
 	},
 	{
-		title: '',
-		anchor: '',
+		title: 'Print&Play',
+		anchor: 'print-and-play',
 		subNav: [
-			{
-				anchor: '',
-				title: '',
-				subSubNav: [
-					{
-						anchor: '',
-						title: ''
-					},
-					{
-						anchor: '',
-						title: ''
-					},
-					{
-						anchor: '',
-						title: ''
-					},
-					{
-						anchor: '',
-						title: ''
-					}
-				]
-			},
-			{
-				anchor: '',
-				title: '',
-				subSubNav: [
-					{
-						anchor: '',
-						title: ''
-					},
-					{
-						anchor: '',
-						title: ''
-					}
-				]
-			}
-		]
-	},
-	{
-		title: '',
-		anchor: '',
-		subNav: [
-			{
-				anchor: '',
-				title: '',
-				subSubNav: [
-					{
-						anchor: '',
-						title: ''
-					},
-					{
-						anchor: '',
-						title: ''
-					},
-					{
-						anchor: '',
-						title: ''
-					},
-					{
-						anchor: '',
-						title: ''
-					}
-				]
-			},
-			{
-				anchor: '',
-				title: '',
-				subSubNav: [
-					{
-						anchor: '',
-						title: ''
-					},
-					{
-						anchor: '',
-						title: ''
-					}
-				]
-			}
+			// {
+			// 	anchor: '',
+			// 	title: '',
+			// 	subSubNav: [
+			// 		{
+			// 			anchor: '',
+			// 			title: ''
+			// 		},
+			// 		{
+			// 			anchor: '',
+			// 			title: ''
+			// 		},
+			// 		{
+			// 			anchor: '',
+			// 			title: ''
+			// 		},
+			// 		{
+			// 			anchor: '',
+			// 			title: ''
+			// 		}
+			// 	]
+			// },
+			// {
+			// 	anchor: '',
+			// 	title: '',
+			// 	subSubNav: [
+			// 		{
+			// 			anchor: '',
+			// 			title: ''
+			// 		},
+			// 		{
+			// 			anchor: '',
+			// 			title: ''
+			// 		}
+			// 	]
+			// }
 		]
 	},
 	{
