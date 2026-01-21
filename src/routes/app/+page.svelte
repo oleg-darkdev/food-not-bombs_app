@@ -9,7 +9,6 @@
 		ResourcesGenerationResultListCard
 	} from '$entitiesApp';
 
-	import { promoFnbGroups } from '$sharedData';
 	import {
 		stepGame,
 		stepInstruction,
@@ -21,7 +20,9 @@
 
 	import { fade, fly, slide } from 'svelte/transition';
 
-	import {
+	let { data } = $props();
+
+	const {
 		kit,
 		foodTokens,
 		roles,
@@ -31,10 +32,13 @@
 		winLose,
 		volunteeringApp,
 		volunteeringGame,
-		volunteeringFnb
-	} from '$sharedData';
+		volunteeringFnb,
+		promoFnbGroups,
+		scenarios,
+		locations,
+		runGame
+	} = data;
 
-	import { scenarios, locations, runGame } from '$sharedData';
 	let // $selectedMenu = $state(0),
 		// $stepInstruction = $state(0),
 		stepWelcome = $state(1),

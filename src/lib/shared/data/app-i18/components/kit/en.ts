@@ -10,7 +10,7 @@ const en = {
 				title: 'Optional dice (if you don’t want to use the web application)',
 				quantity: 8
 			},
-			// { img: '/images/kit/package/.svg', title: 'Colored role tokens', quantity: 8 },
+			{ img: '/images/kit/package/.svg', title: 'Sand offline clock (if you don’t want to use the web application)', quantity: 8 },
 			{
 				img: '/images/kit/package/.svg',
 				title: 'Mini cargo bike figurines (eco-plastic made from corn)',

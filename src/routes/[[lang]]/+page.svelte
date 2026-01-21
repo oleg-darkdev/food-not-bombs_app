@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import { promoFnbGroups } from '$sharedData';
+	let { data } = $props();
+
+	const { promoFnbGroups } = data;
 
 	import {
 		Features,
@@ -126,9 +128,7 @@
 
 	<VeganMenu />
 
-	<Slider {imgs}/>
-
-	
+	<Slider {imgs} />
 
 	<Team />
 

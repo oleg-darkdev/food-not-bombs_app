@@ -1,5 +1,9 @@
 <script lang="ts">
-	import { groupsListEurope } from '$sharedData';
+	let { data } = $props();
+
+	const { groupsListEurope } = data;
+
+	console.log(data)
 	import { FnbGroupCard, MiniFnbGroupCard, GroupsListCard } from '$entities';
 	// import { SEO } from '$sharedUtils';
 	// groupsByRegion, allGroups, countriesList
@@ -50,10 +54,10 @@
 {#if activeScreen == 1}
 	<!-- <h2>Список в разработке</h2> -->
 	{#each groupsListEurope as groupData (groupData.id)}
-		<section class="my-20  h-auto flex w-full flex-col items-center justify-center">
+		<section class="my-20 flex h-auto w-full flex-col items-center justify-center">
 			<a name={groupData.id}></a>
 
-			<div class="mx-auto  max-w-6xl px-2">
+			<div class="mx-auto max-w-6xl px-2">
 				<GroupsListCard
 					region={groupData.id}
 					groupsLength={groupData.data.length}

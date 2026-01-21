@@ -4,10 +4,9 @@
 	import { SliderGallery } from '$entitiesLanding';
 	import { PlayerRoleCard } from '$entities';
 
-	// import { Slider } from '$widgetsLanding';
-	// import { SEO } from '$sharedUtils';
+	let { data } = $props();
 
-	import {
+	const {
 		kit,
 		foodTokens,
 		roles,
@@ -19,21 +18,21 @@
 		volunteeringGame,
 		volunteeringFnb,
 		docsNav
-	} from '$sharedData';
+	} = data;
 
 	// console.log(kit); // done
 
-	console.log(foodTokens);
-	console.log(roles);
+	// console.log(foodTokens);
+	// console.log(roles);
 
-	console.log(preparation);
-	console.log(winTokens);
-	console.log(loseTokens);
-	console.log(winLose);
+	// console.log(preparation);
+	// console.log(winTokens);
+	// console.log(loseTokens);
+	// console.log(winLose);
 
-	console.log(volunteeringApp);
-	console.log(volunteeringGame);
-	console.log(volunteeringFnb);
+	// console.log(volunteeringApp);
+	// console.log(volunteeringGame);
+	// console.log(volunteeringFnb);
 </script>
 
 <!-- {#snippet api()}
