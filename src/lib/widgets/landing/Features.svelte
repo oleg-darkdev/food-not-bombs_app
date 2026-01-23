@@ -84,13 +84,13 @@
 
 <section class="section services">
 	<div class="wrap_performance-serivces">
-		<h2 class="h_semi-bold heading-features text-beige small">
+		<h2 class="h_semi-bold heading-features text-beige small hide-list-on-mobile">
 			About
 			<br />
 			boardgame
 			<br />
 
-			<span class="text-army-green h_regular sub-heading-features italic"> Soup4All</span>
+			<span class="text-army-green h_regular sub-heading-features italic hide-list-on-mobile"> Soup4All</span>
 		</h2>
 		<div class="grid_service-showcase performance">
 			<div class="wrap_featured-work-texts">
@@ -102,7 +102,7 @@
 					away.
 				</h1> -->
 
-				<div class="wrap_client-info">
+				<div class="wrap_client-info hide-list-on-mobile">
 					<div class="w-layout-vflex warp_client-name">
 						<div class="txt_case-study-brand-name">The game is suitable for:</div>
 						<!-- <div class="txt_case-study-brand-name">Lorem Ipsum</div> -->
@@ -116,21 +116,21 @@
 						<div class="txt_case-study-brand-industry">Lorem Ipsum</div>
 					</div> -->
 				</div>
-				<ul class="txt_paragraph sans-serif mb-10">
+				<ul class="txt_paragraph sans-serif mb-10 hide-list-on-mobile">
 					{#each targetAudience as target, i}
 						<li class="mb-2"><em>{i + 1}. {target} </em></li>
 					{/each}
 				</ul>
-				<p class="txt_paragraph sans-serif">
+				<p class="txt_paragraph sans-serif hide-list-on-mobile ">
 					<strong> Tasks to be solved by players in the game:</strong>
 				</p>
-				<ul class="txt_paragraph sans-serif">
+				<ul class="txt_paragraph sans-serif hide-list-on-mobile">
 					{#each gameTasks as tasks, i}
 						<li class="mb-2"><em>{i + 1}. {tasks} </em></li>
 					{/each}
 				</ul>
-
-				<p class="txt_paragraph sans-serif">
+<!-- добавить изображение -->
+				<p class="txt_paragraph sans-serif hide-list-on-mobile">
 					An open source project licensed under
 					<a href="“https://creativecommons.org/licenses/by-nc-sa/4.0/”" target="_blank"
 						>CC BY-NC-SA 4.0</a
@@ -308,4 +308,14 @@
 .wrap_heading-features {
 		font-size: 1.4em;
 	} */
+
+	 .hide-list-on-mobile {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .hide-list-on-mobile {
+    display: none;
+  }
+}
 </style>

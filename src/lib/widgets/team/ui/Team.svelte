@@ -14,7 +14,7 @@
 			<div role="listitem" class="wrap_project-card w-dyn-item">
 				<div class="wrap_project-image mobile-lanscape-center">
 					<a href="/" class="link_project-card auto-height w-inline-block">
-						<h2 class="h2_project-name">Lorem Ipsum has been the industry's standard</h2>
+						<h2 class="h2_project-name">Dream <br/> team</h2>
 					</a>
 					<p class="txt_paragraph project-card-summary _0-em inline">
 						<!-- Спасибо сообществу фнб ведущим публичную деятельность, если бы не вы - этот проект не
