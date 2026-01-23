@@ -71,7 +71,15 @@
 		</div>
 
 		<div class="btn-carrot-menu -mr-1">
-			<button class="h-10 w-10 bg-black" on:click={() => (showNav = !showNav)}></button>
+			<button class="" on:click={() => (showNav = !showNav)}>
+				{#if !showNav}
+				<img src="/images/icons/menu.svg" class='w-10 h-10' alt="">
+				{:else}
+				<img src="/images/icons/close.svg" class='w-10 h-10' alt="">
+
+				{/if}
+				
+				</button>
 		</div>
 	</nav>
 
@@ -153,18 +161,19 @@
 	}
 
 	.header {
-		z-index: 2147483647;
-		border-bottom: 1px solid var(--borders--army-green);
-		background-color: var(--background--cream);
-		flex-flow: row;
-		justify-content: flex-start;
-		align-items: center;
-		padding-top: 1.2em;
-		padding-bottom: 1.2em;
-		padding-left: 3em;
-		display: flex;
-		position: relative;
-		inset: 0% 0% auto;
+			position: sticky;
+	top: 0;
+	z-index: 2147483647;
+
+	border-bottom: 1px solid var(--borders--army-green);
+	background-color: var(--background--cream);
+	flex-flow: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+	padding-left: 3em;
+	display: flex;
 	}
 
 	.link_header-logo {

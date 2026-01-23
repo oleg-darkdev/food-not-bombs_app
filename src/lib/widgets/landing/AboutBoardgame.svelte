@@ -14,28 +14,27 @@
 				<!-- <h1 class="h_semi-bold top-creative ad-of-the-month">Lorem Ipsum <br /> jest tekstem</h1> -->
 				<div class="flex flex-col items-center justify-center">
 					<div class="flex w-full flex-row items-center justify-start">
-						<img src="/images/icons/players.svg" class="mr-2 h-20 w-20" alt="" />
-						<h2 class="h1_semibold text-yellow pb-2 text-center">4-6 players.</h2>
+						<img src="/images/icons/players.svg" class="mr-2 lg:h-20 lg:w-20 h-12 w-12" alt="" />
+						<h2 class="for-whom-txt text-yellow pb-2 text-center">4-6 players.</h2>
 					</div>
 
 					<div class="flex w-full flex-row items-center justify-start">
-						<img src="/images/icons/time.svg" class="mr-2 h-20 w-20" alt="" />
-						<h2 class="h1_semibold text-yellow pb-2 text-center">42-78 min.</h2>
+						<img src="/images/icons/time.svg" class="mr-2 lg:h-20 lg:w-20 h-12 w-12" alt="" />
+						<h2 class="for-whom-txt text-yellow pb-2 text-center">42-78 min.</h2>
 					</div>
 
-					<div class="flex w-full flex-row items-center justify-start mb-6">
-						<img src="/images/icons/age.svg" class="mr-2 h-20 w-20" alt="" />
-						<h2 class="h1_semibold text-yellow pb-2 text-center">12+ years.</h2>
+					<div class="mb-6 flex w-full flex-row items-center justify-start">
+						<img src="/images/icons/age.svg" class="mr-2 lg:h-20 lg:w-20 h-12 w-12" alt="" />
+						<h2 class="for-whom-txt text-yellow pb-2 text-center">12+ years.</h2>
 					</div>
 
 					<div class="flex w-full flex-col items-center justify-start">
 						<h4 class="h1_regular main-headline small text-orange pb-2 text-center">
 							<!-- This open source project is distributed under license: -->
-							 CC BY-NC-SA 4.0
+							CC BY-NC-SA 4.0
 							<!-- <span class=""></span> -->
 						</h4>
 						<img src="/images/cc_logotype.svg" class="mr-2 h-20 w-64" alt="" />
-						
 					</div>
 				</div>
 				<img
@@ -148,5 +147,32 @@
 		max-width: 25em;
 		position: relative;
 		overflow: hidden;
+	}
+
+	.for-whom-txt {
+		font-family: var(--fonts--primary-typeface);
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 4em;
+		font-weight: 600;
+		line-height: 1;
+	}
+
+	@media screen and (max-width: 991px) {
+		.for-whom-txt {
+			font-size: 5em;
+		}
+	}
+
+	@media screen and (max-width: 767px) {
+		.for-whom-txt {
+			font-size: 3em;
+		}
+	}
+
+	@media screen and (max-width: 479px) {
+		.for-whom-txt {
+			font-size: 3em;
+		}
 	}
 </style>

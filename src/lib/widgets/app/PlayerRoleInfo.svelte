@@ -10,12 +10,12 @@
 	console.log(player);
 </script>
 
-<div class="wrap_our-team">
+<div class="">
 	<!-- <h2 class="h_semi-bold our-team italic">Our Team</h2> -->
 
 	<div id="team" class="list_projects w-dyn-items max-w-6xl">
 		<div role="listitem" class="wrap_project-card w-dyn-item">
-			<div class="wrap_project-image mobile-lanscape-center">
+			<div class="wrap_project-image mobile-lanscape-center mb-6">
 				<!-- <a href="/" class="link_project-card auto-height w-inline-block"> -->
 
 				<div class="flex flex-row items-center justify-between">
@@ -23,13 +23,13 @@
 						src={player.token.img}
 						loading="eager"
 						alt=""
-						class="mr-4 h-16 w-16 rounded-full object-cover"
+						class="mr-4 lg:h-16 lg:w-16 h-10 w-10 rounded-full object-cover"
 					/>
 
-					<h2 class="h2_project-name">{player.title}</h2>
+					<h2 class="role-title">{player.title}</h2>
 				</div>
 				<!-- </a> -->
-				<div class="wrap_client-info">
+				<div class="wrap_client-info ">
 					<div class="flex flex-col">
 						<div class="txt_case-study-brand-industry">
 							Color of game components: <em>{player.color} </em>
@@ -45,7 +45,7 @@
 				<p class="txt_paragraph sans-serif">
 					Capacity: <em>{player.capacity} </em>
 				</p> -->
-				<div class="">
+				<div class="w-full mb-6">
 					<!-- <p class="txt_paragraph project-card-summary _0-em inline">Starter kit:</p> -->
 					<ul role="list" class=" w-list-unstyled w-full px-6">
 						<li
@@ -132,7 +132,7 @@
 						</li>
 					</ul>
 				</div>
-				
+
 				<p class="txt_paragraph sans-serif">
 					<strong>
 						{player.ability}
@@ -213,6 +213,14 @@
 </div>
 
 <style lang="postcss">
+	.role-title {
+		text-transform: uppercase;
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 3.5em;
+		line-height: 1;
+	}
+
 	.player-role-card {
 		/* aspect-ratio: 1; */
 		/* background-color: var(--background--yellow); */
@@ -228,5 +236,20 @@
 		max-width: 19em;
 		display: flex;
 		overflow: hidden;
+	}
+
+	@media screen and (max-width: 767px) {
+		.role-title {
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 6em;
+		}
+	}
+
+	@media screen and (max-width: 479px) {
+		.role-title {
+			font-size: 8em;
+		}
 	}
 </style>
