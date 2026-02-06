@@ -5,7 +5,7 @@
 
 	const { groupsListEurope } = data;
 
-	console.log(data);
+	console.log(groupsListEurope);
 
 	// import { Newsletter, FreeBlock_1, FreeBlock_5, FreeBlock_4, FreeBlock_6 } from '$widgetsLanding';
 
@@ -21,7 +21,8 @@
 			<span class="text-orange">Food Not Bombs groups</span>
 		</h2>
 	</div>
-	<div class="mx-auto mb-4 grid max-w-6xl grid-cols-3 gap-x-4 px-6 pt-6">
+	<!-- grid-cols-3 -->
+	<div class="mx-auto mb-4 grid max-w-4xl grid-cols-2 gap-x-4 px-6 pt-6">
 		<SmallRectangleBtn
 			onclick={() => {
 				activeScreen = 1;
@@ -39,14 +40,14 @@
 			text="Cards"
 			activeBtn={activeScreen == 2 ? true : false}
 		/>
-		<SmallRectangleBtn
+		<!-- <SmallRectangleBtn
 			onclick={() => {
 				activeScreen = 3;
-				// console.log('click ');
+				console.log('click ,ap');
 			}}
 			text="Map"
 			activeBtn={activeScreen == 3 ? true : false}
-		/>
+		/> -->
 	</div>
 </section>
 

@@ -14,7 +14,6 @@ import Slider from './slider/ui/Slider.svelte';
 // import Hero from './hero/ui/Hero.svelte';
 // import Hero from './hero/ui/Hero.svelte';
 // import Hero from './hero/ui/Hero.svelte';
-// import Hero from './hero/ui/Hero.svelte';
 // import AboutBoardgame from './hero/ui/Hero.svelte';
 
 import Newsletter from './Newsletter.svelte';
@@ -28,9 +27,12 @@ import FreeBlock_5 from './FreeBlock_5.svelte';
 import FreeBlock_6 from './FreeBlock_6.svelte';
 import AboutBoardgame from './AboutBoardgame.svelte';
 import Header from './Header.svelte';
+import AsideNav from './AsideNav.svelte';
+
 
 export {
 	Newsletter,
+	AsideNav,
 	Slider,
 	AboutBoardgame,
 	Features,

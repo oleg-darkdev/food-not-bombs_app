@@ -5,6 +5,8 @@ const docsNav = [
 	{
 		title: 'Game components',
 		anchor: 'components',
+		showFull: false,
+
 		subNav: [
 			{
 				anchor: 'tokens',
@@ -28,7 +30,7 @@ const docsNav = [
 						title: 'Reward tokens'
 					},
 					{
-						category: 'Lose token:',
+						title: 'Lose tokens',
 						anchor: 'lose-tokens'
 					}
 				]
@@ -136,6 +138,8 @@ const docsNav = [
 	{
 		title: 'Roles',
 		anchor: 'roles',
+		showFull: false,
+
 		subNav: [
 			{
 				anchor: kit.playersStuff.items[0].anchor,
@@ -176,7 +180,7 @@ const docsNav = [
 				anchor: kit.playersStuff.items[7].anchor,
 				title: `${kit.playersStuff.items[7].name} - ${kit.playersStuff.items[7].title}`,
 				subSubNav: []
-			},
+			}
 			// {
 			// 	anchor: kit.playersStuff.items[8].anchor,
 			// 	title: `${kit.playersStuff.items[8].name} - ${kit.playersStuff.items[8].title}`,
@@ -192,6 +196,8 @@ const docsNav = [
 	{
 		title: 'Food Not Bombs groups',
 		anchor: 'groups',
+		showFull: false,
+
 		subNav: [
 			{
 				anchor: 'api',
@@ -308,48 +314,111 @@ const docsNav = [
 	{
 		title: 'Print&Play',
 		anchor: 'print-and-play',
+		showFull: false,
 		subNav: [
-			// {
-			// 	anchor: '',
-			// 	title: '',
-			// 	subSubNav: [
-			// 		{
-			// 			anchor: '',
-			// 			title: ''
-			// 		},
-			// 		{
-			// 			anchor: '',
-			// 			title: ''
-			// 		},
-			// 		{
-			// 			anchor: '',
-			// 			title: ''
-			// 		},
-			// 		{
-			// 			anchor: '',
-			// 			title: ''
-			// 		}
-			// 	]
-			// },
-			// {
-			// 	anchor: '',
-			// 	title: '',
-			// 	subSubNav: [
-			// 		{
-			// 			anchor: '',
-			// 			title: ''
-			// 		},
-			// 		{
-			// 			anchor: '',
-			// 			title: ''
-			// 		}
-			// 	]
-			// }
+			{
+				title: 'Preparation',
+				anchor: 'preparation',
+				subSubNav: [
+					{
+						title: 'Download files',
+						anchor: 'download'
+					},
+					{
+						title: 'Box wrapping kit',
+						anchor: 'box-wrap'
+					}
+				]
+			},
+			{
+				title: 'Game components',
+				anchor: 'game-components',
+				subSubNav: [
+					{
+						title: 'Map',
+						anchor: 'map-pnp'
+					},
+					{
+						title: 'Food tokens',
+						anchor: 'food-tokens-pnp'
+					},
+					{
+						title: 'Canned tokens',
+						anchor: 'canning-tokens-pnp'
+					},
+					{
+						title: 'Award tokens',
+						anchor: 'award-tokens-pnp'
+					},
+					{
+						title: 'Player tokens',
+						anchor: 'player-tokens-pnp'
+					},
+					{
+						title: 'Player tablets',
+						anchor: 'player-tablets-pnp'
+					}
+				]
+			}
 		]
 	},
 	{
+		title: 'Boardgame rules',
+		anchor: 'game-rules',
+		showFull: false,
+		subNav: [
+			{
+				title: 'Preparation',
+				anchor: 'preparation',
+				subSubNav: [
+					// {
+					// 	title: 'Download files',
+					// 	anchor: 'download'
+					// },
+					// {
+					// 	title: 'Box wrapping kit',
+					// 	anchor: 'box-wrap'
+					// }
+				]
+			},
+			{
+				title: 'Game components',
+				anchor: 'game-components',
+				subSubNav: [
+					{
+						title: 'Map',
+						anchor: 'map'
+					},
+					{
+						title: 'Food tokens',
+						anchor: 'food-tokens'
+					},
+					{
+						title: 'Canned tokens',
+						anchor: 'canning-tokens'
+					},
+					{
+						title: 'Award tokens',
+						anchor: 'award-tokens'
+					},
+					{
+						title: 'Player tokens',
+						anchor: 'player-tokens'
+					},
+					{
+						title: 'Player tablets',
+						anchor: 'player-tablets'
+					}
+				]
+			}
+		]
+	},
+
+	{
 		title: 'Questions and answers',
 		anchor: 'faq',
+		showFull: false,
+
 		subNav: [
 			{
 				anchor: 'boardgame-faq',

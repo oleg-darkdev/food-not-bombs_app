@@ -1,13 +1,10 @@
 <script lang="ts">
 	import { Hero } from '$widgetsApp';
 	import { FAQ, GroupsListingMini, ApiListing } from '$widgets';
+	import { BigBtnText, BigLinkBtn, BigBtnIconText } from '$entities';
+
 	import { StatsList, AppFooterBtn } from '$entities';
-	import {
-		ScenariousList,
-		RoundCard,
-		BigBtnIconText,
-		ResourcesGenerationResultListCard
-	} from '$entitiesApp';
+	import { ScenariousList, RoundCard, ResourcesGenerationResultListCard } from '$entitiesApp';
 
 	import {
 		stepGame,
@@ -191,11 +188,49 @@
 				<!-- open source & social links data -->
 				{#if $stepInstruction == 1}
 					<div class="" transition:slide>
-						<h2>{$stepInstruction} {$stepInstruction == 2}</h2>
+						<div
+							class="mx-auto flex h-full max-w-2xl flex-row flex-wrap justify-between gap-x-4 gap-y-4 px-6"
+						>
+							<BigBtnText
+								text="Print&Play"
+								bgColor="bg-red"
+								onclick={() => {
+									location.href = './docs#print-and-play';
+								}}
+							/>
+
+							<BigBtnText text="FAQ" bgColor="bg-orange" onclick={() => {}} />
+
+							<BigBtnText
+								text="Game rules"
+								bgColor="bg-red"
+								onclick={() => {
+									location.href = './docs#game-rules';
+								}}
+							/>
+
+							<BigBtnText
+								text="API"
+								bgColor="bg-orange"
+								onclick={() => {
+									location.href = './docs#api';
+								}}
+							/>
+
+							<BigBtnText
+								text="Boardgame kit"
+								bgColor="bg-red"
+								onclick={() => {
+									location.href = './docs#components';
+								}}
+							/>
+						</div>
+
+						<!-- <h2>{$stepInstruction} {$stepInstruction == 2}</h2> -->
 					</div>
 				{:else if $stepInstruction == 2}
 					<div class="" transition:slide>
-						<GroupsListingMini groupsData={promoFnbGroups.slice(0, 8)} />
+						<!-- <GroupsListingMini groupsData={promoFnbGroups.slice(0, 8)} /> -->
 					</div>
 				{:else if $stepInstruction == 3}
 					<div class="" transition:slide><ApiListing /></div>

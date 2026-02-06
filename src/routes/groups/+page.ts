@@ -1,6 +1,6 @@
 import { groupsListEurope } from '$sharedData';
 
-console.log(groupsListEurope);
+// console.log(groupsListEurope);
 
 export function load() {
 	return {

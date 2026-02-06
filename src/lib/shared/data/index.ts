@@ -32,7 +32,7 @@ import preparation from './app-i18/preparation/en';
 import winTokens from './app-i18/components/win-tokens/en';
 import loseTokens from './app-i18/components/lose-tokens/en';
 import winLose from './app-i18/rules/win-lose/en';
-// import foodTokens from './app-i18/components/tablets/en';
+import pnp from './app-i18/pnp/en';
 // import foodTokens from './app-i18/components/tablets/en';
 // import foodTokens from './app-i18/components/tablets/en';
 
@@ -92,6 +92,7 @@ export {
 	poland,
 	promoFnbGroups,
 	docsNav,
+	pnp,
 	nav,
 	// countriesList,
 	groupsByRegion,

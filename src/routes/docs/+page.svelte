@@ -3,7 +3,7 @@
 	import { InsstructionListCard, PlayerRoleCard } from '$entities';
 	import { SliderGallery } from '$entitiesLanding';
 	import { ScrollToTop, Tag } from '$sharedUi';
-	import { PreFAQ, Footer } from '$widgetsLanding';
+	import { PreFAQ, Footer, AsideNav } from '$widgetsLanding';
 	import { GroupsListingMini } from '$widgets';
 	import { PlayerRoleInfo } from '$widgetsApp';
 
@@ -39,7 +39,7 @@
 		docsNav
 	} = data;
 
-	console.log(kit.playersStuff.items);
+	// console.log(kit.playersStuff.items);
 
 	// console.log(kit); // done
 
@@ -61,51 +61,8 @@
 		{/snippet} -->
 
 <!-- data={kit.tokens} -->
+<AsideNav {docsNav} />
 
-<aside id="docs-navigation" class="docs-navigation">
-	<nav class="docs-navigation-inner">
-		<ul class="docs-nav-list">
-			{#each docsNav as navItem}
-				<li class="docs-nav-item">
-					<a href="#{navItem.anchor}" class="docs-nav-link">
-						<img src="/images/corner-dot-army-green.svg" alt="" class="docs-nav-dot" />
-						<span>{navItem.title}</span>
-					</a>
-
-					{#if navItem.subNav}
-						<ul class="docs-subnav">
-							{#each navItem.subNav as subNav}
-								<li class="docs-subnav-item">
-									<a href="#{subNav.anchor}" class="docs-nav-link">
-										<img src="/images/corner-dot-army-green.svg" alt="" class="docs-nav-dot" />
-										<span>{subNav.title}</span>
-									</a>
-
-									{#if subNav.subSubNav}
-										<ul class="docs-subsubnav">
-											{#each subNav.subSubNav as subSubNav}
-												<li class="docs-subsubnav-item">
-													<a href="#{subSubNav.anchor}" class="docs-nav-link">
-														<img
-															src="/images/corner-dot-army-green.svg"
-															alt=""
-															class="docs-nav-dot"
-														/>
-														<span>{subSubNav.title}</span>
-													</a>
-												</li>
-											{/each}
-										</ul>
-									{/if}
-								</li>
-							{/each}
-						</ul>
-					{/if}
-				</li>
-			{/each}
-		</ul>
-	</nav>
-</aside>
 <main class=" flex flex-col items-end justify-end">
 	<div class="max-w-5xl">
 		<InsstructionListCard title={kit.tokens.category}>
@@ -332,6 +289,44 @@
 			</div>
 		</section>
 
+		<!-- Pnp -->
+
+		<section id="print-and-play">
+			<h2>print-and-play</h2>
+
+			<div class="" id="download"></div>
+			<div class="" id="box-wrap"></div>
+			<div class="" id="map-pnp"></div>
+			<div class="" id="food-tokens-pnp"></div>
+			<div class="" id="canning-tokens-pnp"></div>
+			<div class="" id="award-tokens-pnp"></div>
+			<div class="" id="player-tokens-pnp"></div>
+			<div class="" id="player-tablets-pnp"></div>
+			<!-- <div class="" id=''></div>
+				<div class="" id=''></div>
+				<div class="" id=''></div>
+				<div class="" id=''></div>
+				<div class="" id=''></div> -->
+		</section>
+
+		<section id="game-rules">
+			<h2>game-rules</h2>
+
+			<div class="" id="download"></div>
+			<div class="" id="box-wrap"></div>
+			<div class="" id="map"></div>
+			<div class="" id="food-tokens"></div>
+			<div class="" id="canning-tokens"></div>
+			<div class="" id="award-tokens"></div>
+			<div class="" id="player-tokens"></div>
+			<div class="" id="player-tablets"></div>
+			<!-- <div class="" id=''></div>
+				<div class="" id=''></div>
+				<div class="" id=''></div>
+				<div class="" id=''></div>
+				<div class="" id=''></div> -->
+		</section>
+
 		<a name="updates"></a>
 
 		<!-- <GroupsListingMini groupsData={promoFnbGroups.slice(0, 8)} /> -->
@@ -354,70 +349,5 @@
 <style lang="postcss">
 	.txt_services-list-item {
 		text-align: left;
-	}
-	.docs-navigation {
-		/* width: 22rem; */
-		/* max-height: calc(100vh - 8rem); */
-		/* overflow-y: auto; */
-		/* z-index: 100; */
-	}
-	@media screen and (min-width: 991px) {
-		.docs-navigation {
-			position: fixed;
-			top: 6rem; /* ниже header */
-			left: 1rem;
-			width: 22rem;
-			max-height: calc(100vh - 8rem);
-			overflow-y: auto;
-			z-index: 100;
-		}
-	}
-
-	.docs-navigation-inner {
-		border: 1px solid var(--borders--army-green);
-		border-radius: 1.5rem;
-		background-color: var(--background--beige);
-		padding: 1.5rem;
-	}
-
-	.docs-nav-list,
-	.docs-subnav,
-	.docs-subsubnav {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-	}
-
-	.docs-nav-item {
-		margin-bottom: 1rem;
-	}
-
-	.docs-subnav {
-		padding-left: 1rem;
-		margin-top: 0.5rem;
-	}
-
-	.docs-subsubnav {
-		padding-left: 1.5rem;
-		margin-top: 0.25rem;
-	}
-
-	.docs-nav-link {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-		font-size: 0.9rem;
-		font-weight: 600;
-		text-transform: uppercase;
-		transition: transform 0.2s ease;
-	}
-
-	.docs-nav-link:hover {
-		transform: translateX(4px);
-	}
-
-	.docs-nav-dot {
-		width: 0.5rem;
-		height: 0.5rem;
 	}
 </style>

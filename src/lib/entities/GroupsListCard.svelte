@@ -57,7 +57,7 @@
 												{#if group.facebook}
 													<div role="listitem" class="item_project-tags w-dyn-item">
 														<SocialRoundIconLink
-															icon="/images/instagram.png"
+															icon="/images/icons/facebook.svg"
 															alt="Facebook"
 															link={group.facebook}
 														/>
@@ -67,9 +67,19 @@
 												{#if group.inst}
 													<div role="listitem" class="item_project-tags w-dyn-item">
 														<SocialRoundIconLink
-															icon="/images/instagram.png"
+															icon="/images/icons/instagram.svg"
 															alt="Instagram"
 															link={group.inst}
+														/>
+													</div>
+												{/if}
+
+												{#if group.twitter}
+													<div role="listitem" class="item_project-tags w-dyn-item">
+														<SocialRoundIconLink
+															icon="/images/icons/twitter.svg"
+															alt="twitter"
+															link={group.twitter}
 														/>
 													</div>
 												{/if}
@@ -77,7 +87,7 @@
 												{#if group.website}
 													<div role="listitem" class="item_project-tags w-dyn-item">
 														<SocialRoundIconLink
-															icon="/images/facebook.png"
+															icon="/images/icons/link.svg"
 															alt={group.website}
 															link={group.website}
 														/>
@@ -94,15 +104,7 @@
 													</div>
 												{/if}
 
-												{#if group.twitter}
-													<div role="listitem" class="item_project-tags w-dyn-item">
-														<SocialRoundIconLink
-															icon="/images/facebook.png"
-															alt="twitter"
-															link={group.twitter}
-														/>
-													</div>
-												{/if}
+												
 
 												<!-- {#if group.contactPhone}
 													<div role="listitem" class="item_project-tags w-dyn-item">
