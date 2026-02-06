@@ -2,14 +2,46 @@
 	let { data } = $props();
 	import { ScrollToTop } from '$sharedUi';
 	import { FnbGroupCard, MiniFnbGroupCard, GroupsListCard, SmallRectangleBtn } from '$entities';
+	import { AsideNav } from '$widgetsLanding';
 
 	const { groupsListEurope } = data;
 
-	console.log(groupsListEurope);
+	function buildDocsNav(groupsListEurope) {
+		return groupsListEurope.map((country) => ({
+			title: country.id.charAt(0).toUpperCase() + country.id.slice(1), // с большой
+			anchor: country.id, // с маленькой
+			showFull: false,
+
+			subNav: country.data.map((city) => ({
+				anchor: city.id, // id города
+				title: city.city, // название города
+				subSubNav: []
+			}))
+		}));
+	}
+
+	const docsNav = buildDocsNav(groupsListEurope);
+	// console.log(docsNav);
 
 	// import { Newsletter, FreeBlock_1, FreeBlock_5, FreeBlock_4, FreeBlock_6 } from '$widgetsLanding';
 
 	let activeScreen = $state(2);
+
+	// const docsNav = [
+	// 	{
+	// 		title: groupsListEurope[0].id,
+	// 		anchor: groupsListEurope[0].id,
+	// 		showFull: false,
+
+	// 		subNav: [
+	// 			{
+	// 				anchor: 'tokens',
+	// 				title: groupsListEurope[0].id,
+	// 				subSubNav: []
+	// 			}
+	// 		]
+	// 	}
+	// ];
 </script>
 
 <section class="section project-page-explore">
@@ -53,40 +85,53 @@
 
 {#if activeScreen == 1}
 	<!-- <h2>Список в разработке</h2> -->
-	{#each groupsListEurope as groupData (groupData.id)}
-		<section class="my-20 flex h-auto w-full flex-col items-center justify-center">
-			<a name={groupData.id}></a>
 
-			<div class="mx-auto max-w-6xl px-2">
-				<GroupsListCard
-					region={groupData.id}
-					groupsLength={groupData.data.length}
-					groupData={groupData.data}
-				/>
-			</div>
-		</section>
-	{/each}
+	<div class="relative flex w-full flex-row justify-between pt-10">
+		<AsideNav {docsNav} />
+
+		<div class="">
+			{#each groupsListEurope as groupData (groupData.id)}
+				<section class="flex h-auto w-full flex-col items-end justify-end ">
+					<a name={groupData.id}></a>
+
+					<div class="w-full max-w-6xl px-2">
+						<GroupsListCard
+							region={groupData.id}
+							groupsLength={groupData.data.length}
+							groupData={groupData.data}
+						/>
+					</div>
+				</section>
+			{/each}
+		</div>
+	</div>
 {:else if activeScreen == 2}
-	{#each groupsListEurope as groupData (groupData.id)}
-		<section class="my-20 flex w-full flex-col items-center justify-center">
-			<a name={groupData.id}></a>
+	<!-- flex-wrap -->
+	<div class="relative flex w-full flex-row justify-between pt-10">
+		<AsideNav {docsNav} />
 
-			<h2>{groupData.id} – {groupData.data.length}</h2>
+		<div class="">
+			{#each groupsListEurope as groupData (groupData.id)}
+				<section class="flex h-auto w-full flex-col items-end justify-end max-w-6xl">
+					<a name={groupData.id}></a>
 
-			<div
-				class="mx-auto grid max-w-6xl grid-cols-1 grid-cols-2 gap-x-4 gap-y-6 px-2 lg:grid-cols-3"
-			>
-				{#each groupData.data as group (group.id)}
-					{#if group.imgCollected}
-						<!-- <FnbGroupCard {group} /> -->
-						<MiniFnbGroupCard {group} />
-					{/if}
-				{/each}
-			</div>
-		</section>
-	{/each}
+					<h2 class="w-full text-center">{groupData.id} – {groupData.data.length}</h2>
+
+					<!-- mx-auto max-w-6xl -->
+					<div class=" grid grid-cols-1 grid-cols-2 gap-x-4 gap-y-6 px-2 lg:grid-cols-3 ">
+						{#each groupData.data as group (group.id)}
+							{#if group.imgCollected}
+								<!-- <FnbGroupCard {group} /> -->
+								<MiniFnbGroupCard {group} />
+							{/if}
+						{/each}
+					</div>
+				</section>
+			{/each}
+		</div>
+	</div>
 {:else if activeScreen == 3}
-	<h2>карта в разработке</h2>
+	<!-- <h2>карта в разработке</h2> -->
 {/if}
 
 <ScrollToTop />

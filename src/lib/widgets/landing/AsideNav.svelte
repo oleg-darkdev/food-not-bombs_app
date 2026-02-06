@@ -6,7 +6,7 @@
 	let { docsNav } = $props();
 </script>
 
-<aside id="docs-navigation" class="docs-navigation">
+<aside id="docs-navigation" class="docs-navigation no-scrollbar overflow-y-scroll">
 	<nav class="docs-navigation-inner">
 		<ul class="docs-nav-list">
 			{#each docsNav as navItem}
@@ -18,19 +18,29 @@
 
 <style lang="postcss">
 	.docs-navigation {
-		/* width: 22rem; */
+		/* width: 16rem; */
 		/* max-height: calc(100vh - 8rem); */
 		/* overflow-y: auto; */
 		/* z-index: 100; */
 	}
+
+	.no-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+
+	.no-scrollbar {
+		-ms-overflow-style: none; /* IE и Edge */
+		scrollbar-width: none; /* Firefox */
+	}
 	@media screen and (min-width: 991px) {
 		.docs-navigation {
-			position: fixed;
+			position: sticky;
 			top: 6rem; /* ниже header */
 			left: 1rem;
-			width: 22rem;
+			width: 18rem;
 			max-height: calc(100vh - 8rem);
 			overflow-y: auto;
+
 			z-index: 100;
 		}
 	}

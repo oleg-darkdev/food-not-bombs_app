@@ -2,40 +2,34 @@
 	// import {  } from '$shared';
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
-	import { getSocialHandle } from '$sharedUtils';
 	import { SocialRoundIconLink } from '$sharedUi';
 
 	let { groupData, groupsLength, region } = $props();
-
-	// console.log(groupData);
 </script>
 
-<div class="section meet-our-friends collection  w-full">
+<div class="section meet-our-friends collection w-full">
 	<div class="wrap_meet-our-friends w-full">
 		<div class="collection_projects w-full">
 			<div role="list" class="list_projects w-dyn-items w-full">
 				<div role="listitem" class="wrap_project-card w-dyn-item w-full">
-					<!-- <div class="wrap-banner mobile-lanscape-center"></div> -->
-					<div class="wrap-banner-img w-full ">
-						<div class="wrap_card-heading services py-2 flex flex-row items-center justify-center">
-							<h3 class="h_semi-bold services italic mr-1">
-								{region}:   <span class='ml-4'>{groupsLength}</span>
+					<div class="wrap-banner-img w-full">
+						<div class="wrap_card-heading services flex flex-row items-center justify-center py-2">
+							<h3 class="h_semi-bold services mr-1 italic">
+								{region}: <span class="ml-4">{groupsLength}</span>
 							</h3>
-							<img src="/images/groups/default_logo.png" class="lg:-mt-8  lg:h-16 lg:w-16 h-4 w-4" alt="" />
+							<img
+								src="/images/groups/default_logo.png"
+								class="h-4 w-4 lg:-mt-8 lg:h-16 lg:w-16"
+								alt=""
+							/>
 						</div>
 
 						<div class="wrap_services-list w-full">
-							<!-- <ul role="list" class="list_services-card w-list-unstyled"> -->
-							 <!-- 
-							<div class="" id="api">
-			{@render api()}
-		</div>
-
-		-->
 							<ul role="list" class=" w-list-unstyled w-full px-6">
 								{#each groupData as group (group.id)}
 									<li
-										class="item_services-card  transition-transform duration-200 ease-in-out hover:scale-105"
+										id={group.id}
+										class="item_services-card transition-transform duration-200 ease-in-out hover:scale-105"
 									>
 										<div
 											class="txt_services-list-item caps service flex flex-row items-center justify-between"
@@ -46,7 +40,7 @@
 														src={group.logo ? group.logo : '/images/groups/default_logo.png'}
 														loading="eager"
 														alt=""
-														class="lg:h-12 lg:w-12 h-8 w-8 rounded-full object-cover"
+														class="h-8 w-8 rounded-full object-cover lg:h-12 lg:w-12"
 													/>
 												</div>
 
@@ -96,26 +90,36 @@
 
 												{#if group.email}
 													<div role="listitem" class="item_project-tags w-dyn-item">
-														<a
+														<!-- <a
 															href={`mailto:${group.email}`}
 															target="_blank"
 															class=" cta_primary tag-style">email</a
-														>
+														> -->
+														<SocialRoundIconLink
+															icon="/images/icons/email.svg"
+															alt={group.contactPhone ? group.contactPhone : group.contactName}
+															href={`mailto:${group.email}`}
+														/>
 													</div>
 												{/if}
 
-												
-
-												<!-- {#if group.contactPhone}
-													<div role="listitem" class="item_project-tags w-dyn-item">
+												{#if group.contactPhone}
+												<div role="listitem" class="item_project-tags w-dyn-item">
+														<SocialRoundIconLink
+															icon="/images/icons/phone-call.svg"
+															alt={group.contactPhone ? group.contactPhone : group.contactName}
+															link={`tel:${group.contactPhone}`}
+														/>
+													</div>
+													<!-- <div role="listitem" class="item_project-tags w-dyn-item">
 														<a
 															href={`tel:${group.contactPhone}`}
 															class="cta_primary yellow tag-style"
 														>
 															{group.contactPhone ? group.contactPhone : group.contactName}
 														</a>
-													</div>
-												{/if} -->
+													</div> -->
+												{/if}
 											</div>
 											<!-- {ingredient.count} -->
 										</div>
