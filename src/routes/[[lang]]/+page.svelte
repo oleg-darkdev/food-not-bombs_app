@@ -2,7 +2,17 @@
 	import { page } from '$app/stores';
 	let { data } = $props();
 
-	const { promoFnbGroups } = data;
+	const {
+		promoFnbGroups,
+		landingPromoPhotos,
+		imgs,
+		fnbFaq,
+		boardgameFaq,
+		basicFaq,
+		appFaq
+		// componentsFaq,
+		// rulesAndInterpretationFaq
+	} = data;
 
 	import {
 		Features,
@@ -26,61 +36,13 @@
 		FAQ,
 		VeganMenu,
 		LangSwitcher,
-		landingPromoPhotos,
+		// landingPromoPhotos,
 		GroupsListingMini,
 		ApiListing
 	} from '$widgets';
 	// import { SEO } from '$sharedUtils';
 
 	import { StatsList } from '$entities';
-
-	const imgs = [
-		{
-			altText: '',
-			img: '/images/photos/boardgame/promo/2.JPG'
-		},
-		// {
-		// 	altText: '',
-		// 	img: '/images/photos/boardgame/promo/3.JPG'
-		// },
-		// {
-		// 	altText: '',
-		// 	img: '/images/photos/boardgame/promo/4.JPG'
-		// },
-		// {
-		// 	altText: '',
-		// 	img: '/images/photos/boardgame/promo/5.JPG'
-		// },
-		// {
-		// 	altText: '',
-		// 	img: '/images/photos/boardgame/promo/6.JPG'
-		// },
-
-		{
-			altText: '',
-			img: '/images/photos/boardgame/promo/8.JPG'
-		},
-		{
-			altText: '',
-			img: '/images/photos/boardgame/promo/11.JPG'
-		},
-		{
-			altText: '',
-			img: '/images/photos/boardgame/promo/15.JPG'
-		},
-		{
-			altText: '',
-			img: '/images/photos/boardgame/promo/9.JPG'
-		},
-		{
-			altText: '',
-			img: '/images/photos/boardgame/promo/16.JPG'
-		},
-		{
-			altText: '',
-			img: '/images/photos/boardgame/promo/1.JPG'
-		}
-	];
 
 	function getLogosAndIds(data) {
 		return data.map((item) => ({
@@ -92,10 +54,9 @@
 </script>
 
 <svelte:head>
-	<title>FNB game | {$page.data.locale}</title>
+	<title>Soup4ALL - app | {$page.data.locale}</title>
 	<meta name="description" content="" />
 </svelte:head>
-
 <!-- <SEO title="Home" /> -->
 
 <Header />
@@ -136,7 +97,15 @@
 
 	<PreFAQ />
 
-	<FAQ />
+	<section id="faq" class="section faq">
+		<div class="wrap_faq-heading">
+			<h2 class="h_semi-bold section-heading small faq">FAQ</h2>
+		</div>
+		<FAQ faqData={fnbFaq} />
+		<FAQ faqData={boardgameFaq} />
+		<!-- <FAQ faqData={basicFaq} /> -->
+		<FAQ faqData={appFaq} />
+	</section>
 </main>
 
 <Footer />

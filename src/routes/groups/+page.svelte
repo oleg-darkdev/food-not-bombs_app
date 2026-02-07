@@ -1,48 +1,24 @@
 <script lang="ts">
+	import { page } from '$app/stores';
+
 	let { data } = $props();
 	import { ScrollToTop } from '$sharedUi';
+	import { buildDocsNav } from '$sharedUtils';
+
 	import { FnbGroupCard, MiniFnbGroupCard, GroupsListCard, SmallRectangleBtn } from '$entities';
 	import { AsideNav } from '$widgetsLanding';
 
 	const { groupsListEurope } = data;
 
-	function buildDocsNav(groupsListEurope) {
-		return groupsListEurope.map((country) => ({
-			title: country.id.charAt(0).toUpperCase() + country.id.slice(1), // с большой
-			anchor: country.id, // с маленькой
-			showFull: false,
-
-			subNav: country.data.map((city) => ({
-				anchor: city.id, // id города
-				title: city.city, // название города
-				subSubNav: []
-			}))
-		}));
-	}
-
 	const docsNav = buildDocsNav(groupsListEurope);
-	// console.log(docsNav);
-
-	// import { Newsletter, FreeBlock_1, FreeBlock_5, FreeBlock_4, FreeBlock_6 } from '$widgetsLanding';
 
 	let activeScreen = $state(2);
-
-	// const docsNav = [
-	// 	{
-	// 		title: groupsListEurope[0].id,
-	// 		anchor: groupsListEurope[0].id,
-	// 		showFull: false,
-
-	// 		subNav: [
-	// 			{
-	// 				anchor: 'tokens',
-	// 				title: groupsListEurope[0].id,
-	// 				subSubNav: []
-	// 			}
-	// 		]
-	// 	}
-	// ];
 </script>
+
+<svelte:head>
+	<title>Soup4ALL - groups | {$page.data.locale}</title>
+	<meta name="description" content="" />
+</svelte:head>
 
 <section class="section project-page-explore">
 	<!-- onclick={() => {
@@ -91,7 +67,7 @@
 
 		<div class="">
 			{#each groupsListEurope as groupData (groupData.id)}
-				<section class="flex h-auto w-full flex-col items-end justify-end ">
+				<section class="flex h-auto w-full flex-col items-end justify-end">
 					<a name={groupData.id}></a>
 
 					<div class="w-full max-w-6xl px-2">
@@ -112,13 +88,13 @@
 
 		<div class="">
 			{#each groupsListEurope as groupData (groupData.id)}
-				<section class="flex h-auto w-full flex-col items-end justify-end max-w-6xl">
+				<section class="flex h-auto w-full max-w-6xl flex-col items-end justify-end">
 					<a name={groupData.id}></a>
 
 					<h2 class="w-full text-center">{groupData.id} – {groupData.data.length}</h2>
 
 					<!-- mx-auto max-w-6xl -->
-					<div class=" grid grid-cols-1 grid-cols-2 gap-x-4 gap-y-6 px-2 lg:grid-cols-3 ">
+					<div class=" grid grid-cols-1 grid-cols-2 gap-x-4 gap-y-6 px-2 lg:grid-cols-3">
 						{#each groupData.data as group (group.id)}
 							{#if group.imgCollected}
 								<!-- <FnbGroupCard {group} /> -->

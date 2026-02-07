@@ -14,8 +14,7 @@ import InsstructionListCard from './InsstructionListCard.svelte';
 import PlayerRoleCard from './PlayerRoleCard.svelte';
 import BigBtnIconText from './BigBtnIconText.svelte';
 import BigBtnText from './BigBtnText.svelte';
-
-// import BigBtnIconText from './BigBtnIconText.svelte';
+import BasicInfoCard from './BasicInfoCard.svelte';
 // import BigBtnIconText from './BigBtnIconText.svelte';
 // import BigBtnIconText from './BigBtnIconText.svelte';
 // import BigBtnIconText from './BigBtnIconText.svelte';
@@ -27,6 +26,7 @@ import BigBtnText from './BigBtnText.svelte';
 export {
 	FaqCard,
 	BigBtnIconText,
+	BasicInfoCard,
 	PlayerRoleCard,
 	BigBtnText,
 	StatsList,

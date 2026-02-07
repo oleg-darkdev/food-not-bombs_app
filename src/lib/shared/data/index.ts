@@ -1,6 +1,14 @@
 import nav from './navigation';
 import docsNav from './docsNav';
 
+// faq
+import appFaq from './faq/appFaq';
+import basicFaq from './faq/basicFaq';
+import boardgameFaq from './faq/boardgameFaq';
+import fnbFaq from './faq/fnbFaq';
+import rulesAndInterpretationFaq from './faq/rulesAndInterpretationFaq';
+import componentsFaq from './faq/componentsFaq';
+
 // engine
 // import applyRareEvent from './engine/applyRareEvent';
 // import generateRound from './engine/generateRound';
@@ -60,6 +68,16 @@ import {
 } from './groupsList';
 
 export {
+	// faq
+	fnbFaq,
+	boardgameFaq,
+	basicFaq,
+	appFaq,
+	componentsFaq,
+	rulesAndInterpretationFaq,
+
+
+	// 
 	scenarios,
 	// rareEvents,
 	locations,

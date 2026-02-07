@@ -1,10 +1,12 @@
 <script lang="ts">
+		import { page } from '$app/stores';
+
 	// import {} from '$sharedData';
-	import { InsstructionListCard, PlayerRoleCard } from '$entities';
-	import { SliderGallery } from '$entitiesLanding';
+	import { InsstructionListCard, PlayerRoleCard, BasicInfoCard } from '$entities';
+	// import { SliderGallery } from '$entitiesLanding';
 	import { ScrollToTop, Tag } from '$sharedUi';
 	import { PreFAQ, Footer, AsideNav } from '$widgetsLanding';
-	import { GroupsListingMini } from '$widgets';
+	// import { GroupsListingMini } from '$widgets';
 	import { PlayerRoleInfo } from '$widgetsApp';
 
 	import {
@@ -36,7 +38,13 @@
 		volunteeringApp,
 		volunteeringGame,
 		volunteeringFnb,
-		docsNav
+		docsNav,
+		fnbFaq,
+		boardgameFaq,
+		basicFaq,
+		appFaq,
+		componentsFaq,
+		rulesAndInterpretationFaq
 	} = data;
 
 	// console.log(kit.playersStuff.items);
@@ -54,18 +62,24 @@
 	// console.log(volunteeringApp);
 	// console.log(volunteeringGame);
 	// console.log(volunteeringFnb);
-
 </script>
 
-<!-- {#snippet api()}
 
-		{/snippet} -->
+<svelte:head>
+	<title>Soup4ALL - docs | {$page.data.locale}</title>
+	<meta name="description" content="" />
+</svelte:head>
 
-<!-- data={kit.tokens} -->
 <AsideNav {docsNav} />
 
-<main class=" flex flex-col items-end justify-end">
+<main class=" flex flex-col items-end">
+	<!-- <a name="about"></a> -->
+
 	<div class="max-w-5xl">
+		<div class="flex w-full justify-center">
+			<BasicInfoCard />
+		</div>
+
 		<InsstructionListCard title={kit.tokens.category}>
 			{#snippet start()}{/snippet}
 
@@ -333,6 +347,8 @@
 		<!-- <GroupsListingMini groupsData={promoFnbGroups.slice(0, 8)} /> -->
 
 		<section id="groups">
+			<a name="api"></a>
+
 			<ApiListing />
 
 			<!-- вывесте черещ groups list - ссылки на api, и ссылку группы с указанием количества групп в базее и стран входящих -->
@@ -341,7 +357,16 @@
 	</div>
 </main>
 <PreFAQ />
-<FAQ />
+
+<section id="faq" class="section faq">
+	<div class="wrap_faq-heading">
+		<h2 class="h_semi-bold section-heading small faq">FAQ</h2>
+	</div>
+	<FAQ faqData={fnbFaq} />
+	<FAQ faqData={boardgameFaq} />
+	<!-- <FAQ faqData={basicFaq} /> -->
+	<FAQ faqData={appFaq} />
+</section>
 
 <Footer />
 

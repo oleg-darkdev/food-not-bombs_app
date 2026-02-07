@@ -11,7 +11,13 @@ import {
 	volunteeringGame,
 	volunteeringFnb,
 	promoFnbGroups,
-	docsNav
+	docsNav,
+	fnbFaq,
+	boardgameFaq,
+	basicFaq,
+	appFaq,
+	componentsFaq,
+	rulesAndInterpretationFaq
 } from '$sharedData';
 
 export const load: PageLoad = async () => {
@@ -28,6 +34,12 @@ export const load: PageLoad = async () => {
 		volunteeringApp,
 		volunteeringGame,
 		volunteeringFnb,
-		docsNav
+		docsNav,
+		fnbFaq,
+		boardgameFaq,
+		basicFaq,
+		appFaq,
+		componentsFaq,
+		rulesAndInterpretationFaq
 	};
 };

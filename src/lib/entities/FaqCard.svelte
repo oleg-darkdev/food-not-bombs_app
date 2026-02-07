@@ -10,8 +10,8 @@
 	let showAnswer = $state(false);
 </script>
 
-<div class="wrap_faq">
-	<div class="faq_question" onclick={() => (showAnswer = !showAnswer)}>
+<div class="wrap_faq ">
+	<div class="faq_question cursor-pointer" onclick={() => (showAnswer = !showAnswer)}>
 		<div class="w-layout-vflex wrap_faq-item-question">
 			<div class="txt_faq-question"><p class='flex flex-row'>Q <span class='text-pink'>{number}</span></p></div>
 			<div class="txt_faq-question">{item.q}</div>

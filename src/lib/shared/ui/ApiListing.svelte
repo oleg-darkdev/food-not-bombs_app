@@ -9,7 +9,7 @@
 
 <ul role="list" class="list-api w-list-unstyled mx-auto p-1 lg:py-4">
 	{#each apiListingData as api}
-		<li class="item-api transition-transform duration-200 ease-in-out hover:scale-105">
+		<li class="item-api transition-transform duration-200 cursor-pointer ease-in-out hover:scale-105">
 			<a href={api.api.route} class="h-full w-full" target="_blank">
 				<div class="txt_studio-featured-work">
 					{api.title}:

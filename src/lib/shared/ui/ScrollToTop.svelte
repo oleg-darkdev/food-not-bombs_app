@@ -2,7 +2,6 @@
 	import { onMount } from 'svelte';
 	import { writable } from 'svelte/store';
 
-	// Показывать кнопку только после прокрутки вниз
 	let showButton = writable(false);
 
 	function scrollToTop() {
@@ -11,7 +10,7 @@
 
 	onMount(() => {
 		const handleScroll = () => {
-			showButton.set(window.scrollY > 300); // показать после 300px
+			showButton.set(window.scrollY > 300);
 		};
 
 		window.addEventListener('scroll', handleScroll);
@@ -21,7 +20,13 @@
 </script>
 
 {#if $showButton}
-	<button class="scroll-top bg-army-green w-20 h-20 rounded-full flex justify-center items-center " on:click={scrollToTop} aria-label="Scroll to top"> <img src="/images/icons/scroll_top.svg" class='text-2xl text-beige' alt="↑"> </button>
+	<button
+		class="scroll-top bg-army-green z-40 flex h-20 w-20 cursor-pointer items-center justify-center rounded-full"
+		on:click={scrollToTop}
+		aria-label="Scroll to top"
+	>
+		<img src="/images/icons/scroll_top.svg" class="text-beige text-2xl" alt="↑" />
+	</button>
 {/if}
 
 <style>
@@ -29,14 +34,7 @@
 		position: fixed;
 		bottom: 40px;
 		right: 40px;
-		/* background-color: #0070f3; */
-		/* color: white; */
-		/* border: none; */
-		/* border-radius: 50%; */
-		/* width: 50px;
-		height: 50px; */
 		cursor: pointer;
-		
 		transition:
 			opacity 0.3s ease,
 			transform 0.3s ease;

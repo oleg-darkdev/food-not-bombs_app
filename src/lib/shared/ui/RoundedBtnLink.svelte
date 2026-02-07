@@ -8,7 +8,7 @@
 
 <!-- Let's talk #contact -->
 <div
-	class="mx-2 flex flex-col items-center justify-center transition-transform duration-200 ease-in-out hover:scale-105"
+	class="mx-2 flex flex-col items-center cursor-pointer justify-center transition-transform duration-200 ease-in-out hover:scale-105"
 >
 	<a
 		href={link}

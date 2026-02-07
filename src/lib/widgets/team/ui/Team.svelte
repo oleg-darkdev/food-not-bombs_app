@@ -7,15 +7,15 @@
 </script>
 
 <section class="section our-team overflow-hidden">
-	<div class="wrap_our-team">
+	<div class="wrap_our-team pt-4">
 		<!-- <h2 class="h_semi-bold our-team italic">Our Team</h2> -->
 
-		<div id="team" class="list_projects w-dyn-items max-w-6xl">
-			<div role="listitem" class="wrap_project-card w-dyn-item">
-				<div class="wrap_project-image mobile-lanscape-center">
-					<a href="/" class="link_project-card auto-height w-inline-block">
+		<div id="team" class="list_projects w-dyn-items max-w-6xl mb-10">
+			<div role="listitem" class="wrap_project-card w-dyn-item ">
+				<div class="wrap_project-image mobile-lanscape-center ">
+					<div class="link_project-card auto-height w-inline-block">
 						<h2 class="h2_project-name">Dream <br/> team</h2>
-					</a>
+					</div>
 					<p class="txt_paragraph project-card-summary _0-em inline">
 						<!-- Спасибо сообществу фнб ведущим публичную деятельность, если бы не вы - этот проект не
 						получился бы -->
@@ -33,9 +33,9 @@
 							</li>
 						{/each}
 					</ul> -->
-					<a aria-label="Project link" href="/" class="link_project-card w-inline-block inline">
+					<div class="link_project-card w-inline-block inline">
 						<img src="/images/photos/dream_team/3.JPG" loading="lazy" alt="" />
-					</a>
+					</div>
 					<div class="wrap_project-category">
 						<div class="collection_project-tags w-dyn-list">
 							<!-- <div role="list" class="list_project-tags w-dyn-items">
@@ -83,7 +83,7 @@
 						class="img_dark-dot bottom-left"
 					/>
 				</div>
-				<div class="txt_brand-spotlight project-collection">Dream Team</div>
+				<div class="txt_brand-spotlight project-collection  ">Dream Team</div>
 			</div>
 		</div>
 

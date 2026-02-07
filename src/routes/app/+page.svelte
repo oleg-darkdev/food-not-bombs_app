@@ -2,6 +2,7 @@
 	import { Hero } from '$widgetsApp';
 	import { FAQ, GroupsListingMini, ApiListing } from '$widgets';
 	import { BigBtnText, BigLinkBtn, BigBtnIconText } from '$entities';
+	import { page } from '$app/stores';
 
 	import { StatsList, AppFooterBtn } from '$entities';
 	import { ScenariousList, RoundCard, ResourcesGenerationResultListCard } from '$entitiesApp';
@@ -15,7 +16,7 @@
 	} from '$sharedStores';
 	import { Tag } from '$sharedUi';
 
-	import { fade, fly, slide } from 'svelte/transition';
+	import { slide } from 'svelte/transition';
 
 	let { data } = $props();
 
@@ -33,6 +34,12 @@
 		promoFnbGroups,
 		scenarios,
 		locations,
+		fnbFaq,
+		boardgameFaq,
+		basicFaq,
+		appFaq,
+		componentsFaq,
+		rulesAndInterpretationFaq,
 		runGame
 	} = data;
 
@@ -62,6 +69,7 @@
 		roundResults.set([]);
 	}
 	let currentScenario = scenarios.medium;
+	let showFaq = $state(false);
 
 	// <!-- <button on:click={}> Следующий раунд </button> -->
 	// nextRound
@@ -90,6 +98,12 @@
 	// console.log(kit);
 	// console.log(kit);
 </script>
+
+
+<svelte:head>
+	<title>Soup4ALL - app | {$page.data.locale}</title>
+	<meta name="description" content="" />
+</svelte:head>
 
 <div class="bg-army-green h-screen">
 	<!-- <GroupsList /> -->
@@ -199,7 +213,14 @@
 								}}
 							/>
 
-							<BigBtnText text="FAQ" bgColor="bg-orange" onclick={() => {}} />
+							<BigBtnText
+								text="FAQ"
+								bgColor="bg-orange"
+								onclick={() => {
+									showFaq = !showFaq;
+									$stepInstruction += 1;
+								}}
+							/>
 
 							<BigBtnText
 								text="Game rules"
@@ -230,6 +251,18 @@
 					</div>
 				{:else if $stepInstruction == 2}
 					<div class="" transition:slide>
+						<div class="">
+							<div class="wrap_faq-heading">
+								<h2 class="h_semi-bold section-heading small faq">FAQ</h2>
+							</div>
+							{#if showFaq}
+								<FAQ faqData={fnbFaq} />
+								<FAQ faqData={boardgameFaq} />
+								<FAQ faqData={rulesAndInterpretationFaq} />
+								<FAQ faqData={componentsFaq} />
+								<FAQ faqData={appFaq} />
+							{/if}
+						</div>
 						<!-- <GroupsListingMini groupsData={promoFnbGroups.slice(0, 8)} /> -->
 					</div>
 				{:else if $stepInstruction == 3}
@@ -362,28 +395,28 @@
 							text="menu"
 							bg="bg-pink"
 						/>
+						{#if $stepInstruction > 1}
+							<AppFooterBtn
+								onclick={() => {
+									$stepInstruction -= 1;
+									showFaq = false;
+									// console.log('click prev');
+									// console.log($stepInstruction);
+								}}
+								icon="/images/icons/left_arrow.svg"
+								text="Prev"
+								bg="bg-yellow"
+							/>
 
-						<AppFooterBtn
-							onclick={() => {
-								$stepInstruction += 1;
-								// console.log('click prev');
-								// console.log($stepInstruction);
-							}}
-							icon="/images/icons/left_arrow.svg"
-							text="Prev"
-							bg="bg-yellow"
-						/>
-
-						<AppFooterBtn
-							onclick={() => {
-								$stepInstruction -= 2;
-								// console.log('click prev');
-								// console.log($stepInstruction);
-							}}
-							icon="/images/icons/right_arrow.svg"
-							text="Next"
-							bg="bg-yellow"
-						/>
+							<!-- <AppFooterBtn
+								onclick={() => {
+									$stepInstruction += 2;
+								}}
+								icon="/images/icons/right_arrow.svg"
+								text="Next"
+								bg="bg-yellow"
+							/> -->
+						{/if}
 						<!-- <div class="grid grid-cols-2 gap-6 my-20"> -->
 						<!-- <PrevStepBtn bind:step={$stepInstruction} icon='/images/icons/' text="Poprzedni slajd" />
 

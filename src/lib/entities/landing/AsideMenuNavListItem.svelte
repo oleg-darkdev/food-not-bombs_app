@@ -7,7 +7,7 @@
 	let { navItem } = $props();
 </script>
 
-<li class="docs-nav-item">
+<li class="docs-nav-item cursor-pointer">
 	<!-- a href="#{navItem.anchor}" -->
 	<button
 		onclick={() => {

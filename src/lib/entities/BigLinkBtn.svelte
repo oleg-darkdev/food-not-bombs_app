@@ -6,7 +6,7 @@
 	let { link, text, bgColor } = $props();
 </script>
 
-<div class="item_project-page-explore wrap_big-link-btn {bgColor} transition-transform duration-200 ease-in-out hover:scale-105">
+<div class="item_project-page-explore cursor-pointer wrap_big-link-btn {bgColor} transition-transform duration-200 ease-in-out hover:scale-105">
 	<a href={link} target="_blank" class="link_project-page-explore w-inline-block">
 		<h1 class="h_semi-bold top-creative">{text}</h1>
 	</a>

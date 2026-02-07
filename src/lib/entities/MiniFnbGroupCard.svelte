@@ -8,7 +8,7 @@
 	// console.log(group);
 </script>
 
-<div role="listitem" id={group.id} class="slider-item w-dyn-item">
+<div role="listitem" id={group.id} class=" w-dyn-item z-1">
 	<div class="wrap_squad-member wrap_card-style-1 about-page">
 		<div class="wrap_card-content client-projects our-team about-page">
 			<div class="wrap_project-tags">

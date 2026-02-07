@@ -8,7 +8,7 @@
 
 <div
 	{onclick}
-	class="item_project-page-explore wrap_small-rectangle-btn {bgColor}   transition-transform duration-200 ease-in-out hover:scale-105"
+	class="item_project-page-explore cursor-pointer wrap_small-rectangle-btn {bgColor}   transition-transform duration-200 ease-in-out hover:scale-105"
 >
 	<div class=" w-inline-block flex flex-row">
 		<!-- <h1 class="h_semi-bold top-creative">{text}</h1> -->
