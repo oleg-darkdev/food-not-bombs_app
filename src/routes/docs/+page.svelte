@@ -1,12 +1,11 @@
 <script lang="ts">
-		import { page } from '$app/stores';
+	import { page } from '$app/stores';
 
 	// import {} from '$sharedData';
-	import { InsstructionListCard, PlayerRoleCard, BasicInfoCard } from '$entities';
+	import { InsstructionListCard, PlayerRoleCard, BasicInfoCard, PnpStepCard } from '$entities';
 	// import { SliderGallery } from '$entitiesLanding';
-	import { ScrollToTop, Tag } from '$sharedUi';
-	import { PreFAQ, Footer, AsideNav } from '$widgetsLanding';
-	// import { GroupsListingMini } from '$widgets';
+	import { ScrollToTop, Tag, RoundedBtnLink } from '$sharedUi';
+	import { PreFAQ, Footer, AsideNav, PrintAndPlay } from '$widgetsLanding';
 	import { PlayerRoleInfo } from '$widgetsApp';
 
 	import {
@@ -16,11 +15,11 @@
 		// Gallery,
 		// Marquee,
 		FAQ,
-		ApiListing
+		ApiListing,
 		// VeganMenu,
 		// LangSwitcher,
 		// landingPromoPhotos,
-		// GroupsListingMini,
+		GroupsListingMini
 		// ApiListing
 	} from '$widgets';
 
@@ -28,6 +27,7 @@
 
 	const {
 		kit,
+		pnp,
 		foodTokens,
 		roles,
 		preparation,
@@ -62,8 +62,9 @@
 	// console.log(volunteeringApp);
 	// console.log(volunteeringGame);
 	// console.log(volunteeringFnb);
-</script>
 
+	// console.log(pnp.steps)
+</script>
 
 <svelte:head>
 	<title>Soup4ALL - docs | {$page.data.locale}</title>
@@ -76,9 +77,50 @@
 	<!-- <a name="about"></a> -->
 
 	<div class="max-w-5xl">
-		<div class="flex w-full justify-center">
-			<BasicInfoCard />
-		</div>
+		<section id="print-and-play">
+			<!-- <h2>print-and-play</h2> -->
+			<div class="w-full lg:pl-10">
+				<BasicInfoCard />
+			</div>
+
+			<PrintAndPlay />
+
+			<div class="" id="download"></div>
+			<div class="" id="box-wrap"></div>
+
+			<div class="gap-y-4 flex flex-col py-10">
+				<PnpStepCard pnpStep={pnp.steps.map} />
+				<PnpStepCard pnpStep={pnp.steps.foodTokens} />
+				<PnpStepCard pnpStep={pnp.steps.canningTokens} />
+				<PnpStepCard pnpStep={pnp.steps.awardTokens} />
+				<PnpStepCard pnpStep={pnp.steps.playerTokens} />
+				<PnpStepCard pnpStep={pnp.steps.playerTablets} />
+				<!-- <PnpStepCard pnpStep={pnp.steps.map} /> -->
+			</div>
+		</section>
+
+		<section id="game-rules" class="mb-20">
+			<!-- <h2>game-rules</h2> -->
+
+			<div class="" id="download"></div>
+			<div class="" id="box-wrap"></div>
+			<div class="" id="map"></div>
+			<div class="" id="food-tokens"></div>
+			<div class="" id="canning-tokens"></div>
+			<div class="" id="award-tokens"></div>
+			<div class="" id="player-tokens"></div>
+			<div class="" id="player-tablets"></div>
+			<!-- <div class="" id=''></div>
+				<div class="" id=''></div>
+				<div class="" id=''></div>
+				<div class="" id=''></div>
+				<div class="" id=''></div> -->
+		</section>
+
+		<h2 class=" h1_regular main-headline text-center">
+			Boardgame
+			<em> components</em>
+		</h2>
 
 		<InsstructionListCard title={kit.tokens.category}>
 			{#snippet start()}{/snippet}
@@ -289,7 +331,11 @@
 			</div>
 		</section>
 
-		<section>
+		<section class="pt-20">
+			<h2 class=" h1_regular main-headline text-center">
+				Players
+				<em> roles.</em>
+			</h2>
 			<div class="">
 				{#each kit.playersStuff.desc as p}
 					<p class="mb-2">{p}</p>
@@ -306,47 +352,20 @@
 
 		<!-- Pnp -->
 
-		<section id="print-and-play">
-			<h2>print-and-play</h2>
-
-			<div class="" id="download"></div>
-			<div class="" id="box-wrap"></div>
-			<div class="" id="map-pnp"></div>
-			<div class="" id="food-tokens-pnp"></div>
-			<div class="" id="canning-tokens-pnp"></div>
-			<div class="" id="award-tokens-pnp"></div>
-			<div class="" id="player-tokens-pnp"></div>
-			<div class="" id="player-tablets-pnp"></div>
-			<!-- <div class="" id=''></div>
-				<div class="" id=''></div>
-				<div class="" id=''></div>
-				<div class="" id=''></div>
-				<div class="" id=''></div> -->
-		</section>
-
-		<section id="game-rules">
-			<h2>game-rules</h2>
-
-			<div class="" id="download"></div>
-			<div class="" id="box-wrap"></div>
-			<div class="" id="map"></div>
-			<div class="" id="food-tokens"></div>
-			<div class="" id="canning-tokens"></div>
-			<div class="" id="award-tokens"></div>
-			<div class="" id="player-tokens"></div>
-			<div class="" id="player-tablets"></div>
-			<!-- <div class="" id=''></div>
-				<div class="" id=''></div>
-				<div class="" id=''></div>
-				<div class="" id=''></div>
-				<div class="" id=''></div> -->
-		</section>
-
 		<a name="updates"></a>
 
-		<!-- <GroupsListingMini groupsData={promoFnbGroups.slice(0, 8)} /> -->
-
 		<section id="groups">
+			<h2 class=" h1_regular main-headline text-center">
+				Groups
+				<em> list.</em>
+			</h2>
+
+			<div class="pb-10">
+				<div class="mx-auto my-10 flex flex-col justify-center">
+					<GroupsListingMini groupsData={promoFnbGroups.slice(0, 8)} />
+				</div>
+				<RoundedBtnLink title="Complete list of FNB collectives" link="/groups" blank={true} />
+			</div>
 			<a name="api"></a>
 
 			<ApiListing />

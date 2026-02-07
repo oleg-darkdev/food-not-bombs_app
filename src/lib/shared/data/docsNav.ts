@@ -3,6 +3,108 @@ import kit from './app-i18/components/kit/en';
 
 const docsNav = [
 	{
+		title: 'Print&Play',
+		anchor: 'print-and-play',
+		showFull: false,
+		subNav: [
+			{
+				title: 'Preparation',
+				anchor: 'print-and-play',
+				subSubNav: [
+					{
+						title: 'Download files',
+						anchor: 'download'
+					},
+					{
+						title: 'Box wrapping kit',
+						anchor: 'box-wrap'
+					}
+				]
+			},
+			{
+				title: 'Game components',
+				anchor: 'game-components',
+				subSubNav: [
+					{
+						title: 'Map',
+						anchor: 'map-pnp'
+					},
+					{
+						title: 'Food tokens',
+						anchor: 'food-tokens-pnp'
+					},
+					{
+						title: 'Canned tokens',
+						anchor: 'canning-tokens-pnp'
+					},
+					{
+						title: 'Award tokens',
+						anchor: 'award-tokens-pnp'
+					},
+					{
+						title: 'Player tokens',
+						anchor: 'player-tokens-pnp'
+					},
+					{
+						title: 'Player tablets',
+						anchor: 'player-tablets-pnp'
+					}
+				]
+			}
+		]
+	},
+	{
+		title: 'Boardgame rules',
+		anchor: 'game-rules',
+		showFull: false,
+		subNav: [
+			{
+				title: 'Preparation',
+				anchor: 'preparation',
+				subSubNav: [
+					// {
+					// 	title: 'Download files',
+					// 	anchor: 'download'
+					// },
+					// {
+					// 	title: 'Box wrapping kit',
+					// 	anchor: 'box-wrap'
+					// }
+				]
+			},
+			{
+				title: 'Game components',
+				anchor: 'game-components',
+				subSubNav: [
+					{
+						title: 'Map',
+						anchor: 'map'
+					},
+					{
+						title: 'Food tokens',
+						anchor: 'food-tokens'
+					},
+					{
+						title: 'Canned tokens',
+						anchor: 'canning-tokens'
+					},
+					{
+						title: 'Award tokens',
+						anchor: 'award-tokens'
+					},
+					{
+						title: 'Player tokens',
+						anchor: 'player-tokens'
+					},
+					{
+						title: 'Player tablets',
+						anchor: 'player-tablets'
+					}
+				]
+			}
+		]
+	},
+	{
 		title: 'Game components',
 		anchor: 'components',
 		showFull: false,
@@ -307,108 +409,6 @@ const docsNav = [
 					// 	anchor: '',
 					// 	title: ''
 					// },
-				]
-			}
-		]
-	},
-	{
-		title: 'Print&Play',
-		anchor: 'print-and-play',
-		showFull: false,
-		subNav: [
-			{
-				title: 'Preparation',
-				anchor: 'preparation',
-				subSubNav: [
-					{
-						title: 'Download files',
-						anchor: 'download'
-					},
-					{
-						title: 'Box wrapping kit',
-						anchor: 'box-wrap'
-					}
-				]
-			},
-			{
-				title: 'Game components',
-				anchor: 'game-components',
-				subSubNav: [
-					{
-						title: 'Map',
-						anchor: 'map-pnp'
-					},
-					{
-						title: 'Food tokens',
-						anchor: 'food-tokens-pnp'
-					},
-					{
-						title: 'Canned tokens',
-						anchor: 'canning-tokens-pnp'
-					},
-					{
-						title: 'Award tokens',
-						anchor: 'award-tokens-pnp'
-					},
-					{
-						title: 'Player tokens',
-						anchor: 'player-tokens-pnp'
-					},
-					{
-						title: 'Player tablets',
-						anchor: 'player-tablets-pnp'
-					}
-				]
-			}
-		]
-	},
-	{
-		title: 'Boardgame rules',
-		anchor: 'game-rules',
-		showFull: false,
-		subNav: [
-			{
-				title: 'Preparation',
-				anchor: 'preparation',
-				subSubNav: [
-					// {
-					// 	title: 'Download files',
-					// 	anchor: 'download'
-					// },
-					// {
-					// 	title: 'Box wrapping kit',
-					// 	anchor: 'box-wrap'
-					// }
-				]
-			},
-			{
-				title: 'Game components',
-				anchor: 'game-components',
-				subSubNav: [
-					{
-						title: 'Map',
-						anchor: 'map'
-					},
-					{
-						title: 'Food tokens',
-						anchor: 'food-tokens'
-					},
-					{
-						title: 'Canned tokens',
-						anchor: 'canning-tokens'
-					},
-					{
-						title: 'Award tokens',
-						anchor: 'award-tokens'
-					},
-					{
-						title: 'Player tokens',
-						anchor: 'player-tokens'
-					},
-					{
-						title: 'Player tablets',
-						anchor: 'player-tablets'
-					}
 				]
 			}
 		]

@@ -55,18 +55,6 @@
 			</div>
 		</div>
 
-		<!-- 
-		
-		--texts--army-green: #464703;
-	--borders--army-green: #464703;
-	--background--yellow: #fcde9c;
-	--background--orange: #ff6739;
-	--background--cream: #fef4de;
-	--background--beige: #fefaef;
-	--background--pink: #ffb5d5;
-		--texts--deep-red: #701715;
-
-		-->
 		<div class="grid_item overflow-hide top-border-on-mobile">
 			<div class="grid-b_top-fold-hero transparent-bg">
 				<div class="wrap_performance-hero">

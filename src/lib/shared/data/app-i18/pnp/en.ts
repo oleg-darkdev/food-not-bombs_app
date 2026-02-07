@@ -17,126 +17,161 @@ const en = {
 		]
 	},
 
-	steps: [
-		{
+	steps: {
+		download: {
 			id: 'download',
 			title: 'Download files',
+			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
 			time: 5,
 			description: 'Download the latest version of the game',
 			downloadLink:
 				'https://github.com/oleg-darkdev/food-not-bombs_app/tree/main/static/print-and-play'
 		},
 
-		{
+		boxWrap: {
 			id: 'box-wrap',
+			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
 			title: 'Box wrapping kit',
 			time: 15,
 			recommendations: 'Plastic box with internal dividers',
 			materials: ['Tape or glue', 'Paper 250 g/m² or higher', 'Box sized 30×15×10 cm'],
 			print: {
-				filesPath: '/promo',
 				copies: 1,
-				paperDensity: '250 g/m²+'
+				paperDensity: '250 g/m²+',
+				directory: '/promo'
 			}
 		},
 
-		{
-			id: 'map',
-			title: 'Map creation',
+		map: {
+			id: 'map-pnp',
+			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
+			title: 'Map',
 			time: 30,
 			recommendations: '',
 			materials: [
-				{ name: 'A4 cardboard 3mm', amount: 3 },
+				// { name: 'A4 cardboard 3mm', amount: 3 },
+				'A4 cardboard 3mm',
 				'Tape or glue',
 				'Laminator (optional)',
-				'Laminating film (optional)'
+				'Laminating stretch (optional)'
 			],
 			print: {
-				files: ['/map/map_center.pdf', '/map/map_left.pdf', '/map/map_right.pdf'],
+				files: ['/map_center.pdf', '/map_left.pdf', '/map_right.pdf'],
+				// files: ['/map/map_center.pdf', '/map/map_left.pdf', '/map/map_right.pdf'],
 				copies: 1,
-				paperDensity: '250 g/m²+'
+				paperDensity: '250 g/m²+',
+				directory: '/map'
 			},
 			postProcessing: ['Round the corners']
 		},
-
-		{
-			id: 'food-tokens',
-			title: 'Food token creation',
+		foodTokens: {
+			id: 'food-tokens-pnp',
+			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
+			title: 'Food token',
 			time: 60,
 			recommendations: '',
-			materials: [{ name: 'A4 cardboard 3mm', amount: 4 }, 'Tape or glue'],
+			materials: [
+				// { name: 'A4 cardboard 3mm', amount: 4 },
+				'A4 cardboard 3mm',
+				'Tape or glue'
+			],
 			print: {
 				files: [
-					'/tokens/tokens_bread_1.pdf',
-					'/tokens/tokens_fruits_1.pdf',
-					'/tokens/tokens_vegs_1.pdf',
-					'/tokens/tokens_canned_1.pdf'
+					// '/tokens/tokens_bread_1.pdf',
+					// '/tokens/tokens_fruits_1.pdf',
+					// '/tokens/tokens_vegs_1.pdf',
+					// '/tokens/tokens_canned_1.pdf'
+					'/tokens_bread_1.pdf',
+					'/tokens_fruits_1.pdf',
+					'/tokens_vegs_1.pdf',
+					'/tokens_canned_1.pdf'
 				],
 				copies: 1,
-				paperDensity: '250 g/m²+'
+				paperDensity: '250 g/m²+',
+				directory: '/tokens'
 			},
 			postProcessing: ['Glue onto cardboard', 'Cut along the borders']
 		},
 
-		{
-			id: 'canning-tokens',
-			title: 'Canned food tokens creation',
+		canningTokens: {
+			id: 'canning-tokens-pnp',
+			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
+			title: 'Canned tokens',
 			time: 15,
 			recommendations: '',
-			materials: [{ name: 'A4 cardboard 3mm', amount: 1 }, 'Tape or glue'],
+			materials: [
+				// { name: 'A4 cardboard 3mm', amount: 1 },
+				'A4 cardboard 3mm',
+				'Tape or glue'
+			],
 			print: {
-				files: ['/tokens/tokens_canning_bank.pdf'],
+				files: ['tokens_canning_bank.pdf'],
 				copies: 1,
-				paperDensity: '250 g/m²+'
+				paperDensity: '250 g/m²+',
+				directory: '/tokens'
 			},
 			postProcessing: ['Glue onto cardboard', 'Cut along the borders']
 		},
 
-		{
-			id: 'award-tokens',
-			title: 'Award tokens creation',
+		awardTokens: {
+			id: 'award-tokens-pnp',
+			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
+			title: 'Award tokens',
 			time: 70,
 			recommendations: '',
-			materials: [{ name: 'A4 cardboard 3mm', amount: 6 }, 'Tape or glue'],
+			materials: [
+				// { name: 'A4 cardboard 3mm', amount: 6 },
+				'A4 cardboard 3mm',
+				'Tape or glue'
+			],
 			print: {
-				files: ['/tokens/award tokens.pdf'],
+				files: ['/award tokens.pdf'],
 				copies: 1,
-				paperDensity: '250 g/m²+'
+				paperDensity: '250 g/m²+',
+				directory: '/tokens'
 			},
 			postProcessing: ['Glue onto cardboard', 'Cut along the borders']
 		},
-
-		{
-			id: 'player-tokens',
-			title: 'Player token creation',
+		playerTokens: {
+			id: 'player-tokens-pnp',
+			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
+			title: 'Player tokens',
 			time: 20,
 			recommendations: '',
-			materials: [{ name: 'A4 cardboard 3mm', amount: 1 }, 'Tape or glue'],
+			materials: [
+				// { name: 'A4 cardboard 3mm', amount: 1 },
+				'A4 cardboard 3mm',
+				'Tape or glue'
+			],
 			print: {
-				files: ['/players_stuff/players_tokens.pdf'],
+				files: ['/players_tokens.pdf'],
 				copies: 1,
-				paperDensity: '250 g/m²+'
+				paperDensity: '250 g/m²+',
+				directory: '/players_stuff'
 			},
 			postProcessing: ['Glue onto cardboard', 'Cut along the borders']
 		},
 
-		{
-			id: 'player-tablets',
-			title: 'Player board creation',
+		playerTablets: {
+			id: 'player-tablets-pnp',
+			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
+			title: 'Player tablets',
 			time: 40,
 			recommendations: '',
-			materials: [{ name: 'A4 cardboard 3mm', amount: 4 }, 'Tape or glue'],
+			materials: [
+				// { name: 'A4 cardboard 3mm', amount: 4 },
+				'A4 cardboard 3mm',
+				'Tape or glue'
+			],
 			print: {
-				files: ['/players_stuff/players_tablets.pdf'],
+				files: ['/players_tablets.pdf'],
 				copies: 1,
-				paperDensity: '250 g/m²+'
+				paperDensity: '250 g/m²+',
+				directory: '/players_stuff'
 			},
 			postProcessing: ['Cut out the white areas']
 		}
-	]
+	}
 };
-
-
-
 
 export default en;

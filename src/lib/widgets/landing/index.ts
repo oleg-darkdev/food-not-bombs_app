@@ -3,8 +3,7 @@ import Footer from './footer/ui/Footer.svelte';
 import Cta from './cta/ui/Cta.svelte';
 import Hero from './hero/ui/Hero.svelte';
 import Slider from './slider/ui/Slider.svelte';
-
-// import Hero from './hero/ui/Hero.svelte';
+import PrintAndPlay from './PrintAndPlay.svelte';
 // import Hero from './hero/ui/Hero.svelte';
 // import Hero from './hero/ui/Hero.svelte';
 // import Hero from './hero/ui/Hero.svelte';
@@ -32,6 +31,7 @@ import AsideNav from './AsideNav.svelte';
 
 export {
 	Newsletter,
+	PrintAndPlay,
 	AsideNav,
 	Slider,
 	AboutBoardgame,
