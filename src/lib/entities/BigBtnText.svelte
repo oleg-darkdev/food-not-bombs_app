@@ -43,7 +43,7 @@
 
 <style lang="postcss">
 	.item_project-page-explore.wrap_small-rectangle-btn {
-		aspect-ratio: 22 / 10;
+		aspect-ratio: 20 / 12;
 		padding-left: 2.5em;
 		padding-right: 2.5em;
 	}
@@ -57,9 +57,9 @@
 		justify-content: center;
 		align-items: center;
 		/* width: 100em; */
-		max-width: 40em;
-		padding-left: 2em;
-		padding-right: 2em;
+		max-width: 44em;
+		padding-left: 2.5em;
+		padding-right: 2.5em;
 		display: flex;
 		position: relative;
 	}

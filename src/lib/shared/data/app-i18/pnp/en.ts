@@ -144,14 +144,90 @@ const en = {
 				'Tape or glue'
 			],
 			print: {
-				files: ['/players_tokens.pdf'],
+				files: ['/players_tokens_1.pdf', '/players_tokens_2.pdf'],
 				copies: 1,
 				paperDensity: '250 g/m²+',
-				directory: '/players_stuff'
+				directory: '/tokens/players/'
 			},
 			postProcessing: ['Glue onto cardboard', 'Cut along the borders']
 		},
-
+		
+		blockTokens: {
+			id: 'block-tokens-pnp',
+			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
+			title: 'Block tokens',
+			time: 20,
+			recommendations: '',
+			materials: [
+				// { name: 'A4 cardboard 3mm', amount: 1 },
+				'A4 cardboard 3mm',
+				'Tape or glue'
+			],
+			print: {
+				files: ['/block_tokens.pdf'],
+				copies: 1,
+				paperDensity: '250 g/m²+',
+				directory: '/tokens/other/'
+			},
+			postProcessing: ['Glue onto cardboard', 'Cut along the borders']
+		},
+		сlothingTokens: {
+			id: 'сlothing-tokens-pnp',
+			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
+			title: 'Clothing tokens',
+			time: 20,
+			recommendations: '',
+			materials: [
+				// { name: 'A4 cardboard 3mm', amount: 1 },
+				'A4 cardboard 3mm',
+				'Tape or glue'
+			],
+			print: {
+				files: ['/сlothing_tokens.pdf'],
+				copies: 1,
+				paperDensity: '250 g/m²+',
+				directory: '/tokens/other/'
+			},
+			postProcessing: ['Glue onto cardboard', 'Cut along the borders']
+		},
+		eventTokens: {
+			id: 'event-tokens-pnp',
+			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
+			title: 'Event tokens',
+			time: 20,
+			recommendations: '',
+			materials: [
+				// { name: 'A4 cardboard 3mm', amount: 1 },
+				'A4 cardboard 3mm',
+				'Tape or glue'
+			],
+			print: {
+				files: ['/event_tokens.pdf'],
+				copies: 1,
+				paperDensity: '250 g/m²+',
+				directory: '/tokens/others/'
+			},
+			postProcessing: ['Glue onto cardboard', 'Cut along the borders']
+		},
+		fnbGroupsTokens: {
+			id: 'fnb-groups-tokens-pnp',
+			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
+			title: 'Groups tokens',
+			time: 20,
+			recommendations: '',
+			materials: [
+				// { name: 'A4 cardboard 3mm', amount: 1 },
+				'A4 cardboard 3mm',
+				'Tape or glue'
+			],
+			print: {
+				files: ['/fnb_groups.pdf'],
+				copies: 1,
+				paperDensity: '250 g/m²+',
+				directory: '/tokens/others/'
+			},
+			postProcessing: ['Glue onto cardboard', 'Cut along the borders']
+		},
 		playerTablets: {
 			id: 'player-tablets-pnp',
 			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',

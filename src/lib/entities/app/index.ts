@@ -1,8 +1,8 @@
 import ScenariousList from './ScenariousList.svelte';
 import RoundCard from './RoundCard.svelte';
 import ResourcesGenerationResultListCard from './ResourcesGenerationResultListCard.svelte';
-// import BasicInfoCard from './BoardgameCard.svelte';
+import MiniFnbGroupCard from './MiniFnbGroupCard.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
 
-export { ScenariousList, RoundCard, ResourcesGenerationResultListCard };
+export { ScenariousList, RoundCard, ResourcesGenerationResultListCard, MiniFnbGroupCard };

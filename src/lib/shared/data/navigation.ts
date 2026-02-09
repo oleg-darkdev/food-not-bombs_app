@@ -28,9 +28,14 @@ let nav = [
 		title: 'Gallery',
 		link: '#gallery'
 	},
+
 	{
 		title: 'Print&Play',
 		link: '#print-and-play'
+	},
+	{
+		title: 'Contact',
+		link: '#contact'
 	}
 ];
 

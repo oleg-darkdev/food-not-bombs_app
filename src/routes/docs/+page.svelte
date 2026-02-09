@@ -93,6 +93,10 @@
 				<PnpStepCard pnpStep={pnp.steps.foodTokens} />
 				<PnpStepCard pnpStep={pnp.steps.canningTokens} />
 				<PnpStepCard pnpStep={pnp.steps.awardTokens} />
+				<PnpStepCard pnpStep={pnp.steps.blockTokens} />
+				<PnpStepCard pnpStep={pnp.steps.сlothingTokens} />
+				<PnpStepCard pnpStep={pnp.steps.eventTokens} />
+				<PnpStepCard pnpStep={pnp.steps.fnbGroupsTokens} />
 				<PnpStepCard pnpStep={pnp.steps.playerTokens} />
 				<PnpStepCard pnpStep={pnp.steps.playerTablets} />
 				<!-- <PnpStepCard pnpStep={pnp.steps.map} /> -->

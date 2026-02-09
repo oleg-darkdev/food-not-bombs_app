@@ -8,7 +8,7 @@ function runGame(locations, scenario) {
 	for (let round = 1; round <= scenario.rounds; round++) {
 		let results = generateRound(locations, scenario, round);
 
-		console.log(`🎲 Раунд ${round}`);
+		// console.log(`🎲 Раунд ${round}`);
 		console.table(
 			results.map((r) => ({
 				number: r.number,

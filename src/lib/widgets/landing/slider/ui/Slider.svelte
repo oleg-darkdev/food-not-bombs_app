@@ -5,7 +5,7 @@
 
 	let { imgs } = $props();
 
-	console.log(imgs);
+	// console.log(imgs);
 </script>
 
 <section class="section ugc-gallery">

@@ -2,10 +2,11 @@ import uiAppLang from './uiAppLang.js';
 import {
 	stepInstruction,
 	selectedMenu,
-	currentScenario,
 	stepGame,
 	actualRound,
-	roundResults
+	roundResults,
+	selectedLevel,
+	selectedScenario
 } from './app.ts';
 // import uiAppLang from './uiAppLang.js';
 // import uiAppLang from './uiAppLang.js';
@@ -19,7 +20,8 @@ import {
 export {
 	uiAppLang,
 	stepInstruction,
-	currentScenario,
+	selectedLevel,
+	selectedScenario,
 	selectedMenu,
 	actualRound,
 	roundResults,

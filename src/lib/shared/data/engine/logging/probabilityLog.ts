@@ -24,14 +24,14 @@ const probabilityLog = {
 		);
 
     if (last.globalBalance) {
-      console.log("⚖️ Глобальный баланс:", last.globalBalance);
+      // console.log("⚖️ Глобальный баланс:", last.globalBalance);
     }
 
     if (last.rareEvent) {
-      console.log("✨ Редкое событие:", last.rareEvent);
+      // console.log("✨ Редкое событие:", last.rareEvent);
     }
 
-    console.log("🔥 Эскалация:", last.escalation);
+    // console.log("🔥 Эскалация:", last.escalation);
     console.groupEnd();
   },
 

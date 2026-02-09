@@ -42,6 +42,22 @@ const docsNav = [
 						anchor: 'award-tokens-pnp'
 					},
 					{
+						title: 'Block tokens',
+						anchor: 'block-tokens-pnp'
+					},
+					{
+						title: 'Clothing tokens',
+						anchor: 'сlothing-tokens-pnp'
+					},
+					{
+						title: 'Event tokens',
+						anchor: 'event-tokens-pnp'
+					},
+					{
+						title: 'Groups tokens',
+						anchor: 'fnb-groups-tokens-pnp'
+					},
+					{
 						title: 'Player tokens',
 						anchor: 'player-tokens-pnp'
 					},
@@ -95,10 +111,6 @@ const docsNav = [
 					{
 						title: 'Player tokens',
 						anchor: 'player-tokens'
-					},
-					{
-						title: 'Player tablets',
-						anchor: 'player-tablets'
 					}
 				]
 			}
@@ -130,6 +142,22 @@ const docsNav = [
 					{
 						anchor: 'reward-tokens',
 						title: 'Reward tokens'
+					},
+					{
+						title: 'Block tokens',
+						anchor: 'block-tokens'
+					},
+					{
+						title: 'Clothing tokens',
+						anchor: 'сlothing-tokens'
+					},
+					{
+						title: 'Event tokens',
+						anchor: 'event-tokens'
+					},
+					{
+						title: 'Groups tokens',
+						anchor: 'fnb-groups-tokens'
 					},
 					{
 						title: 'Lose tokens',

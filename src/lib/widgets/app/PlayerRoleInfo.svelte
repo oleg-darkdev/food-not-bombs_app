@@ -7,7 +7,7 @@
 
 	import { Tag } from '$sharedUi';
 
-	console.log(player);
+	// console.log(player);
 </script>
 
 <div class="">

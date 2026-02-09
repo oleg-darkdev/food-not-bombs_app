@@ -22,7 +22,6 @@ import {
 } from '$sharedData';
 
 export const load: PageLoad = async () => {
-	// Возвращаем все необходимые объекты через data
 	return {
 		kit,
 		pnp,

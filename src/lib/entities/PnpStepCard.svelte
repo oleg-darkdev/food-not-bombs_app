@@ -139,7 +139,7 @@ directory
 
 								<div class="py-6 mb-6">
 									<p class="h1_regular main-headline body-copy performance-page">
-										Full <span class="bold italic"> video instruction</span>for this step.
+										Full <span class="bold italic">video instruction</span> for this step.
 									</p>
 
 									<div class="mx-auto w-full max-w-6xl bg-black">
@@ -261,7 +261,7 @@ directory
 
 	.txt_services-list-item.caps.service {
 		letter-spacing: 0.1em;
-		font-size: 1.2em;
+		font-size: 18px;
 	}
 	.item_services-card {
 		border-bottom: 2px solid var(--borders--army-green);

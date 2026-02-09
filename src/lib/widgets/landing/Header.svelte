@@ -34,10 +34,10 @@
 						</li>
 					{/each}
 					<li class="item_main-nav">
-						<a href="/app" aria-current="page" class="item_nav-link w--current">App</a>
+						<a href="/docs" target="_blank" class="item_nav-link w--current">Docs</a>
 					</li>
 					<li class="item_main-nav contact">
-						<a href="#contact" class="item_nav-link contact">Contact</a>
+						<a href="/app" target="_blank" class="item_nav-link contact">App</a>
 					</li>
 				</ol>
 			</div>
@@ -85,18 +85,18 @@
 						<button
 							on:click|preventDefault={() => {
 								showNav = false;
-								goto('/app');
+								goto('/docs');
 							}}
-							aria-current="page"
-							class="item_nav-link w--current">App</button
+							class="item_nav-link w--current">Docs</button
 						>
 					</div>
 					<div class="item_main-nav contact">
 						<button
 							on:click|preventDefault={() => {
-								scrollToAnchor('#contact');
+								showNav = false;
+								goto('/app');
 							}}
-							class="item_nav-link contact">Contact</button
+							class="item_nav-link contact">App</button
 						>
 					</div>
 				</div>
@@ -163,8 +163,6 @@
 		z-index: 35;
 	}
 
-	
-
 	.btn_nav-menu---open {
 		aspect-ratio: 1;
 		background-color: var(--background--cream);
@@ -188,8 +186,6 @@
 		.btn-carrot-menu {
 			display: none;
 		}
-
-		
 	}
 
 	@media screen and (max-width: 991px) {
@@ -254,13 +250,9 @@
 			padding-left: 3em;
 			padding-right: 3em;
 		}
-
-		
 	}
 
 	@media screen and (max-width: 767px) {
-		
-
 		.wrap_main-nav-container {
 			top: 0;
 		}
@@ -270,7 +262,7 @@
 		.block_main-nav-sm {
 			border-radius: 1.5em;
 			font-size: 2em;
-			
+
 			left: 0;
 			width: 100%;
 		}
@@ -293,8 +285,5 @@
 			grid-column-gap: 0em;
 			grid-row-gap: 0em;
 		}
-
-	
-		
 	}
 </style>

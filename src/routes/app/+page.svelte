@@ -4,13 +4,15 @@
 	import { BigBtnText, BigLinkBtn, BigBtnIconText } from '$entities';
 	import { page } from '$app/stores';
 
-	import { StatsList, AppFooterBtn } from '$entities';
+	import { StatsList, AppFooterBtn, MiniFnbGroupCard } from '$entities';
 	import { ScenariousList, RoundCard, ResourcesGenerationResultListCard } from '$entitiesApp';
 
 	import {
 		stepGame,
 		stepInstruction,
 		selectedMenu,
+		selectedLevel,
+		selectedScenario,
 		roundResults,
 		actualRound
 	} from '$sharedStores';
@@ -53,13 +55,15 @@
 	const substepInstruction = stepInstruction.subscribe((value) => {});
 	// const subroundResults = roundResults.subscribe((value) => {});
 
+	// let currentScenario = $selectedScenario;
+
 	function nextRound() {
 		if ($actualRound < maxRound && $roundResults.length - 1 < maxRound) {
-			const roundResult = runGame(locations, scenarios.medium, 1);
+			const roundResult = runGame(locations, $selectedLevel, 1);
 
 			roundResults.update((results) => [...results, roundResult]);
 
-			console.log($roundResults);
+			// console.log($roundResults);
 		} else {
 			console.log('Достигнут максимальный раунд');
 		}
@@ -68,7 +72,6 @@
 	function clearRoundResults() {
 		roundResults.set([]);
 	}
-	let currentScenario = scenarios.medium;
 	let showFaq = $state(false);
 
 	// <!-- <button on:click={}> Следующий раунд </button> -->
@@ -97,8 +100,30 @@
 	// console.log(kit);
 	// console.log(kit);
 	// console.log(kit);
-</script>
 
+	// let showScenariosList = $state(false);
+
+
+	// import { 
+	// 	ukraine,} from '$sharedData';
+	// const polandFormatted = czechRepublic.map((item) => ({
+	// 	logo: item.logo || '',
+	// 	facebook: item.facebook || '',
+	// 	inst: item.inst || '',
+
+	// 	name: item.name || '',
+	// 	country: item.country || '',
+	// 	city: item.city || '',
+
+	// 	website: item.website || '',
+	// 	notes: item.notes || '',
+
+	// 	id: item.id || '',
+	// 	banner: item.banner || ''
+	// }));
+
+	// console.log(polandFormatted);
+</script>
 
 <svelte:head>
 	<title>Soup4ALL - app | {$page.data.locale}</title>
@@ -113,9 +138,9 @@
 		{#if $selectedMenu == 0}
 			<Hero />
 		{:else if $selectedMenu == 1}
-			<ScenariousList />
-
 			{#if $stepGame == 0}
+				<ScenariousList />
+			{:else if $stepGame == 1}
 				<div class="flex flex-col pt-10" transition:slide>
 					<!-- <h1>hello</h1> -->
 					{#if $roundResults.length > 0}
@@ -148,7 +173,7 @@
 						/>
 					{/if}
 				</div>
-			{:else if $stepGame > 0 && $stepGame <= 5}
+			{:else if $stepGame > 1 && $stepGame <= 6}
 				<!-- {#if $selectedPlayMenu == 1}
 					{#if $basicMode.progress < $basicMode.data.length}
 					
@@ -317,6 +342,7 @@
 							$stepGame = 0;
 							$selectedMenu = 0;
 							actualRound.set(0);
+
 							// console.log('click MEnu');
 						}}
 						icon="/images/icons/menu.svg"
