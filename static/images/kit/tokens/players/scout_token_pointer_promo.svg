@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.04 85.04">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ec6740;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #fef4de;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x=".26" y="0" width="85.04" height="85.04" transform="translate(85.3 -.26) rotate(90)"/>
+  <g>
+    <circle class="cls-2" cx="9.65" cy="73.84" r="5.2"/>
+    <circle class="cls-2" cx="74.31" cy="9.75" r="5.2"/>
+  </g>
+  <g>
+    <circle class="cls-2" cx="9.93" cy="9.47" r="5.2"/>
+    <circle class="cls-2" cx="74.02" cy="74.13" r="5.2"/>
+  </g>
+  <path class="cls-3" d="m70.1,40.55h-11.96c-.91-7.13-6.52-12.75-13.65-13.66v-11.96h-3.94v11.96c-7.13.91-12.74,6.52-13.65,13.66h-11.96v3.94h11.96c.91,7.13,6.52,12.75,13.65,13.66v11.96h3.94v-11.96c7.13-.91,12.75-6.52,13.65-13.66h11.96v-3.94Zm-27.58,13.79c-6.53,0-11.82-5.29-11.82-11.82s5.29-11.82,11.82-11.82,11.82,5.29,11.82,11.82c0,6.53-5.3,11.81-11.82,11.82Z"/>
+</svg>
