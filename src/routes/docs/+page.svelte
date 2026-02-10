@@ -78,17 +78,16 @@
 
 	<div class="max-w-5xl">
 		<section id="print-and-play">
-			<!-- <h2>print-and-play</h2> -->
-			<div class="w-full lg:pl-10">
-				<BasicInfoCard />
-			</div>
+			<BasicInfoCard />
 
 			<PrintAndPlay />
+			<!-- <h2>print-and-play</h2> -->
+			<div class="w-full lg:pl-10"></div>
 
 			<div class="" id="download"></div>
 			<div class="" id="box-wrap"></div>
 
-			<div class="gap-y-4 flex flex-col py-10">
+			<div class="flex flex-col gap-y-4 py-10">
 				<PnpStepCard pnpStep={pnp.steps.map} />
 				<PnpStepCard pnpStep={pnp.steps.foodTokens} />
 				<PnpStepCard pnpStep={pnp.steps.canningTokens} />
@@ -234,7 +233,7 @@
 											src={token.img}
 											loading="eager"
 											alt=""
-											class="h-8 w-20 rounded-lg object-cover lg:h-12 lg:w-24"
+											class="h-8 w-8 rounded-lg object-cover lg:h-12 lg:w-24"
 										/>
 									</div>
 
@@ -398,5 +397,20 @@
 <style lang="postcss">
 	.txt_services-list-item {
 		text-align: left;
+	}
+
+	.txt_services-list-item.caps {
+		text-align: center;
+	}
+
+	.txt_services-list-item.caps.service {
+		letter-spacing: 0.1em;
+		font-size: 1.2em;
+	}
+
+	@media screen and (max-width: 991px) {
+		.txt_services-list-item.caps.service {
+			font-size: 3.2em;
+		}
 	}
 </style>

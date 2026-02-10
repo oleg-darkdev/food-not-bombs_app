@@ -4166,6 +4166,13 @@ body {
 }
 
 @media screen and (max-width: 991px) {
+	.svg_corner-dot-cream {
+		pointer-events: none;
+		width: 4em;
+		margin: 1em;
+		position: absolute;
+	}
+
 	.padding-medium {
 		padding: 1.5rem;
 	}

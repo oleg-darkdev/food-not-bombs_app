@@ -11,8 +11,6 @@
 <!-- 
 
 recommendations
-
-directory
 -->
 
 <div id={pnpStep.id} class="meet-our-friends collection w-full max-w-3xl">
@@ -22,22 +20,22 @@ directory
 				<div role="listitem" class="wrap_project-card w-dyn-item w-full">
 					<div class="wrap-banner-img w-full">
 						<div class="wrap_card-heading services flex flex-row items-center justify-center py-2">
-							<h3 class="h_semi-bold services mr-1 italic">
+							<h3 class="h_semi-bold pnp-steps mr-1 italic">
 								{pnpStep.title}:
 								<span class="ml-4">{pnpStep.time} min.</span>
 							</h3>
-							<img
+							<!-- <img
 								src="/images/groups/default_logo.png"
 								class="h-4 w-4 lg:-mt-8 lg:h-16 lg:w-16"
 								alt=""
-							/>
+							/> -->
 						</div>
 
 						<div class=" w-full">
 							<div class="max-w-xl pl-4 pt-14 lg:pl-10">
 								<div class="wrap_services-list">
 									<ul role="list" class=" w-list-unstyled w-full">
-										<li class="-mb-4 pt-4">
+										<li class="-mb-1 pt-4">
 											<p class="h1_regular main-headline body-copy performance-page">
 												For this type of component you will need the <span class="bold italic">
 													following materials.
@@ -50,7 +48,7 @@ directory
 												<li
 													class=" flex flex-row items-center transition-transform duration-200 ease-in-out hover:scale-105"
 												>
-													<img src="/images/icons/yes.svg" class="mr-2 h-10 w-10" alt="" />
+													<img src="/images/icons/yes.svg" class="mr-2 h-8 w-8" alt="" />
 													<div class="item_services-card">
 														<div class="txt_services-list-item caps service">
 															<div class="flex max-w-sm">
@@ -67,7 +65,7 @@ directory
 								</div>
 								<div class="wrap_services-list">
 									<ul role="list" class=" w-list-unstyled w-full">
-										<li class="-mb-4 pt-4">
+										<li class="-mb-2 pt-4">
 											<p class="h1_regular main-headline body-copy performance-page">
 												All the necessary files for this stage are stored
 												<span class="bold italic">
@@ -110,7 +108,7 @@ directory
 								</div>
 								<div class="wrap_services-list">
 									<ul role="list" class=" w-list-unstyled w-full">
-										<li class="-mb-4 pt-4">
+										<li class="-mb-1 pt-4">
 											<p class="h1_regular main-headline body-copy performance-page">
 												<span class="bold italic"> After printing </span>, please follow these
 												steps:
@@ -137,15 +135,16 @@ directory
 									</ul>
 								</div>
 
-								<div class="py-6 mb-6">
+								<div class="mb-6 px-6 py-6">
 									<p class="h1_regular main-headline body-copy performance-page">
 										Full <span class="bold italic">video instruction</span> for this step.
 									</p>
 
-									<div class="mx-auto w-full max-w-6xl bg-black">
-										<div class="relative w-full pt-[41.8%]">
+									<div class="mx-auto max-w-6xl bg-black">
+										<!-- pt-[41.8%] -->
+										<div class="relative w-full">
 											<iframe
-												class="absolute inset-0 h-full w-full"
+												class="h-full w-full"
 												width="100%"
 												height=""
 												title="{pnpStep.title} video guide"
@@ -196,6 +195,13 @@ directory
 </div>
 
 <style lang="postcss">
+	.h_semi-bold.italic.pnp-steps {
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-bottom: 0.5em;
+	}
+
 	.wrap-banner {
 		/* grid-column-gap: 2em;
 		grid-row-gap: 2em;
@@ -224,6 +230,16 @@ directory
 		.wrap-banner {
 			/* padding-left: 1em; */
 			padding-right: 0;
+		}
+
+		.h_semi-bold.italic.pnp-steps {
+			font-size: 4.5em;
+		}
+	}
+
+	@media screen and (min-width: 991px) {
+		.h_semi-bold.italic.pnp-steps {
+			font-size: 2.5em;
 		}
 	}
 
@@ -340,6 +356,9 @@ directory
 		}
 		.wrap_card-content {
 			font-size: 1.3em;
+		}
+		.h_semi-bold {
+			font-size: 6em;
 		}
 	}
 

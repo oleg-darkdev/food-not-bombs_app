@@ -71,7 +71,7 @@
 		padding-left: 3em;
 		padding-right: 3em;
 		display: flex;
-		position: relative;
+		/* position: relative; */
 		overflow: hidden;
 	}
 
