@@ -9334,64 +9334,64 @@ logo: '/images/groups/russia/moscow_komsa/logo.jpg',
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/moscow_komsa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/moscow_komsa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/moscow_komsa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/moscow_komsa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/moscow_komsa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/moscow_komsa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/moscow_komsa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/moscow_komsa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/moscow_komsa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/russia/aaaa/10.jpg',
+						img: '/images/groups/russia/moscow_komsa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/russia/aaaa/11.jpg',
+						img: '/images/groups/russia/moscow_komsa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/russia/aaaa/12.jpg',
+						img: '/images/groups/russia/moscow_komsa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/russia/aaaa/13.jpg',
+						img: '/images/groups/russia/moscow_komsa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/russia/aaaa/14.jpg',
+						img: '/images/groups/russia/moscow_komsa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/russia/aaaa/15.jpg',
+						img: '/images/groups/russia/moscow_komsa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/russia/aaaa/16.jpg',
+						img: '/images/groups/russia/moscow_komsa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -9400,44 +9400,44 @@ logo: '/images/groups/russia/moscow_komsa/logo.jpg',
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/russia/aaaa/17.jpg',
+						img: '/images/groups/russia/moscow_komsa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/russia/aaaa/18.jpg',
+						img: '/images/groups/russia/moscow_komsa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/russia/aaaa/19.jpg',
+						img: '/images/groups/russia/moscow_komsa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/russia/aaaa/20.jpg',
+						img: '/images/groups/russia/moscow_komsa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/russia/aaaa/21.jpg',
+						img: '/images/groups/russia/moscow_komsa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/russia/aaaa/22.jpg',
+						img: '/images/groups/russia/moscow_komsa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/russia/aaaa/23.jpg',
+						img: '/images/groups/russia/moscow_komsa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/russia/aaaa/24.jpg',
+						img: '/images/groups/russia/moscow_komsa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -9446,44 +9446,44 @@ logo: '/images/groups/russia/moscow_komsa/logo.jpg',
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/russia/aaaa/25.jpg',
+						img: '/images/groups/russia/moscow_komsa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/russia/aaaa/26.jpg',
+						img: '/images/groups/russia/moscow_komsa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/russia/aaaa/27.jpg',
+						img: '/images/groups/russia/moscow_komsa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/russia/aaaa/28.jpg',
+						img: '/images/groups/russia/moscow_komsa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/russia/aaaa/29.jpg',
+						img: '/images/groups/russia/moscow_komsa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/russia/aaaa/30.jpg',
+						img: '/images/groups/russia/moscow_komsa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/russia/aaaa/31.jpg',
+						img: '/images/groups/russia/moscow_komsa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/russia/aaaa/32.jpg',
+						img: '/images/groups/russia/moscow_komsa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -9492,186 +9492,48 @@ logo: '/images/groups/russia/moscow_komsa/logo.jpg',
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/russia/aaaa/33.jpg',
+						img: '/images/groups/russia/moscow_komsa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/russia/aaaa/34.jpg',
+						img: '/images/groups/russia/moscow_komsa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/russia/aaaa/35.jpg',
+						img: '/images/groups/russia/moscow_komsa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/russia/aaaa/36.jpg',
+						img: '/images/groups/russia/moscow_komsa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/russia/aaaa/37.jpg',
+						img: '/images/groups/russia/moscow_komsa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/russia/aaaa/38.jpg',
+						img: '/images/groups/russia/moscow_komsa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/russia/aaaa/39.jpg',
+						img: '/images/groups/russia/moscow_komsa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/russia/aaaa/40.jpg',
+						img: '/images/groups/russia/moscow_komsa/40.jpg',
 						alt: 'image 40'
 					}
 				}
 			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/russia/aaaa/41.jpg',
-						alt: 'image 41'
-					},
-					square: {
-						img: '/images/groups/russia/aaaa/42.jpg',
-						alt: 'image 42'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/russia/aaaa/43.jpg',
-						alt: 'image 43'
-					},
-					square: {
-						img: '/images/groups/russia/aaaa/44.jpg',
-						alt: 'image 44'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/russia/aaaa/45.jpg',
-						alt: 'image 45'
-					},
-					square: {
-						img: '/images/groups/russia/aaaa/46.jpg',
-						alt: 'image 46'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/russia/aaaa/47.jpg',
-						alt: 'image 47'
-					},
-					square: {
-						img: '/images/groups/russia/aaaa/48.jpg',
-						alt: 'image 48'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/russia/aaaa/41.jpg',
-						alt: 'image 41'
-					},
-					square: {
-						img: '/images/groups/russia/aaaa/42.jpg',
-						alt: 'image 42'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/russia/aaaa/43.jpg',
-						alt: 'image 43'
-					},
-					square: {
-						img: '/images/groups/russia/aaaa/44.jpg',
-						alt: 'image 44'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/russia/aaaa/45.jpg',
-						alt: 'image 45'
-					},
-					square: {
-						img: '/images/groups/russia/aaaa/46.jpg',
-						alt: 'image 46'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/russia/aaaa/47.jpg',
-						alt: 'image 47'
-					},
-					square: {
-						img: '/images/groups/russia/aaaa/48.jpg',
-						alt: 'image 48'
-					}
-				}
-			],
-			[
-				{
-					class: '_1',
-					tall: {
-						img: '/images/groups/russia/aaaa/49.jpg',
-						alt: 'image 49'
-					},
-					square: {
-						img: '/images/groups/russia/aaaa/50.jpg',
-						alt: 'image 50'
-					}
-				},
-				{
-					class: '_2',
-					tall: {
-						img: '/images/groups/russia/aaaa/51.jpg',
-						alt: 'image 51'
-					},
-					square: {
-						img: '/images/groups/russia/aaaa/52.jpg',
-						alt: 'image 52'
-					}
-				},
-				{
-					class: '_3',
-					tall: {
-						img: '/images/groups/russia/aaaa/53.jpg',
-						alt: 'image 53'
-					},
-					square: {
-						img: '/images/groups/russia/aaaa/54.jpg',
-						alt: 'image 54'
-					}
-				},
-				{
-					class: '_4',
-					tall: {
-						img: '/images/groups/russia/aaaa/55.jpg',
-						alt: 'image 55'
-					},
-					square: {
-						img: '/images/groups/russia/aaaa/56.jpg',
-						alt: 'image 56'
-					}
-				}
-			]
 		],
 		photos: '',
 		name: 'Москва Komsa FNB',
