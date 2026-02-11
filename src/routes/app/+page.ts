@@ -18,7 +18,8 @@ import {
 	appFaq,
 	componentsFaq,
 	rulesAndInterpretationFaq,
-	runGame
+	runGame,
+	pnp
 } from '$sharedData';
 
 export function load() {
@@ -30,6 +31,7 @@ export function load() {
 		componentsFaq,
 		rulesAndInterpretationFaq,
 		kit,
+		pnp,
 		foodTokens,
 		roles,
 		preparation,

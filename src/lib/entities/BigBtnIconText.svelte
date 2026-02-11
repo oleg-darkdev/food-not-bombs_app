@@ -8,11 +8,11 @@
 
 <div
 	{onclick}
-	class="item_project-page-explore cursor-pointer wrap_small-rectangle-btn bg-pink hover:bg-orange transition-transform duration-200 ease-in-out hover:scale-105"
+	class="item_project-page-explore my-2 flex flex-col justify-center content-center cursor-pointer px-2  wrap_small-rectangle-btn bg-pink hover:bg-orange transition-transform duration-200 ease-in-out hover:scale-105"
 >
-	<div class=" w-inline-block flex flex-row">
+	<div class=" w-inline-block flex flex-row items-center justify-center">
 		<!-- <h1 class="h_semi-bold top-creative">{text}</h1> -->
-		<img src={icon} class="h-10 w-10 lg:h-32 lg:w-32" alt={text} />
+		<img src={icon} class="h-20 w-20 lg:h-32 lg:w-32" alt={text} />
 		<h1 class="text-green-army font-bold lg:text-5xl text-2xl">{text}</h1>
 	</div>
 	<img
@@ -44,8 +44,8 @@
 <style lang="postcss">
 	.item_project-page-explore.wrap_small-rectangle-btn {
 		aspect-ratio: 22 / 10;
-		padding-left: 2.5em;
-		padding-right: 2.5em;
+		/* padding-left: 2.5em;
+		padding-right: 2.5em; */
 	}
 
 	.wrap_small-rectangle-btn {
@@ -53,20 +53,16 @@
 		aspect-ratio: 1;
 		/* background-color: var(--texts--deep-red); */
 		border-radius: 1.5em;
-		flex-flow: column;
-		justify-content: center;
-		align-items: center;
 		/* width: 100em; */
-		max-width: 40em;
-		padding-left: 2em;
-		padding-right: 2em;
-		display: flex;
+		max-width: 400px;
+		/* padding-left: 2em;
+		padding-right: 2em; */
 		position: relative;
 	}
 
 	@media screen and (max-width: 479px) {
 		.item_project-page-explore.wrap_small-rectangle-btn {
-			max-width: 22em;
+		max-width: 280px;
 		}
 	}
 </style>

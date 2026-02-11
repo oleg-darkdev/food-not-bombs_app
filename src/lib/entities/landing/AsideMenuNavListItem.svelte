@@ -2,16 +2,18 @@
 	// import {  } from '$shared';
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
+	import { scrollToAnchor } from '$sharedUtils';
+	let showFull = $state(false);
 
-	let { navItem, showMenu = $bindable() } = $props();
+	let { navItem, showNav = $bindable() } = $props();
 </script>
 
 <li class="docs-nav-item cursor-pointer">
 	<!-- a href="#{navItem.anchor}" -->
 	<button
 		onclick={() => {
-			showMenu = !showMenu;
-			// console.log(showMenu);
+			showFull = !showFull;
+			// console.log(showFull);
 		}}
 		class="docs-nav-link flex w-full
 		items-center
@@ -20,7 +22,7 @@
 	>
 		<img
 			src="/images/icons/down_arrow.svg"
-			class="mr-2 h-8 w-8 lg:h-4 lg:w-4 {showMenu
+			class="mr-2 h-8 w-8 lg:h-4 lg:w-4 {showFull
 				? 'rotate-180'
 				: ''} transition-transform duration-300"
 			alt=""
@@ -30,31 +32,39 @@
 
 		<img
 			src="/images/icons/down_arrow.svg"
-			class="mr-2 h-8 w-8 lg:h-4 lg:w-4 {showMenu
+			class="mr-2 h-8 w-8 lg:h-4 lg:w-4 {showFull
 				? 'rotate-180'
 				: ''} transition-transform duration-300"
 			alt=""
 		/>
 	</button>
 
-	{#if showMenu}
+	{#if showFull}
 		{#if navItem.subNav}
 			<ul class="docs-subnav">
 				{#each navItem.subNav as subNav}
 					<li class="docs-subnav-item mb-4">
-						<a href="#{subNav.anchor}" class="docs-nav-link">
+						<!-- a href="#{subNav.anchor}" -->
+						<div class="docs-nav-link">
 							<img src="/images/corner-dot-army-green.svg" alt="" class="docs-nav-dot" />
 							<span>{subNav.title}</span>
-						</a>
+						</div>
 
 						{#if subNav.subSubNav}
 							<ul class="docs-subsubnav">
 								{#each subNav.subSubNav as subSubNav}
 									<li class="docs-subsubnav-item">
-										<a href="#{subSubNav.anchor}" class="docs-nav-link">
+										<button
+											onclick={() => {
+												scrollToAnchor(subSubNav.anchor);
+												showNav = false;
+												showFull = false;
+											}}
+											class="docs-nav-link"
+										>
 											<img src="/images/corner-dot-army-green.svg" alt="" class="docs-nav-dot" />
 											<span>{subSubNav.title}</span>
-										</a>
+										</button>
 									</li>
 								{/each}
 							</ul>

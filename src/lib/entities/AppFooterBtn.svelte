@@ -9,7 +9,7 @@ let { text, onclick, icon, bg } = $props();
 <!-- hover:bg-orange -->
 <div
 	{onclick}
-	class="item_project-page-explore wrap_small-rectangle-btn {bg}  transition-transform duration-200 ease-in-out hover:scale-105"
+	class="item_project-page-explore wrap_small-rectangle-btn {bg} px-10  transition-transform duration-200 ease-in-out hover:scale-105"
 >
 	<div class=" w-inline-block">
 		<!-- <h1 class="h_semi-bold top-creative">{text}</h1> -->
@@ -44,8 +44,8 @@ let { text, onclick, icon, bg } = $props();
 <style lang="postcss">
 	.item_project-page-explore.wrap_small-rectangle-btn {
 		aspect-ratio: 22 / 14;
-		padding-left: 2.5em;
-		padding-right: 2.5em;
+		/* padding-left: 2.5em; */
+		/* padding-right: 2.5em; */
 	}
 
 	.wrap_small-rectangle-btn {
@@ -57,16 +57,16 @@ let { text, onclick, icon, bg } = $props();
 		justify-content: center;
 		align-items: center;
 		/* width: 100em; */
-		max-width: 26em;
-		padding-left: 2em;
-		padding-right: 2em;
+		max-width: 400px;
+		/* padding-left: 2em;
+		padding-right: 2em; */
 		display: flex;
 		position: relative;
 	}
 
 	@media screen and (max-width: 479px) {
 		.item_project-page-explore.wrap_small-rectangle-btn {
-			max-width: 22em;
+			max-width: 200px;
 		}
 	}
 </style>

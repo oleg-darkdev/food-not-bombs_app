@@ -14,7 +14,7 @@
 </script>
 
 {#if !showScenariosList}
-	<div class="flex flex-col gap-y-4 pt-10">
+	<div class="flex w-full flex-col justify-center gap-y-4 pt-10">
 		<!-- <BigBtnText
 		text={scenarios.tutorial.id}
 		bgColor="bg-army-green"
@@ -56,17 +56,22 @@
 {:else}
 	{#each $selectedLevel.fnbGroups as groupsData}
 		{#if groupsData.data.length >= 1}
-			<div class="mb-6 mx-auto flex h-auto w-full max-w-5xl flex-col items-center justify-center">
-				<h2 class=" h1_regular main-headline text-center mb-4">
+			<div class="mx-auto mb-6 flex h-auto w-full max-w-5xl flex-col items-center justify-center">
+				<h2 class=" h1_regular main-headline mb-4 text-center">
 					Available scenarios in
 					<em> {groupsData.title}</em>
 				</h2>
 
-				<div
-					class="grid grid-cols-1 items-center gap-x-2 gap-y-2 px-2 md:grid-cols-2 lg:grid-cols-4"
-				>
+				<div class="grid grid-cols-2 items-center gap-x-2 gap-y-2 px-2 lg:grid-cols-4">
 					{#each groupsData.data as group (group.id)}
-						<MiniFnbGroupCard {group} />
+						<MiniFnbGroupCard
+							{group}
+							onclick={() => {
+								$selectedScenario = group;
+								showScenariosList = false;
+								stepGame.update((n) => n + 1);
+							}}
+						/>
 					{/each}
 				</div>
 			</div>

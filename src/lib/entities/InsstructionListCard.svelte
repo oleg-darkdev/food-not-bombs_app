@@ -2,8 +2,8 @@
 	// import {  } from '$shared';
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
-	import { getSocialHandle } from '$sharedUtils';
-	import { SocialRoundIconLink } from '$sharedUi';
+	// import { getSocialHandle } from '$sharedUtils';
+	// import { SocialRoundIconLink } from '$sharedUi';
 
 	let { list, start, title } = $props();
 

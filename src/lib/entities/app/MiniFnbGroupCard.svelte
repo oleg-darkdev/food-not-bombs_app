@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getSocialHandle } from '$sharedUtils';
+	// import {  } from '$sharedUtils';
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
 
@@ -21,7 +21,7 @@
 				</div>
 			</div>
 
-			<a href="./groups/{group.id}" class="" target="_blank">
+			<!-- <a href="./groups/{group.id}" class="" target="_blank"> -->
 				<div class="w-layout-vflex wrap_card-heading h-auto px-4">
 					<h3 class="h_semi-bold group-name group mx-auto mb-20 h-full px-4 italic">
 						{group.city}
@@ -38,7 +38,7 @@
 						/>
 					</div>
 				</div>
-			</a>
+			<!-- </a> -->
 
 			<div class="wrap_project-tags">
 				<div class="collection_project-tags centered w-dyn-list">

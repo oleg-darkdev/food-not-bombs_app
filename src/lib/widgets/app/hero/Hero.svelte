@@ -1,5 +1,5 @@
 <script lang="ts">
-	// import {  } from '$shared';
+	import { socialLinks } from '$sharedData';
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
 
@@ -38,17 +38,19 @@
 					</a>
 				</div>
 
-				<div class="mt-4">
-					<ul class="flex flex-row justify-center">
-						<li class="item_social-link mx-auto">
-							<SocialRoundIconLink icon="/images/instagram.png" alt="Instagram" link="/" />
-						</li>
-						<li class="item_social-link mx-auto">
-							<SocialRoundIconLink icon="/images/linkedIn.png" alt="Linkedin" link="/" />
-						</li>
-						<li class="item_social-link mx-auto">
-							<SocialRoundIconLink icon="/images/pinterest.png" alt="Pinterest" link="/" />
-						</li>
+				<div class="mt-4 w-[180px]">
+					<ul class="flex flex-row justify-center w-full">
+{#each socialLinks as social}
+		<li class="item_social-link mx-auto">
+			<SocialRoundIconLink
+				icon={social.icon}
+				alt={social.alt}
+				link={social.link}
+			/>
+		</li>
+	{/each}
+
+						
 					</ul>
 				</div>
 			</div>

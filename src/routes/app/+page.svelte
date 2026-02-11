@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Hero } from '$widgetsApp';
 	import { FAQ, GroupsListingMini, ApiListing } from '$widgets';
-	import { BigBtnText, BigLinkBtn, BigBtnIconText } from '$entities';
+	import { BigBtnText, BigLinkBtn, BigBtnIconText, PnpStepCard } from '$entities';
 	import { page } from '$app/stores';
 
 	import { StatsList, AppFooterBtn, MiniFnbGroupCard } from '$entities';
@@ -14,7 +14,8 @@
 		selectedLevel,
 		selectedScenario,
 		roundResults,
-		actualRound
+		actualRound,
+		stepPnp
 	} from '$sharedStores';
 	import { Tag } from '$sharedUi';
 
@@ -24,6 +25,8 @@
 
 	const {
 		kit,
+		pnp,
+
 		foodTokens,
 		roles,
 		preparation,
@@ -72,7 +75,8 @@
 	function clearRoundResults() {
 		roundResults.set([]);
 	}
-	let showFaq = $state(false);
+	let showFaq = $state(false),
+		showPnp = $state(false);
 
 	// <!-- <button on:click={}> Следующий раунд </button> -->
 	// nextRound
@@ -103,8 +107,7 @@
 
 	// let showScenariosList = $state(false);
 
-
-	// import { 
+	// import {
 	// 	ukraine,} from '$sharedData';
 	// const polandFormatted = czechRepublic.map((item) => ({
 	// 	logo: item.logo || '',
@@ -141,7 +144,7 @@
 			{#if $stepGame == 0}
 				<ScenariousList />
 			{:else if $stepGame == 1}
-				<div class="flex flex-col pt-10" transition:slide>
+				<div class="flex flex-col pt-10 " transition:slide>
 					<!-- <h1>hello</h1> -->
 					{#if $roundResults.length > 0}
 						<BigBtnIconText
@@ -234,7 +237,9 @@
 								text="Print&Play"
 								bgColor="bg-red"
 								onclick={() => {
-									location.href = './docs#print-and-play';
+									// location.href = './docs#print-and-play';
+									showPnp = !showPnp;
+									$stepInstruction += 1;
 								}}
 							/>
 
@@ -277,17 +282,40 @@
 				{:else if $stepInstruction == 2}
 					<div class="" transition:slide>
 						<div class="">
-							<div class="wrap_faq-heading">
-								<h2 class="h_semi-bold section-heading small faq">FAQ</h2>
-							</div>
 							{#if showFaq}
+								<div class="wrap_faq-heading">
+									<h2 class="h_semi-bold section-heading small faq">FAQ</h2>
+								</div>
 								<FAQ faqData={fnbFaq} />
 								<FAQ faqData={boardgameFaq} />
 								<FAQ faqData={rulesAndInterpretationFaq} />
 								<FAQ faqData={componentsFaq} />
 								<FAQ faqData={appFaq} />
+							{:else if showPnp}
+								{#if $stepPnp == 0}
+									<PnpStepCard pnpStep={pnp.steps.map} />
+								{:else if $stepPnp == 1}
+									<PnpStepCard pnpStep={pnp.steps.foodTokens} />
+								{:else if $stepPnp == 2}
+									<PnpStepCard pnpStep={pnp.steps.canningTokens} />
+								{:else if $stepPnp == 3}
+									<PnpStepCard pnpStep={pnp.steps.awardTokens} />
+								{:else if $stepPnp == 4}
+									<PnpStepCard pnpStep={pnp.steps.blockTokens} />
+								{:else if $stepPnp == 5}
+									<PnpStepCard pnpStep={pnp.steps.сlothingTokens} />
+								{:else if $stepPnp == 6}
+									<PnpStepCard pnpStep={pnp.steps.eventTokens} />
+								{:else if $stepPnp == 7}
+									<PnpStepCard pnpStep={pnp.steps.fnbGroupsTokens} />
+								{:else if $stepPnp == 8}
+									<PnpStepCard pnpStep={pnp.steps.playerTokens} />
+								{:else if $stepPnp == 9}{:else if $stepPnp == 10}{:else if $stepPnp == 11}
+									<PnpStepCard pnpStep={pnp.steps.playerTablets} />
+								{/if}
 							{/if}
 						</div>
+
 						<!-- <GroupsListingMini groupsData={promoFnbGroups.slice(0, 8)} /> -->
 					</div>
 				{:else if $stepInstruction == 3}
@@ -426,13 +454,29 @@
 								onclick={() => {
 									$stepInstruction -= 1;
 									showFaq = false;
-									// console.log('click prev');
-									// console.log($stepInstruction);
+
+									if (showPnp) {
+										stepPnp.update((n) => n - 1);
+									}
 								}}
 								icon="/images/icons/left_arrow.svg"
 								text="Prev"
 								bg="bg-yellow"
 							/>
+
+							{#if showPnp}
+								<AppFooterBtn
+									onclick={() => {
+										if (showPnp) {
+											stepPnp.update((n) => n + 1);
+											console.log($stepPnp);
+										}
+									}}
+									icon="/images/icons/right_arrow.svg"
+									text="Next"
+									bg="bg-yellow"
+								/>
+							{/if}
 
 							<!-- <AppFooterBtn
 								onclick={() => {
@@ -443,6 +487,7 @@
 								bg="bg-yellow"
 							/> -->
 						{/if}
+
 						<!-- <div class="grid grid-cols-2 gap-6 my-20"> -->
 						<!-- <PrevStepBtn bind:step={$stepInstruction} icon='/images/icons/' text="Poprzedni slajd" />
 

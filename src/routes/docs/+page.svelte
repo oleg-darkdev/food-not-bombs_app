@@ -88,7 +88,9 @@
 			<div class="" id="box-wrap"></div>
 
 			<div class="flex flex-col gap-y-4 py-10">
-				<PnpStepCard pnpStep={pnp.steps.map} />
+				<a name="map"></a>
+
+				<!-- <PnpStepCard pnpStep={pnp.steps.map} />
 				<PnpStepCard pnpStep={pnp.steps.foodTokens} />
 				<PnpStepCard pnpStep={pnp.steps.canningTokens} />
 				<PnpStepCard pnpStep={pnp.steps.awardTokens} />
@@ -97,7 +99,7 @@
 				<PnpStepCard pnpStep={pnp.steps.eventTokens} />
 				<PnpStepCard pnpStep={pnp.steps.fnbGroupsTokens} />
 				<PnpStepCard pnpStep={pnp.steps.playerTokens} />
-				<PnpStepCard pnpStep={pnp.steps.playerTablets} />
+				<PnpStepCard pnpStep={pnp.steps.playerTablets} /> -->
 				<!-- <PnpStepCard pnpStep={pnp.steps.map} /> -->
 			</div>
 		</section>
