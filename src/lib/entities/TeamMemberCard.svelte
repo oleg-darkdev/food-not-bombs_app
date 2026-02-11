@@ -1,11 +1,11 @@
 <script lang="ts">
-	// import {  } from '$shared';
-	// import {  } from '$widgets';
-	// import {  } from '$entities'
-
 	let { member } = $props();
 
 	import { Tag } from '$sharedUi';
+	// import {  } from '$sharedData';
+	// import {  } from '$widgets';
+	// import {  } from '$entities'
+	import { SocialRoundIconLink } from '$sharedUi';
 </script>
 
 <div role="listitem" class="slider-item w-dyn-item">
@@ -22,9 +22,18 @@
 					<div class="wrap_title txt_job-title">
 						<div class="txt_job-title-line-one mb-2">{member.role}</div>
 						<div class="txt_job-title-line-two">
-							<a href={member.organisation.link} class="link_footer" target="_blank"
+							<!-- <a href={member.organisation.link} class="link_footer" target="_blank"
 								>{member.organisation.title}</a
-							>
+							> -->
+							<div class="mx-auto mt-0 w-[180px]">
+								<ul class="flex w-full flex-row flex-wrap justify-center">
+									{#each member.socialLinks as social}
+										<li class="item_social-link mx-auto">
+											<SocialRoundIconLink icon={social.icon} alt={social.alt} link={social.link} />
+										</li>
+									{/each}
+								</ul>
+							</div>
 						</div>
 					</div>
 				{/if}

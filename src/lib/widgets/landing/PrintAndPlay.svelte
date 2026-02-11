@@ -1,5 +1,5 @@
 <script lang="ts">
-	// import {  } from '$shared';
+	import { BuyMeaCoffeeBtn } from '$sharedUi';
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
 </script>
@@ -30,7 +30,7 @@
 					food.
 				</p>
 
-				<img src="/images/bmc-button.png" class="-mt-6 mb-6 h-16 w-auto" alt="Buy me a coffee" />
+				<BuyMeaCoffeeBtn />
 
 				<p class="h1_regular main-headline body-copy performance-page">
 					You can purchase a printed educational board game, as well as a set of high-quality PnP

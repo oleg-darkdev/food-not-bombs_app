@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { RoundedBtnLink } from '$sharedUi';
+	import { RoundedBtnLink, BuyMeaCoffeeBtn } from '$sharedUi';
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
 
@@ -136,6 +136,9 @@
 						>CC BY-NC-SA 4.0</a
 					>
 				</p>
+
+									<BuyMeaCoffeeBtn />
+
 
 				<!-- This food is used to prepare meals
 						that are offered free of charge to anyone who is hungry. -->

@@ -1,10 +1,10 @@
 <script lang="ts">
 	// import {  } from '$shared';
 	// import {  } from '$widgets';
-	// import {  } from '$entities'
-	import { SocialRoundIconLink } from '$sharedUi';
+	import { SocialIconsCard } from '$entities'
+	import {  BuyMeaCoffeeBtn } from '$sharedUi';
 
-	let { socialLinks } = $props();
+	// let { socialLinks } = $props();
 </script>
 
 <section class="section hero">
@@ -27,7 +27,8 @@
 						>
 					</h1>
 
-					<div class="wrap_hero-cta">
+
+					<div class="mb-4 wrap_hero-cta">
 						<a href="/#print-and-play" class="cta_primary w-inline-block">
 							<div class="txt_cta-name">Print & Play</div>
 						</a>
@@ -36,17 +37,12 @@
 						</a>
 					</div>
 
-					<div class="mt-0 w-[180px]">
-						<ul class="flex w-full flex-row justify-center">
-							{#each socialLinks as social}
-								<li class="item_social-link mx-auto">
-									<SocialRoundIconLink icon={social.icon} alt={social.alt} link={social.link} />
-								</li>
-							{/each}
-						</ul>
-					</div>
+					<BuyMeaCoffeeBtn />
+
+
+					<SocialIconsCard />
 				</div>
-				<svg
+				<!-- <svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="100%"
 					viewBox="0 0 281 408"
@@ -64,7 +60,7 @@
 							<rect width="281" height="408" fill="currentColor"></rect>
 						</clipPath>
 					</defs>
-				</svg>
+				</svg> -->
 			</div>
 		</div>
 

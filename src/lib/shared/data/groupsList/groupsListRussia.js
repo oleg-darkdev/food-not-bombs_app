@@ -1,6 +1,6 @@
 const data = [
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: '',
 		inst: '',
@@ -8,64 +8,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -74,44 +74,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -120,44 +120,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -166,44 +166,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -212,44 +212,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -258,44 +258,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -304,44 +304,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -361,7 +361,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -373,7 +373,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: '',
 		inst: '',
@@ -381,64 +381,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -447,44 +447,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -493,44 +493,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -539,44 +539,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -585,44 +585,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -631,44 +631,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -677,44 +677,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -734,7 +734,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -746,7 +746,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: '',
 		inst: '',
@@ -754,64 +754,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -820,44 +820,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -866,44 +866,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -912,44 +912,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -958,44 +958,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -1004,44 +1004,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -1050,44 +1050,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -1107,7 +1107,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -1119,7 +1119,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: '',
 		inst: '',
@@ -1127,64 +1127,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -1193,44 +1193,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -1239,44 +1239,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -1285,44 +1285,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -1331,44 +1331,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -1377,44 +1377,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -1423,44 +1423,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -1480,7 +1480,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -1492,7 +1492,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/club4288151',
 		inst: '',
@@ -1500,64 +1500,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -1566,44 +1566,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -1612,44 +1612,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -1658,44 +1658,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -1704,44 +1704,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -1750,44 +1750,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -1796,44 +1796,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -1853,7 +1853,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -1865,7 +1865,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/club6855834',
 		inst: '',
@@ -1873,64 +1873,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -1939,44 +1939,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -1985,44 +1985,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -2031,44 +2031,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -2077,44 +2077,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -2123,44 +2123,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -2169,44 +2169,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -2226,7 +2226,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -2238,7 +2238,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: '',
 		inst: '',
@@ -2246,64 +2246,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -2312,44 +2312,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -2358,44 +2358,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -2404,44 +2404,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -2450,44 +2450,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -2496,44 +2496,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -2542,44 +2542,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -2599,7 +2599,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -2611,7 +2611,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/club10429817',
 		inst: '',
@@ -2619,64 +2619,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -2685,44 +2685,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -2731,44 +2731,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -2777,44 +2777,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -2823,44 +2823,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -2869,44 +2869,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -2915,44 +2915,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -2972,7 +2972,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -2984,7 +2984,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/food_not_bombs_ekb',
 		inst: '',
@@ -2992,64 +2992,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -3058,44 +3058,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -3104,44 +3104,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -3150,44 +3150,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -3196,44 +3196,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -3242,44 +3242,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -3288,44 +3288,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -3345,7 +3345,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -3357,7 +3357,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/club10190501',
 		inst: '',
@@ -3365,64 +3365,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -3431,44 +3431,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -3477,44 +3477,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -3523,44 +3523,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -3569,44 +3569,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -3615,44 +3615,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -3661,44 +3661,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -3718,7 +3718,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -3730,7 +3730,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: '',
 		inst: '',
@@ -3738,64 +3738,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -3804,44 +3804,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -3850,44 +3850,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -3896,44 +3896,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -3942,44 +3942,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -3988,44 +3988,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -4034,44 +4034,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -4091,7 +4091,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -4103,7 +4103,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/fnbperm',
 		inst: '',
@@ -4111,64 +4111,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -4177,44 +4177,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -4223,44 +4223,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -4269,44 +4269,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -4315,44 +4315,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -4361,44 +4361,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -4407,44 +4407,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -4464,7 +4464,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -4476,7 +4476,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/club59201750',
 		inst: '',
@@ -4484,64 +4484,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -4550,44 +4550,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -4596,44 +4596,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -4642,44 +4642,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -4688,44 +4688,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -4734,44 +4734,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -4780,44 +4780,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -4837,7 +4837,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -4849,7 +4849,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/club15036893',
 		inst: '',
@@ -4857,64 +4857,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -4923,44 +4923,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -4969,44 +4969,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -5015,44 +5015,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -5061,44 +5061,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -5107,44 +5107,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -5153,44 +5153,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -5210,7 +5210,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -5222,7 +5222,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/fnbglazov',
 		inst: '',
@@ -5230,64 +5230,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -5296,44 +5296,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -5342,44 +5342,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -5388,44 +5388,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -5434,44 +5434,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -5480,44 +5480,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -5526,44 +5526,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -5583,7 +5583,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -5595,7 +5595,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/club2540363',
 		inst: '',
@@ -5603,64 +5603,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -5669,44 +5669,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -5715,44 +5715,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -5761,44 +5761,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -5807,44 +5807,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -5853,44 +5853,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -5899,44 +5899,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -5956,7 +5956,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -5968,7 +5968,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: '',
 		inst: '',
@@ -5976,64 +5976,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -6042,44 +6042,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -6088,44 +6088,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -6134,44 +6134,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -6180,44 +6180,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -6226,44 +6226,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -6272,44 +6272,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -6329,7 +6329,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -6341,7 +6341,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: '',
 		inst: 'https://www.instagram.com/food_not_bombs_163/',
@@ -6349,64 +6349,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -6415,44 +6415,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -6461,44 +6461,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -6507,44 +6507,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -6553,44 +6553,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -6599,44 +6599,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -6645,44 +6645,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -6702,7 +6702,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -6714,7 +6714,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/club8314380',
 		inst: '',
@@ -6722,64 +6722,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -6788,44 +6788,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -6834,44 +6834,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -6880,44 +6880,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -6926,44 +6926,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -6972,44 +6972,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -7018,44 +7018,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -7075,7 +7075,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -7087,7 +7087,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/club4164297',
 		inst: '',
@@ -7095,64 +7095,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -7161,44 +7161,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -7207,44 +7207,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -7253,44 +7253,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -7299,44 +7299,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -7345,44 +7345,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -7391,44 +7391,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -7448,7 +7448,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -7460,7 +7460,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/club92749957',
 		inst: '',
@@ -7468,64 +7468,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -7534,44 +7534,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -7580,44 +7580,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -7626,44 +7626,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -7672,44 +7672,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -7718,44 +7718,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -7764,44 +7764,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -7821,7 +7821,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -7833,7 +7833,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: '',
 		inst: 'https://www.instagram.com/fnbpiter/',
@@ -7841,64 +7841,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -7907,44 +7907,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -7953,44 +7953,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -7999,44 +7999,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -8045,44 +8045,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -8091,44 +8091,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -8137,44 +8137,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -8195,7 +8195,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -8207,7 +8207,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/club5770008',
 		inst: '',
@@ -8215,64 +8215,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -8281,44 +8281,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -8327,44 +8327,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -8373,44 +8373,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -8419,44 +8419,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -8465,44 +8465,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -8511,44 +8511,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -8568,7 +8568,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -8580,7 +8580,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: '',
 		inst: '',
@@ -8588,64 +8588,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -8654,44 +8654,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -8700,44 +8700,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -8746,44 +8746,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -8792,44 +8792,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -8838,44 +8838,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -8884,44 +8884,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -8941,7 +8941,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -8953,7 +8953,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/fnbnn',
 		inst: '',
@@ -8961,64 +8961,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -9027,44 +9027,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -9073,44 +9073,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -9119,44 +9119,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -9165,44 +9165,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -9211,44 +9211,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -9257,44 +9257,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -9314,7 +9314,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -9326,72 +9326,72 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+logo: '/images/groups/russia/moscow_komsa/logo.jpg',
 		since: '',
-		facebook: 'https://vk.com/fnb_moscow',
+		facebook: '',
 		inst: '',
 		gallery: [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -9400,44 +9400,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -9446,44 +9446,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -9492,44 +9492,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -9538,44 +9538,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -9584,44 +9584,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -9630,44 +9630,417 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
+						alt: 'image 56'
+					}
+				}
+			]
+		],
+		photos: '',
+		name: 'Москва Komsa FNB',
+		country: 'Russia',
+		city: 'Moscow',
+		sharingAddress: 'Moscow, Moscow Oblast, Russia',
+		sharingInfo: '',
+		email: '',
+		website: '',
+		videos: [{ title: '', link: '' }],
+		twitter: '',
+		cookingAddress: '',
+		cookingInfo: '',
+		contactPhone: '',
+		contactName: '',
+		emtyDel: '', telegram: 'https://t.me/fnb_komsa',
+		id: 'moscow-komsa-fnb',
+		banner: '',
+		notes: '',
+		mailingAddress: '',
+		imgCollected: false,
+		infoChecked: false,
+		ready: false,
+		opitimise: false,
+		facebookChecked: false
+	},
+	{
+		logo: '/images/groups/russia/',
+		since: '',
+		facebook: 'https://vk.com/fnb_moscow',
+		inst: '',
+		gallery: [
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
+					square: {
+						img: '/images/groups/russia/aaaa/10.jpg',
+						alt: 'image 10'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/russia/aaaa/11.jpg',
+						alt: 'image 11'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/12.jpg',
+						alt: 'image 12'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/russia/aaaa/13.jpg',
+						alt: 'image 13'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/14.jpg',
+						alt: 'image 14'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/russia/aaaa/15.jpg',
+						alt: 'image 15'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/16.jpg',
+						alt: 'image 16'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/russia/aaaa/17.jpg',
+						alt: 'image 17'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/18.jpg',
+						alt: 'image 18'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/russia/aaaa/19.jpg',
+						alt: 'image 19'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/20.jpg',
+						alt: 'image 20'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/russia/aaaa/21.jpg',
+						alt: 'image 21'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/22.jpg',
+						alt: 'image 22'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/russia/aaaa/23.jpg',
+						alt: 'image 23'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/24.jpg',
+						alt: 'image 24'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/russia/aaaa/25.jpg',
+						alt: 'image 25'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/26.jpg',
+						alt: 'image 26'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/russia/aaaa/27.jpg',
+						alt: 'image 27'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/28.jpg',
+						alt: 'image 28'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/russia/aaaa/29.jpg',
+						alt: 'image 29'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/30.jpg',
+						alt: 'image 30'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/russia/aaaa/31.jpg',
+						alt: 'image 31'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/32.jpg',
+						alt: 'image 32'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/russia/aaaa/33.jpg',
+						alt: 'image 33'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/34.jpg',
+						alt: 'image 34'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/russia/aaaa/35.jpg',
+						alt: 'image 35'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/36.jpg',
+						alt: 'image 36'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/russia/aaaa/37.jpg',
+						alt: 'image 37'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/38.jpg',
+						alt: 'image 38'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/russia/aaaa/39.jpg',
+						alt: 'image 39'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/40.jpg',
+						alt: 'image 40'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/russia/aaaa/41.jpg',
+						alt: 'image 41'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/42.jpg',
+						alt: 'image 42'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/russia/aaaa/43.jpg',
+						alt: 'image 43'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/44.jpg',
+						alt: 'image 44'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/russia/aaaa/45.jpg',
+						alt: 'image 45'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/46.jpg',
+						alt: 'image 46'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/russia/aaaa/47.jpg',
+						alt: 'image 47'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/48.jpg',
+						alt: 'image 48'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/russia/aaaa/41.jpg',
+						alt: 'image 41'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/42.jpg',
+						alt: 'image 42'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/russia/aaaa/43.jpg',
+						alt: 'image 43'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/44.jpg',
+						alt: 'image 44'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/russia/aaaa/45.jpg',
+						alt: 'image 45'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/46.jpg',
+						alt: 'image 46'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/russia/aaaa/47.jpg',
+						alt: 'image 47'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/48.jpg',
+						alt: 'image 48'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/russia/aaaa/49.jpg',
+						alt: 'image 49'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/50.jpg',
+						alt: 'image 50'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/russia/aaaa/51.jpg',
+						alt: 'image 51'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/52.jpg',
+						alt: 'image 52'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/russia/aaaa/53.jpg',
+						alt: 'image 53'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/54.jpg',
+						alt: 'image 54'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/russia/aaaa/55.jpg',
+						alt: 'image 55'
+					},
+					square: {
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -9687,7 +10060,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '89163393130',
 		contactName: 'Nikoc Mankos',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -9699,7 +10072,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/club4268586',
 		inst: '',
@@ -9707,64 +10080,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -9773,44 +10146,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -9819,44 +10192,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -9865,44 +10238,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -9911,44 +10284,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -9957,44 +10330,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -10003,44 +10376,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -10060,7 +10433,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -10072,7 +10445,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: '',
 		inst: '',
@@ -10080,64 +10453,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -10146,44 +10519,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -10192,44 +10565,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -10238,44 +10611,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -10284,44 +10657,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -10330,44 +10703,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -10376,44 +10749,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -10433,7 +10806,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -10445,7 +10818,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/fnb_vlg, ',
 		inst: '',
@@ -10453,64 +10826,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -10519,44 +10892,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -10565,44 +10938,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -10611,44 +10984,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -10657,44 +11030,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -10703,44 +11076,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -10749,44 +11122,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -10806,7 +11179,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -10818,7 +11191,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/astrafnb',
 		inst: '',
@@ -10826,64 +11199,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -10892,44 +11265,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -10938,44 +11311,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -10984,44 +11357,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -11030,44 +11403,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -11076,44 +11449,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -11122,44 +11495,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -11179,7 +11552,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -11191,7 +11564,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: '',
 		inst: '',
@@ -11199,64 +11572,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -11265,44 +11638,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -11311,44 +11684,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -11357,44 +11730,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -11403,44 +11776,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -11449,44 +11822,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -11495,44 +11868,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -11552,7 +11925,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -11564,7 +11937,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/club14445538',
 		inst: '',
@@ -11572,64 +11945,64 @@ const data = [
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-					square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
+					tall: { img: '/images/groups/russia/aaaa/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/russia/aaaa/2.jpg', alt: 'image 2' }
 				},
 				{
 					class: '_2',
-					tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-					square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
+					tall: { img: '/images/groups/russia/aaaa/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/russia/aaaa/4.jpg', alt: 'image 4' }
 				},
 				{
 					class: '_3',
-					tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-					square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
+					tall: { img: '/images/groups/russia/aaaa/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/russia/aaaa/6.jpg', alt: 'image 6' }
 				},
 				{
 					class: '_4',
-					tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-					square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
+					tall: { img: '/images/groups/russia/aaaa/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/russia/aaaa/8.jpg', alt: 'image 8' }
 				}
 			],
 			[
 				{
 					class: '_1',
-					tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
+					tall: { img: '/images/groups/russia/aaaa/9.jpg', alt: 'image 9' },
 					square: {
-						img: '/images/groups/europe/poland/opole/10.jpg',
+						img: '/images/groups/russia/aaaa/10.jpg',
 						alt: 'image 10'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/11.jpg',
+						img: '/images/groups/russia/aaaa/11.jpg',
 						alt: 'image 11'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/12.jpg',
+						img: '/images/groups/russia/aaaa/12.jpg',
 						alt: 'image 12'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/13.jpg',
+						img: '/images/groups/russia/aaaa/13.jpg',
 						alt: 'image 13'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/14.jpg',
+						img: '/images/groups/russia/aaaa/14.jpg',
 						alt: 'image 14'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/15.jpg',
+						img: '/images/groups/russia/aaaa/15.jpg',
 						alt: 'image 15'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/16.jpg',
+						img: '/images/groups/russia/aaaa/16.jpg',
 						alt: 'image 16'
 					}
 				}
@@ -11638,44 +12011,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/17.jpg',
+						img: '/images/groups/russia/aaaa/17.jpg',
 						alt: 'image 17'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/18.jpg',
+						img: '/images/groups/russia/aaaa/18.jpg',
 						alt: 'image 18'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/19.jpg',
+						img: '/images/groups/russia/aaaa/19.jpg',
 						alt: 'image 19'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/20.jpg',
+						img: '/images/groups/russia/aaaa/20.jpg',
 						alt: 'image 20'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/21.jpg',
+						img: '/images/groups/russia/aaaa/21.jpg',
 						alt: 'image 21'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/22.jpg',
+						img: '/images/groups/russia/aaaa/22.jpg',
 						alt: 'image 22'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/23.jpg',
+						img: '/images/groups/russia/aaaa/23.jpg',
 						alt: 'image 23'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/24.jpg',
+						img: '/images/groups/russia/aaaa/24.jpg',
 						alt: 'image 24'
 					}
 				}
@@ -11684,44 +12057,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/25.jpg',
+						img: '/images/groups/russia/aaaa/25.jpg',
 						alt: 'image 25'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/26.jpg',
+						img: '/images/groups/russia/aaaa/26.jpg',
 						alt: 'image 26'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/27.jpg',
+						img: '/images/groups/russia/aaaa/27.jpg',
 						alt: 'image 27'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/28.jpg',
+						img: '/images/groups/russia/aaaa/28.jpg',
 						alt: 'image 28'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/29.jpg',
+						img: '/images/groups/russia/aaaa/29.jpg',
 						alt: 'image 29'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/30.jpg',
+						img: '/images/groups/russia/aaaa/30.jpg',
 						alt: 'image 30'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/31.jpg',
+						img: '/images/groups/russia/aaaa/31.jpg',
 						alt: 'image 31'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/32.jpg',
+						img: '/images/groups/russia/aaaa/32.jpg',
 						alt: 'image 32'
 					}
 				}
@@ -11730,44 +12103,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/33.jpg',
+						img: '/images/groups/russia/aaaa/33.jpg',
 						alt: 'image 33'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/34.jpg',
+						img: '/images/groups/russia/aaaa/34.jpg',
 						alt: 'image 34'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/35.jpg',
+						img: '/images/groups/russia/aaaa/35.jpg',
 						alt: 'image 35'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/36.jpg',
+						img: '/images/groups/russia/aaaa/36.jpg',
 						alt: 'image 36'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/37.jpg',
+						img: '/images/groups/russia/aaaa/37.jpg',
 						alt: 'image 37'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/38.jpg',
+						img: '/images/groups/russia/aaaa/38.jpg',
 						alt: 'image 38'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/39.jpg',
+						img: '/images/groups/russia/aaaa/39.jpg',
 						alt: 'image 39'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/40.jpg',
+						img: '/images/groups/russia/aaaa/40.jpg',
 						alt: 'image 40'
 					}
 				}
@@ -11776,44 +12149,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -11822,44 +12195,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/41.jpg',
+						img: '/images/groups/russia/aaaa/41.jpg',
 						alt: 'image 41'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/42.jpg',
+						img: '/images/groups/russia/aaaa/42.jpg',
 						alt: 'image 42'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/43.jpg',
+						img: '/images/groups/russia/aaaa/43.jpg',
 						alt: 'image 43'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/44.jpg',
+						img: '/images/groups/russia/aaaa/44.jpg',
 						alt: 'image 44'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/45.jpg',
+						img: '/images/groups/russia/aaaa/45.jpg',
 						alt: 'image 45'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/46.jpg',
+						img: '/images/groups/russia/aaaa/46.jpg',
 						alt: 'image 46'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/47.jpg',
+						img: '/images/groups/russia/aaaa/47.jpg',
 						alt: 'image 47'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/48.jpg',
+						img: '/images/groups/russia/aaaa/48.jpg',
 						alt: 'image 48'
 					}
 				}
@@ -11868,44 +12241,44 @@ const data = [
 				{
 					class: '_1',
 					tall: {
-						img: '/images/groups/europe/poland/opole/49.jpg',
+						img: '/images/groups/russia/aaaa/49.jpg',
 						alt: 'image 49'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/50.jpg',
+						img: '/images/groups/russia/aaaa/50.jpg',
 						alt: 'image 50'
 					}
 				},
 				{
 					class: '_2',
 					tall: {
-						img: '/images/groups/europe/poland/opole/51.jpg',
+						img: '/images/groups/russia/aaaa/51.jpg',
 						alt: 'image 51'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/52.jpg',
+						img: '/images/groups/russia/aaaa/52.jpg',
 						alt: 'image 52'
 					}
 				},
 				{
 					class: '_3',
 					tall: {
-						img: '/images/groups/europe/poland/opole/53.jpg',
+						img: '/images/groups/russia/aaaa/53.jpg',
 						alt: 'image 53'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/54.jpg',
+						img: '/images/groups/russia/aaaa/54.jpg',
 						alt: 'image 54'
 					}
 				},
 				{
 					class: '_4',
 					tall: {
-						img: '/images/groups/europe/poland/opole/55.jpg',
+						img: '/images/groups/russia/aaaa/55.jpg',
 						alt: 'image 55'
 					},
 					square: {
-						img: '/images/groups/europe/poland/opole/56.jpg',
+						img: '/images/groups/russia/aaaa/56.jpg',
 						alt: 'image 56'
 					}
 				}
@@ -11925,7 +12298,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -11937,7 +12310,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/fnbptz',
 		inst: '',
@@ -11956,7 +12329,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -11968,7 +12341,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/fnb_sevsk',
 		inst: '',
@@ -11987,7 +12360,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -11999,7 +12372,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: 'https://vk.com/club5112467',
 		inst: '',
@@ -12018,7 +12391,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',
@@ -12030,7 +12403,7 @@ const data = [
 		facebookChecked: false
 	},
 	{
-		logo: '',
+		logo: '/images/groups/russia/logo.jpg',
 		since: '',
 		facebook: '',
 		inst: '',
@@ -12049,7 +12422,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',

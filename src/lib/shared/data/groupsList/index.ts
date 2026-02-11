@@ -5,29 +5,66 @@ import groupsListCanada from './groupsListCanada';
 import groupsListCentralSouthAmerica from './groupsListCentralSouthAmerica';
 import groupsListMexico from './groupsListMexico';
 import groupsListUsa from './groupsListUsa';
-import { groupsListEurope, poland, czechRepublic, ukraine, croatia, slovakia, serbia } from './groupsListEurope';
+import {
+	groupsListEurope,
+	poland,
+	turkey,
+	israel,
+	georgia,
+	norway,
+	finland,
+	estonia,
+	sweden,
+	denmark,
+	iceland,
+	scotland,
+	england,
+	ireland,
+	wales,
+	netherlands,
+	belgium,
+	france,
+	spain,
+	portugal,
+	corotna,
+	italy,
+	greece,
+	macedonia,
+	bulgaria,
+	romania,
+	serbia,
+	bosniaAndHerzegovina,
+	croatia,
+	hungary,
+	slovakia,
+	austria,
+	switzerland,
+	ukraine,
+	czechRepublic,
+	germany
+} from './groupsListEurope';
+
+
 import groupsListRussia from './groupsListRussia';
 import promoFnbGroups from './promo';
 
 // import groupsListAfrika from './groupsListAfrika';
 
 // const allGroups = [
-	// ...groupsListAfrika,
-	// ...groupsListAustralia,
-	// ...groupsListAsia,
-	// ...groupsListCanada,
-	// ...groupsListCentralSouthAmerica,
-	// ...groupsListMexico,
-	// ...groupsListUsa,
-	// ...groupsListRussia,
-	// ...groupsListEurope
-
+// ...groupsListAfrika,
+// ...groupsListAustralia,
+// ...groupsListAsia,
+// ...groupsListCanada,
+// ...groupsListCentralSouthAmerica,
+// ...groupsListMexico,
+// ...groupsListUsa,
+// ...groupsListRussia,
+// ...groupsListEurope
 
 // 	...poland, ...czechRepublic
 // ];
 
 const allGroups = [].concat(poland, ukraine, croatia, czechRepublic, slovakia, serbia);
-
 
 let groupsByRegion = [
 	{
@@ -254,7 +291,6 @@ let groupsByRegion = [
 	}
 ];
 
-
 // function getUniqueCountries(items) {
 // 	return [...new Set(items.map((item) => item.country).filter(Boolean))];
 // }
@@ -262,12 +298,42 @@ let groupsByRegion = [
 // const countriesList = getUniqueCountries(allGroups);
 
 export {
+	// europe
 	poland,
+	turkey,
+	israel,
+	georgia,
+	norway,
+	finland,
+	estonia,
+	sweden,
+	denmark,
+	iceland,
+	scotland,
+	england,
+	ireland,
+	wales,
+	netherlands,
+	belgium,
+	france,
+	spain,
+	portugal,
+	corotna,
+	italy,
+	greece,
+	macedonia,
+	bulgaria,
+	romania,
 	serbia,
+	bosniaAndHerzegovina,
 	croatia,
-	ukraine,
+	hungary,
 	slovakia,
+	austria,
+	switzerland,
+	ukraine,
 	czechRepublic,
+	germany,
 	promoFnbGroups,
 	// countriesList,
 	groupsListAfrika,

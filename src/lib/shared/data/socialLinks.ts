@@ -1,18 +1,23 @@
 const socialLinks = [
 	{
-		icon: '/images/icons/instagram.svg',
-		alt: 'Instagram',
-		link: 'https://www.instagram.com/foodnotbombs_library'
-	},
-	{
 		icon: '/images/icons/facebook.svg',
 		alt: 'Facebook',
 		link: 'https://www.facebook.com/foodnotbombsboardgame'
 	},
 	{
+		icon: '/images/icons/instagram.svg',
+		alt: 'Instagram',
+		link: 'https://www.instagram.com/foodnotbombs_library'
+	},
+	{
 		icon: '/images/icons/youtube.svg',
 		alt: 'Youtube',
-		link: '/'
+		link: 'https://www.youtube.com/@soup4all_food-not-bombs'
+	},
+	{
+		icon: '/images/icons/telegram.svg',
+		alt: 'Telegram',
+		link: 'https://t.me/soup4all'
 	},
 	{
 		icon: '/images/icons/github.svg',

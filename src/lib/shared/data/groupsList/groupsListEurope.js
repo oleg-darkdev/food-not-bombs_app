@@ -34,22 +34,82 @@ import ukraine from './europe/ukraine';
 import czechRepublic from './europe/czech-republic';
 import germany from './europe/germany';
 
-
 const groupsListEurope = [
 	{ id: 'poland', data: poland },
-	{ id: 'czech', data: czechRepublic },
-	{ id: 'ukraine', data: ukraine },
-	{ id: 'slovakia', data: slovakia },
+	{ id: 'turkey', data: turkey },
+	{ id: 'israel', data: israel },
+	{ id: 'georgia', data: georgia },
+	{ id: 'norway', data: norway },
+	{ id: 'finland', data: finland },
+	{ id: 'estonia', data: estonia },
+	{ id: 'sweden', data: sweden },
+	{ id: 'denmark', data: denmark },
+	{ id: 'iceland', data: iceland },
+	{ id: 'scotland', data: scotland },
+	{ id: 'england', data: england },
+	{ id: 'ireland', data: ireland },
+	{ id: 'wales', data: wales },
+	{ id: 'netherlands', data: netherlands },
+	{ id: 'belgium', data: belgium },
+	{ id: 'france', data: france },
+	{ id: 'spain', data: spain },
+	{ id: 'portugal', data: portugal },
+	{ id: 'corotna', data: corotna },
+	{ id: 'italy', data: italy },
+	{ id: 'greece', data: greece },
+	{ id: 'macedonia', data: macedonia },
+	{ id: 'bulgaria', data: bulgaria },
+	{ id: 'romania', data: romania },
 	{ id: 'serbia', data: serbia },
+	{ id: 'bosnia-and-herzegovina', data: bosniaAndHerzegovina },
 	{ id: 'croatia', data: croatia },
-	
-
-	// { id: 'czech', data: czechRepublic }
+	{ id: 'hungary', data: hungary },
+	{ id: 'slovakia', data: slovakia },
+	{ id: 'austria', data: austria },
+	{ id: 'switzerland', data: switzerland },
+	{ id: 'ukraine', data: ukraine },
+	{ id: 'czech-republic', data: czechRepublic },
+	{ id: 'germany', data: germany }
 ];
 
-
-export { groupsListEurope, poland, czechRepublic, serbia, ukraine, slovakia, croatia };
-
+export {
+	groupsListEurope,
+	poland,
+	turkey,
+	israel,
+	georgia,
+	norway,
+	finland,
+	estonia,
+	sweden,
+	denmark,
+	iceland,
+	scotland,
+	england,
+	ireland,
+	wales,
+	netherlands,
+	belgium,
+	france,
+	spain,
+	portugal,
+	corotna,
+	italy,
+	greece,
+	macedonia,
+	bulgaria,
+	romania,
+	serbia,
+	bosniaAndHerzegovina,
+	croatia,
+	hungary,
+	slovakia,
+	austria,
+	switzerland,
+	ukraine,
+	czechRepublic,
+	germany
+};
 // const data = [
 // 	...turkey,
 // 	...israel,

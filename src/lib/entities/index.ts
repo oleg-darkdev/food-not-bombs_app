@@ -16,7 +16,7 @@ import BigBtnIconText from './BigBtnIconText.svelte';
 import BigBtnText from './BigBtnText.svelte';
 import BasicInfoCard from './BasicInfoCard.svelte';
 import PnpStepCard from './PnpStepCard.svelte';
-// import BigBtnIconText from './BigBtnIconText.svelte';
+import SocialIconsCard from './SocialIconsCard.svelte';
 // import BigBtnIconText from './BigBtnIconText.svelte';
 // import BigBtnIconText from './BigBtnIconText.svelte';
 // import BigBtnIconText from './BigBtnIconText.svelte';
@@ -26,6 +26,7 @@ import PnpStepCard from './PnpStepCard.svelte';
 export {
 	FaqCard,
 	PnpStepCard,
+	SocialIconsCard,
 	BigBtnIconText,
 	BasicInfoCard,
 	PlayerRoleCard,

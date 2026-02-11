@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { socialLinks } from '$sharedData';
 	// import {  } from '$widgets';
-	// import {  } from '$entities'
+	import { SocialIconsCard } from '$entities'
 
-	import { SocialRoundIconLink } from '$sharedUi';
+	import { SocialRoundIconLink, BuyMeaCoffeeBtn } from '$sharedUi';
 </script>
 
 <section class="grid-hero-app">
@@ -25,7 +25,8 @@
 					>
 				</h1>
 
-				<div class="wrap_hero-cta">
+
+				<div class="wrap_hero-cta mb-4">
 					<a
 						href="https://github.com/oleg-darkdev/food-not-bombs_app/tree/main/static/print-and-play"
 						target="_blank"
@@ -38,23 +39,11 @@
 					</a>
 				</div>
 
-				<div class="mt-4 w-[180px]">
-					<ul class="flex flex-row justify-center w-full">
-{#each socialLinks as social}
-		<li class="item_social-link mx-auto">
-			<SocialRoundIconLink
-				icon={social.icon}
-				alt={social.alt}
-				link={social.link}
-			/>
-		</li>
-	{/each}
+					<BuyMeaCoffeeBtn />
 
-						
-					</ul>
-				</div>
+
+					<SocialIconsCard />
 			</div>
-			
 		</div>
 	</div>
 
