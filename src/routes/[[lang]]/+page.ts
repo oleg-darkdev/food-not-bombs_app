@@ -5,7 +5,9 @@ import {
 	basicFaq,
 	appFaq,
 	componentsFaq,
-	rulesAndInterpretationFaq
+	rulesAndInterpretationFaq,
+	socialLinks,
+	nav
 } from '$sharedData';
 import { landingPromoPhotos } from '$widgets';
 
@@ -66,6 +68,8 @@ export function load() {
 		landingPromoPhotos,
 		imgs,
 		fnbFaq,
+		nav,
+		socialLinks,
 		boardgameFaq,
 		basicFaq,
 		appFaq,

@@ -1,20 +1,21 @@
 <script lang="ts">
-	import { nav } from '$sharedData';
+	// import {  } from '$sharedData';
+	import { scrollToAnchor } from '$sharedUtils';
+	// function scrollToAnchor(hash) {
+	// 	const id = hash.replace('#', '');
+	// 	const el = document.getElementById(id) || document.querySelector(hash);
+	// 	if (el) {
+	// 		el.scrollIntoView({ behavior: 'smooth' });
+	// 		history.replaceState(null, '', hash);
+	// 	}
+	// }
 
 	import { goto } from '$app/navigation';
+	let { nav } = $props();
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
 
 	let showNav = $state(false);
-
-	function scrollToAnchor(hash) {
-		const id = hash.replace('#', '');
-		const el = document.getElementById(id) || document.querySelector(hash);
-		if (el) {
-			el.scrollIntoView({ behavior: 'smooth' });
-			history.replaceState(null, '', hash);
-		}
-	}
 </script>
 
 <header class="header">
@@ -70,6 +71,8 @@
 						<li class="item_main-nav">
 							<div
 								on:click|preventDefault={() => {
+									showNav = false;
+
 									scrollToAnchor(item.link);
 								}}
 								class="item_nav-link"

@@ -3,7 +3,8 @@
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
 
-	import { nav, groupsByRegion } from '$sharedData';
+	import { groupsByRegion } from '$sharedData';
+	let { nav, socialLinks } = $props();
 </script>
 
 <footer class="section footer">
@@ -69,15 +70,11 @@
 		</div>
 		<div class="wrap_footer-social-links">
 			<ul role="list" class="list_footer-links social w-list-unstyled">
-				<li class="item_social-link mx-auto">
-					<SocialRoundIconLink icon="/images/instagram.png" alt="Instagram" link="/" />
-				</li>
-				<li class="item_social-link mx-auto">
-					<SocialRoundIconLink icon="/images/linkedIn.png" alt="Linkedin" link="/" />
-				</li>
-				<li class="item_social-link mx-auto">
-					<SocialRoundIconLink icon="/images/pinterest.png" alt="Pinterest" link="/" />
-				</li>
+				{#each socialLinks as social}
+					<li class="item_social-link mx-auto">
+						<SocialRoundIconLink icon={social.icon} alt={social.alt} link={social.link} />
+					</li>
+				{/each}
 			</ul>
 		</div>
 	</div>

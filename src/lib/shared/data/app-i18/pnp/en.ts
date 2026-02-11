@@ -19,7 +19,7 @@ const en = {
 
 	steps: {
 		download: {
-			id: 'download',
+			id: '#download',
 			title: 'Download files',
 			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
 			time: 5,
@@ -29,7 +29,7 @@ const en = {
 		},
 
 		boxWrap: {
-			id: 'box-wrap',
+			id: '#box-wrap',
 			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
 			title: 'Box wrapping kit',
 			time: 15,
@@ -43,7 +43,7 @@ const en = {
 		},
 
 		map: {
-			id: 'map-pnp',
+			id: '#map-pnp',
 			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
 			title: 'Map',
 			time: 30,
@@ -65,7 +65,7 @@ const en = {
 			postProcessing: ['Round the corners']
 		},
 		foodTokens: {
-			id: 'food-tokens-pnp',
+			id: '#food-tokens-pnp',
 			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
 			title: 'Food token',
 			time: 60,
@@ -94,7 +94,7 @@ const en = {
 		},
 
 		canningTokens: {
-			id: 'canning-tokens-pnp',
+			id: '#canning-tokens-pnp',
 			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
 			title: 'Canned tokens',
 			time: 15,
@@ -114,7 +114,7 @@ const en = {
 		},
 
 		awardTokens: {
-			id: 'award-tokens-pnp',
+			id: '#award-tokens-pnp',
 			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
 			title: 'Award tokens',
 			time: 70,
@@ -133,7 +133,7 @@ const en = {
 			postProcessing: ['Glue onto cardboard', 'Cut along the borders']
 		},
 		playerTokens: {
-			id: 'player-tokens-pnp',
+			id: '#player-tokens-pnp',
 			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
 			title: 'Player tokens',
 			time: 20,
@@ -153,7 +153,7 @@ const en = {
 		},
 		
 		blockTokens: {
-			id: 'block-tokens-pnp',
+			id: '#block-tokens-pnp',
 			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
 			title: 'Block tokens',
 			time: 20,
@@ -172,7 +172,7 @@ const en = {
 			postProcessing: ['Glue onto cardboard', 'Cut along the borders']
 		},
 		сlothingTokens: {
-			id: 'сlothing-tokens-pnp',
+			id: '#сlothing-tokens-pnp',
 			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
 			title: 'Clothing tokens',
 			time: 20,
@@ -191,7 +191,7 @@ const en = {
 			postProcessing: ['Glue onto cardboard', 'Cut along the borders']
 		},
 		eventTokens: {
-			id: 'event-tokens-pnp',
+			id: '#event-tokens-pnp',
 			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
 			title: 'Event tokens',
 			time: 20,
@@ -210,7 +210,7 @@ const en = {
 			postProcessing: ['Glue onto cardboard', 'Cut along the borders']
 		},
 		fnbGroupsTokens: {
-			id: 'fnb-groups-tokens-pnp',
+			id: '#fnb-groups-tokens-pnp',
 			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
 			title: 'Groups tokens',
 			time: 20,
@@ -229,7 +229,7 @@ const en = {
 			postProcessing: ['Glue onto cardboard', 'Cut along the borders']
 		},
 		playerTablets: {
-			id: 'player-tablets-pnp',
+			id: '#player-tablets-pnp',
 			video: 'https://www.youtube.com/embed/eYxlz2NH_E4?si=YPVo9nohuHHUXmhp',
 			title: 'Player tablets',
 			time: 40,

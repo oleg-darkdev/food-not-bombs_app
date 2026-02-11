@@ -9,7 +9,9 @@
 		fnbFaq,
 		boardgameFaq,
 		basicFaq,
-		appFaq
+		appFaq,
+		socialLinks,
+		nav
 		// componentsFaq,
 		// rulesAndInterpretationFaq
 	} = data;
@@ -59,10 +61,10 @@
 </svelte:head>
 <!-- <SEO title="Home" /> -->
 
-<Header />
+<Header {nav}/>
 
 <main class="main-wrapper">
-	<Hero />
+	<Hero {socialLinks}/>
 
 	<Marquee logos={getLogosAndIds(promoFnbGroups.slice(0, 15))} />
 	<Marquee logos={getLogosAndIds(promoFnbGroups.slice(15, promoFnbGroups.length))} />
@@ -108,4 +110,4 @@
 	</section>
 </main>
 
-<Footer />
+<Footer {socialLinks} {nav}/>

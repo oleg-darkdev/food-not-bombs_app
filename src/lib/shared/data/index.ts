@@ -1,5 +1,6 @@
 import nav from './navigation';
 import docsNav from './docsNav';
+import socialLinks from './socialLinks';
 
 // faq
 import appFaq from './faq/appFaq';
@@ -120,6 +121,7 @@ export {
 	docsNav,
 	pnp,
 	nav,
+	socialLinks,
 	// countriesList,
 	groupsByRegion,
 	allGroups,

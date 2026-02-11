@@ -2,6 +2,9 @@
 	// import {  } from '$shared';
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
+	import { SocialRoundIconLink } from '$sharedUi';
+
+	let { socialLinks } = $props();
 </script>
 
 <section class="section hero">
@@ -31,6 +34,16 @@
 						<a href="/#about" class="cta_primary orange hero-cta w-inline-block">
 							<div class="txt_cta-name">About</div>
 						</a>
+					</div>
+
+					<div class="mt-0 w-[180px]">
+						<ul class="flex w-full flex-row justify-center">
+							{#each socialLinks as social}
+								<li class="item_social-link mx-auto">
+									<SocialRoundIconLink icon={social.icon} alt={social.alt} link={social.link} />
+								</li>
+							{/each}
+						</ul>
 					</div>
 				</div>
 				<svg
@@ -159,15 +172,14 @@
 </section>
 
 <style lang="postcss">
-	
-.grid_top-fold-hero {
-	grid-column-gap: 0em;
-	grid-row-gap: 0em;
-	grid-template-rows: auto;
-	grid-template-columns: 0.75fr 1fr;
-	grid-auto-columns: 1fr;
-	display: grid;
-}
+	.grid_top-fold-hero {
+		grid-column-gap: 0em;
+		grid-row-gap: 0em;
+		grid-template-rows: auto;
+		grid-template-columns: 0.75fr 1fr;
+		grid-auto-columns: 1fr;
+		display: grid;
+	}
 
 	.grid-hero {
 		grid-column-gap: 2em;
@@ -190,8 +202,8 @@
 			font-size: 1.2em;
 		}
 		.grid_top-fold-hero {
-		grid-template-columns: 1fr;
-	}
+			grid-template-columns: 1fr;
+		}
 	}
 
 	@media screen and (max-width: 479px) {

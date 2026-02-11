@@ -4,13 +4,6 @@
 	import { AsideMenuNavListItem } from '$entitiesLanding';
 
 	let { docsNav } = $props();
-
-	import { nav } from '$sharedData';
-
-	import { goto } from '$app/navigation';
-	// import {  } from '$widgets';
-	// import {  } from '$entities'
-
 	let showNav = $state(false);
 
 	function scrollToAnchor(hash) {
@@ -29,7 +22,7 @@
 	<nav class="docs-navigation-inner">
 		<ul class="docs-nav-list">
 			{#each docsNav as navItem}
-				<AsideMenuNavListItem {navItem} bind:showMenu={showFull} />
+				<AsideMenuNavListItem {navItem}  />
 			{/each}
 		</ul>
 	</nav>
@@ -65,7 +58,7 @@
 		>
 			<ul class="docs-nav-list transition-transform duration-200 ease-in-out">
 				{#each docsNav as navItem}
-					<AsideMenuNavListItem {navItem} />
+					<AsideMenuNavListItem {navItem} bind:showNav />
 				{/each}
 			</ul>
 		</nav>
@@ -194,14 +187,12 @@
 		.header {
 			display: none;
 		}
-
 	}
 
 	@media screen and (max-width: 991px) {
 		.docs-navigation {
 			display: none;
 		}
-		
 	}
 	.docs-navigation-inner {
 		border: 1px solid var(--borders--army-green);

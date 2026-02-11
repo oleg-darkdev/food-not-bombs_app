@@ -3,6 +3,7 @@ import {
 	stepInstruction,
 	selectedMenu,
 	stepGame,
+	stepPnp,
 	actualRound,
 	roundResults,
 	selectedLevel,
@@ -19,6 +20,7 @@ import {
 
 export {
 	uiAppLang,
+	stepPnp,
 	stepInstruction,
 	selectedLevel,
 	selectedScenario,
