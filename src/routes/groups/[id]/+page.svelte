@@ -41,15 +41,15 @@
 
 <Header />
 
-<section class="section subpage-heading projects">
+<!-- <section class="section subpage-heading projects">
 	<h1 class="h1_semibold subpage-heading">{name}</h1>
-</section>
+</section> -->
 
 <GroupBanner {banner} {country} />
 
-<section class="section subpage-heading projects">
+<!-- <section class="section subpage-heading projects">
 	<h1 class="h1_semibold subpage-heading">Lorem impsum.</h1>
-</section>
+</section> -->
 
 <BasicInfo
 	{logo}
@@ -64,6 +64,7 @@
 	{website}
 	{videos}
 	{twitter}
+	{name}
 	{cookingAddress}
 	{cookingInfo}
 	{contactPhone}

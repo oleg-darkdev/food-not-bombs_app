@@ -7,7 +7,7 @@ import SocialRoundIconLink from './SocialRoundIconLink.svelte';
 import RoundedBtn from './RoundedBtn.svelte';
 import ScrollToTop from './ScrollToTop.svelte';
 import BuyMeaCoffeeBtn from './BuyMeaCoffeeBtn.svelte';
-// import SocialRoundIconLink from './SocialRoundIconLink.svelte';
+import BigSocialRoundIconLink from './BigSocialRoundIconLink.svelte';
 // import SocialRoundIconLink from './SocialRoundIconLink.svelte';
 // import SocialRoundIconLink from './SocialRoundIconLink.svelte';
 // import SocialRoundIconLink from './SocialRoundIconLink.svelte';
@@ -17,6 +17,7 @@ export {
 	LangSwitcher,
 	BuyMeaCoffeeBtn,
 	SocialRoundIconLink,
+	BigSocialRoundIconLink,
 	ScrollToTop,
 	RoundedBtn,
 	ApiListing,

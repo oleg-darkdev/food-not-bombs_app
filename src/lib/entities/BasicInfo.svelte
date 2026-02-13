@@ -1,6 +1,6 @@
 <script lang="ts">
-	// import {  } from '$shared';
-	import { getSocialHandle } from '$sharedUtils';
+	import { BigSocialRoundIconLink } from '$sharedUi';
+	// import { getSocialHandle } from '$sharedUtils'; legacy
 
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
@@ -16,9 +16,9 @@
 		sharingInfo,
 		email,
 		website,
-
+		name,
 		videos,
-		
+
 		twitter,
 		cookingAddress,
 		cookingInfo,
@@ -26,6 +26,9 @@
 		contactName,
 		notes
 	} = $props();
+
+	// console.log(inst)
+	// console.log(facebook)
 </script>
 
 <section class="section faq recent-case-study mt-20">
@@ -36,8 +39,79 @@
 		<div class="item_recent-case-study cream">
 			<div id="case-study" class="wrap_recent-case-study texts">
 				<h2 class="h_semi-bold section-heading recent-case-study">
-					Lorem Ipsum <br />jest tekstem
+					{name} <br />
+					{city}
 				</h2>
+				<div role="list" class="flex max-w-2xl flex-row items-center justify-between">
+					{#if facebook}
+						<div role="listitem" class="item_project-tags w-dyn-item">
+							<BigSocialRoundIconLink
+								icon="/images/icons/facebook.svg"
+								alt="Facebook"
+								link={facebook}
+							/>
+						</div>
+					{/if}
+
+					{#if inst}
+						<div role="listitem" class="item_project-tags w-dyn-item">
+							<BigSocialRoundIconLink
+								icon="/images/icons/instagram.svg"
+								alt="Instagram"
+								link={inst}
+							/>
+						</div>
+					{/if}
+
+					{#if twitter}
+						<div role="listitem" class="item_project-tags w-dyn-item">
+							<BigSocialRoundIconLink
+								icon="/images/icons/twitter.svg"
+								alt="twitter"
+								link={twitter}
+							/>
+						</div>
+					{/if}
+
+					{#if website}
+						<div role="listitem" class="item_project-tags w-dyn-item">
+							<BigSocialRoundIconLink icon="/images/icons/link.svg" alt={website} link={website} />
+						</div>
+					{/if}
+
+					{#if email}
+						<div role="listitem" class="item_project-tags w-dyn-item">
+							<!-- <a
+															href={`mailto:${email}`}
+															target="_blank"
+															class=" cta_primary tag-style">email</a
+														> -->
+							<BigSocialRoundIconLink
+								icon="/images/icons/email.svg"
+								alt={contactPhone ? contactPhone : contactName}
+								href={`mailto:${email}`}
+							/>
+						</div>
+					{/if}
+
+					{#if contactPhone}
+						<div role="listitem" class="item_project-tags w-dyn-item">
+							<BigSocialRoundIconLink
+								icon="/images/icons/phone-call.svg"
+								alt={contactPhone ? contactPhone : contactName}
+								link={`tel:${contactPhone}`}
+							/>
+						</div>
+						<!-- <div role="listitem" class="item_project-tags w-dyn-item">
+														<a
+															href={`tel:${contactPhone}`}
+															class="cta_primary yellow tag-style"
+														>
+															{contactPhone ? contactPhone : contactName}
+														</a>
+													</div> -->
+					{/if}
+				</div>
 				<div class="wrap_client-info mb-2">
 					{#if sharingAddress}
 						<div class="w-layout-vflex warp_client-name">
@@ -75,7 +149,7 @@
 				<div class="wrap_project-category">
 					<div class="collection_project-tags w-dyn-list">
 						<div role="list" class="list_project-tags w-dyn-items">
-							{#if facebook}
+							<!-- {#if facebook}
 								<div role="listitem" class="item_project-tags w-dyn-item">
 									<a href={facebook} target="_blank" class="yellow txt_project-tag">
 										<div class="truncate-30 flex flex-row">
@@ -126,7 +200,7 @@
 										{contactPhone ? contactPhone : contactName}
 									</a>
 								</div>
-							{/if}
+							{/if} -->
 						</div>
 					</div>
 				</div>

@@ -437,7 +437,7 @@ const polandEasyGroups = {
 		{
 			logo: '/images/groups/europe/poland/poznan/logo.png',
 			facebook: 'https://www.facebook.com/jedzeniezamiastbombpoznan',
-			inst: '',
+			inst: 'https://www.instagram.com/fnb_poznan/',
 			name: 'FNB Poznań',
 			country: 'Poland',
 			city: 'Poznań',
@@ -487,7 +487,7 @@ const polandEasyGroups = {
 		{
 			logo: '/images/groups/europe/poland/lublin/logo.jpg',
 			facebook: 'https://www.facebook.com/FNBLublin/',
-			inst: '',
+			inst: 'https://www.instagram.com/fnb_lublin/',
 			name: 'Jedzenie Zamiast Bomb: Lublin',
 			country: 'Poland',
 			city: 'Lublin',
@@ -512,7 +512,7 @@ const polandEasyGroups = {
 		{
 			logo: '/images/groups/europe/poland/krakow/logo.jpg',
 			facebook: 'https://www.facebook.com/fnbkrakow/',
-			inst: '',
+			inst: 'https://www.instagram.com/fnbkrakow/',
 			name: 'Jedzenie Zamiast Bomb: Kraków',
 			country: 'Poland',
 			city: 'Kraków',
@@ -536,7 +536,7 @@ const polandEasyGroups = {
 		{
 			logo: '/images/groups/europe/poland/katowice/logo.jpg',
 			facebook: 'https://www.facebook.com/Food-Not-Bombs-Katowice-447198898819351',
-			inst: '',
+			inst: 'https://www.instagram.com/fnbkatowice/',
 			name: 'Jedzenie Zamiast Bomb: Katowice',
 			country: 'Poland',
 			city: 'Katowice',
@@ -592,7 +592,7 @@ const polandMediumGroups = {
 		{
 			logo: '/images/groups/europe/poland/lodz/logo.jpg',
 			facebook: 'https://www.facebook.com/FnB.Lodz',
-			inst: '',
+			inst: 'https://www.instagram.com/fnb_lodz/',
 			name: 'Jedzenie Zamiast Bomb: Łódź',
 			country: 'Poland',
 			city: 'Łódź',
@@ -605,7 +605,7 @@ const polandMediumGroups = {
 		{
 			logo: '/images/groups/europe/poland/opole/logo.jpg',
 			facebook: 'https://www.facebook.com/Jedzenie-Zamiast-Bomb-OPOLE-734268783250475/',
-			inst: '',
+			inst: 'https://www.instagram.com/fnb_opole/',
 			name: 'Jedzenie Zamiast Bomb: OPOLE',
 			country: 'Poland',
 			city: 'Opole',
@@ -618,7 +618,7 @@ const polandMediumGroups = {
 		{
 			logo: '/images/groups/europe/poland/wroclaw/logo.jpg',
 			facebook: 'https://www.facebook.com/fnbwro/',
-			inst: '',
+			inst: 'https://www.instagram.com/fnbwro/',
 			name: 'Jedzenie Zamiast Bomb: Wrocław',
 			country: 'Poland',
 			city: 'Wroclaw',
@@ -631,7 +631,7 @@ const polandMediumGroups = {
 		{
 			logo: '/images/groups/europe/poland/gdansk/logo.jpg',
 			facebook: 'https://www.facebook.com/FNBgdansk',
-			inst: '',
+			inst: 'https://www.instagram.com/fnb_gdansk/',
 			name: 'Jedzenie Zamiast Bomb: Gdańsk',
 			country: 'Poland',
 			city: 'Gdańsk ',
@@ -680,7 +680,7 @@ const polandMediumGroups = {
 		{
 			logo: '/images/groups/europe/poland/szczecin/logo_1.jpg',
 			facebook: 'https://www.facebook.com/FoodNotBombsSzczecin/',
-			inst: '',
+			inst: 'https://www.instagram.com/fnb_szczecin/',
 			name: 'Jedzenie Zamiast Bomb: Szczecin',
 			country: 'Poland',
 			city: 'Szczecin',
@@ -693,7 +693,7 @@ const polandMediumGroups = {
 		{
 			logo: '/images/groups/europe/poland/gdynia/logo.jpg',
 			facebook: 'https://www.facebook.com/fnbgdynia',
-			inst: '',
+			inst: 'https://www.instagram.com/food_not_bombs_gdynia/',
 			name: 'Jedzenie Zamiast Bomb: Gdynia',
 			country: 'Poland',
 			city: 'Gdynia',
