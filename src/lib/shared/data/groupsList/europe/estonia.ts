@@ -362,7 +362,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: 'tallinn-fnb',
 		banner: '',
 		mailingAddress: '',

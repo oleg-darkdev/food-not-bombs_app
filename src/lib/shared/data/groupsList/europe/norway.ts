@@ -44,7 +44,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: 'oslo-fnb',
 		banner: '',
 		mailingAddress: '',
@@ -234,7 +234,7 @@ const data = [
 		cookingInfo: 'Thursdays at 16:00',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		notes:
 			'Gratis mat til små og store. Hver andre torsdag på UFFA i Innherredsveien 69c. Lag deilig veganmat sammen med oss fra 16:00, og/eller kom og spis ca 19:00.',
 		id: 'trondheim-fnb',

@@ -1,4 +1,11 @@
+// https://t.me/foodforeveryone58 - penza
+// 
+
+
 const data = [
+
+
+
 	{
 		logo: '/images/groups/russia/logo.jpg',
 		since: '',
@@ -9566,6 +9573,7 @@ logo: '/images/groups/russia/moscow_komsa/logo.jpg',
 		facebook: 'https://vk.com/fnb_moscow',
 		inst: '',
 		gallery: [
+			
 			[
 				{
 					class: '_1',
@@ -9922,7 +9930,7 @@ logo: '/images/groups/russia/moscow_komsa/logo.jpg',
 		cookingInfo: '',
 		contactPhone: '89163393130',
 		contactName: 'Nikoc Mankos',
-		emtyDel: '', telegram: '',
+		emtyDel: '', telegram: 'https://t.me/fnb_msk',
 		id: '-fnb',
 		banner: '',
 		notes: '',

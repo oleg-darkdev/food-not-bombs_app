@@ -361,7 +361,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '381-21-51077',
 		contactName: 'Sava',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: 'novi-sad-fnb',
 		banner: '',
 		notes:
@@ -735,7 +735,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '381-11-563143',
 		contactName: 'Tomasevic Andrea',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		mailingAddress: 'Nova Skojevska 67 VIII, 11090, Belgrade',

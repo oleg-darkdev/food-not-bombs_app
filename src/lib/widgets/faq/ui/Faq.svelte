@@ -23,9 +23,7 @@
 		</div>
 	</nav>
 
-	<!-- {#if boardgameFaq} -->
-		<RoundedBtn title={faqData.btnTitle} onclick={() => (showFullFaq = !showFullFaq)} />
-	<!-- {/if} -->
+	<RoundedBtn title={faqData.btnTitle} onclick={() => (showFullFaq = !showFullFaq)} />
 </div>
 
 <style lang="postcss">

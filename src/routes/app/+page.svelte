@@ -231,7 +231,7 @@
 				{#if $stepInstruction == 1}
 					<div class="" transition:slide>
 						<div
-							class="mx-auto flex h-full max-w-2xl flex-row flex-wrap justify-between gap-x-4 gap-y-4 px-6"
+							class="mx-auto flex h-full max-w-3xl flex-row flex-wrap justify-between gap-x-4 gap-y-4 px-6"
 						>
 							<BigBtnText
 								text="Print&Play"

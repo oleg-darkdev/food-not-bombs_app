@@ -85,7 +85,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		notes:
 			'Еда вместо бомб (Food not bombs) - это протест против бедности и социальной несправедливости современного общества.',
 		id: 'dnepr-fnb',

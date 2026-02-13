@@ -12,7 +12,6 @@ import PrintAndPlay from './PrintAndPlay.svelte';
 // import Hero from './hero/ui/Hero.svelte';
 // import Hero from './hero/ui/Hero.svelte';
 // import Hero from './hero/ui/Hero.svelte';
-// import Hero from './hero/ui/Hero.svelte';
 // import AboutBoardgame from './hero/ui/Hero.svelte';
 
 import Newsletter from './Newsletter.svelte';

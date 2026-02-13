@@ -219,6 +219,227 @@
 						<!-- {/each} -->
 					{/each}
 				</div>
+				<div class="" id="players-tokens">
+					<h2 class="text-center">{kit.playersStuff.category}</h2>
+
+					{#each kit.playersStuff.items as item}
+						<li
+							class="item_services-card transition-transform duration-200 ease-in-out hover:scale-105"
+						>
+							<div
+								class="txt_services-list-item caps service flex flex-row items-center justify-between"
+							>
+								<div class="flex max-w-sm flex-row items-center">
+									<div class="mr-4">
+										<img
+											src={item.token.img}
+											loading="eager"
+											alt=""
+											class="h-8 w-8 rounded-full object-cover lg:h-12 lg:w-12"
+										/>
+									</div>
+
+									<span class="txt_services-list-item caps service">{item.title} </span>
+								</div>
+
+								<div role="list" class="flex max-w-2xl flex-row items-center justify-between">
+									<div
+										role="listitem"
+										class="item_project-tags w-dyn-item flex flex-row items-center"
+									>
+										<p class="mr-2">
+											x<span class="txt_services-list-item caps service text-2xl font-bold"
+												>{item.token.quantity}</span
+											>
+										</p>
+										<div class=" ">
+											<a href="#{item.anchor}" class="">
+												<Tag text="more" bgColor="" />
+											</a>
+										</div>
+									</div>
+								</div>
+								<!-- {ingredient.count} -->
+							</div>
+						</li>
+						<!-- {/each} -->
+					{/each}
+					{#each kit.playersStuff.items as item}
+						<li
+							class="item_services-card transition-transform duration-200 ease-in-out hover:scale-105"
+						>
+							<div
+								class="txt_services-list-item caps service flex flex-row items-center justify-between"
+							>
+								<div class="flex max-w-sm flex-row items-center">
+									<div class="mr-4">
+										<img
+											src={item.pointer.img}
+											loading="eager"
+											alt=""
+											class="h-24 w-24 rounded-lg object-cover"
+										/>
+									</div>
+
+									<span class="txt_services-list-item caps service">{item.title} </span>
+								</div>
+
+								<div role="list" class="flex max-w-2xl flex-row items-center justify-between">
+									<div
+										role="listitem"
+										class="item_project-tags w-dyn-item flex flex-row items-center"
+									>
+										<p class="mr-2">
+											x<span class="txt_services-list-item caps service text-2xl font-bold"
+												>{item.pointer.quantity}</span
+											>
+										</p>
+										<div class=" ">
+											<a href="#{item.anchor}" class="">
+												<Tag text="more" bgColor="" />
+											</a>
+										</div>
+									</div>
+								</div>
+								<!-- {ingredient.count} -->
+							</div>
+						</li>
+						<!-- {/each} -->
+					{/each}
+				</div>
+
+				<div class="" id="negative-tokens">
+					<h2 class="text-center">{kit.tokens.negative.category}</h2>
+
+					{#each kit.tokens.negative.items as item}
+						<li
+							class="item_services-card transition-transform duration-200 ease-in-out hover:scale-105"
+						>
+							<div
+								class="txt_services-list-item caps service flex flex-row items-center justify-between"
+							>
+								<div class="flex max-w-sm flex-row items-center">
+									<div class="mr-4">
+										<img
+											src={item.img}
+											loading="eager"
+											alt=""
+											class="h-8 w-8 rounded-full object-cover lg:h-12 lg:w-12"
+										/>
+									</div>
+
+									<span class="txt_services-list-item caps service">{item.title} </span>
+								</div>
+
+								<div role="list" class="flex max-w-2xl flex-row items-center justify-between">
+									<div
+										role="listitem"
+										class="item_project-tags w-dyn-item flex flex-row items-center"
+									>
+										<p class="mr-2">
+											x<span class="txt_services-list-item caps service text-2xl font-bold"
+												>{item.quantity}</span
+											>
+										</p>
+										<div class=" ">
+											<a href="#{item.anchor}" class="">
+												<Tag text="more" bgColor="" />
+											</a>
+										</div>
+									</div>
+								</div>
+								<!-- {ingredient.count} -->
+							</div>
+						</li>
+						<!-- {/each} -->
+					{/each}
+				</div>
+
+				<div class="" id="clothing-tokens">
+					<h2 class="text-center">{kit.tokens.clothing.category}</h2>
+
+					{#each kit.tokens.clothing.items as item}
+						<li
+							class="item_services-card transition-transform duration-200 ease-in-out hover:scale-105"
+						>
+							<div
+								class="txt_services-list-item caps service flex flex-row items-center justify-between"
+							>
+								<div class="flex max-w-sm flex-row items-center">
+									<div class="mr-4">
+										<img
+											src={item.img}
+											loading="eager"
+											alt=""
+											class="h-24 w-24 rounded-lg object-cover"
+										/>
+									</div>
+
+									<span class="txt_services-list-item caps service">{item.title} </span>
+								</div>
+
+								<div role="list" class="flex max-w-2xl flex-row items-center justify-between">
+									<div
+										role="listitem"
+										class="item_project-tags w-dyn-item flex flex-row items-center"
+									>
+										<p class="mr-2">
+											x<span class="txt_services-list-item caps service text-2xl font-bold"
+												>{item.quantity}</span
+											>
+										</p>
+										<div class=" ">
+											<a href="#{item.anchor}" class="">
+												<Tag text="more" bgColor="" />
+											</a>
+										</div>
+									</div>
+								</div>
+								<!-- {ingredient.count} -->
+							</div>
+						</li>
+						<!-- {/each} -->
+					{/each}
+				</div>
+
+				<div class="" id="event-tokens">
+					<h2 class="text-center">{kit.tokens.event.category}</h2>
+
+					{#each kit.tokens.event.items as token}
+						<li
+							class="item_services-card transition-transform duration-200 ease-in-out hover:scale-105"
+						>
+							<div
+								class="txt_services-list-item caps service flex flex-row items-center justify-between"
+							>
+								<div class="flex max-w-sm flex-row items-center">
+									<div class="mr-4">
+										<img src={token.img} loading="eager" alt="" class="h-32 w-40 object-cover" />
+									</div>
+
+									<span class="txt_services-list-item caps service">{token.title} </span>
+								</div>
+
+								<div role="list" class="flex max-w-2xl flex-row items-center justify-between">
+									<div role="listitem" class="item_project-tags w-dyn-item">
+										<p>
+											x<span class="txt_services-list-item caps service text-2xl font-bold"
+												>{token.quantity}</span
+											>
+										</p>
+										<div class=" ">
+											<a href="#{token.anchor}" class="">
+												<Tag text="more" bgColor="" />
+											</a>
+										</div>
+									</div>
+								</div>
+								<!-- {ingredient.count} -->
+							</div>
+						</li>
+					{/each}
+				</div>
+
 				<div class="" id="food-tokens">
 					<h2 class="text-center">{kit.tokens.food.category}</h2>
 
@@ -235,7 +456,7 @@
 											src={token.img}
 											loading="eager"
 											alt=""
-											class="h-8 w-8 rounded-lg object-cover lg:h-12 lg:w-24"
+											class="h-8 w-8 rounded-lg object-cover lg:h-12 lg:w-12"
 										/>
 									</div>
 
@@ -249,6 +470,11 @@
 												>{token.quantity}</span
 											>
 										</p>
+										<div class=" ">
+											<a href="#{token.anchor}" class="">
+												<Tag text="more" bgColor="" />
+											</a>
+										</div>
 									</div>
 								</div>
 								<!-- {ingredient.count} -->
@@ -256,6 +482,63 @@
 						</li>
 					{/each}
 				</div>
+				<div class="" id="fnb-groups-tokens">
+					<h2 class="text-center">{kit.tokens.groups.category} (40+)</h2>
+
+					{#each kit.tokens.groups.items as item}
+						<li
+							class="item_services-card transition-transform duration-200 ease-in-out hover:scale-105"
+						>
+							<div
+								class="txt_services-list-item caps service flex flex-row items-center justify-between"
+							>
+								<div class="flex max-w-sm flex-row items-center">
+									<div class="mr-4">
+										<img
+											src={item.img}
+											loading="eager"
+											alt=""
+											class="h-24 w-24 rounded-lg object-cover"
+										/>
+									</div>
+
+									<span class="txt_services-list-item caps service">{item.title} </span>
+								</div>
+
+								<div role="list" class="flex max-w-2xl flex-row items-center justify-between">
+									<div
+										role="listitem"
+										class="item_project-tags w-dyn-item flex flex-row items-center"
+									>
+										<p class="mr-2">
+											x<span class="txt_services-list-item caps service text-2xl font-bold"
+												>{item.quantity}</span
+											>
+										</p>
+										<div class=" ">
+											<a href="#{item.anchor}" class="">
+												<Tag text="more" bgColor="" />
+											</a>
+										</div>
+									</div>
+								</div>
+								<!-- {ingredient.count} -->
+							</div>
+						</li>
+						<!-- {/each} -->
+					{/each}
+
+					<div class="pt-4 ">
+						<RoundedBtnLink title="Complete list of FNB collectives" link="/groups" blank={true} />
+					</div>
+				</div>
+				<!-- 
+{
+						title: 'Groups tokens',
+						anchor: '#fnb-groups-tokens'
+					},				
+
+-->
 
 				<div class="" id="other-tokens">
 					<h2 class="text-center">{kit.tokens.other.category}</h2>
@@ -273,7 +556,7 @@
 											src={token.img}
 											loading="eager"
 											alt=""
-											class="h-8 w-8 rounded-full object-cover lg:h-12 lg:w-12"
+											class="h-8 w-8 object-cover lg:h-12 lg:w-12"
 										/>
 									</div>
 
@@ -287,6 +570,11 @@
 												>{token.quantity}</span
 											>
 										</p>
+										<div class=" ">
+											<a href="#{token.anchor}" class="">
+												<Tag text="more" bgColor="" />
+											</a>
+										</div>
 									</div>
 								</div>
 								<!-- {ingredient.count} -->

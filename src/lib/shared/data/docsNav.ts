@@ -131,21 +131,8 @@ const docsNav = [
 						title: 'Players tokens'
 					},
 					{
-						anchor: '#food-tokens',
-						title: 'Food tokens'
-					},
-
-					{
-						anchor: '#other-tokens',
-						title: 'Other-tokens'
-					},
-					{
-						anchor: '#reward-tokens',
-						title: 'Reward tokens'
-					},
-					{
-						title: 'Block tokens',
-						anchor: '#block-tokens'
+						title: 'Negative tokens',
+						anchor: '#negative-tokens'
 					},
 					{
 						title: 'Clothing tokens',
@@ -156,9 +143,22 @@ const docsNav = [
 						anchor: '#event-tokens'
 					},
 					{
+						anchor: '#food-tokens',
+						title: 'Food tokens'
+					},
+					
+					{
+						anchor: '#other-tokens',
+						title: 'Other-tokens'
+					},
+					{
 						title: 'Groups tokens',
 						anchor: '#fnb-groups-tokens'
 					},
+					{
+						anchor: '#reward-tokens',
+						title: 'Reward tokens'
+					},					
 					{
 						title: 'Lose tokens',
 						anchor: '#lose-tokens'
@@ -301,16 +301,16 @@ const docsNav = [
 				title: `${kit.playersStuff.items[5].name} - ${kit.playersStuff.items[5].title}`,
 				subSubNav: []
 			},
-			{
-				anchor: kit.playersStuff.items[6].anchor,
-				title: `${kit.playersStuff.items[6].name} - ${kit.playersStuff.items[6].title}`,
-				subSubNav: []
-			},
-			{
-				anchor: kit.playersStuff.items[7].anchor,
-				title: `${kit.playersStuff.items[7].name} - ${kit.playersStuff.items[7].title}`,
-				subSubNav: []
-			}
+			// {
+			// 	anchor: kit.playersStuff.items[6].anchor,
+			// 	title: `${kit.playersStuff.items[6].name} - ${kit.playersStuff.items[6].title}`,
+			// 	subSubNav: []
+			// },
+			// {
+			// 	anchor: kit.playersStuff.items[7].anchor,
+			// 	title: `${kit.playersStuff.items[7].name} - ${kit.playersStuff.items[7].title}`,
+			// 	subSubNav: []
+			// }
 			// {
 			// 	anchor: kit.playersStuff.items[8].anchor,
 			// 	title: `${kit.playersStuff.items[8].name} - ${kit.playersStuff.items[8].title}`,

@@ -361,7 +361,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '',
+		emtyDel: '', telegram: '',
 		id: 'tbilisi-fnb',
 		banner: '',
 		imgCollected: false,

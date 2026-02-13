@@ -43,7 +43,7 @@
 
 <style lang="postcss">
 	.item_project-page-explore.wrap_small-rectangle-btn {
-		aspect-ratio: 20 / 12;
+		aspect-ratio: 26 / 12;
 		/* padding-left: ;
 		padding-right: 2.5em; */
 	}

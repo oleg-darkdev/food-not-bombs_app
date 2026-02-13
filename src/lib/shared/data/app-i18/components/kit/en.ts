@@ -40,6 +40,10 @@ const en = {
 					quantity: 12,
 					img: '/images/kit/tokens/players/cargo_token_promo.svg'
 				},
+				pointer: {
+					quantity: 1,
+					img: '/images/kit/tokens/players/cargo_token_pointer_promo.svg'
+				},
 				tablet: {
 					quantity: 1,
 					img: '/images/kit/tablets/roles/cargo_promo.svg'
@@ -52,6 +56,10 @@ const en = {
 				token: {
 					quantity: 12,
 					img: '/images/kit/tokens/players/preserver_token_promo.svg'
+				},
+				pointer: {
+					quantity: 1,
+					img: '/images/kit/tokens/players/preserver_token_pointer_promo.svg'
 				},
 				tablet: {
 					quantity: 1,
@@ -71,6 +79,10 @@ const en = {
 					quantity: 20,
 					img: '/images/kit/tokens/players/counteer_token_promo.svg'
 				},
+				pointer: {
+					quantity: 1,
+					img: '/images/kit/tokens/players/counteer_token_pointer_promo.svg'
+				},
 				tablet: {
 					quantity: 1,
 					img: '/images/kit/tablets/roles/counteer_promo.svg'
@@ -89,6 +101,10 @@ const en = {
 					quantity: 12,
 					img: '/images/kit/tokens/players/scout_token_promo.svg'
 				},
+				pointer: {
+					quantity: 1,
+					img: '/images/kit/tokens/players/scout_token_pointer_promo.svg'
+				},
 				tablet: {
 					quantity: 1,
 					img: '/images/kit/tablets/roles/scout_promo.svg'
@@ -106,6 +122,10 @@ const en = {
 				token: {
 					quantity: 14,
 					img: '/images/kit/tokens/players/coach_token_promo.svg'
+				},
+				pointer: {
+					quantity: 1,
+					img: '/images/kit/tokens/players/coach_token_pointer_promo.svg'
 				},
 				tablet: {
 					quantity: 1,
@@ -126,6 +146,10 @@ const en = {
 					quantity: 12,
 					img: '/images/kit/tokens/players/cook_token_promo.svg'
 				},
+				pointer: {
+					quantity: 1,
+					img: '/images/kit/tokens/players/cook_token_pointer_promo.svg'
+				},
 				tablet: {
 					quantity: 1,
 					img: '/images/kit/tablets/roles/cook_promo.svg'
@@ -138,50 +162,62 @@ const en = {
 				capacity: 4,
 				color: 'gray',
 				startingTokens: 10
-			},
-
-			{
-				token: {
-					quantity: 12,
-					img: '/images/kit/tokens/players/_token_promo.svg'
-				},
-				tablet: {
-					quantity: 1,
-					img: '/images/kit/tablets/roles/_promo.svg'
-				},
-				anchor: '',
-				name: 'Amy Rothstien',
-				title: 'In preparation',
-				ability:
-					'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-				capacity: 0,
-				color: '',
-				startingTokens: 0
-			},
-			{
-				token: {
-					quantity: 12,
-					img: '/images/kit/tokens/players/_token_promo.svg'
-				},
-				tablet: {
-					quantity: 1,
-					img: '/images/kit/tablets/roles/_promo.svg'
-				},
-				anchor: '',
-				name: 'Keith McHenry',
-				title: 'In preparation',
-				ability:
-					'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-				capacity: 0,
-				color: '',
-				startingTokens: 0
 			}
+
+			// {
+			// 	token: {
+			// 		quantity: 12,
+			// 		img: '/images/kit/tokens/players/_token_promo.svg'
+			// 	},
+			// 	pointer: {
+			// 		quantity: 1,
+			// 		img: '/images/kit/tokens/players/_token_pointer_promo.svg'
+			// 	},
+			// 	tablet: {
+			// 		quantity: 1,
+			// 		img: '/images/kit/tablets/roles/_promo.svg'
+			// 	},
+			// 	anchor: '',
+			// 	name: 'Amy Rothstien',
+			// 	title: 'In preparation',
+			// 	ability:
+			// 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			// 	capacity: 0,
+			// 	color: '',
+			// 	startingTokens: 0
+			// },
 		]
 	},
 	tokens: {
 		category: 'Tokens',
 		anchor: 'tokens',
 
+		negative: {
+			category: 'Negative tokens:',
+			anchor: 'negative-tokens',
+
+			items: [
+				{
+					img: '/images/kit/tokens/negative/dirty_kitchen_token.png',
+					anchor: '',
+					// dirty-kitchen
+					title: 'Dirty kitchen',
+					quantity: 4
+				},
+				{
+					img: '/images/kit/tokens/negative/dangerous_zone_token.png',
+					anchor: '',
+					title: 'Dangerous zone',
+					quantity: 4
+				},
+				{
+					img: '/images/kit/tokens/negative/skip_turn_token.png',
+					anchor: '',
+					title: 'Skip turn',
+					quantity: 6
+				}
+			]
+		},
 		food: {
 			category: 'Food tokens:',
 			anchor: 'food-tokens',
@@ -219,6 +255,101 @@ const en = {
 				}
 			]
 		},
+		clothing: {
+			category: 'Clothing tokens:',
+			anchor: 'clothing-tokens',
+
+			items: [
+				{
+					img: '/images/kit/tokens/clothing/shoes_сlothing_token.svg',
+					anchor: '',
+					title: 'Shoes token',
+					quantity: 3
+				},
+				{
+					img: '/images/kit/tokens/clothing/jacket_сlothing_token.svg',
+					anchor: '',
+					title: 'Jacket token',
+					quantity: 3
+				},
+				{
+					img: '/images/kit/tokens/clothing/mittens_сlothing_token.svg',
+					anchor: '',
+					title: 'Mittens token',
+					quantity: 3
+				},
+				{
+					img: '/images/kit/tokens/clothing/socks_сlothing_token.svg',
+					anchor: '',
+					title: 'Socks token',
+					quantity: 3
+				},
+				{
+					img: '/images/kit/tokens/clothing/scarf_сlothing_token.svg',
+					anchor: '',
+					title: 'Scarf token',
+					quantity: 3
+				},
+				{
+					img: '/images/kit/tokens/clothing/poncho_сlothing_token.svg',
+					anchor: '',
+					title: 'Poncho token',
+					quantity: 3
+				},
+				{
+					img: '/images/kit/tokens/clothing/hat_сlothing_token.svg',
+					anchor: '',
+					title: 'Hat token',
+					quantity: 3
+				}
+			]
+		},
+
+		event: {
+			category: 'FNB Event tokens',
+			anchor: 'event-tokens',
+
+			items: [
+				{
+					img: '/images/kit/tokens/other/event_token_promo.svg',
+					anchor: '',
+					title: 'FNB Event preparation',
+					quantity: 4
+				}
+			]
+		},
+		groups: {
+			category: 'FNB groups tokens',
+			anchor: 'fnb-groups-tokens',
+
+			items: [
+				{
+					img: '/images/kit/tokens/groups/group_1_promo.png',
+					anchor: '',
+					title: 'FNB group ....',
+					quantity: 1
+				},
+				{
+					img: '/images/kit/tokens/groups/group_2_promo.png',
+					anchor: '',
+					title: 'FNB group ....',
+					quantity: 1
+				},
+				{
+					img: '/images/kit/tokens/groups/group_3_promo.png',
+					anchor: '',
+					title: 'FNB group ....',
+					quantity: 1
+				},
+				{
+					img: '/images/kit/tokens/groups/group_4_promo.png',
+					anchor: '',
+					title: 'FNB group ....',
+					quantity: 1
+				}
+			]
+		},
+
 		reward: {
 			category: 'Reward tokens:',
 			anchor: 'reward-tokens',
@@ -263,7 +394,7 @@ const en = {
 
 			items: [
 				{
-					img: '/images/kit/tokens/players/uni_token_promo.svg',
+					img: '/images/kit/tokens/other/uni_token_promo.svg',
 					anchor: '',
 					title: 'Universal for team',
 					quantity: 8
