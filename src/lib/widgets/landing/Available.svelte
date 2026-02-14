@@ -1,7 +1,7 @@
 <script lang="ts">
 	// import {  } from '$shared';
 	// import {  } from '$widgets';
-	import { BigLinkBtn } from '$entities';
+	import { BigLinkBtn } from '$sharedUi';
 </script>
 
 <section class="section project-page-explore">

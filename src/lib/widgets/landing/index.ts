@@ -4,7 +4,7 @@ import Cta from './cta/ui/Cta.svelte';
 import Hero from './hero/ui/Hero.svelte';
 import Slider from './slider/ui/Slider.svelte';
 import PrintAndPlay from './PrintAndPlay.svelte';
-// import Hero from './hero/ui/Hero.svelte';
+import HeaderNavigation from './HeaderNavigation.svelte';
 // import Hero from './hero/ui/Hero.svelte';
 // import Hero from './hero/ui/Hero.svelte';
 // import Hero from './hero/ui/Hero.svelte';
@@ -33,6 +33,7 @@ export {
 	PrintAndPlay,
 	AsideNav,
 	Slider,
+	HeaderNavigation,
 	AboutBoardgame,
 	Features,
 	Available,

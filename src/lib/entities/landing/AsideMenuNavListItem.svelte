@@ -5,7 +5,9 @@
 	import { scrollToAnchor } from '$sharedUtils';
 	let showFull = $state(false);
 
-	let { navItem, showNav = $bindable() } = $props();
+	let { navItem, showNav = $bindable(), groupList } = $props();
+
+	// console.log(groupList);
 </script>
 
 <li class="docs-nav-item cursor-pointer">
@@ -28,15 +30,16 @@
 			alt=""
 		/>
 		<!-- <img src="/images/corner-dot-army-green.svg" alt="" class="docs-nav-dot" /> -->
-		<span>{navItem.title}</span>
+		<!-- + '(&#129365)' -->
+		<span>{navItem.title} {groupList == true ? `(${navItem.subNav.length})` : ''}</span>
 
-		<img
+		<!-- <img
 			src="/images/icons/down_arrow.svg"
 			class="mr-2 h-8 w-8 lg:h-4 lg:w-4 {showFull
 				? 'rotate-180'
 				: ''} transition-transform duration-300"
 			alt=""
-		/>
+		/> -->
 	</button>
 
 	{#if showFull}

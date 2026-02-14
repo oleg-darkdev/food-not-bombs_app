@@ -2,23 +2,27 @@
 	import { page } from '$app/stores';
 
 	let { data } = $props();
-	import { ScrollToTop } from '$sharedUi';
+	import { ScrollToTop, SmallRectangleBtn } from '$sharedUi';
 	import { buildDocsNav } from '$sharedUtils';
 
-	import { FnbGroupCard, MiniFnbGroupCard, GroupsListCard, SmallRectangleBtn } from '$entities';
-	import { AsideNav } from '$widgetsLanding';
+	import { FnbGroupCard, MiniFnbGroupCard, GroupsListCard } from '$entities';
+	import { AsideNav, HeaderNavigation } from '$widgetsLanding';
 
 	const { groupsListEurope } = data;
 
 	const docsNav = buildDocsNav(groupsListEurope);
 
 	let activeScreen = $state(2);
+
+	const groupList = true;
 </script>
 
 <svelte:head>
 	<title>Soup4ALL - groups | {$page.data.locale}</title>
 	<meta name="description" content="" />
 </svelte:head>
+
+<HeaderNavigation {docsNav} {groupList} />
 
 <section class="section project-page-explore">
 	<!-- onclick={() => {
@@ -30,7 +34,7 @@
 		</h2>
 	</div>
 	<!-- grid-cols-3 -->
-	<div class="mx-auto mb-4 grid max-w-4xl grid-cols-2 gap-x-4 px-6 pt-6">
+	<div class="mx-auto mb-4 grid w-fit grid-cols-2 gap-x-4 px-6 pt-6">
 		<SmallRectangleBtn
 			onclick={() => {
 				activeScreen = 1;

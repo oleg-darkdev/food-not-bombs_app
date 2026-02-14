@@ -4,6 +4,7 @@ import {
 	selectedMenu,
 	stepGame,
 	stepPnp,
+	actualScreen,
 	actualRound,
 	roundResults,
 	selectedLevel,
@@ -21,6 +22,7 @@ import {
 export {
 	uiAppLang,
 	stepPnp,
+	actualScreen,
 	stepInstruction,
 	selectedLevel,
 	selectedScenario,

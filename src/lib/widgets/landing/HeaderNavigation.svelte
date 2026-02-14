@@ -1,9 +1,10 @@
 <script lang="ts">
 	// import {  } from '$shared';
 	// import {  } from '$widgets';
+	// import {  } from '$entities'
 	import { AsideMenuNavListItem } from '$entitiesLanding';
 
-	let { docsNav } = $props();
+	let { docsNav, groupList } = $props();
 	let showNav = $state(false);
 
 	function scrollToAnchor(hash) {
@@ -18,16 +19,42 @@
 	let showFull = $state(false);
 </script>
 
-<aside id="docs-navigation" class="docs-navigation no-scrollbar overflow-y-scroll">
-	<nav class="docs-navigation-inner">
-		<ul class="docs-nav-list">
-			{#each docsNav as navItem}
-				<AsideMenuNavListItem {navItem}  />
-			{/each}
-		</ul>
+<header class="header ">
+	<nav class="wrap_main-nav">
+		<h2 class="h1_regular main-headline">Navigation</h2>
+		<div class="btn-carrot-menu -mr-1">
+			<button class="" on:click={() => (showNav = !showNav)}>
+				{#if !showNav}
+					<img
+						src="/images/icons/menu.svg"
+						class="h-10 w-10 transition-transform duration-200"
+						alt=""
+					/>
+				{:else}
+					<img
+						src="/images/icons/close.svg"
+						class="h-10 w-10 transition-transform duration-200"
+						alt=""
+					/>
+				{/if}
+			</button>
+		</div>
 	</nav>
-</aside>
+</header>
 
+{#if showNav}
+	<div class="fixed inset-0 top-14 z-[60] flex ">
+		<nav
+			class="block_main-nav-sm docs-navigation-inner  relative ml-auto h-[93vh] w-full flex-1 overflow-y-scroll"
+		>
+			<ul class="docs-nav-list transition-transform duration-200 ease-in-out  ">
+				{#each docsNav as navItem}
+					<AsideMenuNavListItem {groupList} {navItem} bind:showNav />
+				{/each}
+			</ul>
+		</nav>
+	</div>
+{/if}
 
 <style lang="postcss">
 	.wrap_main-nav {
@@ -129,6 +156,8 @@
 		}
 	}
 
+	
+	@media screen and (min-width: 991px) {
 	.no-scrollbar::-webkit-scrollbar {
 		display: none;
 	}
@@ -137,7 +166,6 @@
 		-ms-overflow-style: none; /* IE и Edge */
 		scrollbar-width: none; /* Firefox */
 	}
-	@media screen and (min-width: 991px) {
 		.docs-navigation {
 			position: sticky;
 			top: 6rem; /* ниже header */

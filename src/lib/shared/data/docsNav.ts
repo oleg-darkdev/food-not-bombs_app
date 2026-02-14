@@ -324,7 +324,7 @@ const docsNav = [
 		]
 	},
 	{
-		title: 'Food Not Bombs groups',
+		title: 'FNB groups',
 		anchor: '#groups',
 		showFull: false,
 
@@ -443,7 +443,7 @@ const docsNav = [
 	},
 
 	{
-		title: 'Questions and answers',
+		title: 'Q&A',
 		anchor: '#faq',
 		showFull: false,
 

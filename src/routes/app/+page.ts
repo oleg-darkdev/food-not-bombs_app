@@ -1,49 +1,23 @@
 import {
-	kit,
-	foodTokens,
-	roles,
-	preparation,
-	winTokens,
-	loseTokens,
-	winLose,
-	volunteeringApp,
-	volunteeringGame,
-	volunteeringFnb,
-	promoFnbGroups,
-	scenarios,
-	locations,
+	pnp,
 	fnbFaq,
 	boardgameFaq,
-	basicFaq,
 	appFaq,
 	componentsFaq,
-	rulesAndInterpretationFaq,
-	runGame,
-	pnp
+	rulesAndInterpretationFaq
 } from '$sharedData';
+import { runGame } from '$sharedUtils';
 
 export function load() {
 	return {
+		pnp,
+
 		fnbFaq,
 		boardgameFaq,
-		basicFaq,
+
 		appFaq,
 		componentsFaq,
 		rulesAndInterpretationFaq,
-		kit,
-		pnp,
-		foodTokens,
-		roles,
-		preparation,
-		winTokens,
-		loseTokens,
-		winLose,
-		volunteeringApp,
-		volunteeringGame,
-		volunteeringFnb,
-		promoFnbGroups,
-		scenarios,
-		locations,
 		runGame
 	};
 }

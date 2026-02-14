@@ -5,7 +5,7 @@
 	import { InsstructionListCard, PlayerRoleCard, BasicInfoCard, PnpStepCard } from '$entities';
 	// import { SliderGallery } from '$entitiesLanding';
 	import { ScrollToTop, Tag, RoundedBtnLink } from '$sharedUi';
-	import { PreFAQ, Footer, AsideNav, PrintAndPlay } from '$widgetsLanding';
+	import { PreFAQ, Footer, AsideNav, HeaderNavigation, PrintAndPlay } from '$widgetsLanding';
 	import { PlayerRoleInfo } from '$widgetsApp';
 
 	import {
@@ -16,6 +16,7 @@
 		// Marquee,
 		FAQ,
 		ApiListing,
+		
 		// VeganMenu,
 		// LangSwitcher,
 		// landingPromoPhotos,
@@ -71,6 +72,7 @@
 	<meta name="description" content="" />
 </svelte:head>
 
+<HeaderNavigation {docsNav}/>
 <AsideNav {docsNav} />
 
 <main class=" flex flex-col items-end">

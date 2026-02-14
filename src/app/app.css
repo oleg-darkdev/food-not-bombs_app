@@ -1024,7 +1024,7 @@ body {
 }
 
 .wrap_card-style-1 {
-	z-index: 30;
+	z-index: 2;
 	border: 1px solid var(--borders--army-green);
 	background-color: var(--background--beige);
 	background-image: url('/images/corner-dot-army-green.svg'),

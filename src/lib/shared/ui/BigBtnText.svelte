@@ -3,17 +3,17 @@
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
 
-let { text, onclick, icon, bg } = $props();
+	let { text, onclick, bgColor} = $props();
 </script>
 
-<!-- hover:bg-orange -->
 <div
 	{onclick}
-	class="item_project-page-explore wrap_small-rectangle-btn {bg} px-10  transition-transform duration-200 ease-in-out hover:scale-105"
+	class="mx-auto item_project-page-explore cursor-pointer wrap_small-rectangle-btn px-20 {bgColor}   transition-transform duration-200 ease-in-out hover:scale-105"
 >
-	<div class=" w-inline-block">
+	<div class=" w-inline-block flex flex-row">
 		<!-- <h1 class="h_semi-bold top-creative">{text}</h1> -->
-		 <img src="{icon}" class='lg:h-32 lg:w-32 w-10 h-10' alt="{text}">
+		<!-- <img src={icon} class="h-10 w-10 lg:h-32 lg:w-32" alt={text} /> -->
+		<h1 class="text-white font-bold lg:text-5xl text-3xl">{text}</h1>
 	</div>
 	<img
 		src="/images/corner-dot-white.svg"
@@ -43,30 +43,30 @@ let { text, onclick, icon, bg } = $props();
 
 <style lang="postcss">
 	.item_project-page-explore.wrap_small-rectangle-btn {
-		aspect-ratio: 22 / 14;
-		/* padding-left: 2.5em; */
-		/* padding-right: 2.5em; */
+		aspect-ratio: 26 / 12;
+		/* padding-left: ;
+		padding-right: 2.5em; */
 	}
 
 	.wrap_small-rectangle-btn {
-		z-index: 30;
-		aspect-ratio: 1;
+		z-index: 2;
+		/* aspect-ratio: 1; */
 		/* background-color: var(--texts--deep-red); */
 		border-radius: 1.5em;
 		flex-flow: column;
 		justify-content: center;
 		align-items: center;
 		/* width: 100em; */
-		max-width: 400px;
-		/* padding-left: 2em;
-		padding-right: 2em; */
+		max-width: 44em;
+		/* padding-left: 2.5em;
+		padding-right: 2.5em; */
 		display: flex;
 		position: relative;
 	}
 
 	@media screen and (max-width: 479px) {
 		.item_project-page-explore.wrap_small-rectangle-btn {
-			max-width: 200px;
+			max-width: 22em;
 		}
 	}
 </style>

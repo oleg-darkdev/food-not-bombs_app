@@ -4,7 +4,7 @@
 	import { scenarios } from '$sharedData';
 	// import { currentScenario } from '$sharedStores';
 	import { MiniFnbGroupCard } from '$entitiesApp';
-	import { BigBtnText } from '$entities';
+	import { BigBtnText } from '$sharedUi';
 	import { selectedLevel, selectedScenario, stepGame } from '$sharedStores';
 
 	let showScenariosList = $state(false);
