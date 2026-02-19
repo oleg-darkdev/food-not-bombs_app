@@ -14,7 +14,7 @@ recommendations
 -->
 
 <!-- id={pnpStep.id} -->
-<div  class="meet-our-friends collection w-full max-w-3xl">
+<div  class="meet-our-friends collection w-full max-w-3xl mx-auto">
 	<div class="wrap_meet-our-friends w-full">
 		<div class="collection_projects w-full">
 			<div role="list" class="list_projects w-dyn-items w-full">

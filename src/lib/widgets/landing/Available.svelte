@@ -20,10 +20,10 @@
 		/>
 		<BigLinkBtn text="Web Application" bgColor="bg-red" link="/app" />
 	</div>
-	<div class="mx-auto flex max-w-6xl flex-row justify-between px-6">
+	<!-- <div class="mx-auto flex max-w-6xl flex-row justify-between px-6">
 		<BigLinkBtn text="Public API" link="/api" bgColor="bg-red" />
 		<BigLinkBtn text="FNB Groups list" link="/groups" bgColor="bg-orange" />
-	</div>
+	</div> -->
 </section>
 
 <style lang="postcss">

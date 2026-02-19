@@ -7,37 +7,18 @@
 	// import {  } from '$entitiesApp';
 
 	import { AppFooterBtn } from '$sharedUi';
-	import { nextRound } from '$sharedUtils';
+	import { maxPnpStep } from '$sharedData';
+	import { stepPnp } from '$sharedStores';
 
-	import {
-		// stepGame,
-		stepInstruction,
-		// selectedMenu,
-		// actualRound,
-		stepPnp
-		// actualScreen
-	} from '$sharedStores';
-
-	// let maxGameStep = $state(7);
-
-	// let showPnp = $state(false);
-
-	// console.log($stepInstruction);
-
-	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 
 	function clearQuery() {
-		const cleanPath = $page.url.search;
-
-		goto(cleanPath, {
-			replaceState: true, 
+		goto('/app', {
+			replaceState: true,
 			keepFocus: true,
 			noScroll: true
 		});
 	}
-
-	// console.log($page.url.search)
 </script>
 
 <footer class="fixed bottom-0 left-0 z-30 w-full px-10 pb-4">
@@ -54,25 +35,27 @@
 
 			{#if $stepPnp >= 1}
 				<AppFooterBtn
-					onclick="{() => {
+					onclick={() => {
 						// $stepInstruction -= 1;
 						stepPnp.update((n) => n - 1);
-						console.log($stepPnp);
-					}}}"
+						// console.log($stepPnp);
+					}}
 					icon="/images/icons/left_arrow.svg"
 					text="Prev"
 					bg="bg-yellow"
 				/>
 			{/if}
 
-			<AppFooterBtn
-				onclick={() => {
-					stepPnp.update((n) => n + 1);
-				}}
-				icon="/images/icons/right_arrow.svg"
-				text="Next"
-				bg="bg-yellow"
-			/>
+			{#if $stepPnp < maxPnpStep}
+				<AppFooterBtn
+					onclick={() => {
+						stepPnp.update((n) => n + 1);
+					}}
+					icon="/images/icons/right_arrow.svg"
+					text="Next"
+					bg="bg-yellow"
+				/>
+			{/if}
 		</div>
 	</div>
 </footer>

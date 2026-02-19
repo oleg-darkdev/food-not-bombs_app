@@ -10,6 +10,7 @@ import {
 	selectedLevel,
 	selectedScenario
 } from './app.ts';
+
 // import uiAppLang from './uiAppLang.js';
 // import uiAppLang from './uiAppLang.js';
 // import uiAppLang from './uiAppLang.js';

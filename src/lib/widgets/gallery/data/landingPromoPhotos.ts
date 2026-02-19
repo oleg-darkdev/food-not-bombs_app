@@ -55,6 +55,7 @@ const gallery = [
 		}
 	],
 
+	
 	[
 		{
 			class: '_1',
@@ -88,34 +89,34 @@ const gallery = [
 			square: { img: '/images/photos/gallery/bakeries/2.jpg', alt: 'image 24' }
 		}
 	],
-	// /images/photos/gallery/bakeries/8.jpg
-	// /images/photos/gallery/bakeries/1.jpg
-	// /images/photos/gallery/booties/23.jpg
-	[
-		{
-			class: '_1',
-			tall: { img: '/images/photos/gallery/canned/8.jpg', alt: 'image 33' },
-			square: { img: '/images/2_stage.jpg', alt: 'image 34' }
-		},
-		{
-			class: '_2',
-			tall: { img: '/images/photos/boardgame/promo/9.JPG', alt: 'image 35' },
-			square: {
-				img: '/images/photos/boardgame/promo/1.JPG',
-				alt: 'image 36'
-			}
-		},
-		{
-			class: '_3',
-			tall: { img: '/images/6_stage.jpg', alt: 'image 37' },
-			square: { img: '/images/photos/gallery/flags/6.jpg', alt: 'image 38' }
-		},
-		{
-			class: '_4',
-			tall: { img: '/images/photos/gallery/handshake/5.jpg', alt: 'image 39' },
-			square: { img: '/images/photos/gallery/handshake/7.jpg', alt: 'image 40' }
-		}
-	],
+	// good photos - bu we have a lot
+	// [
+	// 	{
+	// 		class: '_1',
+	// 		tall: { img: '/images/photos/gallery/canned/8.jpg', alt: 'image 33' },
+	// 		square: { img: '/images/2_stage.jpg', alt: 'image 34' }
+	// 	},
+	// 	{
+	// 		class: '_2',
+	// 		tall: { img: '/images/photos/boardgame/promo/9.JPG', alt: 'image 35' },
+	// 		square: {
+	// 			img: '/images/photos/boardgame/promo/1.JPG',
+	// 			alt: 'image 36'
+	// 		}
+	// 	},
+	// 	{
+	// 		class: '_3',
+	// 		tall: { img: '/images/6_stage.jpg', alt: 'image 37' },
+	// 		square: { img: '/images/photos/gallery/flags/6.jpg', alt: 'image 38' }
+	// 	},
+	// 	{
+	// 		class: '_4',
+	// 		tall: { img: '/images/photos/gallery/handshake/5.jpg', alt: 'image 39' },
+	// 		square: { img: '/images/photos/gallery/handshake/7.jpg', alt: 'image 40' }
+	// 	}
+	// ],
+
+
 	[
 		{
 			class: '_1',

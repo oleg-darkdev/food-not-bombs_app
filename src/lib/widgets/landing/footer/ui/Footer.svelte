@@ -26,8 +26,8 @@
 			</div>
 		</div>
 		<!-- wrap_footer-links -->
-		<div class="flex flex-row">
-			<ul role="list" class="list_footer-links footer-menu w-list-unstyled">
+		<div class="flex flex-row gap-x-6">
+			<ul role="list" class="list_footer-links footer-menu  w-list-unstyled">
 				{#each nav as navigation}
 					<li class="item_footer-links">
 						<a href={navigation.link} class="link_footer">{navigation.title}</a>
@@ -50,7 +50,7 @@
 				<li class="item_footer-contact-info">
 					<a href="mailto:darkdev_brand@riseup.net" class="ico_footer-icon w-inline-block">
 						<img
-							src="/images/paper-plane.png"
+							src="/images/icons/email.svg"
 							loading="lazy"
 							alt="email icon"
 							class="img_footer-icon"
@@ -60,12 +60,12 @@
 						>darkdev_brand@riseup.net</a
 					>
 				</li>
-				<li class="item_footer-contact-info">
+				<!-- <li class="item_footer-contact-info">
 					<a href="" target="_blank" class="ico_footer-icon w-inline-block">
 						<img src="/images/map-pin.png" loading="lazy" alt="map icon" class="img_footer-icon" />
 					</a>
 					<a href="" target="_blank" class="txt_footer link">Gdansk <br />Poland </a>
-				</li>
+				</li> -->
 			</ul>
 		</div>
 		<div class="wrap_footer-social-links">
@@ -83,7 +83,7 @@
 			Development by <a
 				href="https://oleg-darkdev.vercel.app/"
 				target="_blank"
-				class="txt_footer-notes text-pink link">Oleg_DarkDev</a
+				class="txt_footer-notes text-pink link">oleg_darkDev</a
 			> (2025)
 		</div>
 
@@ -167,7 +167,7 @@
 	}
 
 	.list_footer-links.footer-menu {
-		grid-column-gap: 0em;
+		grid-column-gap: 1em;
 		grid-row-gap: 2em;
 		grid-template-rows: auto auto auto auto auto;
 		grid-auto-flow: column;
@@ -260,7 +260,7 @@
 
 		.list_footer-links.footer-menu {
 			grid-row-gap: 1.5em;
-			grid-column-gap: 2em;
+			grid-column-gap: 3em;
 			/* grid-row-gap: 1em; */
 			margin-top: 1em;
 		}

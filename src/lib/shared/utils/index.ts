@@ -1,7 +1,7 @@
 import getSocialHandle from './getSocialHandle.js';
 import buildDocsNav from './buildDocsNav.js';
 import scrollToAnchor from './scrollToAnchor.js';
-import nextRound from './nextRound.ts';
+import nextRound from './nextRound';
 // import SEO from './SEO.js';
 
 // engine
@@ -15,11 +15,13 @@ import probabilityLog from './engine/logging/probabilityLog';
 // import {locationEvents} from './engine/data/locationEvents';
 import calculateLocationEventChance from './engine/core/calculateLocationEventChance';
 import applyGlobalBalance from './engine/core/applyGlobalBalance';
+import clearRoundResults from './clearRoundResults';
 
 export {
 	getSocialHandle,
 	buildDocsNav,
 	scrollToAnchor,
+	clearRoundResults,
 	escalationFactor,
 	applyEscalationToBias,
 	expectedValue,
@@ -31,6 +33,6 @@ export {
 	probabilityLog,
 	nextRound,
 	// locationEvents,
-    applyGlobalBalance,
+	applyGlobalBalance,
 	calculateLocationEventChance
 };

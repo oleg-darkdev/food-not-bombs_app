@@ -361,7 +361,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '', telegram: '',
+		emtyDel: '', youtube: '', telegram: '',
 		id: '-fnb',
 		banner: '',
 		notes: '',

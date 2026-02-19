@@ -67,31 +67,7 @@ import promoFnbGroups from './promo';
 const allGroups = [].concat(poland, ukraine, croatia, czechRepublic, slovakia, serbia);
 
 let groupsByRegion = [
-	{
-		title: 'Afrika',
-		link: '/groups#afrika',
-		anchor: 'afrika',
-		countries: [
-			'Australia',
-			'Philippine',
-			'South Africa',
-			'Malawi',
-			'Burundi',
-			'Kenya',
-			'Somalia',
-			'Ethiopia',
-			'Italy',
-			'Tunisia',
-			'England',
-			'UK',
-			'Liberia',
-			'Togo',
-			'Nigeria'
-		],
-		data: groupsListAfrika,
-		api: { route: '/api/afrika', title: 'All regions' },
-		shortDesc: ''
-	},
+	
 	{
 		title: 'All regions',
 		link: '/groups#all',
@@ -171,7 +147,33 @@ let groupsByRegion = [
 		api: { route: '/api/', title: 'All regions' },
 		shortDesc: ''
 	},
+
 	{
+		title: 'Afrika',
+		link: '/groups#afrika',
+		anchor: 'afrika',
+		countries: [
+			'Australia',
+			'Philippine',
+			'South Africa',
+			'Malawi',
+			'Burundi',
+			'Kenya',
+			'Somalia',
+			'Ethiopia',
+			// 'Italy',
+			'Tunisia',
+			// 'England',
+			// 'UK',
+			'Liberia',
+			'Togo',
+			'Nigeria'
+		],
+		data: groupsListAfrika,
+		api: { route: '/api/afrika', title: 'All regions' },
+		shortDesc: ''
+	},
+{
 		title: 'Asia',
 		link: '/groups#asia',
 		anchor: 'asia',

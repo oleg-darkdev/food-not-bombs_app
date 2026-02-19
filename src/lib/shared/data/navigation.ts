@@ -12,10 +12,10 @@ let nav = [
 		title: 'Mission',
 		link: '#mission'
 	},
-	{
-		title: 'Api',
-		link: '#api'
-	},
+	// {
+	// 	title: 'Api',
+	// 	link: '#api'
+	// },
 	{
 		title: 'Team',
 		link: '#team'

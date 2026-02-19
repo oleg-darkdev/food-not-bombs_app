@@ -269,9 +269,9 @@
 			</div>
 		</div>
 
-		<div class="" id="api">
+		<!-- <div class="" id="api">
 			{@render api()}
-		</div>
+		</div> -->
 
 		<div class="mx-auto my-10 flex flex-col justify-center">
 			{@render stats()}

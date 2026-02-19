@@ -76,9 +76,9 @@
 	<AboutBoardgame />
 
 	<Features>
-		{#snippet api()}
+		<!-- {#snippet api()}
 			<ApiListing />
-		{/snippet}
+		{/snippet} -->
 		{#snippet stats()}
 			<StatsList />
 		{/snippet}

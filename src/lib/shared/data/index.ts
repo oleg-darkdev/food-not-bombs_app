@@ -67,11 +67,14 @@ import {
 	// countriesList,
 	poland,
 	serbia,
-		croatia,
-		ukraine,
-		slovakia,
-		czechRepublic,
+	croatia,
+	ukraine,
+	slovakia,
+	czechRepublic,
 } from './groupsList';
+
+const maxPnpStep = 11;
+
 
 export {
 	// faq
@@ -81,6 +84,7 @@ export {
 	appFaq,
 	componentsFaq,
 	rulesAndInterpretationFaq,
+	maxPnpStep,
 
 	//
 	scenarios,

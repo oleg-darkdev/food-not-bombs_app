@@ -7,7 +7,7 @@ const socialLinks = [
 	{
 		icon: '/images/icons/instagram.svg',
 		alt: 'Instagram',
-		link: 'https://www.instagram.com/foodnotbombs_library'
+		link: 'https://www.instagram.com/foodnotbombs_game'
 	},
 	{
 		icon: '/images/icons/youtube.svg',

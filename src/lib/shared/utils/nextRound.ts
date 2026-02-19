@@ -9,61 +9,30 @@ import {
 	actualScreen,
 	stepPnp
 } from '$sharedStores';
+import { get } from 'svelte/store';
 
-// let { data } = $props();
-
-// const {
-// 	kit,
-// 	pnp,
-
-// 	foodTokens,
-// 	roles,
-// 	preparation,
-// 	winTokens,
-// 	loseTokens,
-// 	winLose,
-// 	volunteeringApp,
-// 	volunteeringGame,
-// 	volunteeringFnb,
-// 	promoFnbGroups,
-// 	scenarios,
-// 	fnbFaq,
-// 	boardgameFaq,
-// 	basicFaq,
-// 	appFaq,
-// 	componentsFaq,
-// 	rulesAndInterpretationFaq,
-// } = data;
 import { locations } from '$sharedData';
 import { runGame } from '$sharedUtils';
-// (locations, runGame);
 
-let // $selectedMenu = $state(0),
-	// $stepInstruction = $state(0),
-	// stepWelcome = $state(1),
-	maxRound = 5;
-// roundResult = $state(null),
-// maxGameStep = $state(7);
-
-// const substepInstruction = stepInstruction.subscribe((value) => {});
-// const subroundResults = roundResults.subscribe((value) => {});
-
-// let currentScenario = $selectedScenario;
+let maxRound = 5;
 
 function nextRound() {
-	if (actualRound < maxRound && roundResults.length - 1 < maxRound) {
-		const roundResult = runGame(locations, selectedLevel, 1);
+	const currentRound = get(actualRound);
+	const currentResults = get(roundResults);
+	const level = get(selectedLevel);
+
+	console.log(level);
+	console.log(currentRound);
+	console.log(currentResults);
+
+	if (currentRound < maxRound && currentResults.length - 1 < maxRound) {
+		const roundResult = runGame(locations, level, 1);
 
 		roundResults.update((results) => [...results, roundResult]);
-
-		// console.log($roundResults);
 	} else {
 		console.log('Достигнут максимальный раунд');
+		console.log(currentRound);
 	}
-}
-
-function clearRoundResults() {
-	roundResults.set([]);
 }
 
 export default nextRound;

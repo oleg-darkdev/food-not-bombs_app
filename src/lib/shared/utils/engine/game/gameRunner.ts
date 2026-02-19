@@ -18,6 +18,7 @@ function runGame(locations, scenario) {
 			}))
 		);
 
+		
 		// 👇 ВЫЗОВ ЛОГГЕРА
 		// probabilityLog.printLastRound();
 

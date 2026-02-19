@@ -3,6 +3,7 @@
 	import { FAQ, GroupsListingMini, ApiListing } from '$widgets';
 	import { PnpStepCard } from '$entities';
 	import { page } from '$app/stores';
+	import { goto } from '$app/navigation';
 
 	import { StatsList, MiniFnbGroupCard } from '$entities';
 	import { ScenariousList, RoundCard, ResourcesGenerationResultListCard } from '$entitiesApp';
@@ -19,7 +20,7 @@
 		stepPnp
 	} from '$sharedStores';
 	// import {  } from '$sharedUi';
-	import { nextRound } from '$sharedUtils';
+	import { nextRound, clearRoundResults } from '$sharedUtils';
 	import { slide } from 'svelte/transition';
 
 	let { data } = $props();
@@ -45,9 +46,7 @@
 
 	const substepInstruction = stepInstruction.subscribe((value) => {});
 
-	function clearRoundResults() {
-		roundResults.set([]);
-	}
+	
 	let showFaq = $state(false);
 
 	let showPnp = $derived(
@@ -67,7 +66,7 @@
 	<main
 		class="bg-yellow flex h-[87vh] flex-col content-center items-center overflow-x-hidden overflow-y-scroll lg:h-[90vh]"
 	>
-		{#if showPnp}
+		<!-- {#if showPnp}
 			{#if $stepPnp == 0}
 				<PnpStepCard pnpStep={pnp.steps.map} />
 			{:else if $stepPnp == 1}
@@ -88,8 +87,8 @@
 				<PnpStepCard pnpStep={pnp.steps.playerTokens} />
 			{:else if $stepPnp == 9}{:else if $stepPnp == 10}{:else if $stepPnp == 11}
 				<PnpStepCard pnpStep={pnp.steps.playerTablets} />
-			{/if}
-		{:else if $selectedMenu == 0}
+			{/if} -->
+		{#if $selectedMenu == 0}
 			<Hero />
 		{:else if $selectedMenu == 1}
 			{#if $stepGame == 0}
@@ -121,6 +120,8 @@
 								stepGame.update((n) => n + 1);
 								actualRound.update((n) => n + 1);
 								nextRound();
+
+
 							}}
 							icon="/images/icons/play.svg"
 							text="Start new game"
@@ -136,7 +137,7 @@
 					<h2>{$actualRound}</h2>
 
 					{#each $roundResults as roundResult, index}
-						{#if index + 1 == $actualRound}
+						<!-- {#if index + 1 == $actualRound} -->
 							<div class="" transition:slide>
 								<h2>round info {index + 1}</h2>
 
@@ -164,7 +165,7 @@
 
 								<ResourcesGenerationResultListCard locations={roundResult.locations} />
 							</div>
-						{/if}
+						<!-- {/if} -->
 					{/each}
 					<!-- <h2>{$stepGame} {$stepGame == 2}</h2> -->
 				</div>
@@ -184,7 +185,20 @@
 						<div
 							class="mx-auto flex h-full max-w-3xl flex-row flex-wrap justify-between gap-x-4 gap-y-4 px-6"
 						>
-							<BigLinkBtn link="app/pnp" text="Print&Play" bgColor="bg-red" />
+							<!-- <BigLinkBtn link="app/pnp" text="Print&Play" bgColor="bg-red" /> -->
+
+							<BigBtnText
+								text="FPrint&PlayQ"
+								bgColor="bg-red"
+								onclick={() => {
+									// $page.url.searchParams = '?pnp=true';
+									goto('/app/pnp', {
+										replaceState: true,
+										keepFocus: true,
+										noScroll: true
+									});
+								}}
+							/>
 							<BigBtnText
 								text="FAQ"
 								bgColor="bg-orange"
@@ -198,7 +212,8 @@
 								text="Game rules"
 								bgColor="bg-red"
 								onclick={() => {
-									location.href = './docs#game-rules';
+									goto('./docs#game-rules')
+									// location.href = '';
 								}}
 							/>
 
@@ -206,7 +221,8 @@
 								text="API"
 								bgColor="bg-orange"
 								onclick={() => {
-									location.href = './docs#api';
+									goto('./docs#api')
+									// location.href = './docs#api';
 								}}
 							/>
 
@@ -214,7 +230,8 @@
 								text="Boardgame kit"
 								bgColor="bg-red"
 								onclick={() => {
-									location.href = './docs#components';
+									goto('./docs#components')
+									// location.href = './docs#components';
 								}}
 							/>
 						</div>
@@ -240,7 +257,7 @@
 						<!-- <GroupsListingMini groupsData={promoFnbGroups.slice(0, 8)} /> -->
 					</div>
 				{:else if $stepInstruction == 3}
-					<div class="" transition:slide><ApiListing /></div>
+					<!-- <div class="" transition:slide><ApiListing /></div> -->
 				{:else if $stepInstruction == 4}
 					<div class="" transition:slide>
 						<StatsList />
@@ -258,11 +275,11 @@
 	</main>
 </div>
 
-{#if showPnp}
+<!-- {#if showPnp}
 	<FooterPnp />
-{:else}
+{:else} -->
 	<Footer />
-{/if}
+<!-- {/if} -->
 
 <style lang="postcss">
 	main {
