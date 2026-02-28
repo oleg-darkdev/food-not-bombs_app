@@ -3,10 +3,12 @@
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
 	import { SocialRoundIconLink } from '$sharedUi';
+	import { fade, fly } from 'svelte/transition';
 
 	let { groupData, groupsLength, region } = $props();
 
-	console.log(groupData);
+	// console.log(groupData);
+	let showGroupsList = $state(false);
 </script>
 
 <div class="section meet-our-friends collection w-full">
@@ -25,100 +27,123 @@
 								alt=""
 							/>
 						</div>
-
 						<div class="wrap_services-list w-full">
 							<ul role="list" class=" w-list-unstyled w-full px-6">
 								<!-- (group.id) -->
+
+								<!-- {#if showGroupsList} -->
+								<!-- in:fly={{ y: 200 }} out:fade -->
+								<li
+									onclick={() => {
+										showGroupsList = !showGroupsList;
+										// console.log(showGroupsList);
+									}}
+									class="item_services-card w-full transition-transform duration-200 ease-in-out hover:scale-105"
+								>
+									<div
+										class="txt_services-list-item caps service flex w-full flex-row items-center justify-between"
+									>
+										<img
+											src="/images/icons/down_arrow.svg"
+											loading="lazy"
+											alt=""
+											class="h-10 w-10 {showGroupsList ? '-rotate-180' : ''}"
+										/>
+										<span class="txt_services-list-item caps service"> Show full list </span>
+									</div>
+								</li>
 								{#each groupData.data as group}
-									{#each group.data as group}
-										<li
-											id={group.id}
-											class="item_services-card transition-transform duration-200 ease-in-out hover:scale-105"
-										>
-											<div
-												class="txt_services-list-item caps service flex flex-row items-center justify-between"
+									<!-- .data.slice(0, 4) -->
+									{#if showGroupsList}
+										{#each group.data as group}
+											<li
+												id={group.id}
+												class="item_services-card transition-transform duration-200 ease-in-out hover:scale-105"
 											>
-												<div class="flex max-w-sm flex-row items-center">
-													<div class="mr-4">
-														<img
-															src={group.logo ? group.logo : '/images/groups/default_logo.png'}
-															loading="eager"
-															alt=""
-															class="h-8 w-8 rounded-full object-cover lg:h-12 lg:w-12"
-														/>
+												<div
+													class="txt_services-list-item caps service flex flex-row items-center justify-between"
+												>
+													<div class="flex max-w-sm flex-row items-center">
+														<div class="mr-4">
+															<img
+																src={group.logo ? group.logo : '/images/groups/default_logo.png'}
+																loading="eager"
+																alt=""
+																class="h-8 w-8 rounded-full object-cover lg:h-12 lg:w-12"
+															/>
+														</div>
+
+														<span class="txt_services-list-item caps service"> {group.city} </span>
 													</div>
 
-													<span class="txt_services-list-item caps service"> {group.city} </span>
-												</div>
+													<div
+														role="list"
+														class="flex max-w-2xl flex-row items-center justify-between"
+													>
+														{#if group.facebook}
+															<div role="listitem" class="item_project-tags w-dyn-item">
+																<SocialRoundIconLink
+																	icon="/images/icons/facebook.svg"
+																	alt="Facebook"
+																	link={group.facebook}
+																/>
+															</div>
+														{/if}
 
-												<div
-													role="list"
-													class="flex max-w-2xl flex-row items-center justify-between"
-												>
-													{#if group.facebook}
-														<div role="listitem" class="item_project-tags w-dyn-item">
-															<SocialRoundIconLink
-																icon="/images/icons/facebook.svg"
-																alt="Facebook"
-																link={group.facebook}
-															/>
-														</div>
-													{/if}
+														{#if group.inst}
+															<div role="listitem" class="item_project-tags w-dyn-item">
+																<SocialRoundIconLink
+																	icon="/images/icons/instagram.svg"
+																	alt="Instagram"
+																	link={group.inst}
+																/>
+															</div>
+														{/if}
 
-													{#if group.inst}
-														<div role="listitem" class="item_project-tags w-dyn-item">
-															<SocialRoundIconLink
-																icon="/images/icons/instagram.svg"
-																alt="Instagram"
-																link={group.inst}
-															/>
-														</div>
-													{/if}
+														{#if group.twitter}
+															<div role="listitem" class="item_project-tags w-dyn-item">
+																<SocialRoundIconLink
+																	icon="/images/icons/twitter.svg"
+																	alt="twitter"
+																	link={group.twitter}
+																/>
+															</div>
+														{/if}
 
-													{#if group.twitter}
-														<div role="listitem" class="item_project-tags w-dyn-item">
-															<SocialRoundIconLink
-																icon="/images/icons/twitter.svg"
-																alt="twitter"
-																link={group.twitter}
-															/>
-														</div>
-													{/if}
+														{#if group.website}
+															<div role="listitem" class="item_project-tags w-dyn-item">
+																<SocialRoundIconLink
+																	icon="/images/icons/link.svg"
+																	alt={group.website}
+																	link={group.website}
+																/>
+															</div>
+														{/if}
 
-													{#if group.website}
-														<div role="listitem" class="item_project-tags w-dyn-item">
-															<SocialRoundIconLink
-																icon="/images/icons/link.svg"
-																alt={group.website}
-																link={group.website}
-															/>
-														</div>
-													{/if}
-
-													{#if group.email}
-														<div role="listitem" class="item_project-tags w-dyn-item">
-															<!-- <a
+														{#if group.email}
+															<div role="listitem" class="item_project-tags w-dyn-item">
+																<!-- <a
 															href={`mailto:${group.email}`}
 															target="_blank"
 															class=" cta_primary tag-style">email</a
 														> -->
-															<SocialRoundIconLink
-																icon="/images/icons/email.svg"
-																alt={group.contactPhone ? group.contactPhone : group.contactName}
-																href={`mailto:${group.email}`}
-															/>
-														</div>
-													{/if}
+																<SocialRoundIconLink
+																	icon="/images/icons/email.svg"
+																	alt={group.contactPhone ? group.contactPhone : group.contactName}
+																	href={`mailto:${group.email}`}
+																/>
+															</div>
+														{/if}
 
-													{#if group.contactPhone}
-														<div role="listitem" class="item_project-tags w-dyn-item">
-															<SocialRoundIconLink
-																icon="/images/icons/phone-call.svg"
-																alt={group.contactPhone ? group.contactPhone : group.contactName}
-																link={`tel:${group.contactPhone}`}
-															/>
-														</div>
-														<!-- <div role="listitem" class="item_project-tags w-dyn-item">
+														{#if group.contactPhone}
+															<div role="listitem" class="item_project-tags w-dyn-item">
+																<SocialRoundIconLink
+																	icon="/images/icons/phone-call.svg"
+																	alt={group.contactPhone ? group.contactPhone : group.contactName}
+																	link={`tel:${group.contactPhone}`}
+																/>
+															</div>
+															<!-- <div role="listitem" class="item_project-tags w-dyn-item">
 														<a
 															href={`tel:${group.contactPhone}`}
 															class="cta_primary yellow tag-style"
@@ -126,12 +151,13 @@
 															{group.contactPhone ? group.contactPhone : group.contactName}
 														</a>
 													</div> -->
-													{/if}
+														{/if}
+													</div>
+													<!-- {ingredient.count} -->
 												</div>
-												<!-- {ingredient.count} -->
-											</div>
-										</li>
-									{/each}
+											</li>
+										{/each}
+									{/if}
 								{/each}
 							</ul>
 						</div>
@@ -309,9 +335,9 @@
 
 	@media screen and (max-width: 991px) {
 		.txt_services-list-item.caps.service {
-		letter-spacing: 0.1em;
-		font-size: 1.8em;
-	}
+			letter-spacing: 0.1em;
+			font-size: 1.8em;
+		}
 
 		.wrap_card-content.services,
 		.wrap_card-style-2 {
