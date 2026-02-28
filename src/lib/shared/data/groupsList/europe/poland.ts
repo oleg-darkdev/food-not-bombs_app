@@ -43,6 +43,8 @@ const poland = [
 		contactPhone: '',
 		contactName: 'Jedzenie Zamiast Bomb: Gorzów Wielkopolski',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'gorzow-wielkopolski-fnb',
 		banner: '',
@@ -121,7 +123,7 @@ const poland = [
 	// 	cookingInfo: '',
 	// 	contactPhone: '',
 	// 	contactName: '',
-	// 	emtyDel: '', telegram: '', id: '-fnb', banner: '',
+	// 	emtyDel: '', vk: '', youtube: '', telegram: '', id: '-fnb', banner: '',
 	// 	mailingAddress: 'P.O. Box 5, 60-966, 31\n8484672, Poznan',
 	// 	imgCollected: false,
 	// 	infoChecked: false,
@@ -397,6 +399,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'poznan-fnb',
 		banner: '/images/groups/europe/poland/poznan/banner.jpg',
@@ -530,6 +534,8 @@ const poland = [
 		contactPhone: '',
 		contactName: 'Gajowa',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'plock-fnb',
 		// /images/groups/europe/poland/plock/banner.jpg
@@ -703,6 +709,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'warszawa-fnb',
 		banner: '/images/groups/europe/poland/warszawa/banner.jpg',
@@ -802,6 +810,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'biala-podlaska-fnb',
 		banner: '',
@@ -949,6 +959,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'lublin-fnb',
 		banner: '',
@@ -1029,6 +1041,8 @@ const poland = [
 		contactPhone: '516-899-781',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'rzeszow-fnb',
 		banner: '/images/groups/europe/poland/rzeszow/banner.jpg',
@@ -1154,6 +1168,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'krakow-fnb',
 		banner: '/images/groups/europe/poland/krakow/banner.jpg',
@@ -1325,6 +1341,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'bielsko-biala-fnb',
 		// 2B HC/PUNK CREW
@@ -1476,6 +1494,8 @@ const poland = [
 		contactPhone: '+48 786 936 700',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'katowice-fnb',
 		notes: 'Co drugą niedzielę wydajemy wegańskie, ciepłe posiłki na placu Andrzeja w Katowicach.',
@@ -1532,6 +1552,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'gliwice-fnb',
 		banner: '',
@@ -1656,6 +1678,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'bytom-fnb',
 		// /images/groups/europe/poland/bytom/banner.
@@ -1714,6 +1738,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'tomaszow-mazowiecki-fnb',
 		banner: '',
@@ -1793,6 +1819,8 @@ const poland = [
 		contactName: '',
 		notes: 'Wolność, solidarność, pomoc wzajemna 🤝Ⓐ🏴',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'lodz-fnb',
 		banner: '/images/groups/europe/poland/lodz/banner.jpg',
@@ -2007,6 +2035,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'opole-fnb',
 		banner: '/images/groups/europe/poland/opole/banner.jpg',
@@ -2181,6 +2211,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'wroclaw-fnb',
 		banner: '/images/groups/europe/poland/wroclaw/banner.jpg',
@@ -2328,6 +2360,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		notes:
 			'Od 24 lat rozdajemy bezmięsne posiłki co niedzielę przez okres jesieni, zimy i wczesnej wiosny. Możesz nas wesprzeć: https://zrzutka.pl/gs8acm',
@@ -2407,6 +2441,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'kamienna-gora-fnb',
 		banner: '/images/groups/europe/poland/kamienna-gora/banner.jpg',
@@ -2530,6 +2566,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'zielona-gora-fnb',
 		banner: '',
@@ -2677,7 +2715,7 @@ const poland = [
 	// 	cookingInfo: '',
 	// 	contactPhone: '',
 	// 	contactName: '',
-	// 	emtyDel: '', telegram: '',
+	// 	emtyDel: '', vk: '', youtube: '', telegram: '',
 	// 	notes: ``,
 	// 	id: '-fnb',
 	// 	banner: '',
@@ -2825,6 +2863,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		notes: `Masz w swoim sąsiedztwie potrzebujące osoby? Zaproś je na ciepły posiłek.`,
 		id: 'tarnow-fnb',
@@ -2973,6 +3013,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		notes: `Food Not Bombs - Jedzenie Zamiast Bomb Szczecin. Posiłki dla potrzebujących w sezonie jesienno-zimowym`,
 		id: 'szczecin-fnb',
@@ -3121,6 +3163,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		notes: `Darmowe, ciepłe wegańskie posiłki w każdą zimową niedzielę :)`,
 		id: 'gdynia-fnb',
@@ -3269,6 +3313,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		notes: `Jedzenie Zamiast Bomb to inicjatywa polegająca na rozdawaniu ciepłych, wegańskich lub wegetariańskich posiłków wszystkim potrzebującym.`,
 		id: 'elk-fnb',
@@ -3417,6 +3463,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		notes: `Food not Bombs (Jedzenie Zamiast Bomb) - to społeczna inicjatywa, polegająca na darmowym wydawaniu, wegańskich lub wegetariańskich posiłków potrzebującym.`,
 		id: 'bydgoszcz-fnb',
@@ -3474,6 +3522,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		notes: `Jedzenie Zamiast Bomb ( Food Not Bombs ) wydział w Myśliborzu, organizacja non profit, charytatywna`,
 		id: 'mysliborz-fnb',
@@ -3555,6 +3605,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'czestochowa-fnb',
 		banner: '',
@@ -3703,6 +3755,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		notes: `ogólnoświatowa inicjatywa rozdawania ciepłych wegetariańskich posiłków wszystkim potrzebującym`,
 		id: 'torun-fnb',
@@ -3716,7 +3770,7 @@ const poland = [
 	},
 	{
 		// /images/groups/europe/poland/szczytno/logo.jpg
-		logo: '',
+		logo: '/images/groups/europe/poland/szczytno/logo.svg',
 		since: '',
 		facebook: 'https://www.facebook.com/fnbszczytno/',
 		inst: '',
@@ -3852,6 +3906,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		notes: ``,
 		id: 'szczytno-fnb',
@@ -4000,6 +4056,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		notes: `Przez półtora roku co tydzień rozdawaliśmy potrzebującym wegańskie posiłki zrobione z rzeczy uratowanych przed wyrzuceniem.`,
 		id: 'skierniewice-fnb',
@@ -4149,6 +4207,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		notes: ``,
 		id: 'walbrzych-fnb',
@@ -4297,6 +4357,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		notes: ``,
 		id: 'kielce-fnb',
@@ -4312,7 +4374,7 @@ const poland = [
 		logo: '/images/groups/europe/poland/ostrow-wielkopolski/logo.jpg',
 		since: '',
 		facebook: 'https://www.facebook.com/JedzeniezamiastbombOstrowWielkopolski/',
-		inst: '',
+		inst: 'https://www.instagram.com/fnb.ostrowwlkp',
 		gallery: [
 			[
 				{
@@ -4579,6 +4641,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'ostrow-wielkopolski-fnb',
 		banner: '/images/groups/europe/poland/ostrow-wielkopolski/banner.jpg',
@@ -4636,6 +4700,8 @@ const poland = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
+		youtube: '',
 		telegram: '',
 		id: 'pruszkow-fnb',
 		banner: '',
@@ -4646,6 +4712,381 @@ const poland = [
 		ready: false,
 		opitimise: false,
 		facebookChecked: true
+	},
+	{
+		logo: '/images/groups/europe/poland/wawa-bemowo/logo.jpg',
+		since: '',
+		facebook: '',
+		inst: 'https://www.instagram.com/jedzenie_zamiast_eksmisji',
+		gallery: [
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/poland/wawa-bemowo/1.jpg', alt: 'image 1' },
+					square: { img: '/images/groups/europe/poland/wawa-bemowo/2.jpg', alt: 'image 2' }
+				},
+				{
+					class: '_2',
+					tall: { img: '/images/groups/europe/poland/wawa-bemowo/3.jpg', alt: 'image 3' },
+					square: { img: '/images/groups/europe/poland/wawa-bemowo/4.jpg', alt: 'image 4' }
+				},
+				{
+					class: '_3',
+					tall: { img: '/images/groups/europe/poland/wawa-bemowo/5.jpg', alt: 'image 5' },
+					square: { img: '/images/groups/europe/poland/wawa-bemowo/6.jpg', alt: 'image 6' }
+				},
+				{
+					class: '_4',
+					tall: { img: '/images/groups/europe/poland/wawa-bemowo/7.jpg', alt: 'image 7' },
+					square: { img: '/images/groups/europe/poland/wawa-bemowo/8.jpg', alt: 'image 8' }
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: { img: '/images/groups/europe/poland/wawa-bemowo/9.jpg', alt: 'image 9' },
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/10.jpg',
+						alt: 'image 10'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/11.jpg',
+						alt: 'image 11'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/12.jpg',
+						alt: 'image 12'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/13.jpg',
+						alt: 'image 13'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/14.jpg',
+						alt: 'image 14'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/15.jpg',
+						alt: 'image 15'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/16.jpg',
+						alt: 'image 16'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/17.jpg',
+						alt: 'image 17'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/18.jpg',
+						alt: 'image 18'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/19.jpg',
+						alt: 'image 19'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/20.jpg',
+						alt: 'image 20'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/21.jpg',
+						alt: 'image 21'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/22.jpg',
+						alt: 'image 22'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/23.jpg',
+						alt: 'image 23'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/24.jpg',
+						alt: 'image 24'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/25.jpg',
+						alt: 'image 25'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/26.jpg',
+						alt: 'image 26'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/27.jpg',
+						alt: 'image 27'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/28.jpg',
+						alt: 'image 28'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/29.jpg',
+						alt: 'image 29'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/30.jpg',
+						alt: 'image 30'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/31.jpg',
+						alt: 'image 31'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/32.jpg',
+						alt: 'image 32'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/33.jpg',
+						alt: 'image 33'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/34.jpg',
+						alt: 'image 34'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/35.jpg',
+						alt: 'image 35'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/36.jpg',
+						alt: 'image 36'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/37.jpg',
+						alt: 'image 37'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/38.jpg',
+						alt: 'image 38'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/39.jpg',
+						alt: 'image 39'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/40.jpg',
+						alt: 'image 40'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/41.jpg',
+						alt: 'image 41'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/42.jpg',
+						alt: 'image 42'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/43.jpg',
+						alt: 'image 43'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/44.jpg',
+						alt: 'image 44'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/45.jpg',
+						alt: 'image 45'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/46.jpg',
+						alt: 'image 46'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/47.jpg',
+						alt: 'image 47'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/48.jpg',
+						alt: 'image 48'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/41.jpg',
+						alt: 'image 41'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/42.jpg',
+						alt: 'image 42'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/43.jpg',
+						alt: 'image 43'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/44.jpg',
+						alt: 'image 44'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/45.jpg',
+						alt: 'image 45'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/46.jpg',
+						alt: 'image 46'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/47.jpg',
+						alt: 'image 47'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/48.jpg',
+						alt: 'image 48'
+					}
+				}
+			],
+			[
+				{
+					class: '_1',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/49.jpg',
+						alt: 'image 49'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/50.jpg',
+						alt: 'image 50'
+					}
+				},
+				{
+					class: '_2',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/51.jpg',
+						alt: 'image 51'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/52.jpg',
+						alt: 'image 52'
+					}
+				},
+				{
+					class: '_3',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/53.jpg',
+						alt: 'image 53'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/54.jpg',
+						alt: 'image 54'
+					}
+				},
+				{
+					class: '_4',
+					tall: {
+						img: '/images/groups/europe/poland/wawa-bemowo/55.jpg',
+						alt: 'image 55'
+					},
+					square: {
+						img: '/images/groups/europe/poland/wawa-bemowo/56.jpg',
+						alt: 'image 56'
+					}
+				}
+			]
+		],
+		photos: '',
+		name: 'Jedzenie Zamiast eksmisji: Warszawa m. Bemowo',
+		country: 'Poland',
+		city: 'Warszawa',
+		sharingAddress: 'Metro Bemowo, Górczewska/Powstańców Śląskich, 01-355 Warszawa, Poland',
+		sharingInfo: 'Każdy wtorek 18:00',
+		email: '',
+		website: '',
+		videos: [{ title: '', link: '' }],
+		twitter: '',
+		cookingAddress: '',
+		cookingInfo: '',
+		contactPhone: '',
+		contactName: '',
+		emtyDel: '',
+		vk: '',
+		youtube: '',
+		telegram: '',
+		id: 'bemowo-fnb',
+		banner: '',
+		mailingAddress: '',
+		imgCollected: false,
+		infoChecked: true,
+		ready: false,
+		opitimise: false,
+		facebookChecked: false
 	}
 	// {
 	// 	logo: '/images/groups/europe/poland/opole/logo.jpg',
@@ -5009,7 +5450,7 @@ const poland = [
 	// 	cookingInfo: '',
 	// 	contactPhone: '',
 	// 	contactName: '',
-	// 	emtyDel: '', telegram: '',
+	// 	emtyDel: '', vk: '', youtube: '', telegram: '',
 	// 	id: '-fnb',
 	// 	banner: '',
 	// 	mailingAddress: '',
@@ -5381,379 +5822,7 @@ const poland = [
 	// 	cookingInfo: '',
 	// 	contactPhone: '',
 	// 	contactName: '',
-	// 	emtyDel: '', telegram: '',
-	// 	id: '-fnb',
-	// 	banner: '',
-	// 	mailingAddress: '',
-	// 	imgCollected: false,
-	// 	infoChecked: false,
-	// 	ready: false,
-	// 	opitimise: false,
-	// 	facebookChecked: false
-	// },
-	// {
-	// 	logo: '/images/groups/europe/poland/opole/logo.jpg',
-	// 	since: '',
-	// 	facebook: '',
-	// 	inst: '',
-	// 	gallery: [
-	// 		[
-	// 			{
-	// 				class: '_1',
-	// 				tall: { img: '/images/groups/europe/poland/opole/1.jpg', alt: 'image 1' },
-	// 				square: { img: '/images/groups/europe/poland/opole/2.jpg', alt: 'image 2' }
-	// 			},
-	// 			{
-	// 				class: '_2',
-	// 				tall: { img: '/images/groups/europe/poland/opole/3.jpg', alt: 'image 3' },
-	// 				square: { img: '/images/groups/europe/poland/opole/4.jpg', alt: 'image 4' }
-	// 			},
-	// 			{
-	// 				class: '_3',
-	// 				tall: { img: '/images/groups/europe/poland/opole/5.jpg', alt: 'image 5' },
-	// 				square: { img: '/images/groups/europe/poland/opole/6.jpg', alt: 'image 6' }
-	// 			},
-	// 			{
-	// 				class: '_4',
-	// 				tall: { img: '/images/groups/europe/poland/opole/7.jpg', alt: 'image 7' },
-	// 				square: { img: '/images/groups/europe/poland/opole/8.jpg', alt: 'image 8' }
-	// 			}
-	// 		],
-	// 		[
-	// 			{
-	// 				class: '_1',
-	// 				tall: { img: '/images/groups/europe/poland/opole/9.jpg', alt: 'image 9' },
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/10.jpg',
-	// 					alt: 'image 10'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_2',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/11.jpg',
-	// 					alt: 'image 11'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/12.jpg',
-	// 					alt: 'image 12'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_3',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/13.jpg',
-	// 					alt: 'image 13'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/14.jpg',
-	// 					alt: 'image 14'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_4',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/15.jpg',
-	// 					alt: 'image 15'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/16.jpg',
-	// 					alt: 'image 16'
-	// 				}
-	// 			}
-	// 		],
-	// 		[
-	// 			{
-	// 				class: '_1',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/17.jpg',
-	// 					alt: 'image 17'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/18.jpg',
-	// 					alt: 'image 18'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_2',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/19.jpg',
-	// 					alt: 'image 19'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/20.jpg',
-	// 					alt: 'image 20'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_3',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/21.jpg',
-	// 					alt: 'image 21'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/22.jpg',
-	// 					alt: 'image 22'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_4',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/23.jpg',
-	// 					alt: 'image 23'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/24.jpg',
-	// 					alt: 'image 24'
-	// 				}
-	// 			}
-	// 		],
-	// 		[
-	// 			{
-	// 				class: '_1',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/25.jpg',
-	// 					alt: 'image 25'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/26.jpg',
-	// 					alt: 'image 26'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_2',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/27.jpg',
-	// 					alt: 'image 27'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/28.jpg',
-	// 					alt: 'image 28'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_3',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/29.jpg',
-	// 					alt: 'image 29'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/30.jpg',
-	// 					alt: 'image 30'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_4',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/31.jpg',
-	// 					alt: 'image 31'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/32.jpg',
-	// 					alt: 'image 32'
-	// 				}
-	// 			}
-	// 		],
-	// 		[
-	// 			{
-	// 				class: '_1',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/33.jpg',
-	// 					alt: 'image 33'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/34.jpg',
-	// 					alt: 'image 34'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_2',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/35.jpg',
-	// 					alt: 'image 35'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/36.jpg',
-	// 					alt: 'image 36'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_3',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/37.jpg',
-	// 					alt: 'image 37'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/38.jpg',
-	// 					alt: 'image 38'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_4',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/39.jpg',
-	// 					alt: 'image 39'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/40.jpg',
-	// 					alt: 'image 40'
-	// 				}
-	// 			}
-	// 		],
-	// 		[
-	// 			{
-	// 				class: '_1',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/41.jpg',
-	// 					alt: 'image 41'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/42.jpg',
-	// 					alt: 'image 42'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_2',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/43.jpg',
-	// 					alt: 'image 43'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/44.jpg',
-	// 					alt: 'image 44'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_3',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/45.jpg',
-	// 					alt: 'image 45'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/46.jpg',
-	// 					alt: 'image 46'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_4',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/47.jpg',
-	// 					alt: 'image 47'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/48.jpg',
-	// 					alt: 'image 48'
-	// 				}
-	// 			}
-	// 		],
-	// 		[
-	// 			{
-	// 				class: '_1',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/41.jpg',
-	// 					alt: 'image 41'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/42.jpg',
-	// 					alt: 'image 42'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_2',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/43.jpg',
-	// 					alt: 'image 43'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/44.jpg',
-	// 					alt: 'image 44'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_3',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/45.jpg',
-	// 					alt: 'image 45'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/46.jpg',
-	// 					alt: 'image 46'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_4',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/47.jpg',
-	// 					alt: 'image 47'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/48.jpg',
-	// 					alt: 'image 48'
-	// 				}
-	// 			}
-	// 		],
-	// 		[
-	// 			{
-	// 				class: '_1',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/49.jpg',
-	// 					alt: 'image 49'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/50.jpg',
-	// 					alt: 'image 50'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_2',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/51.jpg',
-	// 					alt: 'image 51'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/52.jpg',
-	// 					alt: 'image 52'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_3',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/53.jpg',
-	// 					alt: 'image 53'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/54.jpg',
-	// 					alt: 'image 54'
-	// 				}
-	// 			},
-	// 			{
-	// 				class: '_4',
-	// 				tall: {
-	// 					img: '/images/groups/europe/poland/opole/55.jpg',
-	// 					alt: 'image 55'
-	// 				},
-	// 				square: {
-	// 					img: '/images/groups/europe/poland/opole/56.jpg',
-	// 					alt: 'image 56'
-	// 				}
-	// 			}
-	// 		]
-	// 	],
-	// 	photos: '',
-	// 	name: 'Jedzenie Zamiast Bomb: Kielce',
-	// 	country: 'Poland',
-	// 	city: '',
-	// 	sharingAddress: '',
-	// 	sharingInfo: '',
-	// 	email: '',
-	// 	website: '',
-	// 	videos: [{ title: '', link: '' }],
-	// 	twitter: '',
-	// 	cookingAddress: '',
-	// 	cookingInfo: '',
-	// 	contactPhone: '',
-	// 	contactName: '',
-	// 	emtyDel: '', telegram: '',
+	// 	emtyDel: '', vk: '', youtube: '', telegram: '',
 	// 	id: '-fnb',
 	// 	banner: '',
 	// 	mailingAddress: '',

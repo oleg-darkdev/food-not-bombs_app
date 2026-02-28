@@ -45,7 +45,7 @@ const data = [
 		cookingInfo: '',
 		contactPhone: '',
 		contactName: '',
-		emtyDel: '', youtube: '', telegram: '',
+		emtyDel: '', vk: '', youtube: '', telegram: '',
 		id: '-fnb',nb',
 		banner: '',
 		notes: '',

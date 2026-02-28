@@ -363,6 +363,7 @@ const data = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
 		youtube: '',
 		telegram: '',
 		id: 'tallinn-fnb',

@@ -362,6 +362,7 @@ const data = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
 		youtube: '',
 		telegram: '',
 		id: 'tbilisi-fnb',

@@ -45,6 +45,7 @@ const data = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
 		youtube: '',
 		telegram: '',
 		id: 'oslo-fnb',
@@ -237,6 +238,7 @@ const data = [
 		contactPhone: '',
 		contactName: '',
 		emtyDel: '',
+		vk: '',
 		youtube: '',
 		telegram: '',
 		notes:

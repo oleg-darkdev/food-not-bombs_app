@@ -13,7 +13,7 @@
 	<div class=" w-inline-block flex flex-row">
 		<!-- <h1 class="h_semi-bold top-creative">{text}</h1> -->
 		<!-- <img src={icon} class="h-10 w-10 lg:h-32 lg:w-32" alt={text} /> -->
-		<h1 class="text-white font-bold lg:text-5xl text-3xl">{text}</h1>
+		<h1 class="text-white font-bold lg:text-5xl text-2xl">{text}</h1>
 	</div>
 	<img
 		src="/images/corner-dot-white.svg"

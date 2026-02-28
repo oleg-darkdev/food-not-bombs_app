@@ -22,19 +22,19 @@
 			</div>
 
 			<a href="./groups/{group.id}" class="" target="_blank">
-				<div class="w-layout-vflex wrap_card-heading h-auto px-4">
-					<h3 class="h_semi-bold group-name group mx-auto mb-20 h-full px-4 italic">
+				<div class="w-layout-vflex wrap_card-heading h-auto">
+					<h3 class="h_semi-bold  group-name group mx-auto  px-10  h-full  italic">
 						{group.city}
 					</h3>
 				</div>
-				<div class="wrap_project-details">
+				<div class="wrap_project-details mt-6">
 					<!-- wrap_project-card-hero -->
 					<div class="">
 						<img
 							src={group.logo ? group.logo : '/images/groups/default_logo.png'}
 							loading="eager"
 							alt=""
-							class="h-24 w-24 rounded-full object-cover"
+							class="lg:h-32 lg:w-32 h-24 w-24 rounded-full object-cover"
 						/>
 					</div>
 				</div>
@@ -119,12 +119,14 @@
 	}
 
 	.h_semi-bold.italic.group {
+		overflow-wrap: break-word;
 		text-align: center;
 		/* text-transform: uppercase; */
 		/* max-height: 1.9em; */
+		overflow-wrap: break-word;
 		margin-top: 0;
 		margin-bottom: 0;
-		font-size: 2.1em;
+		font-size: 1.7em;
 		line-height: 0.9;
 		overflow: hidden;
 	}

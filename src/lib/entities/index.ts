@@ -12,7 +12,7 @@ import PlayerRoleCard from './PlayerRoleCard.svelte';
 import BasicInfoCard from './BasicInfoCard.svelte';
 import PnpStepCard from './PnpStepCard.svelte';
 import SocialIconsCard from './SocialIconsCard.svelte';
-// import BigBtnIconText from './BigBtnIconText.svelte';
+import CountryListDataCard from './CountryListDataCard.svelte';
 // import BigBtnIconText from './BigBtnIconText.svelte';
 // import BigBtnIconText from './BigBtnIconText.svelte';
 // import BigBtnIconText from './BigBtnIconText.svelte';
@@ -23,6 +23,7 @@ import SocialIconsCard from './SocialIconsCard.svelte';
 export {
 	FaqCard,
 	PnpStepCard,
+	CountryListDataCard,
 	SocialIconsCard,
 	BasicInfoCard,
 	PlayerRoleCard,

@@ -188,7 +188,7 @@
 							<!-- <BigLinkBtn link="app/pnp" text="Print&Play" bgColor="bg-red" /> -->
 
 							<BigBtnText
-								text="FPrint&PlayQ"
+								text="Print&Play"
 								bgColor="bg-red"
 								onclick={() => {
 									// $page.url.searchParams = '?pnp=true';

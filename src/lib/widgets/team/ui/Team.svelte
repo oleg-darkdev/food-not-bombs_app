@@ -3,7 +3,7 @@
 	import lookingFor from '../data/lookingFor';
 
 	// import {  } from '$widgets';
-	
+
 	import { TeamMemberCard } from '$entities';
 	import { BuyMeaCoffeeBtn } from '$sharedUi';
 </script>
@@ -12,22 +12,22 @@
 	<div class="wrap_our-team pt-4">
 		<!-- <h2 class="h_semi-bold our-team italic">Our Team</h2> -->
 
-		<div id="team" class="list_projects w-dyn-items max-w-6xl mb-10">
-			<div role="listitem" class="wrap_project-card w-dyn-item ">
-				<div class="wrap_project-image mobile-lanscape-center ">
+		<div id="team" class="list_projects w-dyn-items mb-10 max-w-6xl">
+			<div role="listitem" class="wrap_project-card w-dyn-item">
+				<div class="wrap_project-image mobile-lanscape-center">
 					<div class="link_project-card auto-height w-inline-block">
-						<h2 class="h2_project-name">Dream <br/> team</h2>
+						<h2 class="h2_project-name">Dream <br /> team</h2>
 					</div>
-					<p class="txt_paragraph project-card-summary _0-em inline">
+					<!-- _0-em inline -->
+					<p class="txt_paragraph team-card-txt">
 						<!-- Спасибо сообществу фнб ведущим публичную деятельность, если бы не вы - этот проект не
 						получился бы -->
 						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
 						printer took a galley of type and scrambled it to make a type specimen book.
 					</p>
-
-
-										<BuyMeaCoffeeBtn />
-
+					<div class="pt-6">
+						<BuyMeaCoffeeBtn />
+					</div>
 
 					<!-- <ul>
 						{#each lookingFor as spec}
@@ -89,7 +89,7 @@
 						class="img_dark-dot bottom-left"
 					/>
 				</div>
-				<div class="txt_brand-spotlight project-collection  ">Dream Team</div>
+				<div class="txt_brand-spotlight project-collection">Dream Team</div>
 			</div>
 		</div>
 
@@ -116,4 +116,29 @@
 </section>
 
 <style lang="postcss">
+	.txt_paragraph.team-card-txt {
+		margin-bottom: 3em;
+		font-size: 1.2em;
+	}
+
+	.txt_paragraph.team-card-txt.inline._0-em {
+		margin-bottom: 0;
+	}
+
+	@media screen and (max-width: 991px) {
+		.txt_paragraph.team-card-txt {
+			margin-bottom: 2em;
+			font-size: 1.4em;
+		}
+	}
+
+	@media screen and (max-width: 767px) {
+		.txt_paragraph.team-card-txt {
+			font-size: 2.2em;
+		}
+
+		.txt_paragraph.team-card-txt.inline {
+			/* display: none; */
+		}
+	}
 </style>

@@ -16,12 +16,10 @@
 			<div class="txt_faq-question"><p class='flex flex-row'>Q <span class='text-pink'>{number}</span></p></div>
 			<div class="txt_faq-question">{item.q}</div>
 		</div>
-		<img
-			src="https://cdn.prod.website-files.com/669fc854dd10d0a0ff0cf009/66c8536e8b0452afd83f5e54_png_triangle.png"
-			loading="lazy"
-			alt=""
-			class="img_triangle {showAnswer ? '-rotate-45': ''}"
-		/>
+		<img src="/images/icons/down_arrow.svg" loading="lazy" alt="" class="h-10 w-10 {showAnswer ? '-rotate-180' : ''}" />
+
+
+		<!-- groups -->
 	</div>
 
 	{#if showAnswer}

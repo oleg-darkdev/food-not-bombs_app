@@ -5,8 +5,8 @@ import Hero from './hero/ui/Hero.svelte';
 import Slider from './slider/ui/Slider.svelte';
 import PrintAndPlay from './PrintAndPlay.svelte';
 import HeaderNavigation from './HeaderNavigation.svelte';
-// import Hero from './hero/ui/Hero.svelte';
-// import Hero from './hero/ui/Hero.svelte';
+import ContriesGroupList from './ContriesGroupList.svelte';
+import ContriesGroupMiniCardsList from './ContriesGroupMiniCardsList.svelte';
 // import Hero from './hero/ui/Hero.svelte';
 // import Hero from './hero/ui/Hero.svelte';
 // import Hero from './hero/ui/Hero.svelte';
@@ -27,8 +27,9 @@ import AboutBoardgame from './AboutBoardgame.svelte';
 import Header from './Header.svelte';
 import AsideNav from './AsideNav.svelte';
 
-
 export {
+	ContriesGroupList,
+	ContriesGroupMiniCardsList,
 	Newsletter,
 	PrintAndPlay,
 	AsideNav,

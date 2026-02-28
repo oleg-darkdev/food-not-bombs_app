@@ -27,7 +27,7 @@
 		</div>
 		<!-- wrap_footer-links -->
 		<div class="flex flex-row gap-x-6">
-			<ul role="list" class="list_footer-links footer-menu  w-list-unstyled">
+			<ul role="list" class="list_footer-links footer-menu w-list-unstyled">
 				{#each nav as navigation}
 					<li class="item_footer-links">
 						<a href={navigation.link} class="link_footer">{navigation.title}</a>
@@ -45,7 +45,7 @@
 			</ul>
 		</div>
 
-		<div class="wrap_footer-contact-info">
+		<!-- <div class="wrap_footer-contact-info">
 			<ul role="list" class="list_footer-links contact-info w-list-unstyled">
 				<li class="item_footer-contact-info">
 					<a href="mailto:darkdev_brand@riseup.net" class="ico_footer-icon w-inline-block">
@@ -57,24 +57,37 @@
 						/>
 					</a>
 					<a href="mailto:darkdev_brand@riseup.net" class="txt_footer link"
-						>darkdev_brand@riseup.net</a
+						>
+						darkdev_brand@riseup.net
+						</a
 					>
 				</li>
-				<!-- <li class="item_footer-contact-info">
+				<li class="item_footer-contact-info">
 					<a href="" target="_blank" class="ico_footer-icon w-inline-block">
 						<img src="/images/map-pin.png" loading="lazy" alt="map icon" class="img_footer-icon" />
 					</a>
 					<a href="" target="_blank" class="txt_footer link">Gdansk <br />Poland </a>
-				</li> -->
+				</li>
 			</ul>
-		</div>
+		</div> -->
 		<div class="wrap_footer-social-links">
 			<ul role="list" class="list_footer-links social w-list-unstyled">
+			<li class="item_social-link mx-auto">
+					<a href="mailto:darkdev_brand@riseup.net" class="ico_footer-icon w-inline-block">
+						<img
+							src="/images/icons/email.svg"
+							loading="lazy"
+							alt="email icon"
+							class="img_footer-icon"
+						/>
+					</a>
+				</li>
 				{#each socialLinks as social}
 					<li class="item_social-link mx-auto">
 						<SocialRoundIconLink icon={social.icon} alt={social.alt} link={social.link} />
 					</li>
 				{/each}
+				
 			</ul>
 		</div>
 	</div>
