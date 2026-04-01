@@ -326,7 +326,7 @@
 											src={item.img}
 											loading="eager"
 											alt=""
-											class="h-8 w-8 rounded-full object-cover lg:h-12 lg:w-12"
+											class="h-8 w-8  object-cover lg:h-12 lg:w-12"
 										/>
 									</div>
 
