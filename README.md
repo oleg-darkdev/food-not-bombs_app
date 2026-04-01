@@ -23,7 +23,7 @@ _Check out the live project [_here_](https://food-not-bombs.vercel.app/)._
 ## Table of Contents
 
 * [Screenshots](#screenshots)
-  * [Landibg](#landing)
+  * [Landing](#landing)
   * [APP](#app)
   * [Boardgame](#boardgame) 
 * [Acknowledgements](#acknowledgements)
@@ -31,7 +31,7 @@ _Check out the live project [_here_](https://food-not-bombs.vercel.app/)._
 * [Usage](#usage)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-  * [Environment Variables Setup](#environment-variables-setup)
+  <!-- * [Environment Variables Setup](#environment-variables-setup) -->
   * [Run The App](#run-the-app)
 * [License](#license)
 * [Contact](#contact)
@@ -113,6 +113,149 @@ _Check out the live project [_here_](https://food-not-bombs.vercel.app/)._
 Give a ⭐️ if you like our stuff!
 
 <a href="https://buymeacoffee.com/oleg_darkdev" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
+
+ <a name="usage"></a>
+ <a name="prerequisites"></a>
+
+### Prerequisites
+
+Before getting started, make sure you have the following installed:
+
+* 🟢 **Node.js (recommended version: 20+)**
+  Download: [https://nodejs.org/](https://nodejs.org/)
+* 📦 **npm or yarn**
+  npm is included with Node.js.
+  Yarn installation guide: [https://classic.yarnpkg.com/lang/en/docs/install/](https://classic.yarnpkg.com/lang/en/docs/install/)
+* 🧰 **Git**
+  Download: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+* 🔌 **Access to required external services (if applicable)**
+  Make sure you have valid credentials or API keys if your project depends on third-party services.
+
+
+ <a name="installation"></a>
+
+### 🚀 Installation
+
+Clone the repository and install all dependencies:
+
+```bash
+git clone https://github.com/oleg-darkdev/food-not-bombs_app.git
+cd food-not-bombs_app
+npm install
+```
+
+Or if you are using Yarn:
+
+```bash
+yarn install
+```
+
+✅ After installation is complete, you can proceed to setting up environment variables and running the application.
+
+ <!-- <a name="environment-variables-setup"></a> -->
+ <a name="run-the-app"></a>
+
+
+* [Usage](#usage)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+  <!-- * [Environment Variables Setup](#environment-variables-setup) -->
+  * [Run The App](#run-the-app)
+
+### ▶️ Run The App
+
+Start the application in different modes:
+
+---
+
+#### 🧑‍💻 Development mode
+
+Run the app locally with hot reload:
+
+```bash id="dev-run"
+npm run dev
+```
+
+---
+
+#### 🌐 Start Vite dev server
+
+Launch the development server (opens automatically in the browser):
+
+```bash id="vite-start"
+npm start
+```
+
+---
+
+#### 🏗️ Build for production
+
+Create an optimized production build:
+
+```bash id="build-prod"
+npm run build
+```
+
+---
+
+#### 👀 Preview production build
+
+Test the production build locally:
+
+```bash id="preview-prod"
+npm run preview
+```
+
+---
+
+#### 🧪 Type checking
+
+Run SvelteKit sync and type checking:
+
+```bash id="type-check"
+npm run check
+```
+
+Watch mode for continuous checking:
+
+```bash id="type-watch"
+npm run check:watch
+```
+
+---
+
+#### 🎨 Lint & Format
+
+Check code quality:
+
+```bash id="lint-run"
+npm run lint
+```
+
+Auto-format code:
+
+```bash id="format-run"
+npm run format
+```
+
+---
+
+#### 🚀 Deployment (PM2)
+
+Setup production deployment:
+
+```bash id="deploy-setup"
+npm run deploy:setup
+```
+
+Deploy the app:
+
+```bash id="deploy-run"
+npm run deploy
+```
+
+
 
 
 <a name="contact"></a>
